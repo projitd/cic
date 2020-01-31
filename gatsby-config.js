@@ -27,10 +27,52 @@ module.exports = {
           { text: 'Technical Implementation', link: '/cloudplanningtechnical' },
         ],
       },
+      // Forth Menu Item
+      {
+        title: 'Find Cloud Solutions',
+        items: [
+          { text: 'Overview', link: '/cloudplanning' },
+          { text: 'Business Considerations', link: '/cloudplanningsecurity' },
+          { text: 'Technical Implementation', link: '/cloudplanningtechnical' },
+        ],
+      },
+      // Fifth Menu Item
+      {
+        title: 'Cloud Acquisition Guidance',
+        items: [
+          { text: 'Overview', link: '/cloudplanning' },
+          { text: 'Business Considerations', link: '/cloudplanningsecurity' },
+          { text: 'Technical Implementation', link: '/cloudplanningtechnical' },
+        ],
+      },
+      // Sixth Menu Item
+      {
+        title: 'Cloud Policy Directives',
+        items: [
+          { text: 'Overview', link: '/cloudplanning' },
+          { text: 'Business Considerations', link: '/cloudplanningsecurity' },
+          { text: 'Technical Implementation', link: '/cloudplanningtechnical' },
+        ],
+      },
+      // Seventh Menu Item
+      {
+        items: [{ text: 'Partner Sites', link: '/' }],
+      },
+      {
+      // Eigth Menu Item
+      {
+        items: [{ text: 'DEOS', link: '/' }],
+      },
+      {
+      // Nineth Menu Item
+      {
+        items: [{ text: 'Training & Events', link: '/' }],
+      },
+      {
     ],
     // Links above Search Widget in Header
     secondaryLinks: [
-      { text: 'Contact Us', link: '/contactus' },
+      { text: 'Support', link: '/contactus' },
       { text: 'CloudSmart', link: '/cloudsmart' },
     ],
 
