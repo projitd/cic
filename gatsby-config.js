@@ -1,36 +1,37 @@
 module.exports = {
   siteMetadata: {
-    author: 'Foo',
-    title: `Agency Name`,
-    description: `Agency Name (EAC) Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Aenean et sapien a leo auctor scelerisque quis nec magna. Sed dictum ante a risus vehicula facilisis.`,
+    author: 'GSA',
+    title: `GSA's Cloud Information Center`,
+    description: `Helping Government get on and survive in the cloud`,
+    // Start of horizontal Site Menu in Header of every page
     navigation: [
+    //First Menu Item
       {
         items: [{ text: 'Home', link: '/' }],
       },
       {
-        items: [{ text: 'Blog', link: '/blog' }],
-      },
-      {
-        items: [{ text: 'Document', link: '/document' }],
-      },
-      {
+    //Second Menu Item
+        title: 'Why Cloud',
         items: [
-          { text: 'Document with sidenav', link: '/document-with-sidenav' },
+          { text: 'Basics', link: '/whycloud' },
+          { text: 'Security Compliance', link: '/whycloudsecurity' },
+          { text: 'Technical Capabilities', link: '/whycloudtechnicalcapabilities' },
         ],
       },
+      //Third Menu Item
       {
-        title: 'Document submenu',
+        title: 'Cloud Planning',
         items: [
-          { text: 'Navigation link', link: '/' },
-          { text: 'Navigation link', link: '/' },
-          { text: 'Navigation link', link: '/' },
+          { text: 'Overview', link: '/cloudplanning' },
+          { text: 'Business Considerations', link: '/cloudplanningsecurity' },
+          { text: 'Technical Implementation', link: '/cloudplanningtechnical' },
         ],
       },
     ],
+    // Links above Search Widget in Header
     secondaryLinks: [
-      { text: 'Secondary link', link: '/' },
-      { text: 'Another secondary link', link: '/' },
+      { text: 'Contact Us', link: '/contactus' },
+      { text: 'CloudSmart', link: '/cloudsmart' },
     ],
 
     // Search.gov configuration

@@ -8,7 +8,7 @@ import Highlights from '../components/highlights';
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Cloud Information Center" />
     <Hero />
     <Tagline />
     <Highlights />
