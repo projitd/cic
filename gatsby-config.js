@@ -70,7 +70,7 @@ module.exports = {
     ],
    
         // Start of Side Navigation - for pages with sidenav: true set
-        sidenav: [
+        Sidenav: [
           //First Menu Item
             {
               items: [{ text: 'Home', link: '/' }],
