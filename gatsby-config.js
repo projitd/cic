@@ -58,19 +58,18 @@ module.exports = {
       {
         items: [{ text: 'Partner Sites', link: '/' }],
       },
-      {
       // Eigth Menu Item
       {
         items: [{ text: 'DEOS', link: '/' }],
       },
-      {
       // Nineth Menu Item
       {
         items: [{ text: 'Training & Events', link: '/' }],
       },
-      {
+        // end of Horizontal Navigation
     ],
-        // Start of horizontal Site Menu in Header of every page
+   
+        // Start of Side Navigation - for pages with sidenav: true set
         sidenav: [
           //First Menu Item
             {
@@ -125,18 +124,18 @@ module.exports = {
             {
               items: [{ text: 'Partner Sites', link: '/' }],
             },
-            {
             // Eigth Menu Item
             {
               items: [{ text: 'DEOS', link: '/' }],
             },
-            {
             // Nineth Menu Item
             {
               items: [{ text: 'Training & Events', link: '/' }],
             },
-            {
+              // end of Horizontal Navigation
           ],
+    
+
     // Links above Search Widget in Header
     secondaryLinks: [
       { text: 'Support', link: '/contactus' },
