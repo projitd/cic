@@ -70,6 +70,73 @@ module.exports = {
       },
       {
     ],
+        // Start of horizontal Site Menu in Header of every page
+        sidenav: [
+          //First Menu Item
+            {
+              items: [{ text: 'Home', link: '/' }],
+            },
+            {
+          //Second Menu Item
+              title: 'Why Cloud',
+              items: [
+                { text: 'Basics', link: '/whycloud' },
+                { text: 'Security Compliance', link: '/whycloudsecurity' },
+                { text: 'Technical Capabilities', link: '/whycloudtechnicalcapabilities' },
+              ],
+            },
+            //Third Menu Item
+            {
+              title: 'Cloud Planning',
+              items: [
+                { text: 'Overview', link: '/cloudplanning' },
+                { text: 'Business Considerations', link: '/cloudplanningsecurity' },
+                { text: 'Technical Implementation', link: '/cloudplanningtechnical' },
+              ],
+            },
+            // Forth Menu Item
+            {
+              title: 'Find Cloud Solutions',
+              items: [
+                { text: 'Overview', link: '/cloudplanning' },
+                { text: 'Business Considerations', link: '/cloudplanningsecurity' },
+                { text: 'Technical Implementation', link: '/cloudplanningtechnical' },
+              ],
+            },
+            // Fifth Menu Item
+            {
+              title: 'Cloud Acquisition Guidance',
+              items: [
+                { text: 'Overview', link: '/cloudplanning' },
+                { text: 'Business Considerations', link: '/cloudplanningsecurity' },
+                { text: 'Technical Implementation', link: '/cloudplanningtechnical' },
+              ],
+            },
+            // Sixth Menu Item
+            {
+              title: 'Cloud Policy Directives',
+              items: [
+                { text: 'Overview', link: '/cloudplanning' },
+                { text: 'Business Considerations', link: '/cloudplanningsecurity' },
+                { text: 'Technical Implementation', link: '/cloudplanningtechnical' },
+              ],
+            },
+            // Seventh Menu Item
+            {
+              items: [{ text: 'Partner Sites', link: '/' }],
+            },
+            {
+            // Eigth Menu Item
+            {
+              items: [{ text: 'DEOS', link: '/' }],
+            },
+            {
+            // Nineth Menu Item
+            {
+              items: [{ text: 'Training & Events', link: '/' }],
+            },
+            {
+          ],
     // Links above Search Widget in Header
     secondaryLinks: [
       { text: 'Support', link: '/contactus' },
