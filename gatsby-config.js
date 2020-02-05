@@ -14,24 +14,24 @@ module.exports = {
         title: 'Why Cloud',
         items: [
           { text: 'Basics', link: '/whycloud' },
-          { text: 'Security Compliance', link: '/whycloudsecurity' },
-          { text: 'Technical Capabilities', link: '/whycloudtechnicalcapabilities' },
+          { text: 'Security Compliance', link: '/whycloud/security' },
+          { text: 'Technical Capabilities', link: '/whycloud/technicalcapabilities' },
         ],
       },
       //Third Menu Item
       {
         title: 'Cloud Planning',
         items: [
-          { text: 'Overview', link: '/cloudplanning' },
-          { text: 'Business Considerations', link: '/cloudplanningsecurity' },
-          { text: 'Technical Implementation', link: '/cloudplanningtechnical' },
+          { text: 'Overview', link: '/Overview' },
+          { text: 'Business Considerations', link:  '/coudplanning/business' },
+          { text: 'Technical Implementation', link: '/cloudplanning/technical' },
         ],
       },
       // Forth Menu Item
       {
         title: 'Find Cloud Solutions',
         items: [
-          { text: 'Overview', link: '/cloudplanning' },
+          { text: 'Overview', link: '/findcloud/overview' },
           { text: 'Business Considerations', link: '/cloudplanningsecurity' },
           { text: 'Technical Implementation', link: '/cloudplanningtechnical' },
         ],
