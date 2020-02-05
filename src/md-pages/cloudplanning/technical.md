@@ -1,6 +1,6 @@
 ---
 title: Cloud Planning - Technical Planning
-path: /cloudplanningtechnical
+path: /cloudplanning/technical
 sidenav: true
 ---
 

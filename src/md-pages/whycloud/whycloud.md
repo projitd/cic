@@ -1,6 +1,6 @@
 ---
 title: Why Cloud
-permalink: /whycloud/
+permalink: /whycloud/whycloud
 path: /whycloud/whycloud
 sidenav: true
 ---

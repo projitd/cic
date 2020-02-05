@@ -1,6 +1,6 @@
 ---
 title: Why Cloud Security
-path: /whycloudsecurity
+path: /whycloud/security
 sidenav: true
 ---
 

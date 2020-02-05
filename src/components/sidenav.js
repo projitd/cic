@@ -16,7 +16,9 @@ const Sidenav = () => (
 
       <ul className="usa-sidenav">
         <li className="usa-sidenav__item">
-          <Link to="/">Home</Link>
+          <Link to="/">
+            Home
+          </Link>
         </li>
       </ul>
 
@@ -30,37 +32,14 @@ const Sidenav = () => (
           </Link>
           <ul className="usa-sidenav__sublist">
             <li className="usa-sidenav__item">
-              <Link to="/whycloud/security">Security Compliance</Link>
+              <Link to="/whycloud/security">
+                Security Compliance
+              </Link>
             </li>
             <li className="usa-sidenav__item">
               <Link to="/whycloud/technicalcapabilities" className="usa-sidenav__item">
                 Technical Capabilities
               </Link>
-              <ul className="usa-sidenav__sublist">
-                <li className="usa-sidenav__item">
-                  <Link to="/">Grandchild link</Link>
-                </li>
-                <li className="usa-sidenav__item">
-                  <Link to="/">Grandchild link</Link>
-                </li>
-                <li className="usa-sidenav__item">
-                  <Link to="/" className="usa-sidenav__item">
-                    Grandchild link
-                  </Link>
-                </li>
-                <li className="usa-sidenav__item">
-                  <Link to="/">Grandchild link</Link>
-                </li>
-              </ul>
-            </li>
-            <li className="usa-sidenav__item">
-              <Link to="/">Child link</Link>
-            </li>
-            <li className="usa-sidenav__item">
-              <Link to="/">Child link</Link>
-            </li>
-            <li className="usa-sidenav__item">
-              <Link to="/">Child link</Link>
             </li>
           </ul>
         </li>
@@ -69,122 +48,112 @@ const Sidenav = () => (
   Cloud Planning
 */
 
-
-<ul className="usa-sidenav__sublist">
+<li className="usa-sidenav__item">
+          <Link to="/cloudplanning/cloudplanning" className="usa-sidenav__item">
+            Cloud Planning
+          </Link>
+          <ul className="usa-sidenav__sublist">
             <li className="usa-sidenav__item">
-              <Link to="/">Child link</Link>
-            </li>
-            <li className="usa-sidenav__item">
-              <Link to="/" className="usa-current">
-                Child link
+              <Link to="/lcoudplanning/security">
+                Security
               </Link>
-              <ul className="usa-sidenav__sublist">
-                <li className="usa-sidenav__item">
-                  <Link to="/">Grandchild link</Link>
-                </li>
-                <li className="usa-sidenav__item">
-                  <Link to="/">Grandchild link</Link>
-                </li>
-                <li className="usa-sidenav__item">
-                  <Link to="/" className="usa-current">
-                    Grandchild link
-                  </Link>
-                </li>
-                <li className="usa-sidenav__item">
-                  <Link to="/">Grandchild link</Link>
-                </li>
-              </ul>
             </li>
             <li className="usa-sidenav__item">
-              <Link to="/">Child link</Link>
-            </li>
-            <li className="usa-sidenav__item">
-              <Link to="/">Child link</Link>
-            </li>
-            <li className="usa-sidenav__item">
-              <Link to="/">Child link</Link>
+              <Link to="/cloudplanning/technical" className="usa-sidenav__item">
+                Technical Capabilities
+              </Link>
             </li>
           </ul>
+        </li>
 
 /*
   Find Cloud
 */
 
-<ul className="usa-sidenav__sublist">
+<li className="usa-sidenav__item">
+          <Link to="/cloudplanning/cloudplanning" className="usa-sidenav__item">
+            Find Cloud Solutions
+          </Link>
+          <ul className="usa-sidenav__sublist">
             <li className="usa-sidenav__item">
-              <Link to="/">Child link</Link>
-            </li>
-            <li className="usa-sidenav__item">
-              <Link to="/" className="usa-current">
-                Child link
+              <Link to="/lcoudplanning/security">
+                IaaS
               </Link>
-              <ul className="usa-sidenav__sublist">
-                <li className="usa-sidenav__item">
-                  <Link to="/">Grandchild link</Link>
-                </li>
-                <li className="usa-sidenav__item">
-                  <Link to="/">Grandchild link</Link>
-                </li>
-                <li className="usa-sidenav__item">
-                  <Link to="/" className="usa-current">
-                    Grandchild link
-                  </Link>
-                </li>
-                <li className="usa-sidenav__item">
-                  <Link to="/">Grandchild link</Link>
-                </li>
-              </ul>
             </li>
             <li className="usa-sidenav__item">
-              <Link to="/">Child link</Link>
+              <Link to="/cloudplanning/technical" className="usa-sidenav__item">
+                PaaS
+              </Link>
             </li>
             <li className="usa-sidenav__item">
-              <Link to="/">Child link</Link>
+              <Link to="/cloudplanning/technical" className="usa-sidenav__item">
+                SaaS
+              </Link>
             </li>
             <li className="usa-sidenav__item">
-              <Link to="/">Child link</Link>
+              <Link to="/cloudplanning/technical" className="usa-sidenav__item">
+                Cloud Professional Services
+              </Link>
             </li>
+            <li className="usa-sidenav__item">
+              <Link to="/cloudplanning/technical" className="usa-sidenav__item">
+                Vendors
+              </Link>
+            </li>                                    
           </ul>
+        </li>
 
 /*
   Acquisition Guidance
 */
 
-<ul className="usa-sidenav__sublist">
+<li className="usa-sidenav__item">
+          <Link to="/cloudplanning/cloudplanning" className="usa-sidenav__item">
+            Acquisition Guidance
+          </Link>
+          <ul className="usa-sidenav__sublist">
             <li className="usa-sidenav__item">
-              <Link to="/">Child link</Link>
-            </li>
-            <li className="usa-sidenav__item">
-              <Link to="/" className="usa-current">
-                Child link
+              <Link to="/lcoudplanning/security">
+                Pricing
               </Link>
-              <ul className="usa-sidenav__sublist">
-                <li className="usa-sidenav__item">
-                  <Link to="/">Grandchild link</Link>
-                </li>
-                <li className="usa-sidenav__item">
-                  <Link to="/">Grandchild link</Link>
-                </li>
-                <li className="usa-sidenav__item">
-                  <Link to="/" className="usa-current">
-                    Grandchild link
-                  </Link>
-                </li>
-                <li className="usa-sidenav__item">
-                  <Link to="/">Grandchild link</Link>
-                </li>
-              </ul>
             </li>
             <li className="usa-sidenav__item">
-              <Link to="/">Child link</Link>
+              <Link to="/cloudplanning/technical" className="usa-sidenav__item">
+                Market Research
+              </Link>
             </li>
             <li className="usa-sidenav__item">
-              <Link to="/">Child link</Link>
+              <Link to="/cloudplanning/technical" className="usa-sidenav__item">
+                Procurement Process
+              </Link>
             </li>
             <li className="usa-sidenav__item">
-              <Link to="/">Child link</Link>
+              <Link to="/cloudplanning/technical" className="usa-sidenav__item">
+                Acquisition Challanges
+              </Link>
             </li>
-          </ul>      
+            <li className="usa-sidenav__item">
+              <Link to="/cloudplanning/technical" className="usa-sidenav__item">
+                Acquisition Resources
+              </Link>
+            </li>       
+            <li className="usa-sidenav__item">
+              <Link to="/cloudplanning/technical" className="usa-sidenav__item">
+                Templates
+              </Link>
+            </li>
+            <li className="usa-sidenav__item">
+              <Link to="/cloudplanning/technical" className="usa-sidenav__item">
+                Use Cases
+              </Link>
+            </li>
+            <li className="usa-sidenav__item">
+              <Link to="/cloudplanning/technical" className="usa-sidenav__item">
+                Helpful Documents
+              </Link>
+            </li>                                 
+          </ul>
+        </li>   
 
 /*
   Policy Directives
@@ -192,7 +161,9 @@ const Sidenav = () => (
 
       <ul className="usa-sidenav">
         <li className="usa-sidenav__item">
-          <Link to="/">Home</Link>
+          <Link to="/policy">
+            Policy Directives
+          </Link>
         </li>
       </ul>
 
@@ -202,17 +173,9 @@ const Sidenav = () => (
 
       <ul className="usa-sidenav">
         <li className="usa-sidenav__item">
-          <Link to="/">Home</Link>
-        </li>
-      </ul>
-
-/*
-  Support
-*/
-
-      <ul className="usa-sidenav">
-        <li className="usa-sidenav__item">
-          <Link to="/">Home</Link>
+          <Link to="/partnersites">
+            Partner Sites
+          </Link>
         </li>
       </ul>
 
@@ -222,7 +185,21 @@ const Sidenav = () => (
 
       <ul className="usa-sidenav">
         <li className="usa-sidenav__item">
-          <Link to="/">Home</Link>
+          <Link to="/deos">
+            DEOS
+          </Link>
+        </li>
+      </ul>
+
+/*
+  Events & Training
+*/
+
+      <ul className="usa-sidenav">
+        <li className="usa-sidenav__item">
+          <Link to="/eventstraining">
+            Events & Training
+          </Link>
         </li>
       </ul>
 

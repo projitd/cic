@@ -1,5 +1,6 @@
 ---
 title: Cloud Planning
+permalink: /cloudplanning/cloudplanning
 path: /cloudplanning
 sidenav: true
 ---
