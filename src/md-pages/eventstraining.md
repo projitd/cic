@@ -2,7 +2,7 @@
 title: Events and Training
 permalink: /eventstraining
 path: /eventstraining
-sidenav: false
+sidenav: true
 ---
 
 # Events

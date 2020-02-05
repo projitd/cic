@@ -1,8 +1,8 @@
 ---
-title: deos
+title: DEOS
 permalink: /deos
 path: /deos
-sidenav: false
+sidenav: true
 ---
 
 # Defense Enterprise Office Solution (DEOS)
@@ -13,4 +13,4 @@ The DEOS Hub is your resource for acquisition excellence.  This Hub is a reposi
 The DEOS Hub also provides means to collaborate, identify training sessions to DoD activities, and more!
 
 
-## _Check back soon for more updates from the DEOS team!_
+### _Check back soon for more updates from the DEOS team!_

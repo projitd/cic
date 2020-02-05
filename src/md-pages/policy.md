@@ -2,7 +2,7 @@
 title: Policy Directives
 permalink: /policy
 path: /policy
-sidenav: false
+sidenav: true
 ---
 
 <h1><span style="font-size:24px"><span style="color:#003366"><strong>Policy Directives</strong></span></span></h1>

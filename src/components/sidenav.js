@@ -10,10 +10,6 @@ const Sidenav = () => (
   <aside className="usa-layout-docs-sidenav desktop:grid-col-3 padding-bottom-4">
     <nav>
 
-/*
-  Home Page
-*/
-
       <ul className="usa-sidenav">
         <li className="usa-sidenav__item">
           <Link to="/">
@@ -22,11 +18,7 @@ const Sidenav = () => (
         </li>
       </ul>
 
-/*
-  Why Cloud
-*/
-
-<li className="usa-sidenav__item">
+          <li className="usa-sidenav__item">
           <Link to="/whycloud/whycloud" className="usa-sidenav__item">
             Why Cloud
           </Link>
@@ -44,17 +36,13 @@ const Sidenav = () => (
           </ul>
         </li>
 
-/*
-  Cloud Planning
-*/
-
-<li className="usa-sidenav__item">
-          <Link to="/cloudplanning/cloudplanning" className="usa-sidenav__item">
+          <li className="usa-sidenav__item">
+          <Link to="/cloudplanning/overview" className="usa-sidenav__item">
             Cloud Planning
           </Link>
           <ul className="usa-sidenav__sublist">
             <li className="usa-sidenav__item">
-              <Link to="/lcoudplanning/security">
+              <Link to="/coudplanning/security">
                 Security
               </Link>
             </li>
@@ -66,11 +54,7 @@ const Sidenav = () => (
           </ul>
         </li>
 
-/*
-  Find Cloud
-*/
-
-<li className="usa-sidenav__item">
+          <li className="usa-sidenav__item">
           <Link to="/cloudplanning/cloudplanning" className="usa-sidenav__item">
             Find Cloud Solutions
           </Link>
@@ -103,11 +87,7 @@ const Sidenav = () => (
           </ul>
         </li>
 
-/*
-  Acquisition Guidance
-*/
-
-<li className="usa-sidenav__item">
+          <li className="usa-sidenav__item">
           <Link to="/cloudplanning/cloudplanning" className="usa-sidenav__item">
             Acquisition Guidance
           </Link>
@@ -155,10 +135,6 @@ const Sidenav = () => (
           </ul>
         </li>   
 
-/*
-  Policy Directives
-*/
-
       <ul className="usa-sidenav">
         <li className="usa-sidenav__item">
           <Link to="/policy">
@@ -166,10 +142,6 @@ const Sidenav = () => (
           </Link>
         </li>
       </ul>
-
-/*
-  Partner Sites
-*/
 
       <ul className="usa-sidenav">
         <li className="usa-sidenav__item">
@@ -179,10 +151,6 @@ const Sidenav = () => (
         </li>
       </ul>
 
-/*
-  DEOS
-*/
-
       <ul className="usa-sidenav">
         <li className="usa-sidenav__item">
           <Link to="/deos">
@@ -191,14 +159,18 @@ const Sidenav = () => (
         </li>
       </ul>
 
-/*
-  Events & Training
-*/
-
       <ul className="usa-sidenav">
         <li className="usa-sidenav__item">
           <Link to="/eventstraining">
             Events & Training
+          </Link>
+        </li>
+      </ul>
+
+      <ul className="usa-sidenav">
+        <li className="usa-sidenav__item">
+          <Link to="/discussions">
+            Discussions
           </Link>
         </li>
       </ul>

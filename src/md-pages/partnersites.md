@@ -2,7 +2,7 @@
 title: Partner Sites
 permalink: /partnersites
 path: /partnersites
-sidenav: false
+sidenav: true
 ---
 
 # Federal Cloud Computing Strategy

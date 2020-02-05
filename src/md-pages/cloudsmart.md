@@ -1,7 +1,7 @@
 ---
 title: Cloud Smart
 path: /cloudsmart
-sidenav: False
+sidenav: true
 ---
 
 # Federal Cloud Computing Strategy

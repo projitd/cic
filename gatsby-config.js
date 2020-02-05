@@ -134,6 +134,14 @@ module.exports = {
             {
               items: [{ text: 'Events & Training', link: '/eventstraining' }],
             },
+                        // Nineth Menu Item
+            {
+              items: [{ text: 'Events & Training', link: '/eventstraining' }],
+            },
+            // Tenth Menu Item
+            {
+              items: [{ text: 'Discussions', link: '/discussions' }],
+            },
               // end of Horizontal Navigation
           ],
     

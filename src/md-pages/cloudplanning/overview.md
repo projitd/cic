@@ -1,7 +1,7 @@
 ---
 title: Cloud Planning
-permalink: /cloudplanning/cloudplanning
-path: /cloudplanning
+permalink: /cloudplanning/overview
+path: /cloudplanning/overview
 sidenav: true
 ---
 
