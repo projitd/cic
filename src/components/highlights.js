@@ -10,56 +10,35 @@ const Highlights = () => (
     <div className="grid-container">
       <div className="usa-graphic-list__row grid-row grid-gap">
         <div className="usa-media-block tablet:grid-col">
-          <img className="usa-media-block__img" src={circle} alt="Alt text" />
+          <img className="usa-media-block__img" src="/images/Help-Desk.png" alt="Help!" />
           <div className="usa-media-block__body">
             <h3 className="usa-graphic-list__heading">
-              Graphic headings can vary.
+              <Link to="/support">Help!</Link>
             </h3>
             <p>
-              Graphic headings can be used a few different ways, depending on
-              what your landing page is for. Highlight your values, specific
-              program areas, or results.
+              <Link to="/support">I need assistance with picking a cloud solution/cloud acquisition.</Link>
             </p>
           </div>
         </div>
-        <div className="usa-media-block tablet:grid-col">
-          <img className="usa-media-block__img" src={circle} alt="Alt text" />
-          <div className="usa-media-block__body">
-            <h3 className="usa-graphic-list__heading">
-              Stick to 6 or fewer words.
-            </h3>
-            <p>
-              Keep body text to about 30 words. They can be shorter, but try to
-              be somewhat balanced across all four. It creates a clean
-              appearance with good spacing.
-            </p>
+          <div className="usa-media-block tablet:grid-col">
+            <img className="usa-media-block__img" src="/images/Help-Desk.png" alt="Help!" />
+           <div className="usa-media-block__body">
+             <h3 className="usa-graphic-list__heading">
+               <Link to="/acquisitionguidance/overview">How to Buy</Link>
+             </h3>
+             <p>
+                <Link to="/acquisitionguidance/overview">I know the solution I need but not how to acquire it.</Link>
+              </p>
+           </div>
           </div>
-        </div>
-      </div>
-      <div className="usa-graphic-list__row grid-row grid-gap">
         <div className="usa-media-block tablet:grid-col">
-          <img className="usa-media-block__img" src={circle} alt="Alt text" />
+          <img className="usa-media-block__img" src="/images/Help-Desk.png" alt="Help!" />
           <div className="usa-media-block__body">
             <h3 className="usa-graphic-list__heading">
-              Never highlight anything without a goal.
+              <Link to="/whycloud/overview">Cloud Overview</Link>
             </h3>
             <p>
-              For anything you want to highlight here, understand what your
-              users know now, and what activity or impression you want from them
-              after they see it.
-            </p>
-          </div>
-        </div>
-        <div className="usa-media-block tablet:grid-col">
-          <img className="usa-media-block__img" src={circle} alt="Alt text" />
-          <div className="usa-media-block__body">
-            <h3 className="usa-graphic-list__heading">
-              Could also have 2 or 6.
-            </h3>
-            <p>
-              In addition to your goal, find out your users’ goals. What do they
-              want to know or do that supports your mission? Use these headings
-              to show those.
+              <Link to="/whycloud/overview">I’d like some information about cloud solutions and collaboration with others.</Link>
             </p>
           </div>
         </div>
