@@ -6,61 +6,29 @@ module.exports = {
     // Start of horizontal Site Menu in Header of every page
     navigation: [
     //First Menu Item
-      {
-        items: [{ text: 'Home', link: '/' }],
-      },
-      {
+    {
+      items: [{ text: 'Why Cloud', link: '/whycloud/overview' }],
+    },
     //Second Menu Item
-        title: 'Why Cloud',
-        items: [
-          { text: 'Basics', link: '/whycloud/overview' },
-          { text: 'Security Compliance', link: '/whycloud/security' },
-          { text: 'Technical Capabilities', link: '/whycloud/technicalcapabilities' },
-        ],
-      },
+    {
+      items: [{ text: 'Cloud Planning', link: '/cloudplanning/overview' }],
+    },
       //Third Menu Item
       {
-        title: 'Cloud Planning',
-        items: [
-          { text: 'Overview', link: '/cloudplanning/Overview' },
-          { text: 'Business Considerations', link:  '/cloudplanning/business' },
-          { text: 'Technical Implementation', link: '/cloudplanning/technical' },
-        ],
+        items: [{ text: 'Find Cloud Solutions', link: '/findcloud/overview' }],
       },
       // Forth Menu Item
       {
-        title: 'Find Cloud Solutions',
-        items: [
-          { text: 'Overview', link: '/findcloud/overview' },
-          { text: 'IaaS', link: '/findcloud/iaas' },
-          { text: 'PaaS', link: '/findcloud/paas' },
-          { text: 'SaaS', link: '/findcloud/saas' },
-          { text: 'Cloud Professional Services', link: '/findcloud/professionalservices' },
-          { text: 'FedRAMP Compliant Vendors', link: '/findcloud/vendors' },
-        ],
+        items: [{ text: 'Cloud Acquisition Guidance', link: '/acquisitionguidance/overview' }],
       },
       // Fifth Menu Item
       {
-        title: 'Cloud Acquisition Guidance',
-        items: [
-          { text: 'Overview', link: '/acquisitionguidance/overview' },
-          { text: 'Pricing', link: '/acquisitionguidance/pricing' },
-          { text: 'Market Research', link: '/acquisitionguidance/marketresearch' },
-          { text: 'Procurement Process', link: '/acquisitionguidance/procurementprocess' },
-          { text: 'Acquisition Challenges', link: '/acquisitionguidance/acquisitionchallenges' },
-          { text: 'Acquisition Resources', link: '/acquisitionguidance/acquisitionresources' },
-          { text: 'Templates', link: '/acquisitionguidance/templates' },
-          { text: 'Use Cases', link: '/acquisitionguidance/usecases' },
-          { text: 'Helpful Documents', link: '/acquisitionguidance/helpfuldocuments' },
-        ],
+        items: [{ text: 'Cloud Policy', link: '/policy' }],
       },
       // Sixth Menu Item
-      {
-        items: [{ text: 'Policy', link: '/policy' }],
-      },
       // Seventh Menu Item
       {
-        items: [{ text: 'Partner Sites', link: '/partnersites' }],
+        items: [{ text: 'Cloud Partner Sites', link: '/partnersites' }],
       },
       // Eigth Menu Item
       {

@@ -1,7 +1,7 @@
 ---
 title: Contact Us
-path: /contactus
-sidenav: false
+path: /support
+sidenav: True
 ---
 
 # Contact Us
