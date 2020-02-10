@@ -1,5 +1,5 @@
 import React from 'react';
-import circle from '../../node_modules/uswds/dist/img/circle-124.png';
+import { Link } from "gatsby"
 
 /*
   Use this section to highlight key elements of your site. Some sites will only have two while others may have six to eight. 
