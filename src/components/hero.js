@@ -9,12 +9,12 @@ const Hero = () => (
     <div className="grid-container">
       <div className="usa-hero__callout">
         <h2 className="usa-hero__heading">
-          <span className="usa-hero__heading--alt">Hero callout:</span>Bring
-          attention to a project priority
+          <span className="usa-hero__heading--alt">Pleasae Note:</span>This site is under development.
         </h2>
         <p>
-          Support the callout with some short explanatory text. You don’t need
-          more than a couple of sentences.
+          We are working to bring the Cloud Information Center to a new home.  In the meantime, please visit the production Cloud Information Center action
+
+          [https://www.gsa.gov/cic](https://www.gsa.gov/cic)
         </p>
         <a className="usa-button" href="/">
           Call to action

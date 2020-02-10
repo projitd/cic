@@ -42,7 +42,7 @@ const Sidenav = () => (
           </Link>
           <ul className="usa-sidenav__sublist">
             <li className="usa-sidenav__item">
-              <Link to="/coudplanning/business">
+              <Link to="/cloudplanning/business">
                 Business Considerations
               </Link>
             </li>
@@ -71,32 +71,32 @@ const Sidenav = () => (
               </Link>
             </li>
             <li className="usa-sidenav__item">
-              <Link to="/findcloud/iaas" className="usa-sidenav__item">
+              <Link to="/findcloud/saas" className="usa-sidenav__item">
                 SaaS
               </Link>
               <ul className="usa-sidenav__sublist">
                 <li className="usa-sidenav__item">
-                  <Link to="/findcloud/iaas">
-                    Business Productivity and Workflow
+                  <Link to="/findcloud/saas/businessproductivity">
+                    Business Productivity & Workflow
                   </Link>
                 </li>
                 <li className="usa-sidenav__item">
-                  <Link to="/findcloud/iaas">
-                    Collaboration and Communication
+                  <Link to="/findcloud/collaboration">
+                    Collaboration & Communications
                   </Link>
                 </li>
                 <li className="usa-sidenav__item">
-                  <Link to="/findcloud/iaas" className="usa-current">
+                  <Link to="/findcloud/saas/crm" className="usa-current">
                     Customer Relationship Management (CRM)
                   </Link>
                 </li>
                 <li className="usa-sidenav__item">
-                  <Link to="/findcloud/iaas">
+                  <Link to="/findcloud/saas/devtools">
                     Developer Tools
                   </Link>
                 </li>
                 <li className="usa-sidenav__item">
-                  <Link to="/findcloud/iaas">
+                  <Link to="/findcloud/saas/securityidentitytools">
                     Security / Identity Tools
                   </Link>
                 </li>
@@ -117,47 +117,47 @@ const Sidenav = () => (
       </ul>
       <ul className="usa-sidenav">
         <li className="usa-sidenav__item">
-          <Link to="/cloudplanning/cloudplanning" className="usa-sidenav__item">
+          <Link to="/acquisitionguidance/overview" className="usa-sidenav__item">
             Acquisition Guidance
           </Link>
           <ul className="usa-sidenav__sublist">
             <li className="usa-sidenav__item">
-              <Link to="/lcoudplanning/security">
+              <Link to="/acquisitionguidance/pricing">
                 Pricing
               </Link>
             </li>
             <li className="usa-sidenav__item">
-              <Link to="/cloudplanning/technical" className="usa-sidenav__item">
+              <Link to="/acquisitionguidance/marketresearch" className="usa-sidenav__item">
                 Market Research
               </Link>
             </li>
             <li className="usa-sidenav__item">
-              <Link to="/cloudplanning/technical" className="usa-sidenav__item">
+              <Link to="/acquisitionguidance/procurementprocess" className="usa-sidenav__item">
                 Procurement Process
               </Link>
             </li>
             <li className="usa-sidenav__item">
-              <Link to="/cloudplanning/technical" className="usa-sidenav__item">
+              <Link to="/acquisitionguidance/acquisitionchallenges" className="usa-sidenav__item">
                 Acquisition Challanges
               </Link>
             </li>
             <li className="usa-sidenav__item">
-              <Link to="/cloudplanning/technical" className="usa-sidenav__item">
+              <Link to="/acquisitionguidance/acquisitionresources" className="usa-sidenav__item">
                 Acquisition Resources
               </Link>
             </li>       
             <li className="usa-sidenav__item">
-              <Link to="/cloudplanning/technical" className="usa-sidenav__item">
+              <Link to="/acquisitionguidance/templates" className="usa-sidenav__item">
                 Templates
               </Link>
             </li>
             <li className="usa-sidenav__item">
-              <Link to="/cloudplanning/technical" className="usa-sidenav__item">
+              <Link to="/acquisitionguidance/usecases" className="usa-sidenav__item">
                 Use Cases
               </Link>
             </li>
             <li className="usa-sidenav__item">
-              <Link to="/cloudplanning/technical" className="usa-sidenav__item">
+              <Link to="/acquisitionguidance/helpfuldocuments" className="usa-sidenav__item">
                 Helpful Documents
               </Link>
             </li>                                 
@@ -167,7 +167,7 @@ const Sidenav = () => (
       <ul className="usa-sidenav">
         <li className="usa-sidenav__item">
           <Link to="/policy">
-            Policy Directives
+            Policy
           </Link>
         </li>
       </ul>

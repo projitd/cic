@@ -13,7 +13,7 @@ module.exports = {
     //Second Menu Item
         title: 'Why Cloud',
         items: [
-          { text: 'Basics', link: '/whycloud' },
+          { text: 'Basics', link: '/whycloud/overview' },
           { text: 'Security Compliance', link: '/whycloud/security' },
           { text: 'Technical Capabilities', link: '/whycloud/technicalcapabilities' },
         ],
@@ -22,8 +22,8 @@ module.exports = {
       {
         title: 'Cloud Planning',
         items: [
-          { text: 'Overview', link: '/Overview' },
-          { text: 'Business Considerations', link:  '/coudplanning/business' },
+          { text: 'Overview', link: '/cloudplanning/Overview' },
+          { text: 'Business Considerations', link:  '/cloudplanning/business' },
           { text: 'Technical Implementation', link: '/cloudplanning/technical' },
         ],
       },
@@ -32,123 +32,50 @@ module.exports = {
         title: 'Find Cloud Solutions',
         items: [
           { text: 'Overview', link: '/findcloud/overview' },
-          { text: 'Business Considerations', link: '/cloudplanningsecurity' },
-          { text: 'Technical Implementation', link: '/cloudplanningtechnical' },
+          { text: 'IaaS', link: '/findcloud/iaas' },
+          { text: 'PaaS', link: '/findcloud/paas' },
+          { text: 'SaaS', link: '/findcloud/saas' },
+          { text: 'Cloud Professional Services', link: '/findcloud/professionalservices' },
+          { text: 'FedRAMP Compliant Vendors', link: '/findcloud/vendors' },
         ],
       },
       // Fifth Menu Item
       {
         title: 'Cloud Acquisition Guidance',
         items: [
-          { text: 'Overview', link: '/cloudplanning' },
-          { text: 'Business Considerations', link: '/cloudplanningsecurity' },
-          { text: 'Technical Implementation', link: '/cloudplanningtechnical' },
+          { text: 'Overview', link: '/acquisitionguidance/overview' },
+          { text: 'Pricing', link: '/acquisitionguidance/pricing' },
+          { text: 'Market Research', link: '/acquisitionguidance/marketresearch' },
+          { text: 'Procurement Process', link: '/acquisitionguidance/procurementprocess' },
+          { text: 'Acquisition Challenges', link: '/acquisitionguidance/acquisitionchallenges' },
+          { text: 'Acquisition Resources', link: '/acquisitionguidance/acquisitionresources' },
+          { text: 'Templates', link: '/acquisitionguidance/templates' },
+          { text: 'Use Cases', link: '/acquisitionguidance/usecases' },
+          { text: 'Helpful Documents', link: '/acquisitionguidance/helpfuldocuments' },
         ],
       },
       // Sixth Menu Item
       {
-        title: 'Cloud Policy Directives',
-        items: [
-          { text: 'Overview', link: '/cloudplanning' },
-          { text: 'Business Considerations', link: '/cloudplanningsecurity' },
-          { text: 'Technical Implementation', link: '/cloudplanningtechnical' },
-        ],
+        items: [{ text: 'Policy', link: '/policy' }],
       },
       // Seventh Menu Item
       {
-        items: [{ text: 'Partner Sites', link: '/' }],
+        items: [{ text: 'Partner Sites', link: '/partnersites' }],
       },
       // Eigth Menu Item
       {
-        items: [{ text: 'DEOS', link: '/' }],
+        items: [{ text: 'DEOS', link: '/deos' }],
       },
       // Nineth Menu Item
       {
-        items: [{ text: 'Training & Events', link: '/' }],
+        items: [{ text: 'Events & Training', link: '/eventstraining' }],
       },
         // end of Horizontal Navigation
     ],
-   
-        // Start of Side Navigation - for pages with sidenav: true set
-        Sidenav: [
-          //First Menu Item
-            {
-              items: [{ text: 'Home', link: '/' }],
-            },
-            {
-          //Second Menu Item
-              title: 'Why Cloud',
-              items: [
-                { text: 'Basics', link: '/whycloud/whycloud' },
-                { text: 'Security Compliance', link: '/whycloud/security' },
-                { text: 'Technical Capabilities', link: '/whycloud/technicalcapabilities' },
-              ],
-            },
-            //Third Menu Item
-            {
-              title: 'Cloud Planning',
-              items: [
-                { text: 'Overview', link: '/cloudplanning/cloudplanning' },
-                { text: 'Business Considerations', link: '/cloudplanning/business' },
-                { text: 'Technical Implementation', link: '/cloudplanning/technical' },
-              ],
-            },
-            // Forth Menu Item
-            {
-              title: 'Find Cloud Solutions',
-              items: [
-                { text: 'IaaS', link: '/cloudplanning' },
-                { text: 'PaaS', link: '/cloudplanningsecurity' },
-                { text: 'SaaS', link: '/cloudplanningtechnical' },
-                { text: 'Cloud Professional Services', link: '/cloudplanningtechnical' },
-                { text: 'Vendors', link: '/cloudplanningtechnical' },
-              ],
-            },
-            // Fifth Menu Item
-            {
-              title: 'Acquisition Guidance',
-              items: [
-                { text: 'Pricing', link: '/cloudplanning' },
-                { text: 'Market Research', link: '/cloudplanningsecurity' },
-                { text: 'Procurement Process', link: '/cloudplanningtechnical' },
-                { text: 'Acquisition Challanges', link: '/cloudplanning' },
-                { text: 'Acquisition Resources', link: '/cloudplanning' },
-                { text: 'Templates', link: '/cloudplanning' },
-                { text: 'Use Cases', link: '/cloudplanning' },
-                { text: 'Helpful Documents', link: '/cloudplanning' },
-              ],
-            },
-            // Sixth Menu Item
-            {
-              items: [{ text: 'Policy Directives', link: '/policy' }],
-            },
-            // Seventh Menu Item
-            {
-              items: [{ text: 'Partner Sites', link: '/partnersites' }],
-            },
-            // Eigth Menu Item
-            {
-              items: [{ text: 'DEOS', link: '/deos' }],
-            },
-            // Nineth Menu Item
-            {
-              items: [{ text: 'Events & Training', link: '/eventstraining' }],
-            },
-                        // Nineth Menu Item
-            {
-              items: [{ text: 'Events & Training', link: '/eventstraining' }],
-            },
-            // Tenth Menu Item
-            {
-              items: [{ text: 'Discussions', link: '/discussions' }],
-            },
-              // end of Horizontal Navigation
-          ],
-    
 
     // Links above Search Widget in Header
     secondaryLinks: [
-      { text: 'Support', link: '/contactus' },
+      { text: 'Support', link: '/support' },
       { text: 'CloudSmart', link: '/cloudsmart' },
     ],
 

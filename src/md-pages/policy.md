@@ -1,5 +1,5 @@
 ---
-title: Policy Directives
+title: Policy & Directives
 permalink: /policy
 path: /policy
 sidenav: true
