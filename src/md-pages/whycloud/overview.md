@@ -105,33 +105,24 @@ sidenav: true
 		<tr>
 			<td rowspan="2" style="vertical-align:top; width:20%">
 			<p style="text-align:center"><span style="font-size:20px"><strong>IaaS</strong></span></p>
-
 			<p style="text-align:center"><span style="font-size:16px"><strong>Infrastructure as a Service</strong></span></p>
-
 			<p style="text-align:center">&nbsp;</p>
-
 			<p style="text-align:left"><br />
 			Outsource the physical parts of computing: power, cooling, racks, connectivity, and more. IaaS solutions give you full control over virtual machines, which can be both a positive and a negative: just like on-premises, the configuration is highly customizable, but just like on-premises, staff (or contractors) are required to manage and maintain everything but the hardware. That includes operating systems, databases, and compliance, as well as any applications installed on top of the operating systems.</p>
 			</td>
 			<td rowspan="2" style="text-align:center; vertical-align:middle; width:10%"><img alt="Clouds icon" src="https://hallways.cap.gsa.gov/system/files/Clouds-icon-1554997896.png" style="height:48px; width:48px" /></td>
 			<td rowspan="2" style="vertical-align:top; width:20%">
 			<p style="text-align:center"><span style="font-size:20px"><strong>PaaS</strong></span></p>
-
 			<p style="text-align:center"><span style="font-size:16px"><strong>Platform as a Service </strong></span></p>
-
 			<p style="text-align:center">&nbsp;</p>
-
 			<p style="text-align:left"><br />
 			Outsource both infrastructure and operations. With PaaS, the provider is&nbsp; responsible for&nbsp; system administration, operating systems, or networking.&nbsp; &nbsp;User applications are deployed on top of a set of predetermined configurations. PaaS solutions are less customizable than IaaS solutions, but also require less staff time to maintain and support &mdash; especially in terms of security and compliance.</p>
 			</td>
 			<td rowspan="2" style="text-align:center; vertical-align:middle; width:10%"><img alt="Clouds icon" src="https://hallways.cap.gsa.gov/system/files/Clouds-icon-1554997896.png" style="height:48px; width:48px" /></td>
 			<td rowspan="2" style="vertical-align:top; width:20%">
 			<p style="text-align:center"><span style="font-size:20px"><strong>SaaS</strong></span></p>
-
 			<p style="text-align:center"><span style="font-size:16px"><strong>Software as a Service </strong></span></p>
-
 			<p style="text-align:center">&nbsp;</p>
-
 			<p style="text-align:left"><br />
 			Outsource everything, including the code of the applications used. Users have very little responsibility for the application software &mdash; the provider is responsible for keeping it up to date, easy to use, or compliant.&nbsp; In exchange, the user has minimal control over what the application software does, how it works or when it changes/updates. SaaS solutions, unlike other cloud models, tend to be direct end-user-facing.</p>
 			</td>
