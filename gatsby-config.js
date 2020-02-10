@@ -5,36 +5,43 @@ module.exports = {
     description: `Helping Government get on and survive in the cloud`,
     // Start of horizontal Site Menu in Header of every page
     navigation: [
-    //First Menu Item
+      //First Menu Item
+    {
+      items: [{ text: 'Home', link: '/' }],
+    },
+      //Second Menu Item
     {
       items: [{ text: 'Why Cloud', link: '/whycloud/overview' }],
     },
-    //Second Menu Item
+      //Third Menu Item    
     {
       items: [{ text: 'Cloud Planning', link: '/cloudplanning/overview' }],
     },
-      //Third Menu Item
+      // Forth Menu Item    
       {
         items: [{ text: 'Find Cloud Solutions', link: '/findcloud/overview' }],
       },
-      // Forth Menu Item
+      // Fifth Menu Item
       {
         items: [{ text: 'Cloud Acquisition Guidance', link: '/acquisitionguidance/overview' }],
       },
-      // Fifth Menu Item
+      // Sixth Menu Item
       {
         items: [{ text: 'Cloud Policy', link: '/policy' }],
-      },
-      // Sixth Menu Item
+      },      
       // Seventh Menu Item
+      {
+        title: 'Cloud Partner Sites',
+        items: [
+          { text: 'Federal Cloud Computing Strategy', link: 'https://cloud.cio.gov/' },
+          { text: 'FedRAMP Authorized Providers', link: '/partnersites' },
+          { text: 'DEOS', link: '/deos' },
+        ],
+      },
       {
         items: [{ text: 'Cloud Partner Sites', link: '/partnersites' }],
       },
       // Eigth Menu Item
-      {
-        items: [{ text: 'DEOS', link: '/deos' }],
-      },
-      // Nineth Menu Item
       {
         items: [{ text: 'Events & Training', link: '/eventstraining' }],
       },
