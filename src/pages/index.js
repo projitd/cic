@@ -10,8 +10,8 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Cloud Information Center" />
     <Hero />
-    <Tagline />
     <Highlights />
+    <Tagline />
   </Layout>
 );
 

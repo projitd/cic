@@ -86,7 +86,7 @@ const Sidenav = () => (
                   </Link>
                 </li>
                 <li className="usa-sidenav__item">
-                  <Link to="/findcloud/saas/crm" className="usa-current">
+                  <Link to="/findcloud/saas/crm">
                     Customer Relationship Management (CRM)
                   </Link>
                 </li>
