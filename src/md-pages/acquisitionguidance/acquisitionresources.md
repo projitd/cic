@@ -3,71 +3,11 @@ title: Acquisition Guidance - Acquisition Resources
 path: /acquisitionguidance/acquisitionresources
 sidenav: true
 ---
-<p>&nbsp;</p>
-<p style="margin-left:0in; margin-right:0in"><span style="font-size:14px"><span style="color:#000000">The following table provides links to information on individual Acquisition Vehicles, Blanket Purchase Agreements (BPAs), and Assisted Acquisition Services (AAS). </span></span></p>
+# Cloud Acquisition Resources
+
+The following table provides links to information on individual Acquisition Vehicles, Blanket Purchase Agreements (BPAs), and Assisted Acquisition Services (AAS). 
 
 <p style="margin-left:0in; margin-right:0in"><span style="font-size:14px"><span style="color:#000000">Please contact the </span><a href="mailto:cloudinfo@gsa.gov"><span style="color:#0000ff">cloudinfo@gsa.gov</span></a><span style="color:#000000"> to have your Acquisition Vehicle, Blanket Purchase Agreement, or Assisted Acquisition Services listed on the Cloud Information Center (CIC). </span></span></p>
-
-<table align="center" border="5" cellpadding="10" cellspacing="20">
-	<tbody>
-		<tr>
-			<td style="text-align:center; width:33%"><a href="##ACQ_VEHICLES" target="_self"><span style="font-size:16px"><strong>Acquisition Vehicles</strong></span></a></td>
-			<td style="text-align:center; width:30%">
-			<p><a href="##ACQ_BPA" target="_self"><span style="font-size:16px"><strong>Blanket Purchase Agreements</strong></span></a></p>
-			</td>
-			<td style="text-align:center; width:30%">
-			<p><a href="##ACQ_AAS" target="_self"><span style="font-size:16px"><strong>Assisted Acquisition Services </strong></span></a></p>
-			</td>
-		</tr>
-		<tr>
-			<td><a href="##ACQ_VEHICLE_GSA_8a_STARS_II" target="_self"><span style="font-size:14px">GSA 8(a) STARS II</span></a></td>
-			<td><a href="##ACQ_BPA_GSA_SIISS" target="_self"><span style="font-size:14px">GSA Salesforce Implementation, Integration, and Support Services (SIISS)</span></a></td>
-			<td>&nbsp;</td>
-		</tr>
-		<tr>
-			<td><a href="##ACQ_VEHICLE_GSA_Alliant_2" target="_self"><span style="font-size:14px">GSA Alliant 2</span></a></td>
-			<td>&nbsp;</td>
-			<td>&nbsp;</td>
-		</tr>
-		<tr>
-			<td><a href="##ACQ_VEHICLE_GSA_EIS" target="_self"><span style="font-size:14px">GSA Enterprise Infrastructure Solutions (EIS)</span></a></td>
-			<td>&nbsp;</td>
-			<td>&nbsp;</td>
-		</tr>
-		<tr>
-			<td>
-			<p><a href="##ACQ_VEHICLE_GSA_IT_SCH_70" target="_self"><span style="font-size:14px">GSA IT Schedule 70, SIN 132-40<span style="font-size:14px">&nbsp;/ Multiple Award Schedule, SIN 518210C&nbsp;- </span></span>Cloud and Cloud-Related IT Professional Services<span style="font-size:14px"><span style="font-size:14px">&nbsp;</span></span></a></p>
-			</td>
-			<td>&nbsp;</td>
-			<td>&nbsp;</td>
-		</tr>
-		<tr>
-			<td><a href="##ACQ_VEHICLE_GSA_VETS_2" target="_self"><span style="font-size:14px">GSA VETS 2</span></a></td>
-			<td>&nbsp;</td>
-			<td>&nbsp;</td>
-		</tr>
-		<tr>
-			<td><a href="##ACQ_VEHICLE_NASA_SEWP" target="_self"><span style="font-size:14px">NASA Solutions for Enterprise-Wide Procurement (SEWP)</span></a></td>
-			<td>&nbsp;</td>
-			<td>&nbsp;</td>
-		</tr>
-		<tr>
-			<td><a href="##ACQ_VEHICLE_NIH_CIO_CS" target="_self"><span style="font-size:14px">NIH&nbsp;Chief Information Officer-Commodities and Solutions (CIO-CS)</span></a></td>
-			<td>&nbsp;</td>
-			<td>&nbsp;</td>
-		</tr>
-		<tr>
-			<td><a href="##ACQ_VEHICLE_NIH_CIO_SP3" target="_self"><span style="font-size:14px">NIH Chief Information Officer-Solutions and Partners 3 (CIO-SP3)</span></a></td>
-			<td>&nbsp;</td>
-			<td>&nbsp;</td>
-		</tr>
-		<tr>
-			<td><a href="##ACQ_VEHICLE_NIH_CIO_SP3_SB" target="_self"><span style="font-size:14px">NIH Chief Information Officer-Solutions and Partners 3 (CIO-SP3) Small Business&nbsp;</span></a></td>
-			<td>&nbsp;</td>
-			<td>&nbsp;</td>
-		</tr>
-	</tbody>
-</table>
 
 <p><a id="ACQ_VEHICLES" name="ACQ_VEHICLES"><strong><span style="font-size:16px">Acquisition Vehicles</span></strong></a></p>
 
@@ -1081,6 +1021,3 @@ sidenav: true
 	</tbody>
 </table>
 
-<p><a id="ACQ_AAS" name="ACQ_AAS"><span style="font-size:16px"><strong>Assisted Acquisition Services</strong></span></a></p>
-
-<p>&nbsp;</p>
