@@ -10,7 +10,7 @@ const Highlights = () => (
     <div className="grid-container">
       <div className="usa-graphic-list__row grid-row grid-gap">
         <div className="usa-media-block tablet:grid-col">
-          <img className="usa-media-block__img" src="../images/Help-Desk.png" alt="Help!" />
+          <img className="usa-media-block__img" src="../images/help-desk.png" alt="Help!" />
           <div className="usa-media-block__body">
             <h3 className="usa-graphic-list__heading">
               <Link to="/support">Help!</Link>
@@ -21,7 +21,7 @@ const Highlights = () => (
           </div>
         </div>
           <div className="usa-media-block tablet:grid-col">
-            <img className="usa-media-block__img" src="../images/Help-Desk.png" alt="How to Buy" />
+            <img className="usa-media-block__img" src="../images/how-to-buy-button.png" alt="How to Buy Button" />
            <div className="usa-media-block__body">
              <h3 className="usa-graphic-list__heading">
                <Link to="/acquisitionguidance/overview">How to Buy</Link>
@@ -32,7 +32,7 @@ const Highlights = () => (
            </div>
           </div>
         <div className="usa-media-block tablet:grid-col">
-          <img className="usa-media-block__img" src="../images/Help-Desk.png" alt="Cloud Overview" />
+          <img className="usa-media-block__img" src="../images/cloud-overview.png" alt="Cloud Overview" />
           <div className="usa-media-block__body">
             <h3 className="usa-graphic-list__heading">
               <Link to="/whycloud/overview">Cloud Overview</Link>
