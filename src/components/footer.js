@@ -33,7 +33,7 @@ const Footer = () => (
           </div>
         </div>
       </div>
-      <div className="grid-row padding-3">
+      <div className="grid-row">
         <p class="footerborder">
         <p><center><small><b>Disclaimer</b></small></center></p>
           <center><small><small>
