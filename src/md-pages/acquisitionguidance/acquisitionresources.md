@@ -45,9 +45,7 @@ The following table provides links to information on individual Acquisition Vehi
 			<td style="text-align:center; vertical-align:middle"><span style="font-size:14px"><strong><span style="color:#000000">Ordering Requirements: </span></strong></span></td>
 			<td style="text-align:center; vertical-align:middle">
 			<p style="text-align:left"><span style="color:#000000"><span style="font-size:14px">Delegation of Procurement Authority (DPA)</span></span></p>
-
 			<p style="text-align:left"><span style="color:#000000"><span style="font-size:14px">Federal Acquisition Regulations (FAR) 16.505 Ordering and FAR 19.8 Contracting with the Small Business Administration (The 8(a) Program)</span></span></p>
-
 			<p style="text-align:left"><u><a href="https://www.gsa.gov/technology/technology-purchasing-programs/governmentwide-acquisition-contracts/8a-stars-ii/8a-stars-ii-resources"><span style="color:#0000ff"><span style="font-size:14px">GSA 8(a) STARS II Ordering Procedures</span></span></a></u></p>
 			</td>
 		</tr>
@@ -121,8 +119,8 @@ The following table provides links to information on individual Acquisition Vehi
 			<p><span style="font-size:14px"><strong><span style="color:#000000">Acquisition Vehicle Scope:</span></strong></span></p>
 			</td>
 			<td style="text-align:center; vertical-align:middle">
-			<p style="margin-left:0in; margin-right:0in; text-align:left"><span style="font-size:14px"><span style="color:#000000">GSA Alliant 2 provides comprehensive and flexible Information Technology (IT) solutions worldwide. IT solutions include but are not limited to: Artificial Intelligence (AI), cloud computing, cyber security, data-center and data-center consolidation, integration services, IT helpdesk, IT operations and maintenance, software development, and web services. </span></span></p>
-
+			<p style="margin-left:0in; margin-right:0in; text-align:left"><span style="font-size:14px"><span style="color:#000000">GSA Alliant 2 provides comprehensive and flexible Information
+			Technology (IT) solutions worldwide. IT solutions include but are not limited to: Artificial Intelligence (AI), cloud computing, cyber security, data-center and data-center consolidation, integration services, IT helpdesk, IT operations and maintenance, software development, and web services. </span></span></p>
 			<p style="margin-left:0in; margin-right:0in; text-align:left"><span style="font-size:14px"><span style="color:#000000">Using GSA Alliant 2 a Contracting Officer, with a Delegation of Procurement Authority (DPA), may acquire cloud services and professional services as part of an IT solution. </span></span></p>
 			</td>
 		</tr>
@@ -140,9 +138,7 @@ The following table provides links to information on individual Acquisition Vehi
 			</td>
 			<td style="text-align:center; vertical-align:middle">
 			<p dir="rtl" style="margin-left:0in; margin-right:2.5in; text-align:left"><span style="color:#000000"><span style="font-size:14px">Delegation of Procurement Authority (DPA)</span></span></p>
-
 			<p dir="rtl" style="margin-left:0in; margin-right:2.5in; text-align:left"><span style="color:#000000"><span style="font-size:14px">Federal Acquisition Regulations (FAR) 16.505 Ordering</span></span></p>
-
 			<p dir="rtl" style="margin-left:0in; margin-right:2.5in; text-align:left"><span style="font-size:14px"><u><a href="https://www.gsa.gov/technology/technology-purchasing-programs/governmentwide-acquisition-contracts/alliant-2/alliant-2-resources"><span style="color:#0000ff">GSA Alliant 2 Ordering Procedures</span></a></u></span></p>
 			</td>
 		</tr>
@@ -251,9 +247,7 @@ The following table provides links to information on individual Acquisition Vehi
 			</td>
 			<td style="text-align:center; vertical-align:middle">
 			<p dir="rtl" style="margin-left:0in; margin-right:2.5in; text-align:left"><span style="color:#000000"><span style="font-size:14px">Delegation of Procurement Authority (DPA)</span></span></p>
-
 			<p dir="rtl" style="margin-left:0in; margin-right:2.5in; text-align:left"><span style="color:#000000"><span style="font-size:14px">Federal Acquisition Regulations (FAR) 16.505 Ordering</span></span></p>
-
 			<p dir="rtl" style="margin-left:0in; margin-right:2.5in; text-align:left"><span style="font-size:14px"><u><a href="https://www.gsa.gov/technology/technology-purchasing-programs/telecommunications-and-network-services/enterprise-infrastructure-solutions/how-to-order-enterprise-infrastructure-solutions"><span style="color:#0000ff">GSA&nbsp;EIS Ordering Procedures</span></a></u></span></p>
 			</td>
 		</tr>
@@ -322,11 +316,8 @@ The following table provides links to information on individual Acquisition Vehi
 			</td>
 			<td style="text-align:center; vertical-align:middle; width:90%">
 			<p style="text-align:left"><a id="ACQ_VEHICLE_GSA_IT_SCH_70" name="ACQ_VEHICLE_GSA_IT_SCH_70"><span style="color:#000000"><span style="font-size:14px">GSA&nbsp;IT Schedule 70, </span></span></a></p>
-
 			<p style="text-align:left"><span style="color:#000000"><span style="font-size:14px">&nbsp;&nbsp;&nbsp;&nbsp; Special Item Number (SIN) </span>Cloud and Cloud-Related IT Professional Services <span style="font-size:14px">132-40 </span></span></p>
-
 			<p style="text-align:left"><span style="color:#000000"><span style="font-size:14px">GSA Multiple Award Schedule (MAS),</span></span></p>
-
 			<p style="text-align:left"><span style="color:#000000"><span style="font-size:14px">&nbsp;&nbsp;&nbsp;&nbsp; Special Item Number (SIN) </span>Cloud and Cloud-Related IT Professional Services <span style="font-size:14px">518210C</span></span></p>
 			</td>
 		</tr>
@@ -352,17 +343,11 @@ The following table provides links to information on individual Acquisition Vehi
 			</td>
 			<td style="text-align:center; vertical-align:middle">
 			<p style="margin-left:0in; margin-right:0in; text-align:left"><span style="font-size:14px"><span style="color:red">The GSA Multiple Award Schedule (MAS) Consolidation initiative, in Fiscal Year 2020,&nbsp;is consolidating 24 GSA managed Schedules (e.g., 36, 70, 71) into one single GSA Schedule (i.e., MAS) for products, services, and solutions. The GSA MAS Special Item Numbering structure predominantly aligns with the North American Industry Classification System (</span></span><span style="color:#ff0000"><span style="font-size:medium">NAICS</span></span><span style="font-size:14px"><span style="color:red">).</span></span></p>
-
 			<p style="margin-left:0in; margin-right:0in; text-align:left"><span style="font-size:14px"><span style="color:red">GSA IT Schedule 70 SIN 132-40 aligns with GSA MAS SIN 518210C with 518210 being the NAICS code for &ldquo;Data Processing, Hosting, and Related Services&rdquo; and the GSA appended &ldquo;C&rdquo; standing for &ldquo;Cloud&rdquo;. </span></span></p>
-
 			<p style="margin-left:0in; margin-right:0in; text-align:left"><span style="font-size:14px"><span style="color:#ff0000">Please refer to </span><a href="https://www.gsa.gov/cdnstatic/MAS%20Reform_%20Customer%20One%20Pager%20-%20Final.pdf"><span style="color:#0000ff">GSA MAS Consolidation Customer Fact Sheet</span></a></span></p>
-
 			<p style="margin-left:0in; margin-right:0in; text-align:left"><span style="font-size:14px">Cloud and Cloud-Related IT Professional Services, </span><span style="font-size:10.5pt"><span style="color:black">GSA&nbsp;IT Schedule 70 SIN 132-40 / GSA MAS SIN 518201C, provides for the acquisition of commercial cloud services and cloud-related IT professional services.</span></span></p>
-
 			<p style="margin-left:0in; margin-right:0in; text-align:left"><span style="font-size:10.5pt"><span style="color:black">Using SIN 132-40 / SIN 518210C, authorized ordering activities can acquire commercial cloud services that meet the definition of &ldquo;cloud&rdquo; per the <em>National Institute of Standards and Technology (NIST) Special Publication (SP) 800-145 &quot;The NIST Definition of Cloud Computing.&quot; </em>This includes service models (i.e., IaaS, PaaS, SaaS), deployment models (i.e., private cloud, community cloud, public cloud, hybrid cloud), and the 5 essential characteristics of cloud (i.e., on-demand self-service, broad network access, resource pooling, rapid elasticity, measured service).</i></span></span></p>
-
 			<p style="margin-left:0in; margin-right:0in; text-align:left"><span style="font-size:10.5pt"><span style="color:black">Using SIN 132-40 / SIN 518210C authorized ordering activities can acquire cloud-related IT professional services that support the adoption and utilization of commercial cloud services in the areas of assessment, preparation, refactoring, migration, integration, application development, or governance.</span></span></p>
-
 			<p style="margin-left:0in; margin-right:0in; text-align:left"><span style="font-size:12pt"><a href="https://www.gsa.gov/buying-selling/purchasing-programs/gsa-schedules/schedule-features/orderlevel-materials-olms"><span style="color:#0000ff"><span style="font-size:10.5pt">*Order-Level Materials (OLMs) are authorized for GSA IT Schedule 70 SIN 132-40 and </span><span style="font-size:10.5pt">GSA MAS SIN 518201C</span></span></a></span></p>
 			</td>
 		</tr>
@@ -376,7 +361,6 @@ The following table provides links to information on individual Acquisition Vehi
 			<td style="text-align:center; vertical-align:middle"><span style="font-size:14px"><strong><span style="color:#000000">Ordering Requirements: </span></strong></span></td>
 			<td style="vertical-align:middle">
 			<p><span style="font-size:14px"><span style="color:#000000">Federal Acquisition Regulations (FAR) 8.405 Ordering Procedures for Federal Supply Schedules</span></span></p>
-
 			<p><span style="font-size:12pt"><a href="https://www.gsa.gov/technology/technology-purchasing-programs/it-schedule-70/buy-from-it-schedule-70/how-to-order-from-it-schedule-70"><span style="color:blue; font-size:10.5pt">GSA IT Schedule 70 / GSA MAS Ordering Procedures</span></a></span></p>
 			</td>
 		</tr>
@@ -420,13 +404,9 @@ The following table provides links to information on individual Acquisition Vehi
 			<td style="text-align:center; vertical-align:middle"><span style="font-size:14px"><strong><span style="color:#000000">Vendors:</span></strong></span></td>
 			<td style="vertical-align:middle">
 			<p style="margin-left:0in; margin-right:0in"><span style="font-size:10.5pt"><span style="background-color:white"><span style="color:#222222">New vendors offering commercial cloud services and / or cloud professional services are encouraged to review the </span></span></span><a href="https://www.gsa.gov/buying-selling/purchasing-programs/gsa-schedules/selling-through-schedules/guide-to-preparing-a-schedule-offer"><span style="font-size:10.5pt"><span style="background-color:white"><span style="color:#0000ff">GSA MAS Roadmap</span></span></span></a><span style="font-size:10.5pt"><span style="background-color:white"><span style="color:#222222"> and apply to the </span></span></span><span style="font-size:10.5pt"><span style="background-color:white"><span style="color:#000000">GSA MAS Solicitation: </span></span></span><a href="https://beta.sam.gov/opp/d8dfc87dd4cb246f4c5fae066d0b0ef9/view?keywords=47QSMD20R0001&amp;sort=-relevance&amp;index=opp&amp;is_active=true&amp;page=1"><span style="font-size:10.5pt"><span style="background-color:white"><span style="color:#0000ff">47QSMD20R0001</span></span></span></a></p>
-
 			<p style="margin-left:0in; margin-right:0in"><span style="font-size:10.5pt"><span style="background-color:white"><span style="color:#222222">Existing GSA IT Schedule 70 SIN 132-40 vendors may continue to modify their GSA IT Schedule 70 contract through </span></span></span><a href="https://eoffer.gsa.gov/"><span style="font-size:10.5pt"><span style="color:#0000ff">GSA&#39;s eMod Portal</span></span></a><span style="font-size:10.5pt"><span style="background-color:white"><span style="color:blue">.</span></span></span></p>
-
 			<p style="margin-left:0in; margin-right:0in"><span style="font-size:10.5pt"><span style="background-color:white"><span style="color:#222222">GSA offers the following support programs:</span></span></span></p>
-
 			<p style="margin-left:0in; margin-right:0in"><a href="https://www.gsa.gov/technology/technology-purchasing-programs/it-schedule-70/sell-through-it-schedule-70/making-it-easier-fast-lane"><span style="font-size:10.5pt"><span style="color:#0000ff">GSA FASt Lane Program</span></span></a><span style="font-size:10.5pt"><span style="background-color:white"><span style="color:blue">:</span></span></span><span style="font-size:10.5pt"><span style="background-color:white"><span style="color:#222222"> Provides faster processing times for IT Schedule 70 contract actions that directly support Federal Agency requirements.</span></span></span></p>
-
 			<p style="margin-left:0in; margin-right:0in"><span style="font-size:12pt"><a href="https://www.gsa.gov/technology/technology-purchasing-programs/it-schedule-70/sell-through-it-schedule-70/making-it-easier-it-schedule-70-startup-springboard"><span style="font-size:10.5pt"><span style="color:#0000ff">IT Schedule 70 Startup Springboard</span></span></a></span><span style="font-size:10.5pt"><span style="background-color:white"><span style="color:black">:</span></span></span><span style="font-size:10.5pt"><span style="background-color:white"><span style="color:#333333"> Supports innovative IT companies with fewer than two years of experience obtain an IT Schedule 70 contract.</span></span></span></p>
 			</td>
 		</tr>
@@ -471,7 +451,6 @@ The following table provides links to information on individual Acquisition Vehi
 			</td>
 			<td style="text-align:center; vertical-align:middle">
 			<p style="margin-left:0in; margin-right:0in; text-align:left"><span style="font-size:14px"><span style="color:#000000">GSA VETS 2 provides customized information technology services-based solutions, which can be tailored to meet an agency&rsquo;s particular mission needs. IT services may include cloud computing services, data management, information and communications technology, IT operations and maintenance, IT security, software development, system design, and new and emerging technologies. The principal nature of any resulting task order procurement must be for IT services; however ancillary support may be included when it is integral to and necessary for the IT services-based effort. Services may be performed at Government and Contractor locations worldwide, as specified in each task order.</span></span></p>
-
 			<p style="margin-left:0in; margin-right:0in; text-align:left"><span style="font-size:14px"><span style="color:#000000">Using GSA VETS 2, a Contracting Officer, with a Delegation of Procurement Authority (DPA), may acquire IT service-based solutions such as cloud computing services. </span></span></p>
 			</td>
 		</tr>
@@ -489,9 +468,7 @@ The following table provides links to information on individual Acquisition Vehi
 			</td>
 			<td style="text-align:center; vertical-align:middle">
 			<p style="text-align:left"><span style="color:#000000"><span style="font-size:14px">Delegation of Procurement Authority (DPA)</span></span></p>
-
 			<p style="text-align:left"><span style="font-size:14px"><span style="color:#000000">Federal Acquisition Regulations (FAR) 16.505 Ordering</span></span></p>
-
 			<p style="text-align:left"><u><a href="https://www.gsa.gov/technology/technology-purchasing-programs/governmentwide-acquisition-contracts/vets-2-sdvosb/vets-2-resources"><span style="color:#0000ff"><span style="font-size:14px">GSA VETS 2 Ordering Procedures</span></span></a></u></p>
 			</td>
 		</tr>
@@ -578,7 +555,6 @@ The following table provides links to information on individual Acquisition Vehi
 			<td style="text-align:center; vertical-align:middle"><span style="font-size:14px"><strong><span style="color:#000000">Acquisition Vehicle Scope:</span></strong></span></td>
 			<td style="text-align:center; vertical-align:middle">
 			<p style="margin-left:0in; margin-right:0in; text-align:left"><span style="font-size:14px"><span style="color:#000000">NASA SEWP provides for the acquisition of ICT (Information Communication Technology) and AV (Audio Visual) solutions including IT Hardware; networking and telecommunications; storage systems; security tools; software; cloud based solutions; Health IT; sensors; video conferencing systems; and Audio-Visual solutions. Cloud Professional Services such as installation; training; maintenance and warranty and other product based services are available through SEWP.</span></span></p>
-
 			<p style="margin-left:0in; margin-right:0in; text-align:left"><span style="font-size:14px"><span style="color:#000000">Cloud based solutions are defined as including Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS) solutions. </span></span></p>
 			</td>
 		</tr>
@@ -592,7 +568,6 @@ The following table provides links to information on individual Acquisition Vehi
 			<td style="text-align:center; vertical-align:middle"><span style="font-size:14px"><strong><span style="color:#000000">Ordering Requirements: </span></strong></span></td>
 			<td style="vertical-align:middle">
 			<p style="margin-left:0in; margin-right:0in; text-align:left"><span style="font-size:14px"><span style="color:#000000">Federal Acquisition Regulations (FAR) 16.505 Ordering</span></span></p>
-
 			<p style="margin-left:0in; margin-right:0in; text-align:left"><span style="font-size:14px"><span style="background-color:#ffffff"><a href="https://www.sewp.nasa.gov/ordering.shtml"><span style="color:#0000ff">NASA SEWP Ordering Procedures</span></a><span style="color:#0000ff"> </span></span></span></p>
 			</td>
 		</tr>
@@ -663,9 +638,7 @@ The following table provides links to information on individual Acquisition Vehi
 			<td style="text-align:center; vertical-align:middle"><span style="font-size:14px"><strong><span style="color:#000000">Acquisition Vehicle Scope:</span></strong></span></td>
 			<td style="text-align:center; vertical-align:middle">
 			<p style="margin-left:0in; margin-right:0in; text-align:left"><span style="font-size:14px"><span style="color:#000000">NIH CIO-CS provides for IT products, IT commodities, hardware, software, solutions, cloud services and future technologies. IT commodities and the associated commodity enabling services may be acquired using one or both of these models: </span></span></p>
-
 			<p style="margin-left:0in; margin-right:0in; text-align:left"><span style="font-size:14px"><span style="color:#000000">a. On-Premise Model: IT commodities and products are deployed onsite either within the Government site or a Contractor site. In this model, additional enabling professional&nbsp;services may include provisioning, deployment, installations, warranty and maintenance, engineering and assessment studies, and training. </span></span></p>
-
 			<p style="margin-left:0in; margin-right:0in; text-align:left"><span style="font-size:14px"><span style="color:#000000">b. Managed Services Model: IT commodities are deployed via managed services and the cloud (e.g., Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS)) where the IT commodity service is managed through a Service Level Agreement (SLA) and is based on a subscription model. </span></span></p>
 			</td>
 		</tr>
@@ -679,7 +652,6 @@ The following table provides links to information on individual Acquisition Vehi
 			<td style="text-align:center; vertical-align:middle"><span style="font-size:14px"><strong><span style="color:#000000">Ordering Requirements: </span></strong></span></td>
 			<td style="vertical-align:middle">
 			<p style="margin-left:0in; margin-right:0in; text-align:left"><span style="font-size:14px"><span style="color:#000000">Federal Acquisition Regulations (FAR) 16.505 Ordering</span></span></p>
-
 			<p style="margin-left:0in; margin-right:0in"><a href="https://nitaac.nih.gov/sites/default/files/gwac/tools-templates/CIO-CS_Ordering_Guide_2016_0.pdf"><span style="color:#0000ff"><span style="font-size:14px">NIH CIO-CS Ordering Procedures</span></span></a></p>
 			</td>
 		</tr>
@@ -701,7 +673,6 @@ The following table provides links to information on individual Acquisition Vehi
 			<td style="text-align:center; vertical-align:middle"><span style="font-size:14px"><strong><span style="color:#000000">Contract Access Fee (CAF):</span></strong></span></td>
 			<td style="vertical-align:middle">
 			<p style="margin-left:0in; margin-right:0in"><a href="http://nitaac.nih.gov/services/cio-cs/tools/cio-cs-fee-cap-memorandum"><span style="color:#0000ff"><span style="font-size:medium"><span style="font-size:14px">0.35%</span></span></span></a></p>
-
 			<p style="margin-left:0in; margin-right:0in"><span style="color:#000000"><span style="font-size:medium"><span style="font-size:14px">$70K Fee Cap with Orders &gt;$20M. The fee cap applies to any order base or optional period (not to exceed 12 months) with funding in excess of $20M</span>.</span></span></p>
 			</td>
 		</tr>
@@ -766,7 +737,6 @@ The following table provides links to information on individual Acquisition Vehi
 			<td style="text-align:center; vertical-align:middle"><span style="font-size:14px"><strong><span style="color:#000000">Ordering Requirements: </span></strong></span></td>
 			<td style="vertical-align:middle">
 			<p style="margin-left:0in; margin-right:0in; text-align:left"><span style="font-size:14px"><span style="color:#000000">Federal Acquisition Regulations (FAR) 16.505 Ordering</span></span></p>
-
 			<p style="margin-left:0in; margin-right:0in"><a href="https://nitaac.nih.gov/services/cio-sp3/tools/task-order-process"><span style="color:#0000ff"><span style="background-color:#ffffff; font-size:13px">CIO-SP3 Ordering Procedures</span></span></a></p>
 			</td>
 		</tr>
@@ -788,7 +758,6 @@ The following table provides links to information on individual Acquisition Vehi
 			<td style="text-align:center; vertical-align:middle"><span style="font-size:14px"><strong><span style="color:#000000">Contract Access Fee (CAF):</span></strong></span></td>
 			<td style="vertical-align:middle">
 			<p style="margin-left:0in; margin-right:0in"><a href="https://nitaac.nih.gov/sites/default/files/gwac/tools-templates/NITAAC-Memorandum-Cap-NIH-NCAF_0.pdf"><span style="color:#0000ff"><span style="font-size:medium"><span style="font-size:14px">0.65%</span></span></span></a></p>
-
 			<p style="margin-left:0in; margin-right:0in"><span style="font-size:14px"><span style="background-color:#ffffff; color:#000000">$150K Fee Cap with Orders &gt;$23M. The cap applies to any task order base or optional period (Not to Exceed 12 months) with funding in excess of $23M.</span></span></p>
 			</td>
 		</tr>
@@ -853,7 +822,6 @@ The following table provides links to information on individual Acquisition Vehi
 			<td style="text-align:center; vertical-align:middle"><span style="font-size:14px"><strong><span style="color:#000000">Ordering Requirements: </span></strong></span></td>
 			<td style="vertical-align:middle">
 			<p style="margin-left:0in; margin-right:0in; text-align:left"><span style="font-size:14px"><span style="color:#000000">Federal Acquisition Regulations (FAR) 16.505 Ordering</span></span></p>
-
 			<p style="margin-left:0in; margin-right:0in"><a href="https://nitaac.nih.gov/services/cio-sp3-small-business/tools/task-order-process"><span style="color:#0000ff"><span style="background-color:#ffffff; font-size:13px">CIO-SP3 Small Business Ordering Procedures</span></span></a></p>
 			</td>
 		</tr>
@@ -875,7 +843,6 @@ The following table provides links to information on individual Acquisition Vehi
 			<td style="text-align:center; vertical-align:middle"><span style="font-size:14px"><strong><span style="color:#000000">Contract Access Fee (CAF):</span></strong></span></td>
 			<td style="vertical-align:middle">
 			<p style="margin-left:0in; margin-right:0in"><a href="https://nitaac.nih.gov/sites/default/files/gwac/tools-templates/NITAAC-Memorandum-Cap-NIH-NCAF_0.pdf"><span style="color:#0000ff"><span style="font-size:medium"><span style="font-size:14px">0.55%</span></span></span></a></p>
-
 			<p style="margin-left:0in; margin-right:0in"><span style="font-size:14px"><span style="background-color:#ffffff; color:#000000">$150K Fee Cap with Orders &gt; $27M. The fee cap applies to any order base or optional period (Not to Exceed 12 months) with funding in excess of $27M.</span></span></p>
 			</td>
 		</tr>
@@ -920,9 +887,7 @@ The following table provides links to information on individual Acquisition Vehi
 			<td style="text-align:center; vertical-align:middle"><span style="font-size:14px"><strong><span style="color:#000000">Acquisition Vehicle:</span></strong></span></td>
 			<td style="vertical-align:middle">
 			<p style="margin-left:0in; margin-right:0in"><span style="font-size:14px"><span style="color:#000000">GSA IT Schedule 70, </span></span></p>
-
 			<p style="margin-left:0in; margin-right:0in"><span style="font-size:14px"><span style="color:#000000">&nbsp;&nbsp;&nbsp;&nbsp; Special Item Number (SIN) 132-50 Training Courses and </span></span></p>
-
 			<p style="margin-left:0in; margin-right:0in"><span style="font-size:14px"><span style="color:#000000">&nbsp;&nbsp;&nbsp;&nbsp; Special Item Number (SIN) 132-51 Information Technology (IT) Professional Services</span></span></p>
 			</td>
 		</tr>
@@ -948,19 +913,12 @@ The following table provides links to information on individual Acquisition Vehi
 			<td style="text-align:center; vertical-align:middle"><span style="font-size:14px"><strong>BPA Scope<span style="color:#000000">:</span></strong></span></td>
 			<td style="vertical-align:middle">
 			<p style="margin-left:0in; margin-right:0in"><span style="font-size:14px"><span style="color:#000000">GSA SIISS provides enterprise level Salesforce platform and application (e.g., Software as a Service (SaaS)) implementation, integration, and support services within Government cloud ecosystems. Available services are categorized by functional areas and include:</span></span></p>
-
 			<p style="margin-left:0in; margin-right:0in"><span style="font-size:14px"><span style="color:#000000">&bull; Functional Area 1: UX Design, Business Analysis, Development, Integration</span></span></p>
-
 			<p style="margin-left:0in; margin-right:0in"><span style="font-size:14px"><span style="color:#000000">&bull; Functional Area 2: Data Management and Security</span></span></p>
-
 			<p style="margin-left:0in; margin-right:0in"><span style="font-size:14px"><span style="color:#000000">&bull; Functional Area 3: Program Management Support and Center of Excellence Governance</span></span></p>
-
 			<p style="margin-left:0in; margin-right:0in"><span style="font-size:14px"><span style="color:#000000">&bull; Functional Area 4: Release Management and Post-Implementation Maintenance Support</span></span></p>
-
 			<p style="margin-left:0in; margin-right:0in"><span style="font-size:14px"><span style="color:#000000">&bull; Functional Area 5: Support / Help Desk</span></span></p>
-
 			<p style="margin-left:0in; margin-right:0in"><span style="font-size:14px"><span style="color:#000000">&bull; Functional Area 6: Training</span></span></p>
-
 			<p style="margin-left:0in; margin-right:0in"><span style="font-size:14px"><span style="color:#000000">&bull; Functional Area 7: Agile Coaching and Agile Portfolio</span></span></p>
 			</td>
 		</tr>
@@ -974,7 +932,6 @@ The following table provides links to information on individual Acquisition Vehi
 			<td style="text-align:center; vertical-align:middle"><span style="font-size:14px"><span style="color:#000000"><strong>Ordering Requirements:</strong></span></span></td>
 			<td style="vertical-align:middle">
 			<p style="margin-left:0in; margin-right:0in"><span style="font-size:14px"><span style="color:#000000">Federal Acquisition Regulations (FAR) 8.405 Ordering Procedures for Federal Supply Schedules </span></span></p>
-
 			<p style="margin-left:0in; margin-right:0in"><span style="font-size:14px"><a href="https://www.gsa.gov/cdnstatic/SIISSOrderingGuide.pdf"><span style="color:#0000ff">SIISS Ordering Guide</span></a></span></p>
 			</td>
 		</tr>
