@@ -4,7 +4,7 @@ path: /whycloud/technicalcapabilities
 sidenav: false
 ---
 
-# Cloud Technical Capabilities
+# Technical Capabilities
 
 Thanks to its speed, scale, and capacity, the cloud offers more functionality with more automation than nearly every on-premises solution. This is for a few reasons:
 
