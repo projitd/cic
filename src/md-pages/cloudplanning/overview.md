@@ -13,7 +13,7 @@ In this section, you'll learn more about implementing cloud at your agency. We'v
 
 - [**Business considerations**](/cloudplanning/business) takes you through the human side of cloud deployment. What skills does your team need? How do you manage change? What's the best approach to training?
  
-- [**Technical considerations**](/cloudplanning/tecnical) gives you an overview of the mechanics of getting cloud deployed at your agency. How do you take inventory of your current assets? What maintenance will you be responsible for? How do you migrate and scale effectively?
+- [**Technical considerations**](/cloudplanning/technical) gives you an overview of the mechanics of getting cloud deployed at your agency. How do you take inventory of your current assets? What maintenance will you be responsible for? How do you migrate and scale effectively?
  
 Whether you're focusing on the business or the technical aspects of implementation, there are a few universal principles that are worth keeping in mind:
 
