@@ -4,7 +4,6 @@
 */
 $theme-image-path: '../../node_modules/uswds/src/img';
 $theme-font-path: '../../node_modules/uswds/src/fonts';
-$theme-image-path: '../images/';
 
 /*
   The url for the hero image in the source file is not currently prefixed by
@@ -14,6 +13,7 @@ $theme-image-path: '../images/';
 /* $theme-hero-image: '#{$theme-image-path}/hero.png'; */
 
 $theme-hero-image: '../images/cloud-hero.jpg';
+
 
 // Your custom changes to variables go here
 // Uncomment to see this working
@@ -52,3 +52,13 @@ $theme-hero-image: '../images/cloud-hero.jpg';
     display: block;
   }
 }
+
+
+// Added by Eric M to fix width issue when sidebar false
+
+.usa-prose p,
+{
+  max-width: 90ex;
+
+}
+

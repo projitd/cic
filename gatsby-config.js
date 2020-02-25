@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     author: 'GSA',
-    title: `GSA's Cloud Information Center`,
+    title: `Cloud Information Center`,
     description: `Helping Government get on and survive in the cloud`,
     // Start of horizontal Site Menu in Header of every page
     navigation: [
@@ -11,7 +11,12 @@ module.exports = {
     },
       //Second Menu Item
     {
-      items: [{ text: 'Why Cloud', link: '/whycloud/overview' }],
+      title: 'Why Cloud',
+      items: [
+        { text: 'Basics', link: '/whycloud/overview' },
+        { text: 'Security Compliance', link: '/whycloud/security' },
+        { text: 'Technical Capabilities', link: '/whycloud/technicalcapabilities' },
+      ],
     },
       //Third Menu Item    
     {
