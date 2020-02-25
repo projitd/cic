@@ -19,8 +19,13 @@ module.exports = {
       ],
     },
       //Third Menu Item    
-    {
-      items: [{ text: 'Cloud Planning', link: '/cloudplanning/overview' }],
+        {
+      title: 'Cloud Planning',
+      items: [
+        { text: 'Implementation', link: '/cloudplanning/overview' },
+        { text: 'Business Considerations', link: '/cloudplanning/business' },
+        { text: 'Technical Capabilities', link: '/cloudplanning/technical' },
+      ],
     },
       // Forth Menu Item    
       {
