@@ -8,7 +8,7 @@ const Header = ({ children, siteTitle }) => (
       <div className="usa-logo" id="extended-logo">
         <em className="usa-logo__text">
           <Link to="/" title="Home" aria-label="Home">
-            {siteTitle}
+                <img src={require("../images/footer-gsa-logo.png")} width="70" alt="GSA logo" />{siteTitle}           
           </Link>
         </em>
       </div>

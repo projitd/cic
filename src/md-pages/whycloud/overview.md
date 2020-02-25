@@ -2,7 +2,7 @@
 title: Why Cloud
 permalink: /whycloud/overview
 path: /whycloud/overview
-sidenav: true
+sidenav: false
 ---
 If you're just getting started with the cloud, the first thing to know is that there is no one "cloud." Moving to the cloud isn't as easy or as simple as unplugging existing servers and turning them over to a Cloud Service Provider (CSP).  You will need to evaluate your current and future needs and select the best deployment and services models that meet your current and future needs and support and meet your organizations mission.   
 
