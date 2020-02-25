@@ -1,7 +1,7 @@
 ---
 title: Cloud Planning - Technical Planning
 path: /cloudplanning/technical
-sidenav: true
+sidenav: false
 ---
 
 # Technical Capabilities

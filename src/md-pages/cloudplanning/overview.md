@@ -2,7 +2,7 @@
 title: Cloud Planning
 permalink: /cloudplanning/overview
 path: /cloudplanning/overview
-sidenav: true
+sidenav: false
 ---
 
 # Cloud Implementation
