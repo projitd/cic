@@ -17,9 +17,6 @@ const Hero = () => (
         <a className="usa-button" href="https://www.gsa.gov/cic">
           CIC Production Site
         </a>
-        <p><small><small>
-          Image by <a className="usa-link" href="https://pixabay.com/users/JanBaby-3005373/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3625053">Jan Alexander</a> from <a className="usa-link" href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3625053">Pixabay</a>
-        </small></small></p>
       </div>
     </div>
   </section>
