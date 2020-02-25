@@ -78,6 +78,11 @@ module.exports = {
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
+    'gatsby-remark-responsive-iframe',
+    'gatsby-transformer-remark',
+    'gatsby-remark-images',
+
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -113,6 +118,8 @@ module.exports = {
         path: `${__dirname}/src/events`,
       },
     },
+   
+    
 `gatsby-transformer-remark`,
 {
   resolve: `gatsby-plugin-manifest`,
@@ -129,5 +136,9 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+
+
+
+
   ],
 };
