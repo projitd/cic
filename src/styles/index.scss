@@ -63,3 +63,23 @@ $theme-hero-image: '../images/cloud-hero.jpg';
 
 
 .nomargin h2, h3 {margin-top: -5px;}
+
+.video-container {
+  overflow: hidden;
+  position: relative;
+  width:75%;
+}
+
+.video-container::after {
+  padding-top: 56.25%;
+  display: block;
+  content: '';
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 95%;
+  height: 95%;
+}
