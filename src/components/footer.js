@@ -32,8 +32,9 @@ const Footer = () => (
       </div>
       <div className="grid-row">
         <p class="footerborder">
-        <p><center><small><b>Disclaimer</b></small></center></p>
-          <center><small><small>
+        <center><small><b>Disclaimer</b></small></center>
+          <center>
+            <small><small>
             This site is developed by the General Services Administration (GSA) with input from key Federal IT practitioners and industry representatives. Nothing in this site should be construed as official policy or mandated action unless explicitly labeled as such, nor does the content of this site provide authoritative definitions for IT terms unless explicitly labeled as such. Rather, this site supplements existing Federal IT statutes and policies, and builds upon the key components of the Cloud Smart strategy: security, procurement, and workforce.
             </small></small>
           </center>
