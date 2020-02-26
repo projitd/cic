@@ -20,7 +20,7 @@ module.exports = {
     },
       //Third Menu Item    
         {
-      title: 'Planning',
+      title: 'Plan Cloud',
       items: [
         { text: 'Implementation', link: '/cloudplanning/overview' },
         { text: 'Business Considerations', link: '/cloudplanning/business' },
@@ -29,11 +29,11 @@ module.exports = {
     },
       // Forth Menu Item    
       {
-        items: [{ text: 'Solution Finder', link: '/findcloud/overview' }],
+        items: [{ text: 'Find Cloud', link: '/findcloud/overview' }],
       },
       // Fifth Menu Item
       {
-        items: [{ text: 'Acquisition Guidance', link: '/acquisitionguidance/overview' }],
+        items: [{ text: 'Acquire Cloud', link: '/acquisitionguidance/overview' }],
       },
       // Sixth Menu Item
       {
