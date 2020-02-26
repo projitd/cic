@@ -22,9 +22,9 @@ module.exports = {
         {
       title: 'Plan Cloud',
       items: [
-        { text: 'Implementation', link: '/cloudplanning/overview' },
+        { text: 'Planning Basics', link: '/cloudplanning/overview' },
         { text: 'Business Considerations', link: '/cloudplanning/business' },
-        { text: 'Technical Capabilities', link: '/cloudplanning/technical' },
+        { text: 'Technical Implementation', link: '/cloudplanning/technical' },
       ],
     },
       // Forth Menu Item    
