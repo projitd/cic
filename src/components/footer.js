@@ -9,25 +9,22 @@ const Footer = () => (
           <div className="tablet:grid-col">
             <div className="logo-links">
               <a className="footer-logo media_link" href="https://www.gsa.gov">
-                <img src={require("../images/footer-gsa-logo.png")} width="50" alt="GSA logo" />
+                <img src={require("../images/footer-gsa-logo.png")} width="100" alt="GSA logo" />
               </a>
             </div>
           </div>
           <div className="tablet:grid-col"></div>
           <div className="tablet:grid-col">
-              <p>Contact the GSA Cloud Team</p>
+             
           </div>
           <div className="tablet:grid-col">
-            <ul className="add-list-reset">
+           <div class="nomargin"><h3>Contact the GSA Cloud Team</h3></div>
+           <ul className="add-list-reset">
               <li>
-                <a className="footer-logo media_link" >
-                <img src={require("../images/footer-phone-icon.png")} width="50" alt="202-969-7113" />
-                </a>Phone 202-969-7113
+              <strong>Phone: </strong><a className="footer-logo media_link" href="tel:202-969-7113">202-969-7113</a>
               </li>
               <li>
-                <a className="footer-logo media_link" href="mailto:cloudinfo@gsa.gov?subject=CIC%20Cloud%20Assistance%20Request">
-                  <img src={require("../images/footer-email-icon.png")} width="50" alt="email cloudinfo@gsa.gov" />
-                </a>
+                <strong>Email: </strong><a className="footer-logo media_link" href="mailto:cloudinfo@gsa.gov?subject=CIC%20Cloud%20Assistance%20Request">cloudinfo@gsa.gov</a>
               </li>
           </ul>
           </div>
