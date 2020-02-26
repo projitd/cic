@@ -1,109 +1,76 @@
 ---
 title: Find Cloud Solutions -  
 path: /findcloud/iaas
-sidenav: true
+sidenav: false
 ---
 
-# Infrastructure as a Service (IaaS)
+## Infrastructure as a Service (IaaS)
 
+The most basic category of commercial cloud computing services. With Infrastructure as a Service (IaaS), you rent IT infrastructure - servers and virtual machines (VMs), storage, networks, operating systems - from a cloud provider.
 
-<p>The most basic category of commercial cloud computing services. With Infrastructure as a Service (IaaS), you rent IT infrastructure&mdash;servers and virtual machines (VMs), storage, networks, operating systems&mdash;from a cloud provider.</p>
+IaaS is an instant computing infrastructure, provisioned and managed over the Internet. Quickly scale up and down with demand, and pay only for what you use.
 
-<p>&nbsp;</p>
-
-<p>IaaS is an instant computing infrastructure, provisioned and managed over the Internet. Quickly scale up and down with demand, and pay only for what you use.</p>
-
-<p>&nbsp;</p>
-
-<p>IaaS helps you avoid the expense and complexity of buying and managing your own physical servers and other datacenter infrastructure. Each resource is offered as a separate commercial service component, and you only need to rent a particular one for as long as you need it. The cloud computing service provider manages the infrastructure, while you purchase, install, configure, and manage your own software&mdash;operating systems, middleware, and applications.</p>
+IaaS helps you avoid the expense and complexity of buying and managing your own physical servers and other datacenter infrastructure. Each resource is offered as a separate commercial service component, and you only need to rent a particular one for as long as you need it. The cloud computing service provider manages the infrastructure, while you purchase, install, configure, and manage your own software - operating systems, middleware, and applications.
 
 <p><img src="https://hallways.cap.gsa.gov/system/files/IaaS-1555525036.png" /></p>
 
-<p><strong>IaaS Supports</strong></p>
+### IaaS Supports
 
-<ul>
-	<li><strong>Test and development</strong></li>
-</ul>
+- **Test and development**
 
-<p>Teams can quickly set up and dismantle test and development environments, bringing new applications to market faster. IaaS makes it quick and economical to scale up dev-test environments up and down.&nbsp;</p>
+Teams can quickly set up and dismantle test and development environments, bringing new applications to market faster. IaaS makes it quick and economical to scale up dev-test environments up and down.
 
-<ul>
-	<li><strong>Website hosting</strong></li>
-</ul>
+- **Website hosting**
 
-<p>Running websites using IaaS can be less expensive than traditional web hosting.&nbsp;</p>
+Running websites using IaaS can be less expensive than traditional web hosting.
 
-<ul>
-	<li><strong>Storage, backup, and recovery</strong></li>
-</ul>
+- **Storage, backup, and recovery**
 
-<p>Organizations avoid the capital outlay for storage and complexity of storage management, which typically requires a skilled staff to manage data and meet legal and compliance requirements. IaaS is useful for handling unpredictable demand and steadily growing storage needs. It can also simplify planning and management of backup and recovery systems.&nbsp;</p>
+Organizations avoid the capital outlay for storage and complexity of storage management, which typically requires a skilled staff to manage data and meet legal and compliance requirements. IaaS is useful for handling unpredictable demand and steadily growing storage needs. It can also simplify planning and management of backup and recovery systems.
 
-<ul>
-	<li><strong>Web apps</strong></li>
-</ul>
+- **Web apps**
 
-<p>IaaS provides the entire infrastructure to support web apps, including storage, web and application servers, and networking resources. Organizations can quickly deploy web apps on IaaS and easily scale infrastructure up and down when demand for the apps is unpredictable.&nbsp;</p>
+IaaS provides the entire infrastructure to support web apps, including storage, web and application servers, and networking resources. Organizations can quickly deploy web apps on IaaS and easily scale infrastructure up and down when demand for the apps is unpredictable.
 
-<ul>
-	<li><strong>High-performance computing</strong></li>
-</ul>
+- **High-performance computing**
 
-<p>High-performance computing (HPC) on supercomputers, computer grids, or computer clusters helps solve complex problems involving millions of variables or calculations. Examples include earthquake and protein folding simulations, climate and weather predictions, financial modeling, and evaluating product designs.&nbsp;</p>
+High-performance computing (HPC) on supercomputers, computer grids, or computer clusters helps solve complex problems involving millions of variables or calculations. Examples include earthquake and protein folding simulations, climate and weather predictions, financial modeling, and evaluating product designs.
 
-<ul>
-	<li><strong>Big data analysis</strong></li>
-</ul>
+- **Big data analysis**
 
-<p>Big data is a popular term for massive data sets that contain potentially valuable patterns, trends, and associations. Mining data sets to locate or tease out these hidden patterns requires a huge amount of processing power, which IaaS economically provides.&nbsp;</p>
+Big data is a popular term for massive data sets that contain potentially valuable patterns, trends, and associations. Mining data sets to locate or tease out these hidden patterns requires a huge amount of processing power, which IaaS economically provides.
 
-<p>&nbsp;</p>
+### IaaS Advantages
 
-<h4><strong>IaaS Advantages</strong></h4>
+- **Eliminates capital expense and reduces ongoing cost**
 
-<ul>
-	<li><strong>Eliminates capital expense and reduces ongoing cost</strong></li>
-</ul>
+IaaS sidesteps the upfront expense of setting up and managing an on-site datacenter, making it an economical option for start-ups and businesses testing new ideas.
 
-<p>IaaS sidesteps the upfront expense of setting up and managing an on-site datacenter, making it an economical option for start-ups and businesses testing new ideas.&nbsp;</p>
+- **Improves business continuity and disaster recovery**
 
-<ul>
-	<li><strong>Improves business continuity and disaster recovery</strong></li>
-</ul>
+Achieving high availability, business continuity, and disaster recovery is expensive, since it requires a significant amount of technology and staff. But with the right service level agreement (SLA) in place, IaaS can reduce this cost and access applications and data as usual during a disaster or outage.
 
-<p>Achieving high availability, business continuity, and disaster recovery is expensive, since it requires a significant amount of technology and staff. But with the right service level agreement (SLA) in place, IaaS can reduce this cost and access applications and data as usual during a disaster or outage.&nbsp;</p>
+- **Innovate rapidly**
 
-<ul>
-	<li><strong>Innovate rapidly</strong></li>
-</ul>
+As soon as you've decided to launch a new product or initiative, the necessary computing infrastructure can be ready in minutes or hours, rather than the days or weeks -and sometimes months - it could take to set up internally.
 
-<p>As soon as you&rsquo;ve decided to launch a new product or initiative, the necessary computing infrastructure can be ready in minutes or hours, rather than the days or weeks&mdash;and sometimes months&mdash;it could take to set up internally.&nbsp;</p>
+- **Respond quicker to shifting business conditions**
 
-<ul>
-	<li><strong>Respond quicker to shifting business conditions</strong></li>
-</ul>
+IaaS enables you to quickly scale up resources to accommodate spikes in demand for your application - during the holidays, for example - then scale resources back down again when activity decreases to save money.
 
-<p>IaaS enables you to quickly scale up resources to accommodate spikes in demand for your application&mdash; during the holidays, for example&mdash;then scale resources back down again when activity decreases to save money.&nbsp;</p>
+- **Focus on your core business**
 
-<ul>
-	<li><strong>Focus on your core business</strong></li>
-</ul>
+IaaS frees up your team to focus on your organization's core business rather than on IT infrastructure.
 
-<p>IaaS frees up your team to focus on your organization&rsquo;s core business rather than on IT infrastructure.&nbsp;</p>
+- **Increase stability, reliability, and supportability**
 
-<ul>
-	<li><strong>Increase stability, reliability, and supportability</strong></li>
-</ul>
+With IaaS there's no need to maintain and upgrade software and hardware or troubleshoot equipment problems. With the appropriate agreement in place, the service provider assures that your infrastructure is reliable and meets SLAs.
 
-<p>With IaaS there&rsquo;s no need to maintain and upgrade software and hardware or troubleshoot equipment problems. With the appropriate agreement in place, the service provider assures that your infrastructure is reliable and meets SLAs.&nbsp;</p>
+- **Better security**
 
-<ul>
-	<li><strong>Better security</strong></li>
-</ul>
+With the appropriate service agreement, a cloud service provider can provide security for your applications and data that may be better than what you can attain in-house.
 
-<p>With the appropriate service agreement, a cloud service provider can provide security for your applications and data that may be better than what you can attain in-house.</p>
-
-<h2><strong>IaaS Providers</strong></h2>
+## IaaS Providers
 
 <p>Presented below is a table summarizing <strong><em>FedRAMP Authorized</em></strong> IaaS Providers.</p>
 
