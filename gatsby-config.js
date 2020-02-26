@@ -13,9 +13,9 @@ module.exports = {
     {
       title: 'Why Cloud',
       items: [
-        { text: 'Basics', link: '/whycloud/overview' },
-        { text: 'Security Compliance', link: '/whycloud/security' },
-        { text: 'Technical Capabilities', link: '/whycloud/technicalcapabilities' },
+        { text: 'Cloud Basics', link: '/whycloud/overview' },
+        { text: 'Cloud Security', link: '/whycloud/security' },
+        { text: 'Cloud Capabilities', link: '/whycloud/technicalcapabilities' },
       ],
     },
       //Third Menu Item    
