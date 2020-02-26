@@ -9,8 +9,9 @@ sidenav: false
 
 The first thing to know is that there is no single "cloud." Moving to the cloud isn't as simple as unplugging existing servers and turning them over to a Cloud Service Provider (CSP).  You will need to evaluate your current and future needs, then select the best deployment and services models that meet the requirements to support your organizations mission.   
 
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/UorIwPZU_eg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-
+<div class="video-container">
+<iframe src="https://www.youtube.com/embed/UorIwPZU_eg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 
 ### What is Cloud?
@@ -136,9 +137,8 @@ No one cloud deployment or service model is fundamentally better than another â€
 
 <div class="usa-alert usa-alert--success" >
   <div class="usa-alert__body">
-    <h3 class="usa-alert__heading">You've got the basics!</h3>
-    <p class="usa-alert__text">Next take a deeper look at secuity or capabilities:</p>
+    <h3 class="usa-alert__heading">You've got the basics of what cloud is.</h3>
+    <p class="usa-alert__text">Next, take a high-level look at secuity:</p><br />
     <a href="/whycloud/security"><button class="usa-button">Cloud Security</button></a>
-    <a href="/whycloud/technicalcapabilities"><button class="usa-button">Cloud Capabilities</button></a>
   </div>
 </div>
