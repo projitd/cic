@@ -5,7 +5,7 @@ const Footer = () => (
   <footer className="usa-footer site-footer" role="contentinfo">
     <div className="footer-section-bottom bg-base-lighter">
       <div className="grid-container">
-        <div className="grid-row padding-3">
+        <div className="grid-row padding-1">
           <div className="tablet:grid-col">
             <div className="logo-links">
               <a className="footer-logo media_link" href="https://www.gsa.gov">
@@ -28,8 +28,6 @@ const Footer = () => (
               </li>
           </ul>
           </div>
-        </div>
-      </div>
       <div className="grid-row">
         <p class="footerborder">
         <center><small><b>Disclaimer</b></small></center>
@@ -39,6 +37,8 @@ const Footer = () => (
             </small></small>
           </center>
         </p>
+      </div>
+      </div>
       </div>
     </div>
   </footer>
