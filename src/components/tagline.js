@@ -19,21 +19,19 @@ const Tagline = () => (
         
         <ul>
         <li>Explains what cloud computing is and the benefits of federal cloud adoption</li>
-
         <li>Provides a synthesis of cloud computing best practices, guidance and acquisition templates</li>
-
         <li>Promotes Government-wide communication and collaboration with fellow cloud decision-makers</li>
-
         <li>Assists Government users in conducting market research on Cloud Service Providers (CSPs)</li>
-
         <li>Facilitates Industry collaboration and information-sharing about cloud capabilities with the Government</li>
-
         <li>Supports the cloud adoption journeys of all Government agencies through direct GSA customer support!</li>
         </ul>
         </p>
-        <p>
-        <b>Download the <Link to="/files/ITC Cloud Solutions Trifold.pdf">GSA Cloud Resource Guide</Link> today!</b>
-        </p>
+        <div class="usa-alert usa-alert--info" >
+          <div class="usa-alert__body">
+            <h3 class="usa-alert__heading">Need more information?</h3>
+            <p class="usa-alert__text">Download the <Link to="/files/ITC Cloud Solutions Trifold.pdf">GSA Cloud Resource Guide</Link> today!</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
