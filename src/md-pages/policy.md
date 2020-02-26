@@ -149,11 +149,3 @@ Established in October of 2015, the United Shared Services Management (USSM) ini
 ### OFFICE of MANAGEMENT and BUDGET (OMB) GUIDANCE 
 
 [https://www.whitehouse.gov/omb/](https://www.whitehouse.gov/omb/)
-
-
-
-## Contact the GSA Cloud Team
-
-Phone: [202-969-7113](tel:202-969-7113)
-
-Email [cloudinfo@gsa.gov](mailto:cloudinfo@gsa.gov?subject=CIC%20Cloud%20Assistance%20Request)
