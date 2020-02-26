@@ -56,10 +56,10 @@ $theme-hero-image: '../images/cloud-hero.jpg';
 
 // Added by Eric M to fix width issue when sidebar false
 
-.usa-prose p,
+.usa-list li, .usa-prose > ul li, .usa-prose > ol li, .usa-prose p
 {
-  max-width: 90ex;
-
+  max-width: 95%;
 }
+
 
 .nomargin h2, h3 {margin-top: -5px;}

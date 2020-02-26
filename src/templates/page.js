@@ -22,7 +22,7 @@ const Page = ({ data }) => {
             {frontmatter.sidenav && <Sidenav />}
 
             <div
-              className="usa-layout-docs__main desktop:grid-col-9 usa-prose"
+              className="usa-layout-docs__main desktop:grid-col-10 usa-prose"
               dangerouslySetInnerHTML={{ __html: html }}
             ></div>
           </div>
