@@ -6,6 +6,8 @@ sidenav: false
 
 ## Infrastructure as a Service (IaaS)
 
+
+
 The most basic category of commercial cloud computing services. With Infrastructure as a Service (IaaS), you rent IT infrastructure - servers and virtual machines (VMs), storage, networks, operating systems - from a cloud provider.
 
 IaaS is an instant computing infrastructure, provisioned and managed over the Internet. Quickly scale up and down with demand, and pay only for what you use.
@@ -333,3 +335,10 @@ With the appropriate service agreement, a cloud service provider can provide sec
 </table>
 
 <p><em>Last Updated 5/30/2019</em></p>
+
+
+![IaaS 1](/images/IaaS.jpg)
+![IaaS 2](../images/IaaS.jpg)
+![IaaS 3](./images/IaaS.jpg)
+![IaaS 4](../../images/IaaS.jpg)
+
