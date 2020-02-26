@@ -1,12 +1,12 @@
 ---
 title: Find Cloud Solutions - FedRAMP Compliant Vendors 
 path: /findcloud/vendors
-sidenav: true
+sidenav: false
 ---
 
 # FedRAMP Compliant Vendors
 
-<p><a href="https://marketplace.fedramp.gov" target="_blank"><img alt="" src="https://hallways.cap.gsa.gov/system/files/Screen%20Shot%202019-02-21%20at%2011.49.19%20AM-1550771440.png" style="float:left; height:100px; width:300px" title="" /></a></p>
+<p><a href="https://marketplace.fedramp.gov" target="_blank"><img alt="" src="https://hallways.cap.gsa.gov/system/files/Screen%20Shot%202019-02-21%20at%2011.49.19%20AM-1550771440.png" title="" /></a></p>
 
 <p>&nbsp;</p>
 

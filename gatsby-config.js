@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     author: 'GSA',
-    title: `GSA's Cloud Information Center`,
+    title: `Cloud Information Center`,
     description: `Helping Government get on and survive in the cloud`,
     // Start of horizontal Site Menu in Header of every page
     navigation: [
@@ -11,23 +11,33 @@ module.exports = {
     },
       //Second Menu Item
     {
-      items: [{ text: 'Why Cloud', link: '/whycloud/overview' }],
+      title: 'Why Cloud',
+      items: [
+        { text: 'Basics', link: '/whycloud/overview' },
+        { text: 'Security Compliance', link: '/whycloud/security' },
+        { text: 'Technical Capabilities', link: '/whycloud/technicalcapabilities' },
+      ],
     },
       //Third Menu Item    
-    {
-      items: [{ text: 'Cloud Planning', link: '/cloudplanning/overview' }],
+        {
+      title: 'Plan Cloud',
+      items: [
+        { text: 'Implementation', link: '/cloudplanning/overview' },
+        { text: 'Business Considerations', link: '/cloudplanning/business' },
+        { text: 'Technical Capabilities', link: '/cloudplanning/technical' },
+      ],
     },
       // Forth Menu Item    
       {
-        items: [{ text: 'Find Cloud Solutions', link: '/findcloud/overview' }],
+        items: [{ text: 'Find Cloud', link: '/findcloud/overview' }],
       },
       // Fifth Menu Item
       {
-        items: [{ text: 'Cloud Acquisition Guidance', link: '/acquisitionguidance/overview' }],
+        items: [{ text: 'Acquire Cloud', link: '/acquisitionguidance/overview' }],
       },
       // Sixth Menu Item
       {
-        items: [{ text: 'Cloud Policy', link: '/policy' }],
+        items: [{ text: 'Policy', link: '/policy' }],
       },      
       // Seventh Menu Item
       {
@@ -73,6 +83,11 @@ module.exports = {
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
+    'gatsby-remark-responsive-iframe',
+    'gatsby-transformer-remark',
+    'gatsby-remark-images',
+
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -108,6 +123,8 @@ module.exports = {
         path: `${__dirname}/src/events`,
       },
     },
+   
+    
 `gatsby-transformer-remark`,
 {
   resolve: `gatsby-plugin-manifest`,
@@ -124,5 +141,9 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+
+
+
+
   ],
 };
