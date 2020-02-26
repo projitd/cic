@@ -37,7 +37,7 @@ module.exports = {
       },
       // Sixth Menu Item
       {
-        items: [{ text: 'Cloud Policy', link: '/policy' }],
+        items: [{ text: 'Policy', link: '/policy' }],
       },      
       // Seventh Menu Item
       {
