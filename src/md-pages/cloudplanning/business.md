@@ -4,7 +4,7 @@ path: /cloudplanning/business
 sidenav: false
 ---
 
-# Business Considerations
+## Business Considerations
 
 The best cloud transitions aren't just about technology — they're about people and processes, too. Reinventing your IT is an opportunity to reinvent your culture, too, and to make your ways of working as modern as the systems you use. Here are some things to keep in mind as you move from on-premises to cloud solutions. They can help clarify your path forward, build buy-in for what you want, and keep teams motivated in times of uncertainty.
 
@@ -16,16 +16,18 @@ The best cloud transitions aren't just about technology — they're about people
  
 - Make improvements visible. If something's better because of your cloud migration, don't keep it a secret. Tell the story of your success, and think about how that improvement could be leveraged across the organization. Could other teams benefit from how you're working? Could another department use a SaaS product you've stumbled upon? One agency Chief Technology Officer (CTO) reinvested his cost savings into dual monitors for the whole agency — a sign of success that's impossible to ignore.
  
-# Application Rationalization
+## Application Rationalization
 
 Transitioning to the cloud presents a perfect opportunity to optimize your environment.  Consider your approach to cloud transition as an opportunity to evaluate and optimize your current IT systems rather than transferring entire systems wholesale. The CIO Council-produced Application Rationalization Playbook provides a framework for performing such analysis and planning.
 
-## Application Rationalization Playbook
+- **Application Rationalization Playbook**
 
-This playbook provides Federal IT practitioners with a practical guide to application rationalization and IT portfolio management. As part of Cloud Smart, agencies should review their IT portfolios to determine modernization plans for existing tools. 
+    The purpose of application rationalization is to mature agencies’ IT portfolio management capabilities, empower leaders to make informed decisions and improve the delivery of key mission and business services.
 
-The purpose of application rationalization is to mature agencies’ IT portfolio management capabilities, empower leaders to make informed decisions and improve the delivery of key mission and business services.
+    This playbook provides Federal IT practitioners with a practical guide to application rationalization and IT portfolio management. As part of Cloud Smart, agencies should review their IT portfolios to determine modernization plans for existing tools. 
+
+    <a href="https://community.max.gov/download/attachments/1640449498/Application%20Rationalization%20Playbook.pdf?api=v2"><button class="usa-button usa-button--outline">Download the Playbook</button></a>
  
-## Application Rationalization Materials
+- **Application Rationalization Materials**
 
-CIO Council Cloud and Infrastructure Community of Practice
+    [CIO Council Cloud and Infrastructure Community of Practice](https://community.max.gov/pages/viewpage.action?spaceKey=Egov&title=Application+Rationalization+Materials)

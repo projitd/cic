@@ -4,7 +4,7 @@ path: /whycloud/technicalcapabilities
 sidenav: false
 ---
 
-# Technical Capabilities
+## Cloud Capabilities
 
 Thanks to its speed, scale, and capacity, the cloud offers more functionality with more automation than nearly every on-premises solution. This is for a few reasons:
 
@@ -16,8 +16,18 @@ Thanks to its speed, scale, and capacity, the cloud offers more functionality wi
 
 - **Cloud (usually) oversees your networking**  For the most part, networking — the joining up of resources within a cloud environment — will be managed by your Cloud Service Provider (CSP). They have staff dedicated to monitoring and optimizing the cloud resources, and as the keepers of the infrastructure, the CSP balances the "cloud" resources (e.g., compute, storage, network). The CSP manages resources within your defined configurations and in meeting agreed upon Service Level Agreements (SLAs). The CSP frees you have from having to monitor, manage, and optimize the resources.
  
+## Technical Terms
 
-In addition to new functionality, cloud computing offers new concepts and ways of working. Some of them are confusingly similar to terms you may have used in traditional IT environments. Here are some of the major technical terms you're likely to encounter as you explore cloud computing. (Note: if you're only planning to use SaaS solutions, this info may be less relevant because you won't have access to this level of customization.)
+<div class="usa-alert usa-alert--info" >
+  <div class="usa-alert__body">
+    <h3 class="usa-alert__heading">Did you know?</h3>
+    <p class="usa-alert__text">Cloud computing offers new concepts, functionality and ways of working; BUT many of the terms are confusingly similar to those you may have used in traditional IT environments.</p>
+  </div>
+</div>
+
+ As you explore cloud computing you will likely encounter these terms.
+
+  _(Note for SaaS solutions: This info may be less relevant as you won't have access to this level of customization)_
 
 - **Containers are basically virtual machines**, just one step higher — they're all running the same operating system. They're faster to spin up and down (and faster to destroy after they're done) than virtual machines. This makes them much more efficient while requiring fewer resources at the same time.
 
