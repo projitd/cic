@@ -41,14 +41,8 @@ module.exports = {
       },      
       // Seventh Menu Item
       {
-        title: 'Cloud Partner Sites',
-        items: [
-          { text: 'Federal Cloud Computing Strategy', link: 'https://cloud.cio.gov/' },
-          { text: 'FedRAMP Authorized Providers', link: '/partnersites' },
-          { text: 'DEOS', link: '/deos' },
-          { text: 'TechFAR Hub', link: 'https://techfarhub.cio.gov/' },
-        ],
-      },
+        items: [{ text: 'Cloud Partner Sites', link: '/partnersites' }],
+      },    
       // Eigth Menu Item
       {
         items: [{ text: 'Events & Training', link: '/eventstraining' }],
@@ -87,7 +81,7 @@ module.exports = {
     'gatsby-transformer-remark',
     'gatsby-remark-images',
 
-
+   
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -139,20 +133,6 @@ module.exports = {
   },
 },
 
-'gatsby-plugin-sharp',
-    {
-      resolve: 'gatsby-transformer-remark',
-      options: {
-        plugins: [
-          {
-            resolve: 'gatsby-remark-images',
-            options: {
-              maxWidth: 970,
-            },
-          },
-        ],
-      },
-    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

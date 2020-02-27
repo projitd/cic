@@ -2,7 +2,7 @@
 title: DEOS
 permalink: /deos
 path: /deos
-sidenav: true
+sidenav: false
 ---
 
 # Defense Enterprise Office Solution (DEOS)
