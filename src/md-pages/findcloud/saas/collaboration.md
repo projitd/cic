@@ -1,7 +1,7 @@
 ---
 title: Find Cloud - SaaS - Collaboration and Communications
 path: /findcloud/saas/collaboration
-sidenav: true
+sidenav: false
 ---
 
 # Collaboration and Communications
