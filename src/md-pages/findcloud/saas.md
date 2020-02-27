@@ -21,8 +21,7 @@ Learn more about SaaS Products / Solutions (select topic from list below)
 <a href="/findcloud/saas/securityidentitytools"><button class="usa-button usa-button--outline">Security / Identity Tools</button></a> 
 
 ## SaaS Model
-
-<p><img src="https://hallways.cap.gsa.gov/system/files/SaaS-1555525904.png" /></p>
+![SaaS model](../../saas-model.png)
 
 Software as a service (SaaS) allows users to connect to and use cloud-based applications over the Internet. Common examples are email, calendaring, and office tools.
 
@@ -48,3 +47,47 @@ The previous examples are free commercial services for personal use. For organiz
 
 - **Access app data from anywhere**
 ~ With data stored in the cloud, users can access their information from any Internet-connected computer or mobile device. And when application data is stored in the cloud, no data is lost if a user’s computer or device fails.
+
+## Helpful Documents
+
+
+<div class="grid-container">
+  <div class="grid-row">
+    <div class="tablet:grid-col">
+
+[<img src="../../file-word-regular.svg" width="20" /> Business Use Cases](../../Business-Use-Cases.docx)
+
+[<img src="../../file-pdf-regular.svg" width="20" /> High Level Requirements](../../High-Level-Requirements.pdf)
+
+[<img src="../../file-word-regular.svg" width="20" /> Links to Articles, Use Cases, and Whitepapers](../../Links-to-Articles-Use-Cases-and-Whitepapers.docx)  
+
+ [<img src="../../file-word-regular.svg" width="20" /> Market Overview](../../Market-Overview.docx)
+    
+</div>
+    <div class="tablet:grid-col">
+
+[<img src="../../file-word-regular.svg" width="20" /> Service Level Agreements](../../Service-Level-Agreements.docx)
+
+[<img src="../../file-word-regular.svg" width="20" /> Technical Questions](../../Technical-Questions.docx)
+ 
+[<img src="../../file-word-regular.svg" width="20" /> Technical Use Cases](../../Technical-Use-Cases.docx)   
+    
+</div>
+  </div>
+</div>
+
+
+
+
+
+
+
+## SaaS Providers
+
+<div class="usa-alert usa-alert--success">
+    <div class="usa-alert__body">
+        <h3 class="usa-alert__heading">FedRAMP Authorized SaaS Providers</h3>
+        <p class="usa-alert__text">For detailed commercial service descriptions, to compare vendors or to see additional providers that are In Process/FedRAMP Ready, please visit the:</p>
+		<p><a href="https://marketplace.fedramp.gov/#/products?sort=productName&serviceModels=SaaS"><button class="usa-button">FedRAMP Marketplace</button></a></p>
+    </div>
+</div>
