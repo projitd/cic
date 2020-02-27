@@ -16,8 +16,13 @@ sidenav: false
     </button>
   </h2>
   <div id="b-a1" class="usa-accordion__content usa-prose">
-    <p>The most basic category of commercial cloud computing services. With Infrastructure as a Service (IaaS), you rent IT infrastructure—servers and virtual machines (VMs), storage, networks, operating systems—from a cloud provider.</p>
-	<p><a href="/findcloud/iaas" ><button class="usa-button ">Learn More & Find IaaS Providers</button></a></p>
+  <div class="grid-container">
+  <div class="grid-row">
+    <div class="tablet:grid-col-4"><a href="/findcloud/iaas" ><img src="../../IaaS.jpg"/></a></div>
+    <div class="tablet:grid-col-8">The most basic category of commercial cloud computing services. With Infrastructure as a Service (IaaS), you rent IT infrastructure—servers and virtual machines (VMs), storage, networks, operating systems—from a cloud provider.<p><a href="/findcloud/iaas" ><button class="usa-button ">Learn More & Find IaaS Providers</button></a></p>
+    </div>
+  </div>
+</div>
   </div>
   
   <!-- Use the accurate heading level to maintain the document outline -->
@@ -29,10 +34,16 @@ sidenav: false
     </button>
   </h2>
   <div id="b-a2" class="usa-accordion__content usa-prose">
-    <p>Platform as a Service (PaaS) refers to cloud computing services that supply an on-demand environment for developing, testing, delivering, and managing software applications. PaaS is designed to make it easier for developers to quickly create applications (e.g., web, mobile apps), without worrying about setting up or managing the underlying infrastructure of servers, storage, network, and databases needed for development.</p>
-	<p><a href="/findcloud/paas" ><button class="usa-button ">Learn More & Find PaaS Providers</button></a></p>
+
+<div class="grid-container">
+  <div class="grid-row">
+    <div class="tablet:grid-col-4"><a href="/findcloud/paas" ><img src="../../PaaS.jpg"/></a></div>
+    <div class="tablet:grid-col-8">Platform as a Service (PaaS) refers to cloud computing services that supply an on-demand environment for developing, testing, delivering, and managing software applications. PaaS is designed to make it easier for developers to quickly create applications (e.g., web, mobile apps), without worrying about setting up or managing the underlying infrastructure of servers, storage, network, and databases needed for development.<p><a href="/findcloud/paas" ><button class="usa-button ">Learn More & Find PaaS Providers</button></a></p>
+    </div>
   </div>
-  
+</div>
+  </div>
+
   <!-- Use the accurate heading level to maintain the document outline -->
   <h2 class="usa-accordion__heading">
     <button class="usa-accordion__button"
@@ -42,11 +53,16 @@ sidenav: false
     </button>
   </h2>
   <div id="b-a3" class="usa-accordion__content usa-prose">
-    <p>Software as a Service (SaaS) is a method for delivering software applications over the Internet, on demand and typically on a subscription basis. With SaaS, Cloud  Service Providers (CSPs) host and manage the application software and underlying infrastructure, and handle any maintenance, like software upgrades and security patching. Users connect to the application over the Internet, usually by a web browser on their phone, tablet, or PC.</p>
-	<p><a href="/findcloud/saas" ><button class="usa-button ">Learn More & Find SaaS Providers</button></a></p>
 
+<div class="grid-container">
+  <div class="grid-row">
+    <div class="tablet:grid-col-4"><a href="/findcloud/saas" ><img src="../../SaaS.jpg"/></a></div>
+    <div class="tablet:grid-col-8">Software as a Service (SaaS) is a method for delivering software applications over the Internet, on demand and typically on a subscription basis. With SaaS, Cloud  Service Providers (CSPs) host and manage the application software and underlying infrastructure, and handle any maintenance, like software upgrades and security patching. Users connect to the application over the Internet, usually by a web browser on their phone, tablet, or PC.<p><a href="/findcloud/saas" ><button class="usa-button ">Learn More & Find SaaS Providers</button></a></p>
+    </div>
   </div>
-  
+</div>
+  </div>
+
   <!-- Use the accurate heading level to maintain the document outline -->
   <h2 class="usa-accordion__heading">
     <button class="usa-accordion__button"
@@ -69,7 +85,16 @@ sidenav: false
     </button>
   </h2>
   <div id="b-a5" class="usa-accordion__content usa-prose">
-    <p>FedRAMP was designed so that once a cloud service offering has been authorized it can be reused many times. FedRAMP authorized vendors accessed via the GSA Schedule provide a simplified path for agencies to acquire products and solutions.</p>
-	<p><a href="/findcloud/vendors" ><button class="usa-button ">Find Vendors</button></a></p>
+<div class="grid-container">
+  <div class="grid-row">
+<div class="tablet:grid-col-4"><a href="/findcloud/vendors" ><img src="../../Vendors.jpg"/></a></div>
+    <div class="tablet:grid-col-8">FedRAMP was designed so that once a cloud service offering has been authorized it can be reused many times. FedRAMP authorized vendors accessed via the GSA Schedule provide a simplified path for agencies to acquire products and solutions.<p><a href="/findcloud/vendors" ><button class="usa-button ">Find Vendors</button></a></p>
+    </div>
+  </div>
+</div>
+  </div>
+
+
+	
   </div>
 </div>
