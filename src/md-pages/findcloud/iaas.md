@@ -337,8 +337,4 @@ With the appropriate service agreement, a cloud service provider can provide sec
 <p><em>Last Updated 5/30/2019</em></p>
 
 
-![IaaS 1](/images/IaaS.jpg)
-![IaaS 2](../images/IaaS.jpg)
-![IaaS 3](./images/IaaS.jpg)
-![IaaS 4](../../images/IaaS.jpg)
-
+![iaas 1](../../images/IaaS.jpg)
