@@ -53,9 +53,8 @@ sidenav: false
     </button>
   </h2>
   <div id="b-a3" class="usa-accordion__content usa-prose">
-
-<div class="grid-container">
-  <div class="grid-row">
+  <div class="grid-container">
+    <div class="grid-row">
     <div class="tablet:grid-col-4"><a href="/findcloud/saas" ><img src="../../SaaS.jpg"/></a></div>
     <div class="tablet:grid-col-8">Software as a Service (SaaS) is a method for delivering software applications over the Internet, on demand and typically on a subscription basis. With SaaS, Cloud  Service Providers (CSPs) host and manage the application software and underlying infrastructure, and handle any maintenance, like software upgrades and security patching. Users connect to the application over the Internet, usually by a web browser on their phone, tablet, or PC.<p><a href="/findcloud/saas" ><button class="usa-button ">Learn More & Find SaaS Providers</button></a></p>
     </div>
@@ -72,10 +71,15 @@ sidenav: false
     </button>
   </h2>
   <div id="b-a4" class="usa-accordion__content usa-prose">
-    <p>Cloud requires a variety of Cloud Professional Services (CPS) including advisory, implementation, integration, and maintenance. These services can either be bundled with products/solutions or separated into other contracts. Many example projects, templates, and FedRAMP-approved vendors can be found under Acquire Cloud.</p>
-	<p><a href="/findcloud/professionalservices" ><button class="usa-button ">Find Professional Services</button></a></p>
+    <div class="grid-container">
+  <div class="grid-row">
+<div class="tablet:grid-col-4"><a href="/findcloud/professionalservices" ><img src="../../cps.png"/></a></div>
+    <div class="tablet:grid-col-8">Cloud requires a variety of Cloud Professional Services (CPS) including advisory, implementation, integration, and maintenance. These services can either be bundled with products/solutions or separated into other contracts. Many example projects, templates, and FedRAMP-approved vendors can be found under Acquire Cloud.	<p><a href="/findcloud/professionalservices" ><button class="usa-button ">Find Professional Services</button></a></p>
+    </div>
   </div>
-  
+</div>
+  </div>
+     
   <!-- Use the accurate heading level to maintain the document outline -->
   <h2 class="usa-accordion__heading">
     <button class="usa-accordion__button"
