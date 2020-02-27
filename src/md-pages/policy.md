@@ -24,7 +24,7 @@ The goal of FITARA is to promote Federal IT modernization and strengthen the Fed
 - Governmentwide software purchasing program
 
 
-[Federal Information Technology Acquisition Reform - Congress.gov](https://www.congress.gov/113/plaws/publ291/PLAW-113publ291.pdf#page=148%5D)
+[<img src="../../file-pdf-regular.svg" width="20" /> Federal Information Technology Acquisition Reform - Congress.gov](https://www.congress.gov/113/plaws/publ291/PLAW-113publ291.pdf#page=148%5D)
 
 [Management and Oversight of Federal Information Technology](https://management.cio.gov/)
 
@@ -43,12 +43,12 @@ The MEGABYTE Act requires CIOs to develop a comprehensive software licensing pol
 - Regularly track and maintain licenses; and
 - Embrace metrics such as software usage data to make cost-effective decisions.
 
-Each agency CIO must subsequently report after one year and then at five-yearly intervals of the financial savings which have resulted from improved software license management. In accordance with the act requirements, OMB published [M-16-12 Category Management Policy 16-1: Improving the Acquisition and Management of Common Information Technology: Software Licensing](http://hallways.cap.gsa.gov/app/#/gateway/best-class-bic/19036/docs/19665/m-16-12_1-1544468962.pdf)
+Each agency CIO must subsequently report after one year and then at five-yearly intervals of the financial savings which have resulted from improved software license management. In accordance with the act requirements, OMB published:
+- [<img src="../../file-pdf-regular.svg" width="20" /> M-16-12 Category Management Policy 16-1: Improving the Acquisition and Management of Common Information Technology: Software Licensing](http://hallways.cap.gsa.gov/app/#/gateway/best-class-bic/19036/docs/19665/m-16-12_1-1544468962.pdf)
 
+- [MEGABYTE Act of 2016](https://www.congress.gov/bill/114th-congress/senate-bill/2340")		
 
-[MEGABYTE Act of 2016](https://www.congress.gov/bill/114th-congress/senate-bill/2340")		
-
-[Category Management Policy - Software Licensing](https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2016/m-16-12_1.pdf)
+- [<img src="../../file-pdf-regular.svg" width="20" /> Category Management Policy - Software Licensing](https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2016/m-16-12_1.pdf)
 
 
 ## ADMINISTRATIVE POLICY
@@ -78,28 +78,30 @@ The DCOI requires agencies to:
 3. Leverage technology advancements to optimize infrastructure; and
 4. Provide quality services for the public good.
 
-[Data Center Optimization Initiative (cio.gov)](https://datacenters.cio.gov/)
+Links:
 
-[Data Center Optimization Initiative (gsa.gov)](https://www.gsa.gov/technology/government-it-initiatives/data-center-optimization-initiative-dcoi)
+- [Data Center Optimization Initiative (cio.gov)](https://datacenters.cio.gov/)
 
-[DCOI - Collaborate](https://www.gsa.gov/technology/government-it-initiatives/dcoi/dcoi-data-center-resources/collaborate)
+- [Data Center Optimization Initiative (gsa.gov)](https://www.gsa.gov/technology/government-it-initiatives/data-center-optimization-initiative-dcoi)
 
-[Cloud Readiness: Preparing Your Agency for Migration, April 2018](https://hallways.cap.gsa.gov/app/#/gateway/cloud-information-center/30691/cloud-readiness)
+- [DCOI - Collaborate](https://www.gsa.gov/technology/government-it-initiatives/dcoi/dcoi-data-center-resources/collaborate)
 
-[IaaS Considerations for the Data Center Community: DCOI PMO Cloud Series, March 2017](http://www.gsacloudinfocenter.org/files%2011-13-2018/pdf/IAAS-CONSIDERATIONS-FOR-THE-DATA.pdf)
+- [Cloud Readiness: Preparing Your Agency for Migration, April 2018](https://hallways.cap.gsa.gov/app/#/gateway/cloud-information-center/30691/cloud-readiness)
 
-[Key Cost Considerations for Agencies Planning Cloud Migrations, November 2017](http://www.gsacloudinfocenter.org/files%2011-13-2018/pdf/KEY-COST-CONSIDERATIONS-FOR.pdf)
+- [IaaS Considerations for the Data Center Community: DCOI PMO Cloud Series, March 2017](http://www.gsacloudinfocenter.org/files%2011-13-2018/pdf/IAAS-CONSIDERATIONS-FOR-THE-DATA.pdf)
+
+- [Key Cost Considerations for Agencies Planning Cloud Migrations, November 2017](http://www.gsacloudinfocenter.org/files%2011-13-2018/pdf/KEY-COST-CONSIDERATIONS-FOR.pdf)
 
 		
 ### FedRAMP
 
 The Federal Risk and Authorization Management Program (FedRAMP) is a government-wide program that provides a standardized approach to security assessment, authorization, and continuous monitoring for cloud products and services. FedRAMP enables Agencies to rapidly adapt from old, insecure legacy IT to mission-enabling, secure, and cost effective cloud-based IT. FedRAMP created and manages a core set of processes to ensure effective, repeatable cloud security for the government. FedRAMP established a mature marketplace to increase utilization and familiarity with cloud services while facilitating collaboration across government through open exchanges of lessons learned, use cases, and tactical solutions.'
 
-[fedramp.gov](http://www.fedramp.gov)
+- [FedRAMP.gov](http://www.fedramp.gov)
 
-[FedRAMP Policy Memo](https://www.fedramp.gov/assets/resources/documents/FedRAMP_Policy_Memo.pdf)
+- [<img src="../../file-pdf-regular.svg" width="20" /> FedRAMP Policy Memo](https://www.fedramp.gov/assets/resources/documents/FedRAMP_Policy_Memo.pdf)
 
-[Defense Information Systems Agency (DISA) Memorandum of Reciprocity for FedRAMP Authorized Moderate Baseline Cloud Service Offerings (CSO) at Impact Level 2 (2019 08 15)](https://www.doncio.navy.mil/FileHandler.ashx?id=13641)
+- [<img src="../../file-pdf-regular.svg" width="20" /> Defense Information Systems Agency (DISA) Memorandum of Reciprocity for FedRAMP Authorized Moderate Baseline Cloud Service Offerings (CSO) at Impact Level 2 (2019 08 15)](https://www.doncio.navy.mil/FileHandler.ashx?id=13641)
 
 
 		
@@ -107,7 +109,7 @@ The Federal Risk and Authorization Management Program (FedRAMP) is a government-
 
 Executive Order (EO) 13,800 tasks the Director of the American Technology Council (ATC) to coordinate a report to the President from the Secretary of the Department of Homeland Security (DHS), the Director of the Office of Management and Budget (OMB), and the Administrator of the General Services Administration (GSA), in consultation with the Secretary of Commerce (Commerce), regarding the modernization of Federal Information Technology (IT). In accordance with EO 13,800, the IT Modernization report was submitted to the President.'
 
-[Report to the President on Federal IT Modernization](https://itmodernization.cio.gov/)
+- [Report to the President on Federal IT Modernization](https://itmodernization.cio.gov/)
 
 
 
@@ -121,20 +123,20 @@ Accelerate IT modernization to improve the citizen experience, improve outcomes 
 4. Developing metrics and dashboards to drive process improvement
 5. Helping to stand up the new customer experience office
 
-[Office of the Centers of Excellence](https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services/office-of-the-centers-of-excellence)
+Links:
 
-[IT Modernization - Centers of Excellence](coe.gsa.gov)
+- [Office of the Centers of Excellence](https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services/office-of-the-centers-of-excellence)
+
+- [IT Modernization - Centers of Excellence](https://coe.gsa.gov)
 
 
 ### CLOUD ADOPTION AND INFRASTRUCTURE CENTER OF EXCELLENCE
 
 Will assist the analysis of current systems and applications to provide recommendations for planning migration to the cloud, including balancing tactical "lift and shift" imperatives with more strategic "fix and shift" possibilities.
 
-[IT Modernization - Cloud Adoption](https://coe.gsa.gov/coe/cloud-adoption.html)
+- [IT Modernization - Cloud Adoption](https://coe.gsa.gov/coe/cloud-adoption.html)
 
-[IT Modernization - Cloud Adoption Accomplishments](coe.gsa.gov/coe/cloud-adoption.html#accomplishments)
-
-[Cloud Adoption Service Catalog](coe.gsa.gov/docs/Cloud_Adoption_One_Page_Service_Catalog.pdf)
+- [<img src="../../file-pdf-regular.svg" width="20" /> Cloud Adoption Service Catalog](https://coe.gsa.gov/docs/Cloud_Adoption_One_Page_Service_Catalog.pdf)
 
 ### UNITED SHARED SERVICES MANAGEMENT (USSM)
 
