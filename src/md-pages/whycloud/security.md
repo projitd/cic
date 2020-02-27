@@ -28,7 +28,7 @@ Even with FedRAMP authorized Cloud Service Providers (CSPs), FISMA requires agen
 
 The following graphic illustrates primary responsibility for areas of security controls for each cloud commercial service model.  This graphic not only helps to illustrate the value of each cloud commercial service model, but can be used as a road map to prevent security surprises concerning misunderstood or unknown requirements.
 
-<p><img alt="cloud security image" src="https://hallways.cap.gsa.gov/system/files/iaas-paas-monitor-1554998012.png" /></p>
+![cloud secuirty image](../../cloud-security-monitoring.png)
 
 As indicated in the graphic, responsibility for specific security or compliance controls depends on the type of cloud solution that is procured. 
 - **Software as a service (SaaS)** users are typically responsible for very little; 
