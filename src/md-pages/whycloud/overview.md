@@ -128,6 +128,8 @@ Definitions vary, but government follows guidance from the National Institute of
 |**Infrastructure as a Service**|**Platform as a Service**|**Software as a Service**|
 |Outsource the physical parts of computing: power, cooling, racks, connectivity, and more. IaaS solutions give you full control over virtual machines, which can be both a positive and a negative: just like on-premises, the configuration is highly customizable, but just like on-premises, staff (or contractors) are required to manage and maintain everything but the hardware. That includes operating systems, databases, and compliance, as well as any applications installed on top of the operating systems.|Outsource both infrastructure and operations. With PaaS, the provider is  responsible for  system administration, operating systems, or networking.   User applications are deployed on top of a set of predetermined configurations. PaaS solutions are less customizable than IaaS solutions, but also require less staff time to maintain and support, especially in terms of security and compliance.|Outsource everything, including the code of the applications used. Users have very little responsibility for the application software — the provider is responsible for keeping it up to date, easy to use, or compliant.  In exchange, the user has minimal control over what the application software does, how it works or when it changes/updates. SaaS solutions, unlike other cloud models, tend to be direct end-user-facing.|
 
+![iaas 1](https://i.ibb.co/k2yk6xC/cloud-service-models.png)
+
   </div>
   
 </div>

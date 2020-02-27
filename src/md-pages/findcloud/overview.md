@@ -16,8 +16,8 @@ sidenav: false
     </button>
   </h2>
   <div id="b-a1" class="usa-accordion__content usa-prose">
-    <p>The capability provided to the consumer is to provision processing, storage, networks, and other fundamental computing resources where the consumer is able to deploy and run arbitrary software, which can include operating systems and applications. The consumer does not manage or control the underlying cloud infrastructure but has control over operating systems, storage, and deployed applications; and possibly limited control of select networking components (e.g., host firewalls).</p>
-	<p><a href="/findcloud/iaas" ><button class="usa-button ">Find IaaS Providers</button></a></p>
+    <p>The most basic category of commercial cloud computing services. With Infrastructure as a Service (IaaS), you rent IT infrastructure—servers and virtual machines (VMs), storage, networks, operating systems—from a cloud provider.</p>
+	<p><a href="/findcloud/iaas" ><button class="usa-button ">Learn More & Find IaaS Providers</button></a></p>
   </div>
   
   <!-- Use the accurate heading level to maintain the document outline -->
@@ -29,8 +29,8 @@ sidenav: false
     </button>
   </h2>
   <div id="b-a2" class="usa-accordion__content usa-prose">
-    <p>The capability provided to the consumer is to deploy onto the cloud infrastructure consumer-created or acquired applications developed using programming languages, libraries, services, and tools supported by the provider. The consumer does not manage or control the underlying cloud infrastructure including network, servers, operating systems, or storage, but has control over the deployed applications and possibly configuration settings for the application-hosting environment.</p>
-	<p><a href="/findcloud/paas" ><button class="usa-button ">Find PaaS Providers</button></a></p>
+    <p>Platform as a Service (PaaS) refers to cloud computing services that supply an on-demand environment for developing, testing, delivering, and managing software applications. PaaS is designed to make it easier for developers to quickly create applications (e.g., web, mobile apps), without worrying about setting up or managing the underlying infrastructure of servers, storage, network, and databases needed for development.</p>
+	<p><a href="/findcloud/paas" ><button class="usa-button ">Learn More & Find PaaS Providers</button></a></p>
   </div>
   
   <!-- Use the accurate heading level to maintain the document outline -->
@@ -42,8 +42,8 @@ sidenav: false
     </button>
   </h2>
   <div id="b-a3" class="usa-accordion__content usa-prose">
-    <p>The capability provided to the consumer is to use the providers applications running on a cloud infrastructure. The applications are accessible from various client devices through either a thin client interface, such as a web browser (e.g., web-based email), or a program interface. The consumer does not manage or control the underlying cloud infrastructure including network, servers, operating systems, storage, or even individual application capabilities, with the possible exception of limited user-specific application configuration settings.</p>
-	<p><a href="/findcloud/saas" ><button class="usa-button ">Find SaaS Providers</button></a></p>
+    <p>Software as a Service (SaaS) is a method for delivering software applications over the Internet, on demand and typically on a subscription basis. With SaaS, Cloud  Service Providers (CSPs) host and manage the application software and underlying infrastructure, and handle any maintenance, like software upgrades and security patching. Users connect to the application over the Internet, usually by a web browser on their phone, tablet, or PC.</p>
+	<p><a href="/findcloud/saas" ><button class="usa-button ">Learn More & Find SaaS Providers</button></a></p>
 
   </div>
   
@@ -56,7 +56,7 @@ sidenav: false
     </button>
   </h2>
   <div id="b-a4" class="usa-accordion__content usa-prose">
-    <p><a href="http://hallways.cap.gsa.gov/app/#/gateway/cloud-information-center/30563/cloud-professional-services">Cloud requires a variety of Cloud Professional Services (CPS) including advisory, implementation, integration, and maintenance. These services can either be bundled with products/solutions or separated into other contracts</a>. Many example projects, templates, and FedRAMP-approved vendors can be found under the <a href="https://hallways.cap.gsa.gov/app/#/gateway/cloud-information-center/tab/29896">Acquisition Guidance</a></p>
+    <p>Cloud requires a variety of Cloud Professional Services (CPS) including advisory, implementation, integration, and maintenance. These services can either be bundled with products/solutions or separated into other contracts. Many example projects, templates, and FedRAMP-approved vendors can be found under Acquire Cloud.</p>
 	<p><a href="/findcloud/professionalservices" ><button class="usa-button ">Find Professional Services</button></a></p>
   </div>
   
