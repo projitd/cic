@@ -41,7 +41,7 @@ module.exports = {
       },      
       // Seventh Menu Item
       {
-        items: [{ text: 'Cloud Partner Sites', link: '/partnersites' }],
+        items: [{ text: 'Partner Sites', link: '/partnersites' }],
       },    
       // Eigth Menu Item
       {
