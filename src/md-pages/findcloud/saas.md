@@ -76,12 +76,6 @@ The previous examples are free commercial services for personal use. For organiz
   </div>
 </div>
 
-
-
-
-
-
-
 ## SaaS Providers
 
 <div class="usa-alert usa-alert--success">

@@ -1,7 +1,7 @@
 ---
 title: Find Cloud - SaaS - Security & Identity Tools
 path: /findcloud/saas/securityidentitytools
-sidenav: true
+sidenav: false
 ---
 
 # Security & Identity Tools
