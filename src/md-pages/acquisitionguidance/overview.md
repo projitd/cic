@@ -4,6 +4,8 @@ path: /acquisitionguidance/overview
 sidenav: false
 ---
 
+## Acquisition Overview
+
 The CIC is designed to educate on all aspects of the acquisition lifecycle, including business, technical, and contractual aspects of cloud solutions. Navigating this page, you will find resource materials like acquisition templates and market research reports that can help accelerate cloud adoption.  Acquisition is one of the biggest challenges agencies face when trying to get on the cloud. This is because cloud relies on consumption-based payment (i.e., pay only for what you use), while the government relies on consistent, predictable billing models. The structures of government — some of which are required by law — often seem incompatible with the quick-moving pace of the private sector. This leads to frustration on the vendor side (as they’d like to move faster) and concern on the contracting side (as they need to make sure they’re following the rules). 
 
 Here are some tips to keep in mind as you work with your contracting officers:
@@ -15,7 +17,7 @@ Cloud Pricing must be an integral part of the software architecture activity and
 Current financial management systems weren’t designed for commercial cloud computing models; in fact, they work directly against the intended business advantages of cloud computing. If progress is slow, it isn’t because contracting officers are being contrary — it’s because they’re trying to fit a square peg into a round hole. 
 
 - **Research different acquisition vehicles**
-There are many ways to acquire cloud solutions, so take the time to select the one that's right for you. Reviewing the [Acquisition Vehicles](https://hallways.cap.gsa.gov/app/#/gateway/cloud-information-center/34813/acquisition-vehicles) page is a great place to start. 
+There are many ways to acquire cloud solutions, so take the time to select the one that's right for you. Reviewing the [Acquisition Resourcess](/acquisitionguidance/acquisitionresources) page is a great place to start. 
 
 - **Explore GSA's Acquisition Gateway**
 The [Acquisition Gateway](https://www.gsa.gov/tools/supply-procurement-etools/acquisition-gateway) offers resources and contacts for both contract specialists and buyers. The tool maintains a library of past and current successful contracts, as well as points of contact to learn more. 
