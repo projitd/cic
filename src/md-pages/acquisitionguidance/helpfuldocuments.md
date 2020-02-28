@@ -1,7 +1,7 @@
 ---
 title: Acquisition Guidance - Helpful Documents
 path: /acquisitionguidance/helpfuldocuments
-sidenav: true
+sidenav: false
 ---
 We have developed and collected helpful training documents, how-to guides, tutorials, and reference materials for you to review as you develop your own acquisition materials for acquiring cloud services.
 
