@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from "gatsby"
-
 /*
   This tagline will appear in your homepage
 */
@@ -29,7 +28,7 @@ const Tagline = () => (
         <div class="usa-alert usa-alert--info" >
           <div class="usa-alert__body">
             <h3 class="usa-alert__heading">Need more information?</h3>
-            <p class="usa-alert__text">Download the <Link to="/files/ITC Cloud Solutions Trifold.pdf">GSA Cloud Resource Guide</Link> today!</p>
+            <p class="usa-alert__text">Download the <a href="../../ITC-Cloud-Solutions-Trifold-508C.pdf">GSA Cloud Resource Guide</a> today!</p>
           </div>
         </div>
       </div>
