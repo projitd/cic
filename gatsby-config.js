@@ -33,7 +33,18 @@ module.exports = {
       },
       // Fifth Menu Item
       {
-        items: [{ text: 'Acquire Cloud', link: '/acquisitionguidance/overview' }],
+        title: 'Acquire Cloud',
+        items: [
+          { text: 'Overview', link: '/acquisitionguidance/overview' },
+          { text: 'Pricing', link: '/acquisitionguidance/pricing' },
+          { text: 'Market Research', link: '/acquisitionguidance/marketresearch' },
+          { text: 'Procurement Process', link: '/acquisitionguidance/procurementprocess' },
+          { text: 'Acquisition Challenges', link: '/acquisitionguidance/acquisitionchallenges' },
+          { text: 'Acquisition Resources', link: '/acquisitionguidance/acquisitionresources' },
+          { text: 'Templates', link: '/acquisitionguidance/templates' },
+          { text: 'Use Cases', link: '/acquisitionguidance/usecases' },
+          { text: 'Helpful Documents', link: '/acquisitionguidance/helpfuldocuments' },
+        ],
       },
       // Sixth Menu Item
       {
