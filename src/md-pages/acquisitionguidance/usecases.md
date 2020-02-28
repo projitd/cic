@@ -27,7 +27,7 @@ We have collected several "real-world" examples of acquisition documents from ac
 
 [<img src="../../file-word-regular.svg" width="20" />  **Payroll SaaS RFQ SOO**](/Payroll-SaaS-RFQ-SOO.docx) -- This is a draft SOO for a Payroll SaaS that agencies can use and tailor, as needed. This SOO includes functionality for Payroll and Work Schedule and Leave Management (WSLM), and the agencies should tailor to fit their own requirements, quantities for workload (hours), specific surveillance techniques, etc.
 
-[**Veterans Benefits Administration (VBA) Salesforce Center of Excellence, User-Centered Design Challenge**](https://techfarhub.cio.gov/learning-center/case-studies/vba-salesforce-coe) -- Case Study from techfarhub.cio.gov showcasing an example of VA acquiring Salesforce Development services.
+[<img src="../../external-link-alt-solid.svg" width="20" /> **Veterans Benefits Administration (VBA) Salesforce Center of Excellence, User-Centered Design Challenge**](https://techfarhub.cio.gov/learning-center/case-studies/vba-salesforce-coe) -- Case Study from techfarhub.cio.gov showcasing an example of VA acquiring Salesforce Development services.
 
 [<img src="../../file-pdf-regular.svg" width="20" />  **The National Oceanic and Atmospheric Administration (NOAA)**](/NOAA-Success-Story.pdf) -- is now using cloud to make public data like water reports, climate projections, and weather warnings readily available. Read about the best practices they employed in their cloud acquisition in this feature. 
 
