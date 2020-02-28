@@ -44,7 +44,7 @@ The MEGABYTE Act requires CIOs to develop a comprehensive software licensing pol
 - Embrace metrics such as software usage data to make cost-effective decisions.
 
 Each agency CIO must subsequently report after one year and then at five-yearly intervals of the financial savings which have resulted from improved software license management. In accordance with the act requirements, OMB published:
-- [<img src="../../file-pdf-regular.svg" width="20" /> M-16-12 Category Management Policy 16-1: Improving the Acquisition and Management of Common Information Technology: Software Licensing](http://hallways.cap.gsa.gov/app/#/gateway/best-class-bic/19036/docs/19665/m-16-12_1-1544468962.pdf)
+- [<img src="../../file-pdf-regular.svg" width="20" /> M-16-12 Category Management Policy 16-1: Improving the Acquisition and Management of Common Information Technology: Software Licensing](https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2016/m-16-12_1.pdf)
 
 - [MEGABYTE Act of 2016](https://www.congress.gov/bill/114th-congress/senate-bill/2340")		
 
@@ -67,7 +67,7 @@ Agencies will need to share their transformative experiences with their peers, s
 
 ### DATA CENTER OPTIMIZATION INITIATIVE (DCOI)
 
-The Data Center Optimization Initiative (DCOI) established in [OMB Memorandum M-16-19](https://hallways.cap.gsa.gov/app/#/gateway/information-technology/3585/omb-data-center-optimization-initiative-memo) super cedes the Federal Data Center Consolidation Initiative (FDCCI) and fulfills the data center requirements of the Federal Information Technology Acquisition Reform Act (FITARA).'
+The Data Center Optimization Initiative (DCOI) established in [<img src="../../file-pdf-regular.svg" width="20" /> OMB Memorandum M-16-19](https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2016/m_16_19_1.pdf) super cedes the Federal Data Center Consolidation Initiative (FDCCI) and fulfills the data center requirements of the Federal Information Technology Acquisition Reform Act (FITARA).'
 
 
 
@@ -86,11 +86,11 @@ Links:
 
 - [DCOI - Collaborate](https://www.gsa.gov/technology/government-it-initiatives/dcoi/dcoi-data-center-resources/collaborate)
 
-- [Cloud Readiness: Preparing Your Agency for Migration, April 2018](https://hallways.cap.gsa.gov/app/#/gateway/cloud-information-center/30691/cloud-readiness)
+- [<img src="../../file-pdf-regular.svg" width="20" /> Cloud Readiness: Preparing Your Agency for Migration, April 2018](../../cloud-readiness.pdf)
 
-- [IaaS Considerations for the Data Center Community: DCOI PMO Cloud Series, March 2017](http://www.gsacloudinfocenter.org/files%2011-13-2018/pdf/IAAS-CONSIDERATIONS-FOR-THE-DATA.pdf)
+- [<img src="../../file-pdf-regular.svg" width="20" /> IaaS Considerations for the Data Center Community: DCOI PMO Cloud Series, March 2017](../../iaas-considerations.pdf)
 
-- [Key Cost Considerations for Agencies Planning Cloud Migrations, November 2017](http://www.gsacloudinfocenter.org/files%2011-13-2018/pdf/KEY-COST-CONSIDERATIONS-FOR.pdf)
+- [<img src="../../file-pdf-regular.svg" width="20" /> Key Cost Considerations for Agencies Planning Cloud Migrations, November 2017](../../key-cost-considerations.pdf)
 
 		
 ### FedRAMP
@@ -146,8 +146,10 @@ Established in October of 2015, the United Shared Services Management (USSM) ini
 - Reduce duplication & cost across government for shared administrative functions.
 - Propose and reform policies/guidance to enable the vision for shared services, increase the likelihood of successful migrations, and reduce the barriers to adoption.
 
-[Unified Shared Services Management (USSM)](https://www.ussm.gov/)
+Link
+
+- [Unified Shared Services Management (USSM)](https://www.ussm.gov/)
 
 ### OFFICE of MANAGEMENT and BUDGET (OMB) GUIDANCE 
 
-[https://www.whitehouse.gov/omb/](https://www.whitehouse.gov/omb/)
+- [Whitehouse.gov/OMB](https://www.whitehouse.gov/omb/)
