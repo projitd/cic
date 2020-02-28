@@ -80,6 +80,8 @@ module.exports = {
     'gatsby-remark-responsive-iframe',
     'gatsby-transformer-remark',
     'gatsby-remark-images',
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
 
    
     {
