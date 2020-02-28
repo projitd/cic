@@ -5,7 +5,7 @@ path: /eventstraining
 sidenav: false
 ---
 
-# Events
+## Events
 
 <div class="usa-alert usa-alert--info" >
   <div class="usa-alert__body">
@@ -15,6 +15,6 @@ sidenav: false
   </div>
 </div>
 
-# Training
+## Training
 
 If you have training resources you think others could also benefit from, please contact us.

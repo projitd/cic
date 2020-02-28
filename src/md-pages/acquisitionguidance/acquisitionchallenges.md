@@ -3,6 +3,8 @@ title: Acquisition Guidance - Acquisition Challenges
 path: /acquisitionguidance/acquisitionchallenges
 sidenav: false
 ---
+## Acquisition Challenges
+
 Over the past year, we have identified common acquisition challenges related to acquiring cloud products and services with the help from Federal Agency and industry stakeholders. We encourage you to review and understand these acquisition challenges as you start the process of acquiring cloud products and services within your own Agency. Our goal is to continuously develop solutions for each of these common challenges and share them with all of you.
 
 1. **Color of Appropriated funds for Continuous Flow of cloud service consumption**
