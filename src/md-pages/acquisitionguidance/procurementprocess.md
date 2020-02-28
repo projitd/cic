@@ -1,7 +1,7 @@
 ---
 title: Acquisition Guidance - Procurement Process
 path: /acquisitionguidance/procurementprocess
-sidenav: true
+sidenav: false
 ---
 There is no one “cloud” — rather, there are multiple cloud deployment models (i.e., private, public, community, hybrid) and cloud service models (i.e., Infrastructure as a Service, Platform as a Service, Software as a Service). Combine that with the ability of the government  to use multiple types of contracts (e.g., Firm Fixed Price, Not to Exceed) and multiple ways to purchase (e.g., acquisition vehicles), and you’ll find that there’s no shortage in options of getting cloud deployed at your agency. You’ll want to conduct market research — about what cloud solutions meet your agency's mission and which acquisition strategies can get you there.  
  
