@@ -29,3 +29,4 @@ export const onInitialClientRender = () => {
 export const onRouteUpdate = ({ location }) => {
   loaded && dap(location.pathname);
 };
+
