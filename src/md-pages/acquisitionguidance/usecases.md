@@ -1,7 +1,7 @@
 ---
 title: Acquisition Guidance - Use Cases
 path: /acquisitionguidance/usecases
-sidenav: true
+sidenav: false
 ---
 We have collected several "real-world" examples of acquisition documents from across the government for you to review as you develop your own acquisition materials for acquiring cloud commercial and professional services. These examples have been vetted by our Cloud Subject Mater Experts (SMEs) and successfully awarded to several agencies.  We also will routinely post success stories as they become available.  If you have a cloud success story you would like to share please share with us at cloudinfo@gsa.gov.
 

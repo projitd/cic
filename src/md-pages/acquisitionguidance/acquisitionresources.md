@@ -1,7 +1,7 @@
 ---
 title: Acquisition Guidance - Acquisition Resources
 path: /acquisitionguidance/acquisitionresources
-sidenav: true
+sidenav: false
 ---
 # Cloud Acquisition Resources
 

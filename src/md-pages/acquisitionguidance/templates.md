@@ -1,7 +1,7 @@
 ---
 title: Acquisition Guidance - Templates
 path: /acquisitionguidance/templates
-sidenav: true
+sidenav: false
 ---
 Templates for Requests For Proposals (RFPs), Statements Of Works (SOWs), Performance Work Statements (PWSs), Statement Of Objectives (SOOs), and other acquisition documents can make it easier for you as you develop your own acquisition materials for acquiring cloud services. These templates have been developed with our Cloud Subject Mater Experts (SMEs) based on best in class contracts, and we are available to answer any questions that arise.
 
