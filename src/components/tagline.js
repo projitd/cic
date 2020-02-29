@@ -25,14 +25,28 @@ const Tagline = () => (
         <li>Supports the cloud adoption journeys of all Government agencies through direct GSA customer support!</li>
         </ul>
         </p>
-        <div class="usa-alert usa-alert--info" >
-          <div class="usa-alert__body">
-            <h3 class="usa-alert__heading">Need more information?</h3>
-            <p class="usa-alert__text">Download the <a href="../../ITC-Cloud-Solutions-Trifold-508C.pdf">GSA Cloud Resource Guide</a> today!</p>
-          </div>
-        </div>
+        
       </div>
     </div>
+
+    <div class="grid-container-TOPMARGIN">
+  <div class="grid-row">
+    <div class="tablet:grid-col"><p><h3>See our services at a glance!</h3></p>
+            <p class="usa-alert__text">Download the GSA Cloud Resource Guide today:
+            <ul>
+              <li>Free market research publication service performed on the agency’s behalf</li>
+              <li>Free scope reviews and templates on the GSA Cloud Information Center (CIC)</li> 
+              <li>Best practices and information forums via the GSA CIC</li>
+              <li> Direct agency support by email and phone</li>
+            </ul>
+            
+            </p></div>
+    <div class="tablet:grid-col"><a href="../../ITC-Cloud-Solutions-Trifold-508C.pdf"><img src="../../GSA-trifold-mockup.png" /></a></div>
+  </div>
+</div>
+
+
+ 
   </section>
 );
 
