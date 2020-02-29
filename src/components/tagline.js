@@ -31,7 +31,7 @@ const Tagline = () => (
 
     <div class="grid-container-TOPMARGIN">
   <div class="grid-row">
-    <div class="tablet:grid-col"><p><h3>See our services at a glance!</h3></p>
+    <div class="tablet:grid-col"><p><h2>See our services at a glance!</h2></p>
             <p class="usa-alert__text">Download the GSA Cloud Resource Guide today:
             <ul>
               <li>Free market research publication service performed on the agency’s behalf</li>
