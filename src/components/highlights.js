@@ -19,7 +19,7 @@ const Highlights = () => (
               Help!
             </h3>
             <p>
-              <Link to="/support">I need assistance with picking a cloud solution/cloud acquisition.</Link>
+              <Link to="/support">I need help with a cloud solution / acquisition.</Link>
             </p>
           </div>
         </div>
@@ -30,7 +30,7 @@ const Highlights = () => (
                 How to Buy
              </h3>
              <p>
-                <Link to="/acquisitionguidance/overview">I know the solution I need but not how to acquire it.</Link>
+                <Link to="/acquisitionguidance/overview">I to acquire a cloud solution I've found.</Link>
               </p>
            </div>
           </div>
@@ -38,10 +38,10 @@ const Highlights = () => (
         <Link to="/whycloud/overview"><img className="usa-media-block__img" src={cloud} alt="Cloud Overview" /></Link>
           <div className="usa-media-block__body">
             <h3 className="usa-graphic-list__heading">
-              Cloud Overview
+              Cloud Basics
             </h3>
             <p>
-              <Link to="/whycloud/overview">I’d like some information about cloud solutions and collaboration with others.</Link>
+              <Link to="/whycloud/overview">I need a beginners guide to all things cloud.</Link>
             </p>
           </div>
         </div>

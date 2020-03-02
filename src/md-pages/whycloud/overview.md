@@ -7,19 +7,24 @@ sidenav: false
 
 ## Cloud Basics
 
-The first thing to know is that there is no single "cloud." Moving to the cloud isn't as simple as unplugging existing servers and turning them over to a Cloud Service Provider (CSP).  You will need to evaluate your current and future needs, then select the best deployment and services models that meet the requirements to support your organizations mission.   
+The first thing to know is that there is no single "cloud." Moving to the cloud isn't as simple as unplugging existing servers and turning them over to a Cloud Service Provider (CSP).  
 
-<div class="video-container">
+You will need to evaluate your current and future needs, then select the best deployment and services models that meet the requirements to support your organizations mission.
+
+
+<div class="usa-embed-container" aria-label="16:9">
 <iframe src="https://www.youtube.com/embed/UorIwPZU_eg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-
-
-### What is Cloud?
-
-Definitions vary, but government follows guidance from the National Institute of Standards and Technology (NIST). To be properly considered "cloud," third-party systems must meet these **3 NIST cloud model components**:
+<br>
+<div class="usa-alert usa-alert--info">
+    <div class="usa-alert__body">
+        <h3 class="usa-alert__heading">What is the "Cloud"?</h3>
+        <p class="usa-alert__text">Definitions vary, but government follows guidance from the National Institute of Standards and Technology (NIST).</p><p> To be properly considered "cloud," third-party systems must meet these three NIST cloud model components:</p>
+    </div>
+</div>
 
 <div class="grid-container">
-  <div class="grid-row">
+  <div class="grid-row" style="text-align:center">
     <div class="tablet:grid-col"><div style="font-size:62px">5</div>Essential Characteristics</div>
     <div class="tablet:grid-col"><div style="font-size:62px">4</div>Deployment Models</div>
     <div class="tablet:grid-col"><div style="font-size:62px">3</div>Service Models</div>

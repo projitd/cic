@@ -8,18 +8,6 @@ sidenav: false
 
 Software as a Service (SaaS) is a method for delivering software applications over the Internet, on demand and typically on a subscription basis. With SaaS, Cloud  Service Providers (CSPs) host and manage the application software and underlying infrastructure, and handle any maintenance, like software upgrades and security patching. Users connect to the application over the Internet, usually by a web browser on their phone, tablet, or PC.
 
-Learn more about SaaS Products / Solutions (select topic from list below)
-
-<a href="/findcloud/saas/businessproductivity"><button class="usa-button usa-button--outline">Business Productivity And Workflow</button></a>
- 
-<a href="/findcloud/saas/collaboration"><button class="usa-button usa-button--outline">Collaboration and Communication</button></a> 
-
-<a href="/findcloud/saas/crm"><button class="usa-button usa-button--outline">Customer Relationship Management (CRM)</button></a> 
-
-<a href="/findcloud/saas/devtools"><button class="usa-button usa-button--outline">Developer Tools</button></a> 
- 
-<a href="/findcloud/saas/securityidentitytools"><button class="usa-button usa-button--outline">Security / Identity Tools</button></a> 
-
 ## SaaS Model
 ![SaaS model](../../saas-model.png)
 
@@ -47,6 +35,18 @@ The previous examples are free commercial services for personal use. For organiz
 
 - **Access app data from anywhere**
 ~ With data stored in the cloud, users can access their information from any Internet-connected computer or mobile device. And when application data is stored in the cloud, no data is lost if a user’s computer or device fails.
+
+Learn more about SaaS Products / Solutions (select topic from list below)
+
+<a href="/findcloud/saas/businessproductivity"><button class="usa-button usa-button--outline">Business Productivity And Workflow</button></a>
+ 
+<a href="/findcloud/saas/collaboration"><button class="usa-button usa-button--outline">Collaboration and Communication</button></a> 
+
+<a href="/findcloud/saas/crm"><button class="usa-button usa-button--outline">Customer Relationship Management (CRM)</button></a> 
+
+<a href="/findcloud/saas/devtools"><button class="usa-button usa-button--outline">Developer Tools</button></a> 
+ 
+<a href="/findcloud/saas/securityidentitytools"><button class="usa-button usa-button--outline">Security / Identity Tools</button></a> 
 
 ## Helpful Documents
 

@@ -22,7 +22,7 @@ After this is known, the third and final stage is...
 
 3. **Planning for Migration** - This includes risk assessments and financial considerations. What can be afforded now, and what should be budgeted for the new fiscal year? What's a good system to use as a pilot — accommodate your learning curve!
 
-If you are unable to perform all of this on your own, there are vendors who can help. At the request of OMB, GSA has developed [Statement of Objectives (SOO) templates](https://hallways.cap.gsa.gov/app/#/gateway/cloud-information-center/30605/templates) that can used to acquire cloud support services for things like assessment, planning, execution, and decommissioning.
+If you are unable to perform all of this on your own, there are vendors who can help. At the request of OMB, GSA has developed [Statement of Objectives (SOO) templates](/acquisitionguidance/templates) that can used to acquire cloud support services for things like assessment, planning, execution, and decommissioning.
 
 Whether taking this task on yourself or bringing in outside help, all agencies — regardless of their existing network documentation — should map out their enterprise networks when they decide to move to the cloud. Many agencies who thought they knew their networks are surprised when they enter the discovery phase and find unknown endpoints or unexpected traffic patterns.
 
