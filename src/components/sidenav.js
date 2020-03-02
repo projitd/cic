@@ -4,10 +4,12 @@ import { Link } from 'gatsby';
 /*
   The sidenav is not loaded by default on the main pages. To include this navigation you can
   add "sidenav: true" in the front-matter of your markdown pages
+
+  Eric - changed grid col from 3 to 2
 */
 
 const Sidenav = () => (
-  <aside className="usa-layout-docs-sidenav desktop:grid-col-3 padding-bottom-4">
+  <aside className="usa-layout-docs-sidenav desktop:grid-col-2 padding-bottom-4">
     <nav>
       <ul className="usa-sidenav">
         <li className="usa-sidenav__item">
