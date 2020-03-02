@@ -5,12 +5,12 @@ sidenav: false
 ---
 ## Cloud Acquisition Resources
 
-The following table provides links to information on individual Acquisition Vehicles, Blanket Purchase Agreements (BPAs), and Assisted Acquisition Services (AAS). 
+The following table provides links to information on individual Acquisition Vehicles, Blanket Purchase Agreements (BPAs), Assisted Acquisition Services (AAS), and Government Cloud Service Providers.
 
 <div class="usa-alert usa-alert--info" >
   <div class="usa-alert__body">
     <h3 class="usa-alert__heading"></h3>
-    <p class="usa-alert__text">Please contact us to have your Acquisition Vehicle, Blanket Purchase Agreement, or Assisted Acquisition Services listed on the Cloud Information Center (CIC).</p>
+    <p class="usa-alert__text">Please contact us to have your Acquisition Vehicle, Blanket Purchase Agreement, Assisted Acquisition Services, or Government Cloud Service Providers listed on the Cloud Information Center (CIC).</p>
     <p><a href="mailto:cloudinfo@gsa.gov?subject=CIC%20Cloud%20Assistance%20Request"><button class="usa-button ">CloudInfo@GSA.gov</button></a></p>
   </div>
 </div>
