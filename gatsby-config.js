@@ -63,7 +63,7 @@ module.exports = {
 
     // Links above Search Widget in Header
     secondaryLinks: [
-      { text: 'Support', link: '/support' },
+      { text: 'Contact Us', link: '/support' },
       { text: 'CloudSmart', link: '/cloudsmart' },
     ],
 
