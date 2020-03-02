@@ -10,7 +10,7 @@ sidenav: false
 <div class="usa-alert usa-alert--info" >
   <div class="usa-alert__body">
     <h3 class="usa-alert__heading"></h3>
-    <p class="usa-alert__text">Cloud adoption is bigger than just moving to the cloud — it's an opportunity to reconsider the what, why, and how IT holistically supports your agency's mission.</p>
+    <p class="usa-alert__text">Cloud adoption is bigger than just moving to the cloud — it's an opportunity to <b>reconsider the what, why, and how</b> IT holistically supports your agency's mission.</p>
   </div>
 </div>
 
