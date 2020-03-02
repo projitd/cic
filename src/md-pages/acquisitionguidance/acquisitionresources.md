@@ -1153,48 +1153,23 @@ The following table provides links to information on individual Acquisition Vehi
 
 #Markdown table conversion test
 
-
-| Servicing Agency:       | United States Department of Agriculture \(USDA\)                                                      |
-|------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Servicing Agency Office:|Office of the Chief Information Officer \- Digital Infrastructure Services Center \(OCIO\-DISC\)       |
-| Servicing Agency Website:  | 
-https://www\.ocio\.usda\.gov/about\-ocio/digital\-infrastructure\-services\-center\-disc
-                     |
-| Servicing Agency Scope:                                    | 
-The OCIO\-DISC manages a Government Enterprise Data Center providing Cloud services to requesting agencies\.
- |
-| 
-Servicing Agency Cloud Services:
-                         | • Managed Hosting                                                                                              | Yes                                          | • Other Services |
-| • Infrastructure as a Service \(IaaS\)                     | Yes                                                                                                            |      • Commercial Cloud Access Point \(CAP\) |
-| • Platform as a Service \(PaaS\)                           | Yes                                                                                                            |      • Disaster Recovery                     |
-| • Software as a Service \(SaaS\)                           | Yes                                                                                                            |      • Enterprise Container Platform         |
-| • Security Services                                        | Yes                                                                                                            |      • Mainframe                             |
-| • Professional Services                                    | Yes                                                                                                            |      • Social Networking Solutions           |
-| • Business Services                                        | Yes                                                                                                            |      • Virtual Application Hosting           |
-| See Service Catalog for Complete Listing of Cloud Services |
-| 
-Servicing Agency Service Catalog: 
-                       | 
-OCIO\-DISC Service Catalog
-                                                                                   |
-| Servicing Agency Cloud Security Levels:                    | 
-FedRAMP Impact Level: 
-                                                                                       | Moderate                                     |
-| Department of Defense \(DOD\) Impact Level:                | 4                                                                                                              |
-| Security Classification:                                   | Controlled Unclassified Information \(CUI\)                                                                    |
-| Authorized Requesting Agencies:                            | 
-Federal and State Government Agencies
-                                                                        |
-| 
-Authority for Interagency Agreements \(IAAs\):
-           | 
-31 USC § 1535 The Economy Act
-                                                                                |
-| 
-Servicing Agency Fee:
-                                    | 
-Cost Reimbursable
-                                                                                            |
-| Last Updated:                                              | February 20, 2020                                                                                              |
-
+|Servicing Agency:|United States Department of Agriculture (USDA)|
+|Servicing Agency Office:|Office of the Chief Information Officer - Digital Infrastructure Services Center (OCIO-DISC)|
+|Servicing Agency Website:|https://www.ocio.usda.gov/about-ocio/digital-infrastructure-services-center-disc|
+|Servicing Agency Scope:|The OCIO-DISC manages a Government Enterprise Data Center providing Cloud services to requesting agencies.|
+|Servicing Agency Cloud Services:|• Managed Hosting|Yes|• Other Services|
+|• Infrastructure as a Service (IaaS)|Yes|• Commercial Cloud Access Point (CAP)|
+|• Platform as a Service (PaaS)|Yes|• Disaster Recovery|
+|• Software as a Service (SaaS)|Yes|• Enterprise Container Platform|
+|• Security Services|Yes|• Mainframe|
+|• Professional Services|Yes|• Social Networking Solutions|
+|• Business Services|Yes|• Virtual Application Hosting|
+|See Service Catalog for Complete Listing of Cloud Services|
+|Servicing Agency Service Catalog:|OCIO-DISC Service Catalog|
+|Servicing Agency Cloud Security Levels:|FedRAMP Impact Level:|Moderate|
+|Department of Defense (DOD) Impact Level:|4|
+|Security Classification:|Controlled Unclassified Information (CUI)|
+|Authorized Requesting Agencies:|Federal and State Government Agencies|
+|Authority for Interagency Agreements (IAAs):|31 USC § 1535 The Economy Act|
+|Servicing Agency Fee:|Cost Reimbursable|
+|Last Updated:|February 20, 2020|
