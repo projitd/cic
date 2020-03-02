@@ -74,8 +74,8 @@ module.exports = {
     // 3. Add your site/affiliate name here.
     searchgov: {
       endpoint: 'https://search.usa.gov', // You should not change this.
-      affiliate: 'federalist-uswds-example', // replace this with your search.gov account
-      access_key: 'xX1gtb2RcnLbIYkHAcB6IaTRr4ZfN-p16ofcyUebeko=', // This is placeholder. Not private.
+      affiliate: 'gsa-cic', // replace this with your search.gov account
+      access_key: 'LINTBPOt4q19dOeG9eA7UHi4TRQIujq2GXf6kwcwTyE=', // This is placeholder. Not private.
       inline: true, // this renders the results on the same domain. Otherwise, it will render the results in the search.gov domain
     },
     dapAgency: 'GSA',
