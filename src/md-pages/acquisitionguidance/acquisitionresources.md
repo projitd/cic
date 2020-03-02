@@ -1152,16 +1152,10 @@ The following table provides links to information on individual Acquisition Vehi
 
 
 Markdown table conversion test
-| Servicing Agency:                                          | 
-United States Department of Agriculture \(USDA\)
-                                                             |
+| Servicing Agency:       | United States Department of Agriculture \(USDA\)                                                      |
 |------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Servicing Agency Office:                                   | 
-Office of the Chief Information Officer \- Digital Infrastructure Services Center \(OCIO\-DISC\)
-             |
-| 
-Servicing Agency Website: 
-                               | 
+| Servicing Agency Office:|Office of the Chief Information Officer \- Digital Infrastructure Services Center \(OCIO\-DISC\)       |
+| Servicing Agency Website:  | 
 https://www\.ocio\.usda\.gov/about\-ocio/digital\-infrastructure\-services\-center\-disc
                      |
 | Servicing Agency Scope:                                    | 
