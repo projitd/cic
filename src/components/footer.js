@@ -14,14 +14,14 @@ const Footer = () => (
             </div>
           </div>
           <div className="tablet:grid-col"></div>
-          <div className="tablet:grid-col">
+          <div className="tablet:grid-col" align="right">
            <div class="nomargin"><h3>Contact the GSA Cloud Team</h3></div>
            <ul className="add-list-reset">
               <li>
-              <strong>Phone: </strong><a className="footer-logo media_link" href="tel:202-969-7113">202-969-7113</a>
+              <a className="footer-logo media_link" href="tel:202-969-7113"><button class="usa-button usa-button--outline">202-969-7113</button></a>
               </li>
               <li>
-                <strong>Email: </strong><a className="footer-logo media_link" href="mailto:cloudinfo@gsa.gov?subject=CIC%20Cloud%20Assistance%20Request">cloudinfo@gsa.gov</a>
+                <p><a className="footer-logo media_link" href="mailto:cloudinfo@gsa.gov?subject=CIC%20Cloud%20Assistance%20Request"><button class="usa-button usa-button--outline">CloudInfo@GSA.gov</button></a></p>
               </li>
           </ul>
           </div>
