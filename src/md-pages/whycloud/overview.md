@@ -46,37 +46,18 @@ You will need to evaluate your current and future needs, then select the best de
    </button>
   </h2>
   <div id="b-a1" class="usa-accordion__content usa-prose">
-    <table class="usa-table usa-table--borderless">
   
-  <thead>
-    <tr>
-      <th scope="col"></th>
-      <th scope="col">Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">On-demand self-service</th>
-      <td>Scale resources like server time or network storage on your own, whenever you want - you don't need to work with an IT department.</td>
-    </tr>
-    <tr>
-      <th scope="row">Broad network access</th>
-      <td>Gives you a variety of ways to access your resources outside of your organization's network: mobile phones, tablets, laptops, workstations, etc.</td>
-    </tr>
-    <tr>
-      <th scope="row">Resource pooling</th>
-      <td>Multiple users access a shared set of physical and virtual resources based on demand.</td>
-    </tr>
-    <tr>
-      <th scope="row">Rapid elasticity</th>
-      <td>Gives you the ability to scale your resources quickly, both outward and inward.</td>
-    </tr>
-    <tr>
-      <th scope="row">Measured Service</th>
-      <td>Automatically track your resource usage so that you pay for only what you actually use.</td>
-    </tr>
-  </tbody>
-</table>
+
+- **On-demand self-service** - Scale resources like server time or network storage on your own, whenever you want - you don't need to work with an IT department.
+
+ - **Broad network access** - Gives you a variety of ways to access your resources outside of your organization's network: mobile phones, tablets, laptops, workstations, etc.
+
+ - **Resource pooling** - Multiple users access a shared set of physical and virtual resources based on demand.
+ 
+ - **Rapid elasticity** - Gives you the ability to scale your resources quickly, both outward and inward.
+ 
+ - **Measured Service** - Automatically track your resource usage so that you pay for only what you actually use.
+
 </div>
   
   <!-- Use the accurate heading level to maintain the document outline -->
@@ -128,10 +109,13 @@ You will need to evaluate your current and future needs, then select the best de
   <div id="b-a3" class="usa-accordion__content usa-prose">
     <p>In addition to selecting the deployment model(s), the appropriate service model(s) also need to be selected. These different cloud service models work together, the underlying infrastructure supporting the platforms, and those platforms in turn support the application software.</p>
 
-| IaaS  | PaaS | SaaS |
-| ----| ----| ----|
-|**Infrastructure as a Service**|**Platform as a Service**|**Software as a Service**|
-|Outsource the physical parts of computing: power, cooling, racks, connectivity, and more. IaaS solutions give you full control over virtual machines, which can be both a positive and a negative: just like on-premises, the configuration is highly customizable, but just like on-premises, staff (or contractors) are required to manage and maintain everything but the hardware. That includes operating systems, databases, and compliance, as well as any applications installed on top of the operating systems.|Outsource both infrastructure and operations. With PaaS, the provider is  responsible for  system administration, operating systems, or networking.   User applications are deployed on top of a set of predetermined configurations. PaaS solutions are less customizable than IaaS solutions, but also require less staff time to maintain and support, especially in terms of security and compliance.|Outsource everything, including the code of the applications used. Users have very little responsibility for the application software — the provider is responsible for keeping it up to date, easy to use, or compliant.  In exchange, the user has minimal control over what the application software does, how it works or when it changes/updates. SaaS solutions, unlike other cloud models, tend to be direct end-user-facing.|
+
+- **IaaS (Infrastructure as a Service)** - Outsource the physical parts of computing: power, cooling, racks, connectivity, and more. IaaS solutions give you full control over virtual machines, which can be both a positive and a negative: just like on-premises, the configuration is highly customizable, but just like on-premises, staff (or contractors) are required to manage and maintain everything but the hardware. That includes operating systems, databases, and compliance, as well as any applications installed on top of the operating systems.
+
+- **PaaS (Platform as a Service)** - Outsource both infrastructure and operations. With PaaS, the provider is  responsible for  system administration, operating systems, or networking.   User applications are deployed on top of a set of predetermined configurations. PaaS solutions are less customizable than IaaS solutions, but also require less staff time to maintain and support, especially in terms of security and compliance.
+
+- **SaaS (Software as a Service)** - Outsource everything, including the code of the applications used. Users have very little responsibility for the application software — the provider is responsible for keeping it up to date, easy to use, or compliant.  In exchange, the user has minimal control over what the application software does, how it works or when it changes/updates. SaaS solutions, unlike other cloud models, tend to be direct end-user-facing.
+
 
 ![Cloud Service Models diagram](../../cloud-service-models.png)
 
