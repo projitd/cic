@@ -1,7 +1,7 @@
 ---
 title: Find Cloud Solutions -  
 path: /findcloud/iaas
-sidenav: false
+sidenav: true
 ---
 
 ## Infrastructure as a Service (IaaS)

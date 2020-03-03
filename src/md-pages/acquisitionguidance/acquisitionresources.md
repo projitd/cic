@@ -1,9 +1,9 @@
 ---
 title: Acquisition Guidance - Acquisition Resources
 path: /acquisitionguidance/acquisitionresources
-sidenav: false
+sidenav: true
 ---
-## Cloud Acquisition Resources
+## Acquisition Resources
 
 The following table provides links to information on individual Acquisition Vehicles, Blanket Purchase Agreements (BPAs), Assisted Acquisition Services (AAS), and Government Cloud Service Providers.
 

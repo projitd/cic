@@ -1,7 +1,7 @@
 ---
 title: Cloud Planning - Technical Implementation
 path: /cloudplanning/technical
-sidenav: false
+sidenav: true
 ---
 
 # Technical Implementation

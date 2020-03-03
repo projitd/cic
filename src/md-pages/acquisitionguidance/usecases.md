@@ -1,7 +1,7 @@
 ---
 title: Acquisition Guidance - Use Cases
 path: /acquisitionguidance/usecases
-sidenav: false
+sidenav: true
 ---
 
 ## Use Cases

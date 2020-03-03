@@ -54,37 +54,30 @@ $theme-hero-image: '../images/cloud-hero.jpg';
 }
 
 
-// Added by Eric M to fix width issue when sidebar false
+// Added by Eric M to fix width issue when sidebar false and other items
 
 .usa-list li, .usa-prose > ul li, .usa-prose > ol li, .usa-prose p
 {
   max-width: 95%;
 }
 
-
 .nomargin h2, h3 {margin-top: -5px;}
-
-.video-container {
-  overflow: hidden;
-  position: relative;
-  width:75%;
-}
-
-.video-container::after {
-  padding-top: 56.25%;
-  display: block;
-  content: '';
-}
-
-.video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 95%;
-  height: 95%;
-}
 
 .grid-container-TOPMARGIN
 {
   margin-top: 50px;
+}
+
+.usa-layout-docs__main{order: 1;}
+
+.usa-layout-docs-sidenav{
+  order: 2;
+}
+
+.usa-focus{
+  font-weight: bold;
+}
+
+.usa-sidenav{
+  position: fixed;
 }

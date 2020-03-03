@@ -1,7 +1,7 @@
 ---
 title: Acquisition Guidance - Procurement Process
 path: /acquisitionguidance/procurementprocess
-sidenav: false
+sidenav: true
 ---
 
 ## Procurement Process

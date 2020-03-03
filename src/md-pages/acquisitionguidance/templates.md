@@ -1,7 +1,7 @@
 ---
 title: Acquisition Guidance - Templates
 path: /acquisitionguidance/templates
-sidenav: false
+sidenav: true
 ---
 
 ## Templates

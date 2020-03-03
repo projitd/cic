@@ -2,7 +2,7 @@
 title: Cloud Planning
 permalink: /cloudplanning/overview
 path: /cloudplanning/overview
-sidenav: false
+sidenav: true
 ---
 
 # Cloud Planning Basics

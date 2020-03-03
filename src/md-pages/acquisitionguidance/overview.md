@@ -1,7 +1,7 @@
 ---
 title: Acquisition Guidance - Overview
 path: /acquisitionguidance/overview
-sidenav: false
+sidenav: true
 ---
 
 ## Acquisition Overview

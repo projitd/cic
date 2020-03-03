@@ -1,7 +1,7 @@
 ---
 title: Find Cloud Solutions - Software As A Service
 path: /findcloud/saas
-sidenav: false
+sidenav: true
 ---
 
 # Software as a Service (Saas)
