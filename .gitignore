@@ -16,6 +16,7 @@ lib-cov
 
 # Coverage directory used by tools like istanbul
 coverage
+junit.xml
 
 # nyc test coverage
 .nyc_output
@@ -56,8 +57,10 @@ typings/
 
 # gatsby files
 .cache/
-public
+.netlify
+public/
 _site
+node_modules/
 
 # Mac files
 .DS_Store
@@ -68,3 +71,12 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
+
+# lock files
+yarn.lock
+package-lock.json
+
+# IDE specific
+.idea/
+.vscode/
+*.sw*
