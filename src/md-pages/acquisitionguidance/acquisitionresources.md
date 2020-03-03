@@ -17,76 +17,81 @@ The following table provides links to information on individual Acquisition Vehi
 
 
 # Acquisition Vehicles
-<table border="5" cellspacing="10" cellpadding="5" align="center">
-<tbody>
-<tr>
-<td style="text-align: center; vertical-align: middle; width: 25%;"><a href="#ACQ_VEHICLES" target="_self"><span style="color: #0000ff;"><span style="font-size: 16px;"><strong>Acquisition Vehicles</strong></span></span></a></td>
-<td style="text-align: center; vertical-align: bottom; width: 25%;">
-<p><span style="font-size: 16px;"><strong><a href="#ACQ_BPA" target="_self"><span style="color: #0000ff;">Blanket Purchase Agreements</span></a></strong></span></p>
-</td>
-<td style="text-align: center; vertical-align: bottom; width: 25%;">
-<p><span style="font-size: 16px;"><strong><a href="#ACQ_AAS" target="_self"><span style="color: #0000ff;">Assisted Acquisition Services </span></a></strong></span></p>
-</td>
-<td style="text-align: center; vertical-align: middle; width: 25%;"><span style="font-size: 16px;"><strong><a href="#ACQ_GOV_CSP" target="_self"><span style="color: #0000ff;">Government Cloud Service Providers</span></a></strong></span></td>
-</tr>
-<tr>
-<td><a href="#ACQ_VEHICLE_GSA_8a_STARS_II" target="_self"><span style="color: #0000ff;"><span style="font-size: 14px;">GSA 8(a) STARS II</span></span></a></td>
-<td><a href="#ACQ_BPA_GSA_SIISS" target="_self"><span style="color: #0000ff;"><span style="font-size: 14px;">GSA Salesforce Implementation, Integration, and Support Services (SIISS)</span></span></a></td>
-<td>&nbsp;</td>
-<td><a href="#ACQ_GOV_CSP_USDA" target="_self"><span style="color: #0000ff;"><span style="font-size: 14px;">United States Department of Agriculture (USDA)</span></span></a></td>
-</tr>
-<tr>
-<td><a href="#ACQ_VEHICLE_GSA_Alliant_2" target="_self"><span style="color: #0000ff;"><span style="font-size: 14px;">GSA Alliant 2</span></span></a></td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td><a href="#ACQ_VEHICLE_GSA_EIS" target="_self"><span style="color: #0000ff;"><span style="font-size: 14px;">GSA Enterprise Infrastructure Solutions (EIS)</span></span></a></td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td>
-<p><a href="#ACQ_VEHICLE_GSA_IT_SCH_70" target="_self"><span style="color: #0000ff;"><span style="font-size: 14px;">GSA IT Schedule 70, SIN 132-40<span style="font-size: 14px;">&nbsp;/ Multiple Award Schedule, SIN 518210C&nbsp;- </span></span>Cloud and Cloud-Related IT Professional Services<span style="font-size: 14px;"><span style="font-size: 14px;">&nbsp;</span></span></span></a></p>
-</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td><a href="#ACQ_VEHICLE_GSA_VETS_2" target="_self"><span style="color: #0000ff;"><span style="font-size: 14px;">GSA VETS 2</span></span></a></td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td><a href="#ACQ_VEHICLE_NASA_SEWP" target="_self"><span style="color: #0000ff;"><span style="font-size: 14px;">NASA Solutions for Enterprise-Wide Procurement (SEWP)</span></span></a></td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td><a href="#ACQ_VEHICLE_NIH_CIO_CS" target="_self"><span style="color: #0000ff;"><span style="font-size: 14px;">NIH&nbsp;Chief Information Officer-Commodities and Solutions (CIO-CS)</span></span></a></td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td><a href="#ACQ_VEHICLE_NIH_CIO_SP3" target="_self"><span style="color: #0000ff;"><span style="font-size: 14px;">NIH Chief Information Officer-Solutions and Partners 3 (CIO-SP3)</span></span></a></td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td><a href="#ACQ_VEHICLE_NIH_CIO_SP3_SB" target="_self"><span style="color: #0000ff;"><span style="font-size: 14px;">NIH Chief Information Officer-Solutions and Partners 3 (CIO-SP3) Small Business&nbsp;</span></span></a></td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-</tr>
-</tbody>
+<table align="center" border="5" cellpadding="10" cellspacing="20">
+	<tbody>
+		<tr>
+			<td style="text-align:center; vertical-align:middle; width:25%"><a href="#ACQ_VEHICLES" target="_self"><span style="color:#0000ff"><span style="font-size:16px"><strong>Acquisition Vehicles</strong></span></span></a></td>
+			<td style="text-align:center; vertical-align:bottom; width:25%">
+			<p><span style="font-size:16px"><strong><a href="#ACQ_BPA" target="_self"><span style="color:#0000ff">Blanket Purchase Agreements</span></a></strong></span></p>
+			</td>
+			<td style="text-align:center; vertical-align:bottom; width:25%">
+			<p><span style="font-size:16px"><strong><a href="#ACQ_AAS" target="_self"><span style="color:#0000ff">Assisted Acquisition Services </span></a></strong></span></p>
+			</td>
+			<td style="text-align:center; vertical-align:middle; width:25%"><span style="font-size:16px"><strong><a href="#ACQ_GOV_CSP" target="_self"><span style="color:#0000ff">Government Cloud Service Providers</span></a></strong></span></td>
+		</tr>
+		<tr>
+			<td><a href="#ACQ_VEHICLE_GSA_8a_STARS_II" target="_self"><span style="color:#0000ff"><span style="font-size:14px">GSA 8(a) STARS II</span></span></a></td>
+			<td><a href="#ACQ_BPA_GSA_SIISS" target="_self"><span style="color:#0000ff"><span style="font-size:14px">GSA Salesforce Implementation, Integration, and Support Services (SIISS)</span></span></a></td>
+			<td>&nbsp;</td>
+			<td>
+			<p><a href="#ACQ_GOV_CSP_GSA_Cloud_Gov" target="_self"><span style="color:#0000ff">GSA cloud.gov</span></a></p>
+			</td>
+		</tr>
+		<tr>
+			<td><a href="#ACQ_VEHICLE_GSA_Alliant_2" target="_self"><span style="color:#0000ff"><span style="font-size:14px">GSA Alliant 2</span></span></a></td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>
+			<p><span style="font-size:14px"><a href="#ACQ_GOV_CSP_USDA" target="_self"><span style="color:#0000ff">USDA Digital Infrastructure Services Center</span></a></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td><a href="#ACQ_VEHICLE_GSA_EIS" target="_self"><span style="color:#0000ff"><span style="font-size:14px">GSA Enterprise Infrastructure Solutions (EIS)</span></span></a></td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>
+			<p><a href="#ACQ_VEHICLE_GSA_IT_SCH_70" target="_self"><span style="color:#0000ff"><span style="font-size:14px">GSA IT Schedule 70, SIN 132-40<span style="font-size:14px">&nbsp;/ Multiple Award Schedule, SIN 518210C&nbsp;- </span></span>Cloud and Cloud-Related IT Professional Services<span style="font-size:14px"><span style="font-size:14px">&nbsp;</span></span></span></a></p>
+			</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td><a href="#ACQ_VEHICLE_GSA_VETS_2" target="_self"><span style="color:#0000ff"><span style="font-size:14px">GSA VETS 2</span></span></a></td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td><a href="#ACQ_VEHICLE_NASA_SEWP" target="_self"><span style="color:#0000ff"><span style="font-size:14px">NASA Solutions for Enterprise-Wide Procurement (SEWP)</span></span></a></td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td><a href="#ACQ_VEHICLE_NIH_CIO_CS" target="_self"><span style="color:#0000ff"><span style="font-size:14px">NIH&nbsp;Chief Information Officer-Commodities and Solutions (CIO-CS)</span></span></a></td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td><a href="#ACQ_VEHICLE_NIH_CIO_SP3" target="_self"><span style="color:#0000ff"><span style="font-size:14px">NIH Chief Information Officer-Solutions and Partners 3 (CIO-SP3)</span></span></a></td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td><a href="#ACQ_VEHICLE_NIH_CIO_SP3_SB" target="_self"><span style="color:#0000ff"><span style="font-size:14px">NIH Chief Information Officer-Solutions and Partners 3 (CIO-SP3) Small Business&nbsp;</span></span></a></td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
 </table>
+
 <p><a id="ACQ_VEHICLES" name="ACQ_VEHICLES"></a><span style="color: #000000;"><strong><span style="font-size: 16px;">Acquisition Vehicles</span></strong></span></p>
 <table border="5" cellspacing="20" cellpadding="10">
 <tbody>
@@ -1029,6 +1034,128 @@ The following table provides links to information on individual Acquisition Vehi
 </table>
 <p><a id="ACQ_AAS" name="ACQ_AAS"></a><span style="color: #000000;"><span style="font-size: 16px;"><strong>Assisted Acquisition Services</strong></span></span></p>
 <p><span style="font-size: 16px;"><strong><a id="ACQ_GOV_CSP" name="ACQ_GOV_CSP"></a><span style="color: #000000;">Government Cloud Service Providers</span></strong></span></p>
+<table border="5" cellpadding="10" cellspacing="20">
+	<tbody>
+		<tr>
+			<td style="text-align:center; vertical-align:middle"><span style="font-size:14px"><strong><span style="color:#000000">Servicing Agency:</span></strong></span></td>
+			<td colspan="3" style="width:90%">
+			<p><a id="ACQ_GOV_CSP_GSA_Cloud_Gov" name="ACQ_GOV_CSP_GSA_Cloud_Gov"><span style="color:#000000"><span style="font-size:14px">General Services Administration (GSA)</span></span></a></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align:center; vertical-align:middle"><span style="font-size:14px"><strong><span style="color:#000000">Servicing Agency Office:</span></strong></span></td>
+			<td colspan="3" style="vertical-align:middle">
+			<p><span style="font-size:14px">cloud.gov</span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align:center; vertical-align:middle">
+			<p><span style="font-size:14px"><strong><span style="color:#000000">Servicing Agency Website: </span></strong></span></p>
+			</td>
+			<td colspan="3" style="vertical-align:middle">
+			<p><span style="font-size:14px"><a href="https://cloud.gov/"><span style="color:#0000ff">https://cloud.gov/</span></a></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align:center; vertical-align:middle"><span style="font-size:14px"><span style="color:#000000"><strong>Servicing Agency Scope:</strong></span></span></td>
+			<td colspan="3" style="text-align:center; vertical-align:middle">
+			<p dir="ltr" style="text-align:left"><span style="font-size:14px">cloud.gov is a secure, centralized, and open source Platform as a Service (PaaS) solution built specifically for federal government agencies.&nbsp; cloud.gov offers sandbox, prototyping / development, and production environments that allow federal government agencies to host and update applications, websites, Application Program Interfaces (APIs), and other services.&nbsp;</span></p>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="8" style="text-align:center; vertical-align:middle">
+			<p><span style="font-size:14px"><strong>Servicing Agency Cloud Services:</strong></span></p>
+			</td>
+			<td style="height:10px; vertical-align:middle"><span style="font-size:14px"><span style="color:#000000">• </span>Managed Hosting</span></td>
+			<td style="height:10px; text-align:center; vertical-align:middle"><span style="font-size:14px">No</span></td>
+			<td style="height:10px; vertical-align:middle"><span style="font-size:14px"><span style="color:#000000">• </span>Other Services</span></td>
+		</tr>
+		<tr>
+			<td style="height:10px; vertical-align:middle"><span style="font-size:14px"><span style="color:#000000">• </span>Infrastructure as a Service (IaaS)</span></td>
+			<td style="height:10px; text-align:center; vertical-align:middle"><span style="font-size:14px">No</span></td>
+			<td style="height:10px; vertical-align:middle"><span style="font-size:14px"><span style="color:#000000">&nbsp; &nbsp; &nbsp;• </span>Enterprise Container Platform</span></td>
+		</tr>
+		<tr>
+			<td style="height:10px; vertical-align:middle"><span style="font-size:14px"><span style="color:#000000">• </span>Platform as a Service (PaaS)</span></td>
+			<td style="height:10px; text-align:center; vertical-align:middle"><span style="font-size:14px">Yes</span></td>
+			<td style="height:10px; vertical-align:middle"><span style="font-size:14px"><span style="color:#000000">&nbsp; &nbsp; &nbsp;• </span>Virtual Application Hosting</span></td>
+		</tr>
+		<tr>
+			<td style="height:10px; vertical-align:middle"><span style="font-size:14px"><span style="color:#000000">• </span>Software as a Service (SaaS)</span></td>
+			<td style="height:10px; text-align:center; vertical-align:middle"><span style="font-size:14px">No</span></td>
+			<td style="height:10px; vertical-align:middle">&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="height:10px; vertical-align:middle"><span style="font-size:14px"><span style="color:#000000">• </span>Security Services</span></td>
+			<td style="height:10px; text-align:center; vertical-align:middle"><span style="font-size:14px">No</span></td>
+			<td style="height:10px; vertical-align:middle">&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="height:10px; vertical-align:middle"><span style="font-size:14px"><span style="color:#000000">• </span>Professional Services</span></td>
+			<td style="height:10px; text-align:center; vertical-align:middle"><span style="font-size:14px">No</span></td>
+			<td style="height:10px; vertical-align:middle">&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="height:10px; vertical-align:middle"><span style="font-size:14px"><span style="color:#000000">• </span>Business Services</span></td>
+			<td style="height:10px; text-align:center; vertical-align:middle">NO</td>
+			<td style="height:10px; vertical-align:middle">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="3" rowspan="1" style="height:10px; text-align:center; vertical-align:middle"><span style="font-size:14px"><span style="color:#000000">See Service Catalog for Complete Listing of Cloud Services</span></span></td>
+		</tr>
+		<tr>
+			<td style="text-align:center; vertical-align:middle">
+			<p><span style="font-size:14px"><strong>Servicing Agency Service Catalog: </strong></span></p>
+			</td>
+			<td colspan="3" style="vertical-align:middle">
+			<p><span style="font-size:14px"><a href="https://cloud.gov/pricing/"><span style="color:#0000ff">https://cloud.gov/pricing/</span></a></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="3" style="text-align:center; vertical-align:middle"><span style="font-size:14px"><strong>Servicing Agency Cloud Security Levels:</strong></span></td>
+			<td colspan="2" style="height:33px; vertical-align:middle">
+			<p style="margin-left:0in; margin-right:0in"><span style="font-size:14px">FedRAMP Impact Level:&nbsp;</span></p>
+			</td>
+			<td style="vertical-align:middle"><span style="font-size:14px">Low / Moderate</span></td>
+		</tr>
+		<tr>
+			<td colspan="2" style="height:33px; vertical-align:middle"><span style="font-size:14px">Department of Defense (DOD) Impact Level:</span></td>
+			<td style="vertical-align:middle"><span style="font-size:14px">2</span></td>
+		</tr>
+		<tr>
+			<td colspan="2" style="height:33px; vertical-align:middle"><span style="font-size:14px">Security Classification:</span></td>
+			<td style="vertical-align:middle"><span style="font-size:14px">Controlled Unclassified Information (CUI)</span></td>
+		</tr>
+		<tr>
+			<td style="text-align:center; vertical-align:middle"><span style="font-size:14px"><strong><span style="color:#000000">Authorized Requesting Agencies:</span></strong></span></td>
+			<td colspan="3" style="vertical-align:middle">
+			<p><span style="font-size:14px"><span style="color:#000000">Federal Government Agencies</span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align:center; vertical-align:middle">
+			<p><span style="font-size:14px"><strong><span style="color:#000000">Authority for Interagency Agreements (IAAs):</span></strong></span></p>
+			</td>
+			<td colspan="3" style="vertical-align:middle">
+			<p><span style="font-size:14px">40 USC <span style="color:#000000">§&nbsp;</span>321 Acquisition Services Fund</span></p>
+			<p><span style="font-size:14px">40 USC <span style="color:#000000">§ 501 Services for Executive Agencies</span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align:center; vertical-align:middle">
+			<p><span style="font-size:14px"><strong><span style="color:#000000">Servicing Agency Fee:</span></strong></span></p>
+			</td>
+			<td colspan="3" style="vertical-align:middle">
+			<p style="margin-left:0in; margin-right:0in"><span style="font-size:14px">Fixed Fee</span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align:center; vertical-align:middle"><span style="font-size:14px"><strong><span style="color:#000000">Last Updated:</span></strong></span></td>
+			<td colspan="3" style="vertical-align:middle"><span style="font-size:14px">March 03, 2020</span></td>
+		</tr>
+	</tbody>
+</table>
+
 <table border="5" cellspacing="20" cellpadding="10">
 <tbody>
 <tr>
