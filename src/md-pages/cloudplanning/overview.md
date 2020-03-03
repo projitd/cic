@@ -5,7 +5,7 @@ path: /cloudplanning/overview
 sidenav: true
 ---
 
-# Cloud Planning Basics
+## Cloud Planning Basics
 
 <div class="usa-alert usa-alert--info" >
   <div class="usa-alert__body">

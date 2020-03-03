@@ -4,7 +4,7 @@ path: /cloudplanning/technical
 sidenav: true
 ---
 
-# Technical Implementation
+## Technical Implementation
 
 Before one can transition to the cloud, it's important to know what systems are currently in place. An accurate and complete inventory/assessment of your assets is critical for IT management and successful migration of those assets to the cloud.
 
