@@ -1,7 +1,7 @@
 ---
 title: Why Cloud - Security
 path: /whycloud/security
-sidenav: false
+sidenav: true
 ---
 
 ## Cloud Security

@@ -1,7 +1,7 @@
 ---
 title: Why Cloud - Technical Capabilities
 path: /whycloud/technicalcapabilities
-sidenav: false
+sidenav: true
 ---
 
 ## Cloud Capabilities

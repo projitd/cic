@@ -1,7 +1,7 @@
 ---
 title: Cloud Planning - Business Considerations
 path: /cloudplanning/business
-sidenav: false
+sidenav: true
 ---
 
 ## Business Considerations

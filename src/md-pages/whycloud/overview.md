@@ -2,7 +2,7 @@
 title: Why Cloud
 permalink: /whycloud/overview
 path: /whycloud/overview
-sidenav: false
+sidenav: true
 ---
 
 ## Cloud Basics
