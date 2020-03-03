@@ -1,5 +1,9 @@
 ---
 ---
+User-agent: usasearch  
+Crawl-delay: 2
+Allow: /
+
 User-agent: *
+Crawl-delay: 10
 Disallow: /
-Sitemap: {{ site.url }}/sitemap.xml
