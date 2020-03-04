@@ -30,7 +30,7 @@ const Highlights = () => (
                 How to Buy
              </h3>
              <p>
-                <Link to="/acquisitionguidance/overview">I to acquire a cloud solution I've found.</Link>
+                <Link to="/acquisitionguidance/overview">I want to acquire a cloud solution I've found.</Link>
               </p>
            </div>
           </div>
