@@ -1,0 +1,17 @@
+# robots.txt for http://cic.gsa.gov/
+
+# Allow search.gov to index the site
+
+User-agent: usasearch  
+Crawl-delay: 2
+Allow: /
+
+# Block all other robots (for now)
+
+User-agent: *
+Crawl-delay: 10
+Disallow: /
+
+# URL for XML Sitemap
+
+Sitemap: https://cic.gsa.gov/sitemap.xml
