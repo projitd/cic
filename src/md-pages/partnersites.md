@@ -23,7 +23,7 @@ FedRAMP simplifies security for the digital age by providing a standardized appr
 
 FedRAMP is a program office funded to assist and provide guidance to Agencies in support of their move to modern, secure cloud technologies.
 
-### [TechFAR Hub](https:/techfarhub.cio.gov/)
+### [TechFAR Hub](https:/techfarhub.cio.gov)
 
 ### [DEOS](/deos)
 
