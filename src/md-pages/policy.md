@@ -93,7 +93,7 @@ Links:
 
 - [DCOI - Collaborate](https://www.gsa.gov/technology/government-it-initiatives/dcoi/dcoi-data-center-resources/collaborate)
 
-- [<img src="../../file-pdf-regular.svg" width="20" /> Cloud Readiness: Preparing Your Agency for Migration, April 2018](../../cloud-readiness.pdf)
+- [<img src="../../file-pdf-regular.svg" width="20" /> Cloud Readiness: Preparing Your Agency for Migration, April 2018](../../Cloud-Readiness.pdf)
 
 - [<img src="../../file-pdf-regular.svg" width="20" /> IaaS Considerations for the Data Center Community: DCOI PMO Cloud Series, March 2017](../../iaas-considerations.pdf)
 
