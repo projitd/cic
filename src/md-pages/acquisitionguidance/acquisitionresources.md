@@ -16,83 +16,38 @@ The following table provides links to information on individual Acquisition Vehi
 </div>
 
 
-# Acquisition Vehicles
-<table align="center" border="5" cellpadding="10" cellspacing="20">
-	<tbody>
-		<tr>
-			<td style="text-align:center; vertical-align:middle; width:25%"><a href="#ACQ_VEHICLES" target="_self"><span style="color:#0000ff"><span style="font-size:16px"><strong>Acquisition Vehicles</strong></span></span></a></td>
-			<td style="text-align:center; vertical-align:bottom; width:25%">
-			<p><span style="font-size:16px"><strong><a href="#ACQ_BPA" target="_self"><span style="color:#0000ff">Blanket Purchase Agreements</span></a></strong></span></p>
-			</td>
-			<td style="text-align:center; vertical-align:bottom; width:25%">
-			<p><span style="font-size:16px"><strong><a href="#ACQ_AAS" target="_self"><span style="color:#0000ff">Assisted Acquisition Services </span></a></strong></span></p>
-			</td>
-			<td style="text-align:center; vertical-align:middle; width:25%"><span style="font-size:16px"><strong><a href="#ACQ_GOV_CSP" target="_self"><span style="color:#0000ff">Government Cloud Service Providers</span></a></strong></span></td>
-		</tr>
-		<tr>
-			<td><a href="#ACQ_VEHICLE_GSA_8a_STARS_II" target="_self"><span style="color:#0000ff"><span style="font-size:14px">GSA 8(a) STARS II</span></span></a></td>
-			<td><a href="#ACQ_BPA_GSA_SIISS" target="_self"><span style="color:#0000ff"><span style="font-size:14px">GSA Salesforce Implementation, Integration, and Support Services (SIISS)</span></span></a></td>
-			<td>&nbsp;</td>
-			<td>
-			<p><a href="#ACQ_GOV_CSP_GSA_Cloud_Gov" target="_self"><span style="color:#0000ff">GSA cloud.gov</span></a></p>
-			</td>
-		</tr>
-		<tr>
-			<td><a href="#ACQ_VEHICLE_GSA_Alliant_2" target="_self"><span style="color:#0000ff"><span style="font-size:14px">GSA Alliant 2</span></span></a></td>
-			<td>&nbsp;</td>
-			<td>&nbsp;</td>
-			<td>
-			<p><span style="font-size:14px"><a href="#ACQ_GOV_CSP_USDA" target="_self"><span style="color:#0000ff">USDA Digital Infrastructure Services Center</span></a></span></p>
-			</td>
-		</tr>
-		<tr>
-			<td><a href="#ACQ_VEHICLE_GSA_EIS" target="_self"><span style="color:#0000ff"><span style="font-size:14px">GSA Enterprise Infrastructure Solutions (EIS)</span></span></a></td>
-			<td>&nbsp;</td>
-			<td>&nbsp;</td>
-			<td>&nbsp;</td>
-		</tr>
-		<tr>
-			<td>
-			<p><a href="#ACQ_VEHICLE_GSA_IT_SCH_70" target="_self"><span style="color:#0000ff"><span style="font-size:14px">GSA IT Schedule 70, SIN 132-40<span style="font-size:14px">&nbsp;/ Multiple Award Schedule, SIN 518210C&nbsp;- </span></span>Cloud and Cloud-Related IT Professional Services<span style="font-size:14px"><span style="font-size:14px">&nbsp;</span></span></span></a></p>
-			</td>
-			<td>&nbsp;</td>
-			<td>&nbsp;</td>
-			<td>&nbsp;</td>
-		</tr>
-		<tr>
-			<td><a href="#ACQ_VEHICLE_GSA_VETS_2" target="_self"><span style="color:#0000ff"><span style="font-size:14px">GSA VETS 2</span></span></a></td>
-			<td>&nbsp;</td>
-			<td>&nbsp;</td>
-			<td>&nbsp;</td>
-		</tr>
-		<tr>
-			<td><a href="#ACQ_VEHICLE_NASA_SEWP" target="_self"><span style="color:#0000ff"><span style="font-size:14px">NASA Solutions for Enterprise-Wide Procurement (SEWP)</span></span></a></td>
-			<td>&nbsp;</td>
-			<td>&nbsp;</td>
-			<td>&nbsp;</td>
-		</tr>
-		<tr>
-			<td><a href="#ACQ_VEHICLE_NIH_CIO_CS" target="_self"><span style="color:#0000ff"><span style="font-size:14px">NIH&nbsp;Chief Information Officer-Commodities and Solutions (CIO-CS)</span></span></a></td>
-			<td>&nbsp;</td>
-			<td>&nbsp;</td>
-			<td>&nbsp;</td>
-		</tr>
-		<tr>
-			<td><a href="#ACQ_VEHICLE_NIH_CIO_SP3" target="_self"><span style="color:#0000ff"><span style="font-size:14px">NIH Chief Information Officer-Solutions and Partners 3 (CIO-SP3)</span></span></a></td>
-			<td>&nbsp;</td>
-			<td>&nbsp;</td>
-			<td>&nbsp;</td>
-		</tr>
-		<tr>
-			<td><a href="#ACQ_VEHICLE_NIH_CIO_SP3_SB" target="_self"><span style="color:#0000ff"><span style="font-size:14px">NIH Chief Information Officer-Solutions and Partners 3 (CIO-SP3) Small Business&nbsp;</span></span></a></td>
-			<td>&nbsp;</td>
-			<td>&nbsp;</td>
-			<td>&nbsp;</td>
-		</tr>
-	</tbody>
-</table>
+### <a href="#ACQ_VEHICLES" style="text-decoration:none" id="TOP">Acquisition Vehicles</a>
 
-<p><a id="ACQ_VEHICLES" name="ACQ_VEHICLES"></a><span style="color: #000000;"><strong><span style="font-size: 16px;">Acquisition Vehicles</span></strong></span></p>
+- <a href="#ACQ_VEHICLE_GSA_8a_STARS_II">GSA 8(a) STARS II</a>
+- <a href="#ACQ_VEHICLE_GSA_Alliant_2">GSA Alliant 2</a>
+- <a href="#ACQ_VEHICLE_GSA_EIS">GSA Enterprise Infrastructure Solutions (EIS)</a>
+- <a href="#ACQ_VEHICLE_GSA_IT_SCH_70">GSA IT Schedule 70, SIN 132-40 / Multiple Award Schedule, SIN 518210C - Cloud and Cloud-Related IT Professional Services</a> 
+- <a href="#ACQ_VEHICLE_GSA_VETS_2">GSA VETS 2</a>
+- <a href="#ACQ_VEHICLE_NASA_SEWP">NASA Solutions for Enterprise-Wide Procurement (SEWP)</a>
+- <a href="#ACQ_VEHICLE_NIH_CIO_CS">NIH Chief Information Officer-Commodities and Solutions (CIO-CS)</a>
+- <a href="#ACQ_VEHICLE_NIH_CIO_SP3">NIH Chief Information Officer-Solutions and Partners 3 (CIO-SP3)</a>
+- <a href="#ACQ_VEHICLE_NIH_CIO_SP3_SB">NIH Chief Information Officer-Solutions and Partners 3 (CIO-SP3) Small Business</a>
+
+
+### <a href="#ACQ_BPA" style="text-decoration:none">Blanket Purchase Agreements</a>
+
+- <a href="#ACQ_BPA_GSA_SIISS">GSA Salesforce Implementation, Integration, and Support Services (SIISS)</a>
+
+
+### <a href="#ACQ_AAS" style="text-decoration:none">Assisted Acquisition Services</a>
+
+- No Assisted Acquisition Services Yet
+
+### <a href="#ACQ_GOV_CSP" style="text-decoration:none">Government Cloud Service Providers</a>
+
+- <a href="#ACQ_GOV_CSP_GSA_Cloud_Gov">GSA Cloud.gov</a>
+- <a href="#ACQ_GOV_CSP_USDA">USDA Digital Infrastructure Services Center</a>
+
+
+----
+
+
+<p><a id="ACQ_VEHICLES" name="ACQ_VEHICLES"></a><h3>Acquisition Vehicles</h3></p>
 <table border="5" cellspacing="20" cellpadding="10">
 <tbody>
 <tr>

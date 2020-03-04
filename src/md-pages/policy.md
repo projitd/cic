@@ -2,14 +2,16 @@
 title: Policy & Directives
 permalink: /policy
 path: /policy
-sidenav: false
+sidenav: true
 ---
 
 # Policy Directives
 
 ## LEGISLATIVE MANDATES
 
-### FITARA
+<a id="FITARA"></a>
+
+### FITARA 
 
 The Federal Information Technology Acquisition Reform Act (FITARA), passed by Congress in December 2014, is a historic law that represents the first major overhaul of Federal information Technology (IT) in almost 20 years. It became law as a part of the National Defense Authorization Act for Fiscal Year 2015 (Title VIII, Subtitle D, H.R. 3979.) and is extended under the 2017 FITARA Enhancement Act.
 
@@ -29,6 +31,7 @@ The goal of FITARA is to promote Federal IT modernization and strengthen the Fed
 [Management and Oversight of Federal Information Technology](https://management.cio.gov/)
 
 	
+<a id="MEGABYTE"></a>
 
 ### MEGABYTE ACT
 
@@ -53,9 +56,13 @@ Each agency CIO must subsequently report after one year and then at five-yearly 
 
 ## ADMINISTRATIVE POLICY
 
+<a id="CLOUDFIRST"></a>
+
 ### CLOUD FIRST
 
 On December 9, 2010, the Office of Management and Budget (OMB) released 25 Point Implementation Plan to Reform Federal Information Technology Management. Point 3 under this plan created the Cloud First Policy, which requires Agencies to use cloud-based solutions whenever a secure, reliable, cost-effective cloud option exists. In follow-up to the 25 Point Plan, on February 8, 2011, OMB released the Federal Cloud Computing Strategy, giving agencies practical guidance on considerations and practical methodologies for moving to the cloud. Finally, on December 8, 2011, OMB released the Security Authorization of Information Systems in Cloud Computing Environments - also known also as the FedRAMP Policy Memo - mandating that for all agency use of cloud services, the agencies use FedRAMP for their risk assessments, security authorizations, and granting of ATOs, and ensure applicable contracts require CSPs to comply with FedRAMP requirements.
+
+<a id="CLOUDSMART"></a>
 
 ### CLOUD SMART
 
@@ -65,11 +72,11 @@ Agencies will need to share their transformative experiences with their peers, s
 
 [Federal Cloud Computing Strategy - Cloud Smart](https://cloud.cio.gov/strategy/#cloud-smart)
 
+<a id="DCOI"></a>
+
 ### DATA CENTER OPTIMIZATION INITIATIVE (DCOI)
 
 The Data Center Optimization Initiative (DCOI) established in [<img src="../../file-pdf-regular.svg" width="20" /> OMB Memorandum M-16-19](https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2016/m_16_19_1.pdf) super cedes the Federal Data Center Consolidation Initiative (FDCCI) and fulfills the data center requirements of the Federal Information Technology Acquisition Reform Act (FITARA).'
-
-
 
 The DCOI requires agencies to:
 
@@ -92,7 +99,8 @@ Links:
 
 - [<img src="../../file-pdf-regular.svg" width="20" /> Key Cost Considerations for Agencies Planning Cloud Migrations, November 2017](../../key-cost-considerations.pdf)
 
-		
+<a id="FedRAMP"></a>
+
 ### FedRAMP
 
 The Federal Risk and Authorization Management Program (FedRAMP) is a government-wide program that provides a standardized approach to security assessment, authorization, and continuous monitoring for cloud products and services. FedRAMP enables Agencies to rapidly adapt from old, insecure legacy IT to mission-enabling, secure, and cost effective cloud-based IT. FedRAMP created and manages a core set of processes to ensure effective, repeatable cloud security for the government. FedRAMP established a mature marketplace to increase utilization and familiarity with cloud services while facilitating collaboration across government through open exchanges of lessons learned, use cases, and tactical solutions.'
@@ -103,7 +111,7 @@ The Federal Risk and Authorization Management Program (FedRAMP) is a government-
 
 - [<img src="../../file-pdf-regular.svg" width="20" /> Defense Information Systems Agency (DISA) Memorandum of Reciprocity for FedRAMP Authorized Moderate Baseline Cloud Service Offerings (CSO) at Impact Level 2 (2019 08 15)](https://www.doncio.navy.mil/FileHandler.ashx?id=13641)
 
-
+<a id="ITMODERNIZATION"></a>
 		
 ### IT MODERNIZATION
 
@@ -111,7 +119,7 @@ Executive Order (EO) 13,800 tasks the Director of the American Technology Counci
 
 - [Report to the President on Federal IT Modernization](https://itmodernization.cio.gov/)
 
-
+<a id="CENTEROFEXCELLENCE"></a>
 
 ### CENTER OF EXCELLENCE (COE)
 
@@ -130,6 +138,8 @@ Links:
 - [IT Modernization - Centers of Excellence](https://coe.gsa.gov)
 
 
+<a id="CLOUDADOPTION"></a>
+
 ### CLOUD ADOPTION AND INFRASTRUCTURE CENTER OF EXCELLENCE
 
 Will assist the analysis of current systems and applications to provide recommendations for planning migration to the cloud, including balancing tactical "lift and shift" imperatives with more strategic "fix and shift" possibilities.
@@ -137,6 +147,9 @@ Will assist the analysis of current systems and applications to provide recommen
 - [IT Modernization - Cloud Adoption](https://coe.gsa.gov/coe/cloud-adoption.html)
 
 - [<img src="../../file-pdf-regular.svg" width="20" /> Cloud Adoption Service Catalog](https://coe.gsa.gov/docs/Cloud_Adoption_One_Page_Service_Catalog.pdf)
+
+
+<a id="USSM"></a>
 
 ### UNITED SHARED SERVICES MANAGEMENT (USSM)
 
@@ -149,6 +162,8 @@ Established in October of 2015, the United Shared Services Management (USSM) ini
 Link
 
 - [Unified Shared Services Management (USSM)](https://www.ussm.gov/)
+
+<a id="OMBGUIDANCE"></a>
 
 ### OFFICE of MANAGEMENT and BUDGET (OMB) GUIDANCE 
 
