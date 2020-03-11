@@ -6,11 +6,11 @@ User-agent: usasearch
 Crawl-delay: 2
 Allow: /
 
-# Block all other robots (for now)
+# Allow all other robots
 
 User-agent: *
 Crawl-delay: 10
-Disallow: /
+Allow: /
 
 # URL for XML Sitemap
 
