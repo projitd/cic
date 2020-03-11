@@ -11,7 +11,7 @@ module.exports = {
     },
       //Second Menu Item
     {
-      title: 'Why Cloud',
+      title: 'Basics',
       items: [
         { text: 'Cloud Basics', link: '/whycloud/overview' },
         { text: 'Cloud Security', link: '/whycloud/security' },
@@ -20,7 +20,7 @@ module.exports = {
     },
       //Third Menu Item    
         {
-      title: 'Plan Cloud',
+      title: 'Planning',
       items: [
         { text: 'Planning Basics', link: '/cloudplanning/overview' },
         { text: 'Business Considerations', link: '/cloudplanning/business' },
@@ -29,11 +29,11 @@ module.exports = {
     },
       // Forth Menu Item    
       {
-        items: [{ text: 'Find Cloud', link: '/findcloud/overview' }],
+        items: [{ text: 'Solutions', link: '/findcloud/overview' }],
       },
       // Fifth Menu Item
       {
-        title: 'Acquire Cloud',
+        title: 'Acquisitions',
         items: [
           { text: 'Overview', link: '/acquisitionguidance/overview' },
           { text: 'Pricing', link: '/acquisitionguidance/pricing' },
