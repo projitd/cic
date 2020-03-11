@@ -16,10 +16,10 @@ const Highlights = () => (
         <Link to="/support"> <img className="usa-media-block__img" src={help} alt="Help!" /> </Link>
           <div className="usa-media-block__body">
             <h3 className="usa-graphic-list__heading">
-              Help!
+            <Link to="/support">Help!</Link>
             </h3>
             <p>
-              <Link to="/support">I need help with a cloud solution / acquisition.</Link>
+              I need help with a cloud solution / acquisition.
             </p>
           </div>
         </div>
@@ -27,10 +27,10 @@ const Highlights = () => (
           <Link to="/acquisitionguidance/overview"><img className="usa-media-block__img" src={buy} alt="How to Buy Button" /></Link>
            <div className="usa-media-block__body">
              <h3 className="usa-graphic-list__heading">
-                How to Buy
+             <Link to="/acquisitionguidance/overview">How to Buy</Link>
              </h3>
              <p>
-                <Link to="/acquisitionguidance/overview">I to acquire a cloud solution I've found.</Link>
+                I want to acquire a cloud solution I've found.
               </p>
            </div>
           </div>
@@ -38,10 +38,10 @@ const Highlights = () => (
         <Link to="/whycloud/overview"><img className="usa-media-block__img" src={cloud} alt="Cloud Overview" /></Link>
           <div className="usa-media-block__body">
             <h3 className="usa-graphic-list__heading">
-              Cloud Basics
+            <Link to="/whycloud/overview">Cloud Basics</Link>
             </h3>
             <p>
-              <Link to="/whycloud/overview">I need a beginners guide to all things cloud.</Link>
+              I need a beginners guide to all things cloud.
             </p>
           </div>
         </div>

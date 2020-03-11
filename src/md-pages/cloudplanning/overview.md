@@ -2,10 +2,10 @@
 title: Cloud Planning
 permalink: /cloudplanning/overview
 path: /cloudplanning/overview
-sidenav: false
+sidenav: true
 ---
 
-# Cloud Planning Basics
+## Cloud Planning Basics
 
 <div class="usa-alert usa-alert--info" >
   <div class="usa-alert__body">

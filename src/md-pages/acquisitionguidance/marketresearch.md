@@ -1,7 +1,7 @@
 ---
 title: Acquisition Guidance - Market Research
 path: /acquisitionguidance/marketresearch
-sidenav: false
+sidenav: true
 ---
 
 ## Market Research

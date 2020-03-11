@@ -1,7 +1,7 @@
 ---
 title: Acquisition Guidance - Use Cases
 path: /acquisitionguidance/usecases
-sidenav: false
+sidenav: true
 ---
 
 ## Use Cases
@@ -9,7 +9,7 @@ sidenav: false
 We have collected several "real-world" examples of acquisition documents from across the government for you to review as you develop your own acquisition materials for acquiring cloud commercial and professional services. These examples have been vetted by our Cloud Subject Mater Experts (SMEs) and successfully awarded to several agencies.  We also will routinely post success stories as they become available.  If you have a cloud success story you would like to share please share with us at cloudinfo@gsa.gov.
 
  
-[<img src="../../file-excel-regular.svg" width="20" /> **Army monthly pricing RFI**](/army-monthly-pricing-rfi-pricing.xlsx) -- This workbook serves as a request for information regarding cloud hosting rates, and a description of what those rates include. There are four (4) separate worksheets within this workbook that is to be provided as a document for a solicitation for offerers to fill out and submit back as a response. Agencies will review each workbook from prospective vendors.
+[<img src="../../file-excel-regular.svg" width="20" /> **Army monthly pricing RFI**](/army-monthly-pricing-RFI-pricing.xlsx) -- This workbook serves as a request for information regarding cloud hosting rates, and a description of what those rates include. There are four (4) separate worksheets within this workbook that is to be provided as a document for a solicitation for offerers to fill out and submit back as a response. Agencies will review each workbook from prospective vendors.
 
 [<img src="../../file-word-regular.svg" width="20" />  **IRS Cloud Services RFI references pricing for actual services consumed**](/IRS-Cloud-Services-RFI.docx) -- This is an example of an RFI from IRS. The purpose of this RFI is to gather information for the IRS organization on potential cloud computing services and capabilities: Infrastructure as a Service (IaaS) and Platform as a Service (PaaS).
 

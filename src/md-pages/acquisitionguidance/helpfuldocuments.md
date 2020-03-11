@@ -1,7 +1,7 @@
 ---
 title: Acquisition Guidance - Helpful Documents
 path: /acquisitionguidance/helpfuldocuments
-sidenav: false
+sidenav: true
 ---
 
 ## Helpful Documents 

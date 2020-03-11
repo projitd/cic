@@ -1,7 +1,7 @@
 ---
 title: Find Cloud Solutions - PaaS 
 path: /findcloud/paas
-sidenav: false
+sidenav: true
 ---
 
 ## Platform as a Service (PaaS)
