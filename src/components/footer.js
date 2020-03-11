@@ -9,7 +9,7 @@ const Footer = () => (
           <div className="tablet:grid-col">
             <div className="logo-links">
               <a className="footer-logo media_link" href="https://www.gsa.gov">
-                <img src={require("../images/footer-gsa-logo.png")} width="100" alt="GSA logo" />
+                <img src={require("../images/footer-gsa-logo.png")} width="90" alt="GSA logo" />
               </a>
             </div>
           </div>
@@ -17,9 +17,6 @@ const Footer = () => (
           <div className="tablet:grid-col" align="right">
            <div class="nomargin"><h3>Contact the GSA Cloud Team</h3></div>
            <ul className="add-list-reset">
-              <li>
-              <a className="footer-logo media_link" href="tel:202-969-7113"><button class="usa-button usa-button--outline">202-969-7113</button></a>
-              </li>
               <li>
                 <p><a className="footer-logo media_link" href="mailto:cloudinfo@gsa.gov?subject=CIC%20Cloud%20Assistance%20Request"><button class="usa-button usa-button--outline">CloudInfo@GSA.gov</button></a></p>
               </li>
