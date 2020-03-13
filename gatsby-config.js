@@ -76,7 +76,7 @@ module.exports = {
       endpoint: 'https://search.usa.gov', // You should not change this.
       affiliate: 'gsa-cic', // replace this with your search.gov account
       access_key: 'LINTBPOt4q19dOeG9eA7UHi4TRQIujq2GXf6kwcwTyE=', // This is placeholder. Not private.
-      inline: true, // this renders the results on the same domain. Otherwise, it will render the results in the search.gov domain
+      inline: false, // this renders the results on the same domain. Otherwise, it will render the results in the search.gov domain
     },
     dapAgency: 'GSA',
   },
