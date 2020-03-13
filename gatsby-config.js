@@ -16,6 +16,7 @@ module.exports = {
         { text: 'Cloud Basics', link: '/whycloud/overview' },
         { text: 'Cloud Security', link: '/whycloud/security' },
         { text: 'Cloud Capabilities', link: '/whycloud/technicalcapabilities' },
+        { text: 'Cloud Service Provider List', link: '/whycloud/csplist' }
       ],
     },
       //Third Menu Item    

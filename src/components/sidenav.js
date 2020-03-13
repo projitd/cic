@@ -20,7 +20,9 @@ const Sidenav = () => (
         if (location.pathname.startsWith('/whycloud/')) {
           return (<div><h3>Related Topics:</h3><li className="usa-sidenav__item"><Link to='/whycloud/overview' activeClassName="usa-focus">Cloud Basics</Link></li>
           <li className="usa-sidenav__item"><Link to='/whycloud/security' activeClassName="usa-focus">Cloud Security</Link></li>
-          <li className="usa-sidenav__item"><Link to='/whycloud/technicalcapabilities' activeClassName="usa-focus">Cloud Capabilities</Link></li></div>)
+          <li className="usa-sidenav__item"><Link to='/whycloud/technicalcapabilities' activeClassName="usa-focus">Cloud Capabilities</Link></li>
+          <li className="usa-sidenav__item"><Link to='/whycloud/csplist' activeClassName="usa-focus">Cloud Service Provider</Link></li>
+          </div>)
         } 
         else if (location.pathname.startsWith('/cloudplanning/')) {
 
