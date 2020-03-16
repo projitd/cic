@@ -115,17 +115,18 @@ community of consumers from organizations that have shared concerns (e.g., missi
 
 - **Software as a Service (SaaS)** - The capability provided to the consumer is to use the provider’s applications running on a cloud infrastructure. The applications are accessible from various client devices through either a thin client interface, such as a web browser (e.g., web-based email), or a program interface. The consumer does not manage or control the underlying cloud infrastructure including network, servers, operating systems, storage, or even individual application capabilities, with the possible exception of limited user specific application configuration settings.
 
+
+  </div>
+  
+</div>
+</p>
+
 The following graphic illustrates the differences in Operations and Management (O&M) responsibilities between the cloud consumers and the Cloud Service Providers (CSPs) for each cloud service model (i.e., IaaS, PaaS, SaaS).
 
 
 ![Cloud Service Models diagram](../../cloud-security-monitoring.png)
 
 As indicated in the graphic, consumers and Cloud Service Providers (CSPs) responsibilities are dependent on the cloud service model procured. Understanding this shared responsibility model is fundamental to procuring the appropriate cloud based on your organizations requirements and ensuring appropriate Operations and Maintenance (O&M).
-
-  </div>
-  
-</div>
-</p>
 
 No one cloud deployment model or cloud service model combination is fundamentally better than another combination — each combination offers unique functionality. The selection of a cloud deployment model and a cloud service model combination should be based on the consumer’s requirements. As cloud technologies have advance and consumers have matured their cloud ecosystems hybrid cloud deployment models supporting multiple cloud services models are becoming more commonplace.  
 
