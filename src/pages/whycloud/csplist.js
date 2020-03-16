@@ -32,41 +32,95 @@ const CspList = () => {
   }
   return (
     <Layout>
-      <h1>Cloud Service Provider List</h1>
       <div className="grid-container">
+        <h1>Cloud Service Provider List</h1>
         <div className="grid-row">
-          <aside className="desktop:grid-col-2 margin-top-4 padding-right-4">
+          <div className="desktop:grid-col-2 margin-top-4">
             <nav>
-              <ul className="usa-sidenav">
+              <ul className="filters-list">
                 <div><h3>Filters:</h3>
-                  <li className="usa-sidenav__item"><Link>Service Models</Link></li>
-                  <li className="usa-sidenav__item"><Link>Impact Level</Link></li>
-                  <li className="usa-sidenav__item"><Link>Providers</Link></li>
+                  <div className="usa-accordion usa-accordion--bordered">
+                    <h2 className="usa-accordion__heading">
+                      <button className="usa-accordion__button"
+                              aria-expanded="true"
+                              aria-controls="b-a1">
+                        Service Models
+                      </button>
+                    </h2>
+                    <div id="b-a1" className="usa-accordion__content usa-prose">
+                      <ul className='noListStyle'>
+                        <li>IaaS</li>
+                        <li>PaaS</li>
+                        <li>Saas</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div className="usa-accordion usa-accordion--bordered">
+                    <h2 className="usa-accordion__heading">
+                      <button className="usa-accordion__button"
+                              aria-expanded="true"
+                              aria-controls="b-a2">
+                        Impact Level
+                      </button>
+                    </h2>
+                    <div id="b-a2" className="usa-accordion__content usa-prose">
+                      <ul className='noListStyle'>
+                        <li>IaaS</li>
+                        <li>PaaS</li>
+                        <li>Saas</li>
+                        <li>Saas</li>
+                        <li>Saas</li>
+                        <li>Saas</li>
+                        <li>Saas</li>
+                        <li>Saas</li>
+                        <li>Saas</li>
+                        <li>Saas</li>
+                        <li>Saas</li>
+                        <li>Saas</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div className="usa-accordion usa-accordion--bordered">
+                    <h2 className="usa-accordion__heading">
+                      <button className="usa-accordion__button"
+                              aria-expanded="true"
+                              aria-controls="b-a3">
+                        Providers
+                      </button>
+                    </h2>
+                    <div id="b-a3" className="usa-accordion__content usa-prose">
+                      <ul className='noListStyle'>
+                        <li>IaaS</li>
+                        <li>PaaS</li>
+                        <li>Saas</li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
               </ul>
             </nav>
 
-          </aside>
-          <div className="desktop:grid-col-8 usa-prose padding-right-4">
+          </div>
+          <div className="desktop:grid-col-8 usa-prose">
             {results.length > 0 ? (
-              <ol>
+              <ul className='noListStyle'>
                 {results.map((r, idx) => (
-                  <li
-                    key={idx}
-                    className="padding-bottom-5 margin-top-4 usa-prose border-bottom-05 border-base-lightest"
-                  >
-                    <div className='eachProvider'><img className='providerImg' src={r.CSP_URL} alt="Img Here"/></div>
-                    - {r.Cloud_Service_Provider_Package}
-                  </li>
+                  <div className="grid-container">
+                    <div className="grid-row">
+                      <div className="tablet:grid-col-6"><img src={r.CSP_URL} alt="Img Here"/>{r.Cloud_Service_Provider_Package}</div>
+                      <div className="tablet:grid-col-3">{r.Service_Model}</div>
+                      <div className="tablet:grid-col-3">{r.Impact_Level}</div>
+                    </div>
+                  </div>
                 ))}
-              </ol>
+              </ul>
             ) : (
               <h4 className="title">
                 No Cloud Service Providers Available
               </h4>
             )}
           </div>
-          <aside className="desktop:grid-col-2 margin-top-4 padding-right-4">
+          <aside className="desktop:grid-col-2 margin-top-4">
             <nav>
               <ul className="usa-sidenav">
                 <div><h3>Related Topics:</h3>
