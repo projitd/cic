@@ -101,3 +101,21 @@ $theme-hero-image: '../images/cloud-hero.jpg';
 
   color: white;
 }
+
+.eachProvider{
+  background-color: #eaeaea;
+  margin: 10px;
+  padding:10px;
+}
+.eachProvider .providerImg{
+  width:150px;
+  height:80px;
+}
+
+.noListStyle {
+  list-style-type: none;
+}
+
+.filters-list {
+  width: 100%;
+}
