@@ -114,25 +114,11 @@ const CspList = () => {
 
                     </div>
                     <div className="desktop:grid-col-8 usa-prose">
-                        {state.providers.length > 0 ? (
-                            <ul className='noListStyle'>
-                                {state.providers.map((r, idx) => (
-                                    <div className="grid-container" key={idx}>
-                                        <div className="grid-row">
-                                            <div className="tablet:grid-col-6"><img src={r.CSP_URL}
-                                                                                    alt="Img Here"/>{r.Cloud_Service_Provider_Package}
-                                            </div>
-                                            <div className="tablet:grid-col-3">{r.Service_Model}</div>
-                                            <div className="tablet:grid-col-3">{r.Impact_Level}</div>
-                                        </div>
-                                    </div>
-                                ))}
-                            </ul>
-                        ) : (
-                            <h4 className="title">
-                                No Cloud Service Providers Available
-                            </h4>
-                        )}
+                        <table id='providers' className='cspTable'>
+                            <tbody>
+                            {renderTableData()}
+                            </tbody>
+                        </table>
                     </div>
                     {/*TODO */}
                     <aside className="desktop:grid-col-2 margin-top-4">
@@ -160,6 +146,20 @@ const CspList = () => {
             </div>
         </Layout>
     );
+
+    function renderTableData() {
+        return state.providers.map((provider, index) => {
+            const { CSP_URL, Cloud_Service_Provider_Package, Service_Model, Impact_Level } = provider //destructuring
+            return (
+                <tr key={Cloud_Service_Provider_Package}>
+                    <td><img src={CSP_URL}
+                             alt="Img Here"/>{Cloud_Service_Provider_Package}</td>
+                    <td>{Service_Model}</td>
+                    <td>{Impact_Level}</td>
+                </tr>
+            )
+        })
+    }
 };
 
 export default CspList;
