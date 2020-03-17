@@ -7,7 +7,8 @@ const CspList = () => {
     const [state, setState] = useState({
         providers: [],
         impactLevelFilter: [],
-        cloudServiceProvidersNameFilter: []
+        cloudServiceProvidersNameFilter: [],
+        cloudServiceProviders: []
     });
     useEffect(() => {
         fetch(endpoint)
@@ -25,7 +26,8 @@ const CspList = () => {
                     ...state,
                     providers: cspProviders,
                     impactLevelFilter: impactLevelFilter,
-                    cloudServiceProvidersNameFilter: cloudServiceProvidersNameFilter
+                    cloudServiceProvidersNameFilter: cloudServiceProvidersNameFilter,
+                    cloudServiceProviders: cspProviders
                 });
             })
             .catch(err => console.log(err));
@@ -38,7 +40,7 @@ const CspList = () => {
 
     return (
         <Layout>
-            <div className="grid-container">
+            <div className="grid">
                 <h1>Cloud Service Provider List</h1>
                 <div className="grid-row">
                     <div className="desktop:grid-col-2 margin-top-4">
@@ -55,9 +57,18 @@ const CspList = () => {
                                         </h2>
                                         <div id="b-a1" className="usa-accordion__content usa-prose">
                                             <ul className='noListStyle'>
-                                                <li>IaaS</li>
-                                                <li>PaaS</li>
-                                                <li>Saas</li>
+                                                <li>
+                                                    <input type='checkbox' id='Iaas' name='Iaas'value='Iaas'/>
+                                                    &nbsp;&nbsp;&nbsp;IaaS
+                                                </li>
+                                                <li>
+                                                    <input type='checkbox' id='PaaS' name='PaaS'value='PaaS'/>
+                                                    &nbsp;&nbsp;&nbsp;PaaS
+                                                </li>
+                                                <li>
+                                                    <input type='checkbox' id='Saas' name='Saas'value='Saas'/>
+                                                    &nbsp;&nbsp;&nbsp;Saas
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -72,7 +83,9 @@ const CspList = () => {
                                         <div id="b-a2" className="usa-accordion__content usa-prose">
                                             <ul className='noListStyle'>
                                                 {state.impactLevelFilter.map((impact, idx) => (
-                                                    <li key={idx}>{impact}</li>
+                                                    <li key={idx}>
+                                                        <input type='checkbox' id={idx} name={impact} value={impact}/>&nbsp;&nbsp;&nbsp;
+                                                        {impact}</li>
                                                 ))}
                                             </ul>
                                         </div>
@@ -88,7 +101,9 @@ const CspList = () => {
                                         <div id="b-a3" className="usa-accordion__content usa-prose">
                                             <ul className='noListStyle'>
                                                 {state.cloudServiceProvidersNameFilter.map((csp, idx) => (
-                                                    <li key={idx}>{csp}</li>
+                                                    <li key={idx}>
+                                                        <input type='checkbox' id={idx} name={csp} value={csp}/>&nbsp;&nbsp;&nbsp;
+                                                        {csp}</li>
                                                 ))}
                                             </ul>
                                         </div>
@@ -119,6 +134,7 @@ const CspList = () => {
                             </h4>
                         )}
                     </div>
+                    {/*TODO */}
                     <aside className="desktop:grid-col-2 margin-top-4">
                         <nav>
                             <ul className="usa-sidenav">
