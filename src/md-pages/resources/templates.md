@@ -1,6 +1,6 @@
 ---
-title: Acquisition Guidance - Templates
-path: /acquisitionguidance/templates
+title: Resources - Templates
+path: /resources/templates
 sidenav: true
 ---
 

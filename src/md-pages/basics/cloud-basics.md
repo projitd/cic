@@ -1,7 +1,6 @@
 ---
-title: Why Cloud
-permalink: /whycloud/overview
-path: /whycloud/overview
+title: Cloud Basics
+path: /basics/cloud-basics
 sidenav: true
 ---
 

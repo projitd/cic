@@ -1,7 +1,6 @@
 ---
-title: Partner Sites
-permalink: /partnersites
-path: /partnersites
+title: References - Partner Sites
+path: /references/partner-sites
 sidenav: false
 ---
 

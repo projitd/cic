@@ -1,7 +1,6 @@
 ---
-title: Policy & Directives
-permalink: /policy
-path: /policy
+title: References - Policy & Directives
+path: /references/policy
 sidenav: true
 ---
 
