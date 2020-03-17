@@ -1,6 +1,6 @@
 ---
-title: Acquisition Guidance - Use Cases
-path: /acquisitionguidance/usecases
+title: Resources - Use Cases
+path: /resources/use-cases
 sidenav: true
 ---
 

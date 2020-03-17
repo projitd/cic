@@ -1,6 +1,6 @@
 ---
-title: Why Cloud - Technical Capabilities
-path: /whycloud/technicalcapabilities
+title: Cloud Capabilities
+path: /basics/cloud-capabilities
 sidenav: true
 ---
 

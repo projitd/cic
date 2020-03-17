@@ -1,6 +1,6 @@
 ---
-title: Acquisition Guidance - Helpful Documents
-path: /acquisitionguidance/helpfuldocuments
+title: Resources - Helpful Documents
+path: /resources/helpful-documents
 sidenav: true
 ---
 

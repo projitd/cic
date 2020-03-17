@@ -1,6 +1,6 @@
 ---
-title: Why Cloud - Security
-path: /whycloud/security
+title: Cloud Security
+path: /basics/cloud-security
 sidenav: true
 ---
 
