@@ -1,7 +1,6 @@
 ---
-title: Cloud Planning
-permalink: /cloudplanning/overview
-path: /cloudplanning/overview
+title: Cloud Planning - Basics
+path: /planning/planning-basics
 sidenav: true
 ---
 
