@@ -1,6 +1,7 @@
 import Layout from '../../components/layout';
 import React, {useEffect, useState} from 'react';
 import {Link} from 'gatsby';
+import * as _ from 'lodash';
 
 const CspList = () => {
     const endpoint = 'https://raw.githubusercontent.com/18F/fedramp-data/master/data/data.json';
@@ -8,7 +9,10 @@ const CspList = () => {
         providers: [],
         impactLevelFilter: [],
         cloudServiceProvidersNameFilter: [],
-        cloudServiceProviders: []
+        cloudServiceProviders: [],
+        serviceModelFilters: [{filter: 'IaaS', checked: false},
+        {filter: 'PaaS', checked: false},
+        {filter: 'SaaS', checked: false}]
     });
     useEffect(() => {
         fetch(endpoint)
@@ -31,11 +35,15 @@ const CspList = () => {
                 });
             })
             .catch(err => console.log(err));
-    }, [state]);
+    }, []);
 
     function getDistinctFilters(propertyName, array) {
         const temp = new Set(array.map(x => x[propertyName]));
-        return Array.from(temp);
+        let filterableArray = [];
+        temp.forEach(v => filterableArray.push({
+            filter: v, checked: false
+        }));
+        return filterableArray;
     }
 
     return (
@@ -57,18 +65,13 @@ const CspList = () => {
                                         </h2>
                                         <div id="b-a1" className="usa-accordion__content usa-prose">
                                             <ul className='noListStyle'>
-                                                <li>
-                                                    <input type='checkbox' id='Iaas' name='Iaas'value='Iaas'/>
-                                                    &nbsp;&nbsp;&nbsp;IaaS
-                                                </li>
-                                                <li>
-                                                    <input type='checkbox' id='PaaS' name='PaaS'value='PaaS'/>
-                                                    &nbsp;&nbsp;&nbsp;PaaS
-                                                </li>
-                                                <li>
-                                                    <input type='checkbox' id='Saas' name='Saas'value='Saas'/>
-                                                    &nbsp;&nbsp;&nbsp;Saas
-                                                </li>
+                                                {state.serviceModelFilters.map((model, idx) => (
+                                                    <li>
+                                                        <input
+                                                               onChange={event => {filterProviders('Service Model', event)}}
+                                                               type="checkbox" checked={model.checked} value={model.filter} /> {model.filter}
+                                                    </li>
+                                                ))}
                                             </ul>
                                         </div>
                                     </div>
@@ -83,9 +86,11 @@ const CspList = () => {
                                         <div id="b-a2" className="usa-accordion__content usa-prose">
                                             <ul className='noListStyle'>
                                                 {state.impactLevelFilter.map((impact, idx) => (
-                                                    <li key={idx}>
-                                                        <input type='checkbox' id={idx} name={impact} value={impact}/>&nbsp;&nbsp;&nbsp;
-                                                        {impact}</li>
+                                                    <li>
+                                                        <input
+                                                               onChange={event => {filterProviders('Impact Level', event)}}
+                                                               type="checkbox" checked={impact.checked} value={impact.filter} /> {impact.filter}
+                                                    </li>
                                                 ))}
                                             </ul>
                                         </div>
@@ -99,11 +104,14 @@ const CspList = () => {
                                             </button>
                                         </h2>
                                         <div id="b-a3" className="usa-accordion__content usa-prose">
+
                                             <ul className='noListStyle'>
                                                 {state.cloudServiceProvidersNameFilter.map((csp, idx) => (
-                                                    <li key={idx}>
-                                                        <input type='checkbox' id={idx} name={csp} value={csp}/>&nbsp;&nbsp;&nbsp;
-                                                        {csp}</li>
+                                                    <li>
+                                                        <input
+                                                               onChange={event => {filterProviders('Providers', event)}}
+                                                               type="checkbox" checked={csp.checked} value={csp.filter} /> {csp.filter}
+                                                    </li>
                                                 ))}
                                             </ul>
                                         </div>
@@ -152,13 +160,82 @@ const CspList = () => {
             const { CSP_URL, Cloud_Service_Provider_Package, Service_Model, Impact_Level } = provider //destructuring
             return (
                 <tr key={Cloud_Service_Provider_Package}>
-                    <td><img src={CSP_URL}
+                    <td><img src={CSP_URL} className="cspIcon"
                              alt="Img Here"/>{Cloud_Service_Provider_Package}</td>
                     <td>{Service_Model}</td>
                     <td>{Impact_Level}</td>
                 </tr>
             )
         })
+    }
+
+    function filterProviders(filterType, event) {
+        let tableMasterData = _.cloneDeep(state.providers);
+        let masterData = _.cloneDeep(state.cloudServiceProviders);
+        let filteredData = tableMasterData;
+        const models = state.serviceModelFilters;
+        const impacts = state.impactLevelFilter;
+        const providers = state.cloudServiceProvidersNameFilter;
+        models.filter(x => {
+            if (x.filter === event.target.value) {
+                x.checked = !x.checked;
+            }
+        });
+        impacts.filter(x => {
+            if (x.filter === event.target.value) {
+                x.checked = !x.checked;
+            }
+        });
+        providers.filter(x => {
+            if (x.filter === event.target.value) {
+                x.checked = !x.checked;
+            }
+        });
+        setState({
+            ...state,
+            serviceModelFilters: models,
+            cloudServiceProvidersNameFilter: providers,
+            impactLevelFilter: impacts,
+        });
+        let allFilters = [];
+        models.forEach(x => {
+            if(x.checked === true) {
+                allFilters.push(x.filter);
+            }
+        });
+        providers.forEach(x => {
+            if(x.checked === true) {
+                allFilters.push(x.filter);
+            }
+        });
+        impacts.forEach(x => {
+            if(x.checked === true) {
+                allFilters.push(x.filter);
+            }
+        });
+        if (allFilters.length > 0) {
+            filteredData = [];
+            tableMasterData.forEach(function(item) {
+                allFilters.forEach(function(item2){
+                    if(item.Service_Model.indexOf(item2) > -1) {
+                        filteredData.push(item);
+                    }
+                    if(item.Impact_Level.toUpperCase() === item2.toUpperCase()) {
+                        filteredData.push(item);
+                    }
+                    if(item.Cloud_Service_Provider_Name.toUpperCase() === item2.toUpperCase()){
+                        filteredData.push(item);
+                    }
+                });
+            });
+        } else {
+            filteredData = masterData;
+        }
+        setState({
+            ...state,
+            serviceModelFilters: models,
+            providers: filteredData
+        });
     }
 };
 
