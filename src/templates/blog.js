@@ -48,7 +48,7 @@ const Blog = ({ data, pageContext }) => {
                   If you use excerpt then you have to make sure the content is on each
                   post header
                 */}
-                <div dangerouslySetInnerHTML={{ __html: post.html }} />
+                <div dangerouslySetInnerHTML={{ __html: post.excerpt }} />
               </div>
             ))}
 
