@@ -20,7 +20,7 @@ sidenav: true
 - **Location:** Virtual 
 - **Cost:** Free
 - **Registration:** Coming Soon
-- **CLP Credits** 3
+- **CLP Credits:** 3
 
 <div class="usa-accordion usa-accordion--bordered">
     <!-- Use the accurate heading level to maintain the document outline -->
@@ -53,7 +53,7 @@ Topics Include:
 - **Location:** Virtual
 - **Cost:** Free
 - **Registration:** [LINK](https://www.gsa.gov/events/how-agencies-may-buy-and-migrate-to-cloud-computing-april-2020)
-- **CLP Credits** 1
+- **CLP Credits:** 1
 
 <div class="usa-accordion usa-accordion--bordered">
     <!-- Use the accurate heading level to maintain the document outline -->
