@@ -4,20 +4,20 @@ path: /support
 sidenav: false
 ---
 
-## What Can GSA do for You?
+## How the cloud experts can support you:
 
 <div class="grid-container">
   <div class="grid-row">
     <div class="tablet:grid-col">
 
-<img src="../../file-invoice-solid.svg" width="30" /> Use [GSA's Market Research as a Service (MRAS)](/acquisitionguidance/marketresearch) to expedite your agency's market research phase.
+<img src="../../file-invoice-solid.svg" width="30" /> Assistance with using  [GSA's Market Research as a Service (MRAS)](/acquisitionguidance/marketresearch) tool to support your market research activities.
 
    </div>
     <div class="tablet:grid-col">
     
 
 
-<img src="../../tasks-solid.svg" width="38" /> Assess where you are in the cloud journey with our [Step-by-Step Cloud Roadmap](/cloudplanning/technical)    
+<img src="../../tasks-solid.svg" width="38" /> Assistance with identifying where you are in the cloud journey with our [Step-by-Step Cloud Roadmap](/planning/technical-implementation)    
     
 
 
@@ -25,21 +25,22 @@ sidenav: false
 <div class="grid-row">
     <div class="tablet:grid-col">
 
-<img src="../../file-alt-regular.svg" width="30" /> Free [Scope Reviews](mailto:cloudinfo@gsa.gov?subject=CIC%20Cloud%20Scope%20Review&amp;body=Please%20see%20the%20attached%20Cloud%20Scope%20for%20Review) and [Templates](/acquisitionguidance/templates) 
+<img src="../../file-alt-regular.svg" width="30" /> Free [Scope Reviews](mailto:cloudinfo@gsa.gov?subject=CIC%20Cloud%20Scope%20Review&amp;body=Please%20see%20the%20attached%20Cloud%20Scope%20for%20Review) and [Templates](/resources/templates) 
   
  </div>
-<div class="tablet:grid-col">
+ <div class="tablet:grid-col">
 
- <img src="../../users-solid.svg" width="40" /> Save time with [GSA’s Market Research tools](/acquisitionguidance/marketresearch) and [community-sourced](/acquisitionguidance/helpfuldocuments) Cloud resources
-
-</div></div>
+<img src="../../glasses-solid.svg" width="30" /> Read about [Successful Cloud Adoptions](/resources/use-cases) by other organizations and leverage their experiences and lessons learned.
+  
+ </div>
+</div>
 
 
 <div class="grid-row">
     <div class="tablet:grid-col">
     
 
-<img src="../../fedramp-logo.jpg" width="40" /> Find [FedRAMP–authorized Cloud Service Providers](/findcloud/overview) on the CIC, cutting through IT Security Red Tape  
+<img src="../../fedramp-logo.jpg" width="40" /> Assistance in identifying [FedRAMP–](https://www.fedramp.gov) Authorized cloud solutions  
 
 
 
@@ -47,28 +48,10 @@ sidenav: false
     <div class="tablet:grid-col">
     
 
+<img src="../../phone-alt-solid.svg" width="30" />  Direct support by email and scheduled telephone calls.        
     
-<img src="../../gsa-70-logo.jpg" width="40" /> [GSA IT Schedule 70 Cloud SIN 132-40 (MAS 518210C)](/acquisitionguidance/acquisitionresources) now offers cloud products AND professional cloud labor in the same place.    
     
 </div></div>
-<div class="grid-row">
-    <div class="tablet:grid-col">
-    
-
-
-<img src="../../glasses-solid.svg" width="30" /> Read about [Successful Cloud Adoptions](/acquisitionguidance/usecases) by other Federal agencies and leverage them to build better solutions.
-    
-
-  </div>
-    <div class="tablet:grid-col">
-    
-
-
-<img src="../../phone-alt-solid.svg" width="30" />  Direct Agency Support by email and telephone   
-    
-    
-   </div></div>
-
 
 
 
@@ -76,4 +59,4 @@ sidenav: false
 
 
 
-### No matter where you are in your IT modernization, we're here to provide guidance and support. 
+### No matter where you are in your cloud journey, the cloud experts are here to provide guidance and support.

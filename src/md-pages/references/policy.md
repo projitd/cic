@@ -114,7 +114,7 @@ The Federal Risk and Authorization Management Program (FedRAMP) is a government-
 		
 ### IT MODERNIZATION
 
-Executive Order (EO) 13,800 tasks the Director of the American Technology Council (ATC) to coordinate a report to the President from the Secretary of the Department of Homeland Security (DHS), the Director of the Office of Management and Budget (OMB), and the Administrator of the General Services Administration (GSA), in consultation with the Secretary of Commerce (Commerce), regarding the modernization of Federal Information Technology (IT). In accordance with EO 13,800, the IT Modernization report was submitted to the President.'
+Executive Order (EO) 13800 tasks the Director of the American Technology Council (ATC) to coordinate a report to the President from the Secretary of the Department of Homeland Security (DHS), the Director of the Office of Management and Budget (OMB), and the Administrator of the General Services Administration (GSA), in consultation with the Secretary of Commerce (Commerce), regarding the modernization of Federal Information Technology (IT). In accordance with EO 13,800, the IT Modernization report was submitted to the President.'
 
 - [Report to the President on Federal IT Modernization](https://itmodernization.cio.gov/)
 
