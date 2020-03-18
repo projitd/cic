@@ -28,11 +28,3 @@ We have collected several "real-world" examples of acquisition documents from ac
 [<img src="../../file-word-regular.svg" width="20" />  **Payroll SaaS RFQ SOO**](/Payroll-SaaS-RFQ-SOO.docx) -- This is a draft SOO for a Payroll SaaS that agencies can use and tailor, as needed. This SOO includes functionality for Payroll and Work Schedule and Leave Management (WSLM), and the agencies should tailor to fit their own requirements, quantities for workload (hours), specific surveillance techniques, etc.
 
 [<img src="../../external-link-alt-solid.svg" width="20" /> **Veterans Benefits Administration (VBA) Salesforce Center of Excellence, User-Centered Design Challenge**](https://techfarhub.cio.gov/learning-center/case-studies/vba-salesforce-coe) -- Case Study from techfarhub.cio.gov showcasing an example of VA acquiring Salesforce Development services.
-
-[<img src="../../file-pdf-regular.svg" width="20" />  **The National Oceanic and Atmospheric Administration (NOAA)**](/NOAA-Success-Story.pdf) -- is now using cloud to make public data like water reports, climate projections, and weather warnings readily available. Read about the best practices they employed in their cloud acquisition in this feature. 
-
-Read the online copy at the [**GSA Assistant Commissioner's Blog**](https://gsablogs.gsa.gov/technology/2019/06/18/noaa-forecast-clear-skies-for-cloud-migration/)
-
-[<img src="../../file-pdf-regular.svg" width="20" />  **The U.S. Agency for International Deveopment**](/USAID-Cloud-Success-Story.pdf) -- has been leveraging cloud computing technology for the past 10 years. Learn more about their cloud journey and recent cloud acquisitions by reading this feature. 
-
-Read the online copy at the [**GSA Assistant Commissioner's Blog**](https://gsablogs.gsa.gov/technology/2019/10/03/cloud-empowerment-at-usaid-a-10-year-success-story/)
