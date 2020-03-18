@@ -54,6 +54,13 @@ NIST SP 800-53 defines security controls for following security control identifi
   </div>
 </div>
 
+## Federal Government Agency Security Responsibilities
+Even with FedRAMP and the DoD issuing cloud product and service authorizations, the [Federal Information Security Management Act (FISMA)](https://www.govinfo.gov/app/details/PLAW-113publ283/) identifies that federal government agencies are ultimately accountable for maintaining the security of their Information Technology (IT) systems inclusive of IT systems leveraging or completely deployed using cloud technologies. 
+
+Federal government agencies are also responsible for ensuring that cloud products and services are operated and maintained at all times within the parameters of the agencies issued Authorizations to Operate (ATOs) and to conduct appropriate oversight of security operations and management. 
+
+Federal government agencies should familiarize themselves with and understand their Cloud Service Providers (CSPs) security tools (e.g., Identity Access Management (IAM)) in addition to ensuring that their existing suite of security tools are operational with, and extended as appropriate, to secure their cloud solutions. 
+
 <div class="usa-alert usa-alert--info">
     <div class="usa-alert__body">
     <h3 class="usa-alert__heading">How do agencies manage all this?</h3>
@@ -61,7 +68,7 @@ NIST SP 800-53 defines security controls for following security control identifi
     </div>
 </div>
 
-## Federal Civilian Agency - Cloud Sercurity Information
+## Federal Civilian Agency - Cloud Security Information
 
 ### FedRAMP - (Federal Risk and Authorization Management Program)
 
@@ -139,18 +146,11 @@ DoDI 8510.01 is consistent with:
 
 DoDI 8510.01 "provides procedural guidance for the reciprocal acceptance of authorization decisions and artifacts within DoD, and between DoD and other federal agencies, for the authorization and connection of information systems (ISs)."
 
-
-## Federal Government Agency Security Responsibilities
-Even with FedRAMP and the DoD issuing cloud product and service authorizations, the [Federal Information Security Management Act (FISMA)](https://www.govinfo.gov/app/details/PLAW-113publ283/) identifies that federal government agencies are ultimately accountable for maintaining the security of their Information Technology (IT) systems inclusive of IT systems leveraging or completely deployed using cloud technologies. 
-
-Federal government agencies are also responsible for ensuring that cloud products and services are operated and maintained at all times within the parameters of the agencies issued Authorizations to Operate (ATOs) and to conduct appropriate oversight of security operations and management. 
-
-Federal government agencies should familiarize themselves with and understand their Cloud Service Providers (CSPs) security tools (e.g., Identity Access Management (IAM)) in addition to ensuring that their existing suite of security tools are operational with, and extended as appropriate, to secure their cloud solutions. 
-
 <div class="usa-alert usa-alert--success" >
   <div class="usa-alert__body">
     <h3 class="usa-alert__heading">You've got the basics of cloud security.</h3>
     <p class="usa-alert__text">Next, take a look at what's possible:</p><br />
-    <a href="/whycloud/technicalcapabilities"><button class="usa-button">Cloud Capabilities</button></a>
+    <a href="/basics/cloud-capabilities"><button class="usa-button">Cloud Capabilities</button></a>
   </div>
 </div>
+

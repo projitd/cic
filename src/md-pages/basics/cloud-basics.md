@@ -133,6 +133,6 @@ No one cloud deployment model or cloud service model combination is fundamentall
   <div class="usa-alert__body">
     <h3 class="usa-alert__heading">You've got the basics of what cloud is.</h3>
     <p class="usa-alert__text">Next, take a high-level look at security:</p><br />
-    <a href="/whycloud/security"><button class="usa-button">Cloud Security</button></a>
+    <a href="/basics/cloud-security"><button class="usa-button">Cloud Security</button></a>
   </div>
 </div>
