@@ -35,10 +35,10 @@ const Highlights = () => (
            </div>
           </div>
         <div className="usa-media-block tablet:grid-col">
-        <Link to="/whycloud/overview"><img className="usa-media-block__img" src={cloud} alt="Cloud Basics" /></Link>
+        <Link to="/basics/cloud-basics"><img className="usa-media-block__img" src={cloud} alt="Cloud Basics" /></Link>
           <div className="usa-media-block__body">
             <h3 className="usa-graphic-list__heading">
-            <Link to="/whycloud/overview">Cloud Basics</Link>
+            <Link to="/basics/cloud-basics">Cloud Basics</Link>
             </h3>
             <p>
               I need help with understanding the cloud.

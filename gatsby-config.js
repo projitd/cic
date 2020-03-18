@@ -63,7 +63,7 @@ module.exports = {
       },      
       // Eigth Menu Item
       {
-        items: [{ text: 'Events & Training', link: '/eventstraining' }],
+        items: [{ text: 'Events & Training', link: '/events-training' }],
       },
         // end of Horizontal Navigation
     ],
