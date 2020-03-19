@@ -55,16 +55,23 @@ NIST SP 800-53 defines security controls for following security control identifi
 </div>
 
 ## Federal Government Agency Security Responsibilities
-Even with FedRAMP and the DoD issuing cloud product and service authorizations, the [Federal Information Security Management Act (FISMA)](https://www.govinfo.gov/app/details/PLAW-113publ283/) identifies that federal government agencies are ultimately accountable for maintaining the security of their Information Technology (IT) systems inclusive of IT systems leveraging or completely deployed using cloud technologies. 
+The [Federal Information Security Management Act (FISMA)](https://www.govinfo.gov/app/details/PLAW-113publ283/) identifies that federal government agencies are ultimately accountable for maintaining the security of their networks and Information Technology (IT) systems inclusive of IT systems leveraging or completely deployed using cloud solutions. 
 
 Federal government agencies are also responsible for ensuring that cloud products and services are operated and maintained at all times within the parameters of the agencies issued Authorizations to Operate (ATOs) and to conduct appropriate oversight of security operations and management. 
+
+<div class="usa-alert usa-alert--info">
+    <div class="usa-alert__body">
+        <h3 class="usa-alert__heading">What is an Authorization to Operate (ATO)?</h3>
+        <p class="usa-alert__text">It's an official management decision issued by a senior organizational official (e.g., Information System Security Officer (ISS)) that authorizes the operation of an information system (e.g., cloud infrastructure) and explicitly accepts security risks based on the implementation of an agreed-upon set of security controls.</p>
+    </div>
+</div>
 
 Federal government agencies should familiarize themselves with and understand their Cloud Service Providers (CSPs) security tools (e.g., Identity Access Management (IAM)) in addition to ensuring that their existing suite of security tools are operational with, and extended as appropriate, to secure their cloud solutions. 
 
 <div class="usa-alert usa-alert--info">
     <div class="usa-alert__body">
-    <h3 class="usa-alert__heading">How do agencies manage all this?</h3>
-        <p class="usa-alert__text">With both consumers and Cloud Service Providers (CSPs) being responsible for individual security controls, there needs to be a mechanism that manages, reviews, and audits the CSPs security controls, allowing consumers to inherit the CSPs security controls to support the consumer’s security review and authorization processes.</p><p> This bring us to our next topic, <strong>FedRAMP</strong></p>
+    <h3 class="usa-alert__heading">How do federal agencies manage all this?</h3>
+        <p class="usa-alert__text">With both organizations and Cloud Service Providers (CSPs) being responsible for individual security controls, there needs to be a mechanism that manages, reviews, and audits the CSPs responsible security controls, allowing organizations to inherit the CSPs security controls to support the organizations’s security review and authorization processes.</p><p>The federal government has identified and tasked individual agencies or programs with cybersecurity responsibilities to support the protection of federal government networks and information systems that in turn provide the mechanisms for the oversight of CSPs. </p>
     </div>
 </div>
 
@@ -90,13 +97,6 @@ FedRAMP uses a “do once, use many times” framework that reduces cost, time, 
     <div class="usa-alert__body">
         <h3 class="usa-alert__heading">Is FedRAMP a requirement?</h3>
         <p class="usa-alert__text">The <a href="https://www.fedramp.gov/assets/resources/documents/FedRAMP_Policy_Memo.pdf">Office of Management and Budget (OMB) Memorandum - Security Authorization of Information Systems in Cloud Computing Environments</a> dated December 8, 2011 states that Executive department or agencies shall:<ul><li>"use FedRAMP when conducting risk assessments, security authorizations, and granting Authorities to Operate (ATO) for all Executive department or agency use of cloud services" and</li><li>"use the FedRAMP PMO process and the JAB-approved FedRAMP security authorization requirements as a baseline when initiating, reviewing, granting and revoking security authorizations for cloud services”</li></ul></p>
-    </div>
-</div>
-
-<div class="usa-alert usa-alert--info">
-    <div class="usa-alert__body">
-        <h3 class="usa-alert__heading">What is an Authorization to Operate (ATO)?</h3>
-        <p class="usa-alert__text">It's an official management decision issued by a senior organizational official (e.g., Information System Security Officer (ISS)) that authorizes the operation of an information system (e.g., cloud infrastructure) and explicitly accepts security risks based on the implementation of an agreed-upon set of security controls.</p>
     </div>
 </div>
 
