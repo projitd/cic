@@ -13,7 +13,7 @@ const Highlights = () => (
     <div className="grid-container">
       <div className="usa-graphic-list__row grid-row grid-gap">
         <div className="usa-media-block tablet:grid-col">
-        <Link to="/support"> <img className="usa-media-block__img" src={help} alt="Help" /> </Link>
+        <Link to="/support"> <img className="usa-media-block__img" src={help} alt="Get Help Button" /> </Link>
           <div className="usa-media-block__body">
             <h3 className="usa-graphic-list__heading">
             <Link to="/support">Help</Link>
@@ -35,7 +35,7 @@ const Highlights = () => (
            </div>
           </div>
         <div className="usa-media-block tablet:grid-col">
-        <Link to="/basics/cloud-basics"><img className="usa-media-block__img" src={cloud} alt="Cloud Basics" /></Link>
+        <Link to="/basics/cloud-basics"><img className="usa-media-block__img" src={cloud} alt="Cloud Basics Button" /></Link>
           <div className="usa-media-block__body">
             <h3 className="usa-graphic-list__heading">
             <Link to="/basics/cloud-basics">Cloud Basics</Link>
