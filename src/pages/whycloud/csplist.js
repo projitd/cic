@@ -172,7 +172,7 @@ const CspList = () => {
     function filterProviders(filterType, event) {
         let tableMasterData = _.cloneDeep(state.providers);
         let masterData = _.cloneDeep(state.cloudServiceProviders);
-        let filteredData = tableMasterData;
+       // let filteredData = tableMasterData;
         const models = state.serviceModelFilters;
         const impacts = state.impactLevelFilter;
         const providers = state.cloudServiceProvidersNameFilter;
@@ -197,44 +197,70 @@ const CspList = () => {
             cloudServiceProvidersNameFilter: providers,
             impactLevelFilter: impacts,
         });
-        let allFilters = [];
+        let impactFilters = [];
+        let modelFilter = [];
+        let providerFilter = [];
         models.forEach(x => {
             if(x.checked === true) {
-                allFilters.push(x.filter);
+                modelFilter.push(x.filter);
             }
         });
         providers.forEach(x => {
             if(x.checked === true) {
-                allFilters.push(x.filter);
+                providerFilter.push(x.filter);
             }
         });
         impacts.forEach(x => {
             if(x.checked === true) {
-                allFilters.push(x.filter);
+                impactFilters.push(x.filter);
             }
         });
-        if (allFilters.length > 0) {
-            filteredData = [];
-            tableMasterData.forEach(function(item) {
-                allFilters.forEach(function(item2){
-                    if(item.Service_Model.indexOf(item2) > -1) {
-                        filteredData.push(item);
+
+        let data = [];
+
+        if(modelFilter.length > 0){
+            masterData.forEach(function(item) {
+                modelFilter.forEach(function (item2) {
+                    if (item.Service_Model.indexOf(item2) > -1) {
+                        data.push(item);
                     }
+                });
+            });
+        }else {
+            data = masterData;
+        }
+
+        let  filteredData = [];
+
+        if (impactFilters.length > 0) {
+            data.forEach(function(item) {
+                impactFilters.forEach(function(item2){
                     if(item.Impact_Level.toUpperCase() === item2.toUpperCase()) {
-                        filteredData.push(item);
-                    }
-                    if(item.Cloud_Service_Provider_Name.toUpperCase() === item2.toUpperCase()){
                         filteredData.push(item);
                     }
                 });
             });
         } else {
-            filteredData = masterData;
+            filteredData = data;
         }
+
+        let finalData = [];
+        if (providerFilter.length > 0) {
+            filteredData.forEach(function(item) {
+                providerFilter.forEach(function(item2) {
+                     if(item.Cloud_Service_Provider_Name.toUpperCase() === item2.toUpperCase()){
+                         finalData.push(item);
+                     }
+                });
+            });
+        } else {
+            finalData = filteredData;
+        }
+
         setState({
             ...state,
             serviceModelFilters: models,
-            providers: filteredData
+            providers: finalData
         });
     }
 };
