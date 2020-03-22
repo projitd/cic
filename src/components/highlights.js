@@ -13,13 +13,13 @@ const Highlights = () => (
     <div className="grid-container">
       <div className="usa-graphic-list__row grid-row grid-gap">
         <div className="usa-media-block tablet:grid-col">
-        <Link to="/support"> <img className="usa-media-block__img" src={help} alt="Help!" /> </Link>
+        <Link to="/support"> <img className="usa-media-block__img" src={help} alt="Get Help Button" /> </Link>
           <div className="usa-media-block__body">
             <h3 className="usa-graphic-list__heading">
-            <Link to="/support">Help!</Link>
+            <Link to="/support">Help</Link>
             </h3>
             <p>
-              I need help with a cloud solution / acquisition.
+              I need help with cloud.
             </p>
           </div>
         </div>
@@ -30,18 +30,18 @@ const Highlights = () => (
              <Link to="/acquisitionguidance/overview">How to Buy</Link>
              </h3>
              <p>
-                I want to acquire a cloud solution I've found.
+                I need help to acquire a cloud solution.
               </p>
            </div>
           </div>
         <div className="usa-media-block tablet:grid-col">
-        <Link to="/whycloud/overview"><img className="usa-media-block__img" src={cloud} alt="Cloud Overview" /></Link>
+        <Link to="/basics/cloud-basics"><img className="usa-media-block__img" src={cloud} alt="Cloud Basics Button" /></Link>
           <div className="usa-media-block__body">
             <h3 className="usa-graphic-list__heading">
-            <Link to="/whycloud/overview">Cloud Basics</Link>
+            <Link to="/basics/cloud-basics">Cloud Basics</Link>
             </h3>
             <p>
-              I need a beginners guide to all things cloud.
+              I need help with understanding the cloud.
             </p>
           </div>
         </div>

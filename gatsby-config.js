@@ -11,30 +11,30 @@ module.exports = {
     },
       //Second Menu Item
     {
-      title: 'Why Cloud',
+      title: 'Basics',
       items: [
-        { text: 'Cloud Basics', link: '/whycloud/overview' },
-        { text: 'Cloud Security', link: '/whycloud/security' },
-        { text: 'Cloud Capabilities', link: '/whycloud/technicalcapabilities' },
+        { text: 'Cloud Basics', link: '/basics/cloud-basics' },
+        { text: 'Cloud Security', link: '/basics/cloud-security' },
+        { text: 'Cloud Capabilities', link: '/basics/cloud-capabilities' },
         { text: 'Cloud Service Provider List', link: '/whycloud/csplist' }
       ],
     },
       //Third Menu Item    
         {
-      title: 'Plan Cloud',
+      title: 'Planning',
       items: [
-        { text: 'Planning Basics', link: '/cloudplanning/overview' },
-        { text: 'Business Considerations', link: '/cloudplanning/business' },
-        { text: 'Technical Implementation', link: '/cloudplanning/technical' },
+        { text: 'Planning Basics', link: '/planning/planning-basics' },
+        { text: 'Business Considerations', link: '/planning/business-considerations' },
+        { text: 'Technical Implementation', link: '/planning/technical-implementation' },
       ],
     },
       // Forth Menu Item    
       {
-        items: [{ text: 'Find Cloud', link: '/findcloud/overview' }],
+        items: [{ text: 'Solutions', link: '/findcloud/overview' }],
       },
       // Fifth Menu Item
       {
-        title: 'Acquire Cloud',
+        title: 'Acquisitions',
         items: [
           { text: 'Overview', link: '/acquisitionguidance/overview' },
           { text: 'Pricing', link: '/acquisitionguidance/pricing' },
@@ -42,22 +42,29 @@ module.exports = {
           { text: 'Procurement Process', link: '/acquisitionguidance/procurementprocess' },
           { text: 'Acquisition Challenges', link: '/acquisitionguidance/acquisitionchallenges' },
           { text: 'Acquisition Resources', link: '/acquisitionguidance/acquisitionresources' },
-          { text: 'Templates', link: '/acquisitionguidance/templates' },
-          { text: 'Use Cases', link: '/acquisitionguidance/usecases' },
-          { text: 'Helpful Documents', link: '/acquisitionguidance/helpfuldocuments' },
         ],
       },
       // Sixth Menu Item
       {
-        items: [{ text: 'Policy', link: '/policy' }],
+        title: 'Resources',
+        items: [
+          { text: 'Templates', link: '/resources/templates' },
+          { text: 'Use Cases', link: '/resources/use-cases' },
+          { text: 'Success Stories', link: '/resources/success-stories' },
+          { text: 'Helpful Documents', link: '/resources/helpful-documents' },
+        ],
       },      
       // Seventh Menu Item
       {
-        items: [{ text: 'Partner Sites', link: '/partnersites' }],
-      },    
+        title: 'References',
+        items: [
+          { text: 'Policy', link: '/references/policy' },
+          { text: 'Partner Sites', link: '/references/partner-sites' },
+        ],
+      },
       // Eigth Menu Item
       {
-        items: [{ text: 'Events & Training', link: '/eventstraining' }],
+        items: [{ text: 'Events & Training', link: '/events-training' }],
       },
         // end of Horizontal Navigation
     ],

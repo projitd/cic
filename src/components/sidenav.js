@@ -1,8 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import { Location } from '@reach/router'
-
-
+import { Location } from '@reach/router';
+import { graphql, useStaticQuery} from 'gatsby'
 /*
   The sidenav is not loaded by default on the main pages. To include this navigation you can
   add "sidenav: true" in the front-matter of your markdown pages
@@ -10,25 +9,53 @@ import { Location } from '@reach/router'
   Eric - changed grid col from 3 to 2
 */
 
-const Sidenav = () => (
+/*
+  Start eric attempt at dynamic sidenav
+*/
+
+
+
+/*
+  end eric
+*/
+
+const Sidenav = () => {
+  
+  const data = useStaticQuery(graphql`
+  query MyQuery2 {
+    site {
+      siteMetadata {
+        navigation {
+          items {
+            link
+            text
+          }
+          title
+        }
+      }
+    }
+  }
+  
+  `);
+
+
+  return (
   <aside className="usa-layout-docs-sidenav desktop:grid-col-2">
     <nav>
     <ul className="usa-sidenav"> 
       <Location>
       {({ location }) => {
         console.log(location)
-        if (location.pathname.startsWith('/whycloud/')) {
-          return (<div><h3>Related Topics:</h3><li className="usa-sidenav__item"><Link to='/whycloud/overview' activeClassName="usa-focus">Cloud Basics</Link></li>
-          <li className="usa-sidenav__item"><Link to='/whycloud/security' activeClassName="usa-focus">Cloud Security</Link></li>
-          <li className="usa-sidenav__item"><Link to='/whycloud/technicalcapabilities' activeClassName="usa-focus">Cloud Capabilities</Link></li>
-          <li className="usa-sidenav__item"><Link to='/whycloud/csplist' activeClassName="usa-focus">Cloud Service Provider</Link></li>
-          </div>)
+        if (location.pathname.startsWith('/basics/')) {    
+          return (<div><h3>Related Topics:</h3><li className="usa-sidenav__item"><Link to={data.site.siteMetadata.navigation[1].items[0].link} activeClassName="usa-focus">{data.site.siteMetadata.navigation[1].items[0].text}</Link></li>
+          <li className="usa-sidenav__item"><Link to={data.site.siteMetadata.navigation[1].items[1].link} activeClassName="usa-focus">{data.site.siteMetadata.navigation[1].items[1].text}</Link></li>
+          <li className="usa-sidenav__item"><Link to={data.site.siteMetadata.navigation[1].items[2].link} activeClassName="usa-focus">{data.site.siteMetadata.navigation[1].items[2].text}</Link></li></div>)
         } 
-        else if (location.pathname.startsWith('/cloudplanning/')) {
+        else if (location.pathname.startsWith('/planning/')) {
 
-          return (<div><h3>Related Topics:</h3><li className="usa-sidenav__item"><Link to='/cloudplanning/overview' activeClassName="usa-focus">Planning Basics</Link></li>
-          <li className="usa-sidenav__item"><Link to='/cloudplanning/business' activeClassName="usa-focus">Business Considerations</Link></li>
-          <li className="usa-sidenav__item"><Link to='/cloudplanning/technical' activeClassName="usa-focus">Technical Implementation</Link></li></div>)
+          return (<div><h3>Related Topics:</h3><li className="usa-sidenav__item"><Link to='/planning/planning-basics' activeClassName="usa-focus">Planning Basics</Link></li>
+          <li className="usa-sidenav__item"><Link to='/planning/business-considerations' activeClassName="usa-focus">Business Considerations</Link></li>
+          <li className="usa-sidenav__item"><Link to='/planning/technical-implementation' activeClassName="usa-focus">Technical Implementation</Link></li></div>)
 
         }
         else if (location.pathname.startsWith('/findcloud/')) {
@@ -48,13 +75,10 @@ const Sidenav = () => (
           <li className="usa-sidenav__item"><Link to='/acquisitionguidance/procurementprocess' activeClassName="usa-focus">Procurement Process</Link></li>
           <li className="usa-sidenav__item"><Link to='/acquisitionguidance/acquisitionchallenges' activeClassName="usa-focus">Acquisition Challenges</Link></li>
           <li className="usa-sidenav__item"><Link to='/acquisitionguidance/acquisitionresources' activeClassName="usa-focus">Acquisition Resources</Link></li>
-          <li className="usa-sidenav__item"><Link to='/acquisitionguidance/templates' activeClassName="usa-focus">Templates</Link></li>
-          <li className="usa-sidenav__item"><Link to='/acquisitionguidance/usecases' activeClassName="usa-focus">Use Cases</Link></li>
-          <li className="usa-sidenav__item"><Link to='/acquisitionguidance/helpfuldocuments' activeClassName="usa-focus">Helpful Documents</Link></li>
           <li className="usa-sidenav__item"><a href="#TOP" activeClassName="usa-focus"><strong>Top of Page</strong></a></li>
           </div>)
         }
-        else if (location.pathname.startsWith('/policy')) {
+        else if (location.pathname.startsWith('/references/policy')) {
 
           return (<div><h3>On This Page:</h3> <li className="usa-sidenav__item"><a href="#FITARA" activeClassName="usa-focus">FITARA</a></li>
           <li className="usa-sidenav__item"><a href="#MEGABYTE" activeClassName="usa-focus">MEGABYTE</a></li>
@@ -69,12 +93,22 @@ const Sidenav = () => (
           <li className="usa-sidenav__item"><a href="#OMBGUIDANCE" activeClassName="usa-focus">OMB GUIDANCE</a></li>
           </div>)
         }
+        else if (location.pathname.startsWith('/resources/')) {
+
+          return (<div><h3>Related Topics:</h3><li className="usa-sidenav__item"><Link to='/resources/templates' activeClassName="usa-focus">Templates</Link></li>
+          <li className="usa-sidenav__item"><Link to='/resources/use-cases' activeClassName="usa-focus">Use Cases</Link></li>
+          <li className="usa-sidenav__item"><Link to='/resources/success-stories' activeClassName="usa-focus">Success Stories</Link></li>
+          <li className="usa-sidenav__item"><Link to='/resources/helpful-documents' activeClassName="usa-focus">Helpful Documents</Link></li>
+          </div>)
+        }
       }}
      </Location> 
       </ul>  
     </nav>
-    
   </aside>
-);
+  )
+
+};
+
 
 export default Sidenav;

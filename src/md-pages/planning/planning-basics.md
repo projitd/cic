@@ -1,7 +1,6 @@
 ---
-title: Cloud Planning
-permalink: /cloudplanning/overview
-path: /cloudplanning/overview
+title: Cloud Planning - Basics
+path: /planning/planning-basics
 sidenav: true
 ---
 
@@ -32,12 +31,12 @@ Next, you'll learn more about implementing cloud at your agency. We've broken th
     <div class="tablet:grid-col">
     <h3>Business Considerations</h3>
     <p> The "human side" of cloud deployment. What skills does your team need? How do you manage change? What's the best approach to training?</p>
-    <p><a href="/cloudplanning/business"><button class="usa-button">Learn More</button></a></p>
+    <p><a href="/planning/business-considerations"><button class="usa-button">Learn More</button></a></p>
     </div>
     <div class="tablet:grid-col">
     <h3>Technical Implementation</h3>
     <p> The mechanics of getting cloud deployed. How do you take inventory of your current assets? What maintenance will you be responsible for? How do you migrate and scale effectively?</p>
-    <p><a href="/cloudplanning/technical"><button class="usa-button">Learn More</button></a></p>
+    <p><a href="/planning/technical-implementation"><button class="usa-button">Learn More</button></a></p>
     </div> 
   </div>
 </div>
