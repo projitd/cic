@@ -18,11 +18,11 @@ const Tagline = () => (
       <div className="tablet:grid-col-3">
         <div id="outside-box">
           <div id="inside-box">
-          <img src={provides} alt="Provides heading" />
+          <img src={provides} alt="Provides heading" width="200px" />
           <div id="inside-content">
           <ul>
           <li>a Managed Collection of Cloud Computing Best Practices, Guidance, and Templates</li><br />
-          <li>Explaination of what Cloud Computing is and the Benefits</li>
+          <li>an explaination of what Cloud Computing is and the Benefits</li>
           </ul>    
           </div>
           </div>    
@@ -32,11 +32,11 @@ const Tagline = () => (
       <div className="tablet:grid-col-3">
         <div id="outside-box"> 
         <div id="inside-box">
-        <img src={assists} alt="Assists heading" />
+        <img src={assists} alt="Assists heading" width="200px" />
         <div id="inside-content">
           <ul>
-           <li>in Identifying and Conducting Market Research on Cloud Service Providers (CSPs)</li><br />
-          <li>your Journey through the Cloud Lifecycle with Cloud Experts to Support</li>
+           <li>in identifying and conducting Market Research on Cloud Service Providers (CSPs)</li><br />
+          <li>your journey through the Cloud Lifecycle with Cloud Experts to Support</li>
           </ul>
         </div></div></div>
         
@@ -44,7 +44,7 @@ const Tagline = () => (
       <div className="tablet:grid-col-3">
       <div id="outside-box"> 
         <div id="inside-box">
-        <img src={promotes} alt="Promotes heading" />
+        <img src={promotes} alt="Promotes heading" width="200px" />
         <div id="inside-content">
         <ul>
           <li>the Communication and Collaboration between the Government Cloud Community and Industry Experts</li>
