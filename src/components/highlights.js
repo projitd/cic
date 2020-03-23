@@ -1,8 +1,5 @@
 import React from 'react';
 import { Link } from "gatsby"
-import help from '../images/help-icon-2.png';
-import buy from '../images/buy-icon-2.png';
-import cloud from '../images/cloud-icon-2.png';
 
 /*
   Use this section to highlight key elements of your site. Some sites will only have two while others may have six to eight. 
@@ -10,44 +7,98 @@ import cloud from '../images/cloud-icon-2.png';
 
 const Highlights = () => (
   <section className="usa-graphic-list usa-section usa-section--dark">
+        <center><h3 className="font-heading-xl color:#000 margin-top-0 tablet:margin-bottom-0">Government Cloud Roadmap</h3>
     <div className="grid-container">
-      <div className="usa-graphic-list__row grid-row grid-gap">
-        <div className="usa-media-block tablet:grid-col">
-        <Link to="/support"> <img className="usa-media-block__img" src={help} alt="Get Help Button" /> </Link>
-          <div className="usa-media-block__body">
-            <h3 className="usa-graphic-list__heading">
-            <Link to="/support">Help</Link>
-            </h3>
-            <p>
-              I need help with cloud.
-            </p>
+
+   
+    <div class="grid-row grid-gap-05">
+
+    <div class="tablet:grid-col">
+      <div class="box">
+      
+    <Link to="/basics/cloud-basics" class="nodecor">
+          <div>
+
+  <div class="large">1</div>
+ 
+            <h3 className="usa-graphic-list__heading">BASICS</h3>
+            <p>Learn all things Federal Cloud</p>
           </div>
-        </div>
-          <div className="usa-media-block tablet:grid-col">
-          <Link to="/acquisitionguidance/overview"><img className="usa-media-block__img" src={buy} alt="How to Buy Button" /></Link>
-           <div className="usa-media-block__body">
-             <h3 className="usa-graphic-list__heading">
-             <Link to="/acquisitionguidance/overview">How to Buy</Link>
-             </h3>
-             <p>
-                I need help to acquire a cloud solution.
-              </p>
-           </div>
-          </div>
-        <div className="usa-media-block tablet:grid-col">
-        <Link to="/basics/cloud-basics"><img className="usa-media-block__img" src={cloud} alt="Cloud Basics Button" /></Link>
-          <div className="usa-media-block__body">
-            <h3 className="usa-graphic-list__heading">
-            <Link to="/basics/cloud-basics">Cloud Basics</Link>
-            </h3>
-            <p>
-              I need help with understanding the cloud.
-            </p>
-          </div>
-        </div>
+          </Link>
+
       </div>
+      </div>
+
+    <div class="tablet:grid-col">
+      <div class="box">
+
+    <Link to="/planning/planning-basics" class="nodecor">
+           <div>
+           <div class="large">2</div>
+             <h3 className="usa-graphic-list__heading">PLANNING</h3>
+            <p>The What, Why, and How</p>
+          </div>
+          </Link>
+
+      </div>
+      </div>
+
+    <div class="tablet:grid-col">
+      <div class="box">
+
+    <Link to="/findcloud/overview" class="nodecor">
+          <div>
+          <div class="large">3</div>
+            <h3 className="usa-graphic-list__heading">SOLUTIONS</h3>
+            <p>Find the Right Providers</p>
+          </div>
+          </Link>
+
+      </div>
+      </div>
+
+      <div class="tablet:grid-col">
+      <div class="box">
+
+    <Link to="/acquisitionguidance/overview" class="nodecor">
+          <div>
+          <div class="large">4</div>
+            <h3 className="usa-graphic-list__heading">ACQUISITIONS</h3>
+            <p>Acquire a Cloud Solution</p>
+          </div>
+          </Link>
+
+      </div>
+      </div>
+
+      <div class="tablet:grid-col">
+      <div class="box">
+
+    <Link to="/support" class="nodecor">
+          <div>
+          <div class="large">5</div>
+            <h3 className="usa-graphic-list__heading">OPERATIONS</h3>
+            <p>Maintain with Confidence</p>
+          </div>
+          </Link>
+
+      </div>
+      </div>
+
+     
+
     </div>
+    </div>    
+  
+
+    </center>
+
   </section>
+
+
+
+
+
 );
 
 export default Highlights;
