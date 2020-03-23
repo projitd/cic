@@ -1,9 +1,5 @@
 import React from 'react';
 import { Link } from "gatsby"
-import help from '../images/help-icon-2.png';
-import buy from '../images/buy-icon-2.png';
-import cloud from '../images/cloud-icon-2.png';
-import basics from '../../static/basics-icon.png';
 
 /*
   Use this section to highlight key elements of your site. Some sites will only have two while others may have six to eight. 
