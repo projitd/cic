@@ -1,6 +1,6 @@
 ---
-title: Find Cloud - SaaS - Customer Relationship Management (CRM)
-path: /findcloud/saas/crm
+title: Cloud - SaaS - Customer Relationship Management (CRM)
+path: /solutions/saas/crm
 sidenav: false
 ---
 

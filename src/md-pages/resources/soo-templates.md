@@ -1,6 +1,6 @@
 ---
 title: Acquisition Guidance - SOO Templates
-path: /acquisitionguidance/sootemplates
+path: /resources/soo-templates
 sidenav: false
 ---
 
