@@ -32,19 +32,19 @@ Phases 1-3 were combined into a single document due to their related steps and f
 
 This SOO template can be tailored to the cloud migration services that your agency needs. For example, if you only are looking to procure Migration Planning services, delete all of the red text associated with ‘Inventory’ or ‘Application Mapping’ phases.
 
-[<img src="../../file-word-regular.svg" width="20" />  **Cloud Migration SOO Template**](/cloud-migration-services-soo-template-1-3.docx) - Phase 1-3 - Inventory, Application Mapping, and Migration Planning
+[<img src="../../images/file-word-regular.svg" width="20" />  **Cloud Migration SOO Template**](/documents/cloud-migration-services-soo-template-1-3.docx) - Phase 1-3 - Inventory, Application Mapping, and Migration Planning
  
-[<img src="../../file-pdf-regular.svg" width="20" />  **Cloud Migration SOO Template (DoD)**](/DoDCloudSOOTemplate2016.pdf) - Phase 1-3 - Inventory, Application Mapping, and Migration Planning
+[<img src="../../images/file-pdf-regular.svg" width="20" />  **Cloud Migration SOO Template (DoD)**](/documents/DoDCloudSOOTemplate2016.pdf) - Phase 1-3 - Inventory, Application Mapping, and Migration Planning
 
-[<img src="../../file-word-regular.svg" width="20" />  **Cloud Migration SOO Template**](/Cloud-migration-services-soo-template-for-phase-4.docx) - Phase 4 -Migration Execution
+[<img src="../../images/file-word-regular.svg" width="20" />  **Cloud Migration SOO Template**](/documents/Cloud-migration-services-soo-template-for-phase-4.docx) - Phase 4 -Migration Execution
 
-[<img src="../../file-word-regular.svg" width="20" />  **Cloud Migration SOO Template**](/Cloud-migration-services-soo-template-for-phase-5.docx) - Phase 5 - Decommissioning Services, Equipment/Facility Disposition
+[<img src="../../images/file-word-regular.svg" width="20" />  **Cloud Migration SOO Template**](/documents/Cloud-migration-services-soo-template-for-phase-5.docx) - Phase 5 - Decommissioning Services, Equipment/Facility Disposition
 
 ### Other Sample SOOs
 
-[<img src="../../file-pdf-regular.svg" width="20" />  **Email and Collaborative Services - Cloud Software as a Service (SaaS) SOO**](/Email-Cloud-SOO.pdf) - Cloud Software as a Service
+[<img src="../../images/file-pdf-regular.svg" width="20" />  **Email and Collaborative Services - Cloud Software as a Service (SaaS) SOO**](/documents/Email-Cloud-SOO.pdf) - Cloud Software as a Service
 
-[<img src="../../file-pdf-regular.svg" width="20" />  **Cloud Infrastructure as a Service (IaaS) SOO**](/Enterprise-Cloud-IaaS.pdf) - Cloud Infrastructure as a Service (IaaS)
+[<img src="../../images/file-pdf-regular.svg" width="20" />  **Cloud Infrastructure as a Service (IaaS) SOO**](/documents/Enterprise-Cloud-IaaS.pdf) - Cloud Infrastructure as a Service (IaaS)
 
 
 ## What Documents Were Used as Sources or Used to Create This SOO Template?
@@ -52,9 +52,9 @@ The following documents were either leveraged to create this SOO Template or are
 
 - “Comprehensive Inventory of Agency IT Assets, Users and Processes” – Template of Questions Produced by Alliant Shared Interest Group (SIG), February 2012.
 
-- [<img src="../../file-pdf-regular.svg" width="20" />  **Creating Effective Cloud Contracts for the Federal Government: Best Practices for Acquiring IT as a Service**](/cloudbestpractices.pdf) – Joint publication of the CIO Council and the Chief Acquisition Officers Council, February 24, 2012. 
+- [<img src="../../images/file-pdf-regular.svg" width="20" />  **Creating Effective Cloud Contracts for the Federal Government: Best Practices for Acquiring IT as a Service**](/documents/cloudbestpractices.pdf) – Joint publication of the CIO Council and the Chief Acquisition Officers Council, February 24, 2012. 
 
-- [<img src="../../file-word-regular.svg" width="20" />  **Infrastructure-as-a-Service BPA Sample Statement of Objectives**](/IaaS-BPA-SOO-Template.doc) - Posted on Info.apps.gov, May 2011.
+- [<img src="../../images/file-word-regular.svg" width="20" />  **Infrastructure-as-a-Service BPA Sample Statement of Objectives**](/documents/IaaS-BPA-SOO-Template.doc) - Posted on Info.apps.gov, May 2011.
 
 - [GSA Statement of Objectives for Enterprise E-Mail and Collaboration Services](https://web.archive.org/web/20170515024601/www.gsa.gov/portal/content/214321) – SOO posted on www.gsa.gov for RFP #OCIO-14558, June 2010. 
 

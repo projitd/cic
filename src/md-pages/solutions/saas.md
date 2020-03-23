@@ -9,7 +9,7 @@ sidenav: true
 Software as a Service (SaaS) is a method for delivering software applications over the Internet, on demand and typically on a subscription basis. With SaaS, Cloud  Service Providers (CSPs) host and manage the application software and underlying infrastructure, and handle any maintenance, like software upgrades and security patching. Users connect to the application over the Internet, usually by a web browser on their phone, tablet, or PC.
 
 ## SaaS Model
-![SaaS model](../../saas-model.png)
+![SaaS model](../../images/saas-model.png)
 
 Software as a service (SaaS) allows users to connect to and use cloud-based applications over the Internet. Common examples are email, calendaring, and office tools.
 
@@ -55,22 +55,22 @@ Learn more about SaaS Products / Solutions (select topic from list below)
   <div class="grid-row">
     <div class="tablet:grid-col">
 
-[<img src="../../file-word-regular.svg" width="20" /> Business Use Cases](../../Business-Use-Cases.docx)
+[<img src="../../images/file-word-regular.svg" width="20" /> Business Use Cases](../../documents/Business-Use-Cases.docx)
 
-[<img src="../../file-pdf-regular.svg" width="20" /> High Level Requirements](../../High-Level-Requirements.pdf)
+[<img src="../../images/file-pdf-regular.svg" width="20" /> High Level Requirements](../../documents/High-Level-Requirements.pdf)
 
-[<img src="../../file-word-regular.svg" width="20" /> Links to Articles, Use Cases, and Whitepapers](../../Links-to-Articles-Use-Cases-and-Whitepapers.docx)  
+[<img src="../../images/file-word-regular.svg" width="20" /> Links to Articles, Use Cases, and Whitepapers](../../documents/Links-to-Articles-Use-Cases-and-Whitepapers.docx)  
 
- [<img src="../../file-word-regular.svg" width="20" /> Market Overview](../../Market-Overview.docx)
+ [<img src="../../images/file-word-regular.svg" width="20" /> Market Overview](../../documents/Market-Overview.docx)
     
 </div>
     <div class="tablet:grid-col">
 
-[<img src="../../file-word-regular.svg" width="20" /> Service Level Agreements](../../Service-Level-Agreements.docx)
+[<img src="../../images/file-word-regular.svg" width="20" /> Service Level Agreements](../../documents/Service-Level-Agreements.docx)
 
-[<img src="../../file-word-regular.svg" width="20" /> Technical Questions](../../Technical-Questions.docx)
+[<img src="../../images/file-word-regular.svg" width="20" /> Technical Questions](../../documents/Technical-Questions.docx)
  
-[<img src="../../file-word-regular.svg" width="20" /> Technical Use Cases](../../Technical-Use-Cases.docx)   
+[<img src="../../images/file-word-regular.svg" width="20" /> Technical Use Cases](../../documents/Technical-Use-Cases.docx)   
     
 </div>
   </div>

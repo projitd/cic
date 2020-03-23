@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from "gatsby"
-import provides from '../../static/provides.png';
-import assists from '../../static/assists.png';
-import promotes from '../../static/promotes.png';
+import provides from '../../static/images/provides.png';
+import assists from '../../static/images/assists.png';
+import promotes from '../../static/images/promotes.png';
 /*
   This tagline will appear in your homepage
 */

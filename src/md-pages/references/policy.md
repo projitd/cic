@@ -25,7 +25,7 @@ The goal of FITARA is to promote Federal IT modernization and strengthen the Fed
 - Governmentwide software purchasing program
 
 
-[<img src="../../file-pdf-regular.svg" width="20" /> Federal Information Technology Acquisition Reform - Congress.gov](https://www.congress.gov/113/plaws/publ291/PLAW-113publ291.pdf#page=148%5D)
+[<img src="../../images/file-pdf-regular.svg" width="20" /> Federal Information Technology Acquisition Reform - Congress.gov](https://www.congress.gov/113/plaws/publ291/PLAW-113publ291.pdf#page=148%5D)
 
 [Management and Oversight of Federal Information Technology](https://management.cio.gov/)
 
@@ -46,11 +46,11 @@ The MEGABYTE Act requires CIOs to develop a comprehensive software licensing pol
 - Embrace metrics such as software usage data to make cost-effective decisions.
 
 Each agency CIO must subsequently report after one year and then at five-yearly intervals of the financial savings which have resulted from improved software license management. In accordance with the act requirements, OMB published:
-- [<img src="../../file-pdf-regular.svg" width="20" /> M-16-12 Category Management Policy 16-1: Improving the Acquisition and Management of Common Information Technology: Software Licensing](https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2016/m-16-12_1.pdf)
+- [<img src="../../images/file-pdf-regular.svg" width="20" /> M-16-12 Category Management Policy 16-1: Improving the Acquisition and Management of Common Information Technology: Software Licensing](https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2016/m-16-12_1.pdf)
 
 - [MEGABYTE Act of 2016](https://www.congress.gov/bill/114th-congress/senate-bill/2340")		
 
-- [<img src="../../file-pdf-regular.svg" width="20" /> Category Management Policy - Software Licensing](https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2016/m-16-12_1.pdf)
+- [<img src="../../images/file-pdf-regular.svg" width="20" /> Category Management Policy - Software Licensing](https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2016/m-16-12_1.pdf)
 
 
 ## ADMINISTRATIVE POLICY
@@ -75,7 +75,7 @@ Agencies will need to share their transformative experiences with their peers, s
 
 ### DATA CENTER OPTIMIZATION INITIATIVE (DCOI)
 
-The Data Center Optimization Initiative (DCOI) established in [<img src="../../file-pdf-regular.svg" width="20" /> OMB Memorandum M-16-19](https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2016/m_16_19_1.pdf) super cedes the Federal Data Center Consolidation Initiative (FDCCI) and fulfills the data center requirements of the Federal Information Technology Acquisition Reform Act (FITARA).'
+The Data Center Optimization Initiative (DCOI) established in [<img src="../../images/file-pdf-regular.svg" width="20" /> OMB Memorandum M-16-19](https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2016/m_16_19_1.pdf) super cedes the Federal Data Center Consolidation Initiative (FDCCI) and fulfills the data center requirements of the Federal Information Technology Acquisition Reform Act (FITARA).'
 
 The DCOI requires agencies to:
 
@@ -92,11 +92,11 @@ Links:
 
 - [DCOI - Collaborate](https://www.gsa.gov/technology/government-it-initiatives/dcoi/dcoi-data-center-resources/collaborate)
 
-- [<img src="../../file-pdf-regular.svg" width="20" /> Cloud Readiness: Preparing Your Agency for Migration, April 2018](../../Cloud-Readiness.pdf)
+- [<img src="../../images/file-pdf-regular.svg" width="20" /> Cloud Readiness: Preparing Your Agency for Migration, April 2018](/documents/Cloud-Readiness.pdf)
 
-- [<img src="../../file-pdf-regular.svg" width="20" /> IaaS Considerations for the Data Center Community: DCOI PMO Cloud Series, March 2017](../../iaas-considerations.pdf)
+- [<img src="../../images/file-pdf-regular.svg" width="20" /> IaaS Considerations for the Data Center Community: DCOI PMO Cloud Series, March 2017](/documents/iaas-considerations.pdf)
 
-- [<img src="../../file-pdf-regular.svg" width="20" /> Key Cost Considerations for Agencies Planning Cloud Migrations, November 2017](../../key-cost-considerations.pdf)
+- [<img src="../../images/file-pdf-regular.svg" width="20" /> Key Cost Considerations for Agencies Planning Cloud Migrations, November 2017](/documents/key-cost-considerations.pdf)
 
 <a id="FedRAMP"></a>
 
@@ -106,9 +106,9 @@ The Federal Risk and Authorization Management Program (FedRAMP) is a government-
 
 - [FedRAMP.gov](http://www.fedramp.gov)
 
-- [<img src="../../file-pdf-regular.svg" width="20" /> FedRAMP Policy Memo](https://www.fedramp.gov/assets/resources/documents/FedRAMP_Policy_Memo.pdf)
+- [<img src="../../images/file-pdf-regular.svg" width="20" /> FedRAMP Policy Memo](https://www.fedramp.gov/assets/resources/documents/FedRAMP_Policy_Memo.pdf)
 
-- [<img src="../../file-pdf-regular.svg" width="20" /> Defense Information Systems Agency (DISA) Memorandum of Reciprocity for FedRAMP Authorized Moderate Baseline Cloud Service Offerings (CSO) at Impact Level 2 (2019 08 15)](https://www.doncio.navy.mil/FileHandler.ashx?id=13641)
+- [<img src="../../images/file-pdf-regular.svg" width="20" /> Defense Information Systems Agency (DISA) Memorandum of Reciprocity for FedRAMP Authorized Moderate Baseline Cloud Service Offerings (CSO) at Impact Level 2 (2019 08 15)](https://www.doncio.navy.mil/FileHandler.ashx?id=13641)
 
 <a id="ITMODERNIZATION"></a>
 		
@@ -145,7 +145,7 @@ Will assist the analysis of current systems and applications to provide recommen
 
 - [IT Modernization - Cloud Adoption](https://coe.gsa.gov/coe/cloud-adoption.html)
 
-- [<img src="../../file-pdf-regular.svg" width="20" /> Cloud Adoption Service Catalog](https://coe.gsa.gov/docs/Cloud_Adoption_One_Page_Service_Catalog.pdf)
+- [<img src="../../images/file-pdf-regular.svg" width="20" /> Cloud Adoption Service Catalog](https://coe.gsa.gov/docs/Cloud_Adoption_One_Page_Service_Catalog.pdf)
 
 
 <a id="USSM"></a>

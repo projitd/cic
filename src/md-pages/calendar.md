@@ -1,6 +1,6 @@
 ---
-title: Events and Training
-path: /events-training
+title: Cloud Calendar - Events, Training and Meetings
+path: /calendar
 sidenav: true
 ---
 
