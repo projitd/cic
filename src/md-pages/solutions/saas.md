@@ -1,6 +1,6 @@
 ---
-title: Find Cloud Solutions - Software As A Service
-path: /findcloud/saas
+title: Cloud Solutions - Software as a Service (Saas)
+path: /solutions/saas
 sidenav: true
 ---
 
@@ -38,15 +38,15 @@ The previous examples are free commercial services for personal use. For organiz
 
 Learn more about SaaS Products / Solutions (select topic from list below)
 
-<a href="/findcloud/saas/businessproductivity"><button class="usa-button usa-button--outline">Business Productivity And Workflow</button></a>
+<a href="/solutions/saas/businessproductivity"><button class="usa-button usa-button--outline">Business Productivity And Workflow</button></a>
  
-<a href="/findcloud/saas/collaboration"><button class="usa-button usa-button--outline">Collaboration and Communication</button></a> 
+<a href="/solutions/saas/collaboration"><button class="usa-button usa-button--outline">Collaboration and Communication</button></a> 
 
-<a href="/findcloud/saas/crm"><button class="usa-button usa-button--outline">Customer Relationship Management (CRM)</button></a> 
+<a href="/solutions/saas/crm"><button class="usa-button usa-button--outline">Customer Relationship Management (CRM)</button></a> 
 
-<a href="/findcloud/saas/devtools"><button class="usa-button usa-button--outline">Developer Tools</button></a> 
+<a href="/solutions/saas/devtools"><button class="usa-button usa-button--outline">Developer Tools</button></a> 
  
-<a href="/findcloud/saas/securityidentitytools"><button class="usa-button usa-button--outline">Security / Identity Tools</button></a> 
+<a href="/solutions/saas/securityidentitytools"><button class="usa-button usa-button--outline">Security / Identity Tools</button></a> 
 
 ## Helpful Documents
 

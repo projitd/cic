@@ -1,6 +1,6 @@
 ---
 title: Acquisition Guidance - Procurement Process
-path: /acquisitionguidance/procurementprocess
+path: /acquisitions/procurement-process
 sidenav: true
 ---
 
@@ -22,13 +22,13 @@ Your acquisition teams are the experts, and they — along with resources like G
 
 Once you’ve got these questions answered, you can start making decisions about what kind of procurement you want to make. Every agency is different, but if you’re purchasing from GSA, here are the major considerations:
 - Which vehicle will you choose? At GSA, cloud commercial and professional services are available via both IT Schedule 70 and Government Wide Acquisition Contracts (GWACs).
-- Will you bundle cloud technology with Cloud Professional Services (CPS) (i.e., labor)? It is possible to procure both cloud technology and Cloud Professional Services at the same time. Depending on your agency’s needs, this may or may not be necessary. For more, take a look at our sample [**Cloud Migration Statement of Objectives Template**](/acquisitionguidance/templates). 
+- Will you bundle cloud technology with Cloud Professional Services (CPS) (i.e., labor)? It is possible to procure both cloud technology and Cloud Professional Services at the same time. Depending on your agency’s needs, this may or may not be necessary. For more, take a look at our sample [**Cloud Migration Statement of Objectives Template**](/resources/templates). 
 - Which type of contract should you use? Just as in the rest of government, there are three types of contract: firm-fixed-price (FFP), cost reimbursement, and time and materials (T&M). There are advantages and disadvantages to each; for example, FFP contracts are simpler but won’t let you underspend, even if you need less resource than you anticipated. 
 - Will you buy directly or through a cloud commercial service reseller? Some cloud commercial services are directly available on GSA IT Schedule 70, and some are available via resellers who can help you access discounted pricing rates. 
  
 ### Leverage our Acquisition Templates 
 
-Once you’ve conducted a review of your agencies requirements (e.g., technical, security, workflow) and conducted market research to determine which cloud deployment and commercial service models meet your need, if you want to bundle cloud and Cloud Professional Services, and where to solicit your request, you can leverage our cloud-friendly [**acquisition templates**](/acquisitionguidance/templates). 
+Once you’ve conducted a review of your agencies requirements (e.g., technical, security, workflow) and conducted market research to determine which cloud deployment and commercial service models meet your need, if you want to bundle cloud and Cloud Professional Services, and where to solicit your request, you can leverage our cloud-friendly [**acquisition templates**](/resources/templates). 
 
 <div class="usa-alert usa-alert--info" >
   <div class="usa-alert__body">

@@ -141,7 +141,7 @@ The capability provided to the consumer is to provision processing, storage, net
 
 ---
 
-## Responsibilities
+## Operational Responsibilities
 
 The following graphic illustrates the differences in Operations and Management (O&M) responsibilities between the cloud consumers and the Cloud Service Providers (CSPs) for each cloud service model (i.e., IaaS, PaaS, SaaS).
 

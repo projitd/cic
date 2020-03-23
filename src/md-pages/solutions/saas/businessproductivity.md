@@ -1,6 +1,6 @@
 ---
-title: Business Productivity and Workflow
-path: /findcloud/saas/businessproductivity
+title: SaaS Business Productivity and Workflow
+path: /solutions/saas/businessproductivity
 sidenav: false
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Acquisition Guidance - Pricing
-path: /acquisitionguidance/pricing
+path: /acquisitions/pricing
 sidenav: true
 ---
 

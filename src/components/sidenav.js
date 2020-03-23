@@ -58,23 +58,23 @@ const Sidenav = () => {
           <li className="usa-sidenav__item"><Link to='/planning/technical-implementation' activeClassName="usa-focus">Technical Implementation</Link></li></div>)
 
         }
-        else if (location.pathname.startsWith('/findcloud/')) {
+        else if (location.pathname.startsWith('/solutions/')) {
 
-          return (<div><h3>Related Topics:</h3><li className="usa-sidenav__item"><Link to='/findcloud/iaas' activeClassName="usa-focus">IaaS</Link></li>
-          <li className="usa-sidenav__item"><Link to='/findcloud/paas' activeClassName="usa-focus">PaaS</Link></li>
-          <li className="usa-sidenav__item"><Link to='/findcloud/saas' activeClassName="usa-focus">SaaS</Link></li>
-          <li className="usa-sidenav__item"><Link to='/findcloud/professionalservices' activeClassName="usa-focus">CPS</Link></li>
-          <li className="usa-sidenav__item"><Link to='/findcloud/vendors' activeClassName="usa-focus">Vendors</Link></li></div>)
+          return (<div><h3>Related Topics:</h3><li className="usa-sidenav__item"><Link to='/solutions/iaas' activeClassName="usa-focus">IaaS</Link></li>
+          <li className="usa-sidenav__item"><Link to='/solutions/paas' activeClassName="usa-focus">PaaS</Link></li>
+          <li className="usa-sidenav__item"><Link to='/solutions/saas' activeClassName="usa-focus">SaaS</Link></li>
+          <li className="usa-sidenav__item"><Link to='/solutions/cloud-professional-services-cps' activeClassName="usa-focus">CPS</Link></li>
+          <li className="usa-sidenav__item"><Link to='/solutions/vendors' activeClassName="usa-focus">Vendors</Link></li></div>)
 
         }
-        else if (location.pathname.startsWith('/acquisitionguidance/')) {
+        else if (location.pathname.startsWith('/acquisitions/')) {
 
-          return (<div><h3>Related Topics:</h3><li className="usa-sidenav__item"><Link to='/acquisitionguidance/overview' activeClassName="usa-focus">Acquisition Overview</Link></li>
-          <li className="usa-sidenav__item"><Link to='/acquisitionguidance/pricing' activeClassName="usa-focus">Pricing</Link></li>
-          <li className="usa-sidenav__item"><Link to='/acquisitionguidance/marketresearch' activeClassName="usa-focus">Market Research</Link></li>
-          <li className="usa-sidenav__item"><Link to='/acquisitionguidance/procurementprocess' activeClassName="usa-focus">Procurement Process</Link></li>
-          <li className="usa-sidenav__item"><Link to='/acquisitionguidance/acquisitionchallenges' activeClassName="usa-focus">Acquisition Challenges</Link></li>
-          <li className="usa-sidenav__item"><Link to='/acquisitionguidance/acquisitionresources' activeClassName="usa-focus">Acquisition Resources</Link></li>
+          return (<div><h3>Related Topics:</h3><li className="usa-sidenav__item"><Link to='/acquisitions/overview' activeClassName="usa-focus">Acquisition Overview</Link></li>
+          <li className="usa-sidenav__item"><Link to='/acquisitions/pricing' activeClassName="usa-focus">Pricing</Link></li>
+          <li className="usa-sidenav__item"><Link to='/acquisitions/market-research' activeClassName="usa-focus">Market Research</Link></li>
+          <li className="usa-sidenav__item"><Link to='/acquisitions/procurement-process' activeClassName="usa-focus">Procurement Process</Link></li>
+          <li className="usa-sidenav__item"><Link to='/acquisitions/acquisition-challenges' activeClassName="usa-focus">Acquisition Challenges</Link></li>
+          <li className="usa-sidenav__item"><Link to='/acquisitions/acquisition-resources' activeClassName="usa-focus">Acquisition Resources</Link></li>
           <li className="usa-sidenav__item"><a href="#TOP" activeClassName="usa-focus"><strong>Top of Page</strong></a></li>
           </div>)
         }

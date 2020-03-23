@@ -1,6 +1,6 @@
 ---
 title: Acquisition Guidance - Acquisition Resources
-path: /acquisitionguidance/acquisitionresources
+path: /acquisitions/acquisition-resources
 sidenav: true
 ---
 ## Acquisition Resources

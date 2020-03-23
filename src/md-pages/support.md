@@ -10,7 +10,7 @@ sidenav: false
   <div class="grid-row">
     <div class="tablet:grid-col">
 
-<img src="../../file-invoice-solid.svg" width="30" alt="GSA M-RAS Icon" /> Assistance with using  [GSA's Market Research as a Service (M-RAS)](/acquisitionguidance/marketresearch) tool to support your market research activities.
+<img src="../../file-invoice-solid.svg" width="30" alt="GSA M-RAS Icon" /> Assistance with using  [GSA's Market Research as a Service (M-RAS)](/acquisitions/market-research) tool to support your market research activities.
 
    </div>
     <div class="tablet:grid-col">

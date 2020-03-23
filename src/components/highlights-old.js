@@ -29,7 +29,7 @@ const Highlights = () => (
     <div class="tablet:grid-col-4">
       <div class="box">
 
-    <Link to="/acquisitionguidance/overview" class="nodecor"><img className="usa-media-block__img" src={buy} alt="How to Buy Button" />
+    <Link to="/acquisitions/overview" class="nodecor"><img className="usa-media-block__img" src={buy} alt="How to Buy Button" />
            <div className="usa-media-block__body">
              <h3 className="usa-graphic-list__heading">How to Buy</h3>
             <p>I need help to acquire a cloud solution.</p>
