@@ -4,56 +4,62 @@ path: /support
 sidenav: false
 ---
 
-## How the cloud experts can support you:
+### How the cloud experts can support you:
 
-<div class="grid-container">
+<div class="grid-container" >
   <div class="grid-row">
-    <div class="tablet:grid-col">
+  <div class="tablet:grid-col-4">
 
-<img src="../../images/file-invoice-solid.svg" width="30" alt="GSA M-RAS Icon" /> Assistance with using  [GSA's Market Research as a Service (M-RAS)](/acquisitions/market-research) tool to support your market research activities.
+ ![Light Bulb Icon](/images/lightbulb.png) 
+
+  </div>
+    <div class="tablet:grid-col-4">
+     <div id="dotted-box">
+
+        
+ <img src="../../images/file-invoice-solid.svg" width="17" alt="GSA M-RAS Icon" /> Assistance with using  [GSA's Market Research as a Service (M-RAS)](/acquisitions/market-research) tool to support your market research activities.
+
 
    </div>
-    <div class="tablet:grid-col">
+     <div id="dotted-box">
+
+
+ <img src="../../images/fedramp-logo.jpg" width="25"  alt="FedRAMP Icon" /> Assistance in identifying [FedRAMP–](https://www.fedramp.gov) Authorized cloud solutions  
+
+
+   </div>
+      <div id="dotted-box">
+ 
+
+  <img src="../../images/file-alt-regular.svg" width="17"  alt="Templates Icon" /> Free [Scope Reviews](mailto:cloudinfo@gsa.gov?subject=CIC%20Cloud%20Scope%20Review&amp;body=Please%20see%20the%20attached%20Cloud%20Scope%20for%20Review) and [Templates](/resources/templates) 
+
+
+
+   </div>
+   </div>
+    <div class="tablet:grid-col-4">
     
+<div id="dotted-box">
+
+<img src="../../images/tasks-solid.svg" width="20"  alt="Roadmap Icon"/> Assistance with identifying where you are in the cloud journey with our [Step-by-Step Cloud Roadmap](/planning/planning-basics)  
 
 
-<img src="../../images/tasks-solid.svg" width="38"  alt="Roadmap Icon"/> Assistance with identifying where you are in the cloud journey with our [Step-by-Step Cloud Roadmap](/planning/planning-basics)    
-    
+</div><div id="dotted-box">
 
 
-  </div></div>
-<div class="grid-row">
-    <div class="tablet:grid-col">
+<img src="../../images/glasses-solid.svg" width="20"  alt="Reading Glasses Icon"/> Read about [Successful Cloud Adoptions](/resources/use-cases) by other organizations and leverage their experiences and lessons learned.
 
-<img src="../../images/file-alt-regular.svg" width="30"  alt="Templates Icon" /> Free [Scope Reviews](mailto:cloudinfo@gsa.gov?subject=CIC%20Cloud%20Scope%20Review&amp;body=Please%20see%20the%20attached%20Cloud%20Scope%20for%20Review) and [Templates](/resources/templates) 
-  
- </div>
- <div class="tablet:grid-col">
 
-<img src="../../images/glasses-solid.svg" width="30"  alt="Reading Glasses Icon"/> Read about [Successful Cloud Adoptions](/resources/use-cases) by other organizations and leverage their experiences and lessons learned.
-  
- </div>
+</div><div id="dotted-box">
+
+
+<img src="../../images/at-solid.svg" width="20"  alt="Email Icon"/> Direct support by [email](mailto:cloudinfo@gsa.gov) and scheduled telephone calls.  
+
+
 </div>
-
-
-<div class="grid-row">
-    <div class="tablet:grid-col">
+  </div>
     
-
-<img src="../../images/fedramp-logo.jpg" width="40"  alt="FedRAMP Icon" /> Assistance in identifying [FedRAMP–](https://www.fedramp.gov) Authorized cloud solutions  
-
-
-
-   </div>
-    <div class="tablet:grid-col">
-    
-
-<img src="../../images/at-solid.svg" width="30"  alt="Email Icon"/>  Direct support by [email](mailto:cloudinfo@gsa.gov) and scheduled telephone calls.        
-    
-    
-</div></div>
-
-
+</div>
 
 </div>
 
