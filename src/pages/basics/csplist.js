@@ -43,6 +43,7 @@ const CspList = () => {
         temp.forEach(v => filterableArray.push({
             filter: v, checked: false
         }));
+        filterableArray.sort((a, b) => (a.filter > b.filter) ? 1 : -1)
         return filterableArray;
     }
 
