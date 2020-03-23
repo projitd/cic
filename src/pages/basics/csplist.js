@@ -122,11 +122,17 @@ const CspList = () => {
 
                     </div>
                     <div className="desktop:grid-col-8 usa-prose">
+                        {state.providers.length > 0 ? (
                         <table id='providers' className='cspTable'>
                             <tbody>
                             {renderTableData()}
                             </tbody>
                         </table>
+                            ) : (
+                            <h4 className="title">
+                                No CLoud Service Providers Available
+                            </h4>
+                        )}
                     </div>
                     {/*TODO */}
                     <aside className="desktop:grid-col-2 margin-top-4">
