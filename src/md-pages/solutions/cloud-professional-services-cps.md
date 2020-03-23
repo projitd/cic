@@ -1,6 +1,6 @@
 ---
-title: Find Cloud Solutions - Professional Services
-path: /findcloud/professionalservices
+title: Cloud Solutions - Cloud Professional Services (CPS)
+path: /solutions/cloud-professional-services-cps
 sidenav: true
 ---
 

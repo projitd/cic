@@ -46,7 +46,7 @@ const Highlights = () => (
     <div class="tablet:grid-col">
       <div class="box">
 
-    <Link to="/findcloud/overview" class="nodecor">
+    <Link to="/solutions/overview" class="nodecor">
           <div>
           <div class="large">3</div>
             <h3 className="usa-graphic-list__heading">SOLUTIONS</h3>
@@ -60,7 +60,7 @@ const Highlights = () => (
       <div class="tablet:grid-col">
       <div class="box">
 
-    <Link to="/acquisitionguidance/overview" class="nodecor">
+    <Link to="/acquisitions/overview" class="nodecor">
           <div>
           <div class="large">4</div>
             <h3 className="usa-graphic-list__heading">ACQUISITIONS</h3>

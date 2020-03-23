@@ -1,6 +1,6 @@
 ---
-title: Find Cloud Solutions - FedRAMP Compliant Vendors 
-path: /findcloud/vendors
+title: Cloud Solutions - FedRAMP Compliant Vendors 
+path: /solutions/vendors
 sidenav: true
 ---
 
