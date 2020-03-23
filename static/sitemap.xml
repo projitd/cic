@@ -2,211 +2,211 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://cic.gsa.gov/</loc>
-    <lastmod>2020-03-18</lastmod>
+    <lastmod>2020-03-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://cic.gsa.gov/acquisitions/market-research/</loc>
+    <lastmod>2020-03-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://cic.gsa.gov/cloudsmart/</loc>
-    <lastmod>2020-03-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://cic.gsa.gov/acquisitionguidance/overview/</loc>
-    <lastmod>2020-03-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://cic.gsa.gov/findcloud/overview/</loc>
-    <lastmod>2020-03-18</lastmod>
+    <lastmod>2020-03-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cic.gsa.gov/resources/success-stories/</loc>
-    <lastmod>2020-03-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://cic.gsa.gov/acquisitionguidance/acquisitionchallenges/</loc>
-    <lastmod>2020-03-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://cic.gsa.gov/support/</loc>
-    <lastmod>2020-03-18</lastmod>
+    <lastmod>2020-03-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cic.gsa.gov/planning/technical-implementation/</loc>
-    <lastmod>2020-03-18</lastmod>
+    <lastmod>2020-03-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cic.gsa.gov/support/</loc>
+    <lastmod>2020-03-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cic.gsa.gov/basics/cloud-capabilities/</loc>
-    <lastmod>2020-03-18</lastmod>
+    <lastmod>2020-03-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cic.gsa.gov/acquisitions/overview/</loc>
+    <lastmod>2020-03-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cic.gsa.gov/acquisitions/acquisition-resources/</loc>
+    <lastmod>2020-03-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cic.gsa.gov/planning/planning-basics/</loc>
-    <lastmod>2020-03-18</lastmod>
+    <lastmod>2020-03-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cic.gsa.gov/events-training/</loc>
-    <lastmod>2020-03-18</lastmod>
+    <lastmod>2020-03-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cic.gsa.gov/acquisitionguidance/pricing/</loc>
-    <lastmod>2020-03-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://cic.gsa.gov/acquisitionguidance/marketresearch/</loc>
-    <lastmod>2020-03-18</lastmod>
+    <loc>https://cic.gsa.gov/acquisitions/pricing/</loc>
+    <lastmod>2020-03-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cic.gsa.gov/resources/use-cases/</loc>
-    <lastmod>2020-03-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://cic.gsa.gov/basics/cloud-security/</loc>
-    <lastmod>2020-03-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://cic.gsa.gov/planning/business-considerations/</loc>
-    <lastmod>2020-03-18</lastmod>
+    <lastmod>2020-03-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cic.gsa.gov/basics/cloud-basics/</loc>
-    <lastmod>2020-03-18</lastmod>
+    <lastmod>2020-03-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cic.gsa.gov/planning/business-considerations/</loc>
+    <lastmod>2020-03-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cic.gsa.gov/acquisitions/procurement-process/</loc>
+    <lastmod>2020-03-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cic.gsa.gov/basics/cloud-security/</loc>
+    <lastmod>2020-03-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cic.gsa.gov/references/policy/</loc>
-    <lastmod>2020-03-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://cic.gsa.gov/acquisitionguidance/procurementprocess/</loc>
-    <lastmod>2020-03-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://cic.gsa.gov/resources/helpful-documents/</loc>
-    <lastmod>2020-03-18</lastmod>
+    <lastmod>2020-03-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cic.gsa.gov/references/partner-sites/</loc>
-    <lastmod>2020-03-18</lastmod>
+    <lastmod>2020-03-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cic.gsa.gov/acquisitionguidance/acquisitionresources/</loc>
-    <lastmod>2020-03-18</lastmod>
+    <loc>https://cic.gsa.gov/acquisitions/acquisition-challenges/</loc>
+    <lastmod>2020-03-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cic.gsa.gov/resources/templates/</loc>
-    <lastmod>2020-03-18</lastmod>
+    <lastmod>2020-03-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cic.gsa.gov/acquisitionguidance/sootemplates/</loc>
-    <lastmod>2020-03-18</lastmod>
+    <loc>https://cic.gsa.gov/resources/helpful-documents/</loc>
+    <lastmod>2020-03-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cic.gsa.gov/solutions/overview/</loc>
+    <lastmod>2020-03-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cic.gsa.gov/solutions/iaas/</loc>
+    <lastmod>2020-03-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://cic.gsa.gov/solutions/cloud-professional-services-cps/</loc>
+    <lastmod>2020-03-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://cic.gsa.gov/solutions/saas/</loc>
+    <lastmod>2020-03-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://cic.gsa.gov/resources/soo-templates/</loc>
+    <lastmod>2020-03-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://cic.gsa.gov/solutions/vendors/</loc>
+    <lastmod>2020-03-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://cic.gsa.gov/solutions/paas/</loc>
+    <lastmod>2020-03-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://cic.gsa.gov/deos/</loc>
-    <lastmod>2020-03-18</lastmod>
+    <lastmod>2020-03-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://cic.gsa.gov/findcloud/iaas/</loc>
-    <lastmod>2020-03-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://cic.gsa.gov/findcloud/paas/</loc>
-    <lastmod>2020-03-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://cic.gsa.gov/findcloud/saas/</loc>
-    <lastmod>2020-03-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://cic.gsa.gov/findcloud/professionalservices/</loc>
-    <lastmod>2020-03-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://cic.gsa.gov/findcloud/vendors/</loc>
-    <lastmod>2020-03-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://cic.gsa.gov/findcloud/saas/devtools/</loc>
-    <lastmod>2020-03-18</lastmod>
+    <loc>https://cic.gsa.gov/solutions/saas/devtools/</loc>
+    <lastmod>2020-03-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cic.gsa.gov/findcloud/saas/crm/</loc>
-    <lastmod>2020-03-18</lastmod>
+    <loc>https://cic.gsa.gov/solutions/saas/securityidentitytools/</loc>
+    <lastmod>2020-03-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cic.gsa.gov/findcloud/saas/securityidentitytools/</loc>
-    <lastmod>2020-03-18</lastmod>
+    <loc>https://cic.gsa.gov/solutions/saas/crm/</loc>
+    <lastmod>2020-03-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cic.gsa.gov/findcloud/saas/collaboration/</loc>
-    <lastmod>2020-03-18</lastmod>
+    <loc>https://cic.gsa.gov/solutions/saas/collaboration/</loc>
+    <lastmod>2020-03-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cic.gsa.gov/findcloud/saas/businessproductivity/</loc>
-    <lastmod>2020-03-18</lastmod>
+    <loc>https://cic.gsa.gov/solutions/saas/businessproductivity/</loc>
+    <lastmod>2020-03-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
