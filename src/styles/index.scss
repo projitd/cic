@@ -219,3 +219,13 @@ padding-bottom: 3rem;
     padding-right:6%;
   }
 
+// Eric for alert dotted border
+.usa-alert--info-dotted {
+  background-color: #fff;
+    border-width: 4px 4px 4px 0px;
+    border-style: dotted;
+    border-color: #dcdee0;
+}
+.usa-alert--info-dotted::before {
+  background-color: #00bde3;
+}
