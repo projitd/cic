@@ -120,7 +120,7 @@ $theme-hero-image: '../images/cloud-hero.jpg';
 }
 
 .usa-graphic-list {
-  background-image: url('../../static/road.png');
+  background-image: url('../../static/images/road.png');
   background-repeat: repeat-x; /* for vertical repeat */
 }
 
@@ -148,6 +148,10 @@ padding-bottom: 3rem;
 
 .usa-hero__callout{
   box-shadow: -8px 0px 13px -7px #000000, 8px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+// eric to widen the site
+.grid-container {
+  max-width: 70rem;
 }
 
 
