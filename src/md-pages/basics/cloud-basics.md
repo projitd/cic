@@ -10,9 +10,16 @@ The first thing to know is that there is no single "cloud." Moving to the cloud 
 
 Your organization (e.g., consumer) will need to evaluate your current and future technology needs, and then select the cloud solution that best meets your organization requirements to support your organizations mission.
 
-<div class="usa-embed-container" aria-label="16:9">
+<div class="grid-container">
+  <div class="grid-row">
+    <div class="tablet:grid-col-8 grid-offset-2" ><div class="usa-embed-container" aria-label="16:9">
 <iframe src="https://www.youtube.com/embed/UorIwPZU_eg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></div>
+
+  </div>
 </div>
+
+
 <br>
 <div class="usa-alert usa-alert--info-dotted">
     <div class="usa-alert__body">
