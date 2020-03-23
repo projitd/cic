@@ -14,7 +14,7 @@ IaaS is an instant computing infrastructure, provisioned and managed over the In
 
 IaaS helps you avoid the expense and complexity of buying and managing your own physical servers and other datacenter infrastructure. Each resource is offered as a separate commercial service component, and you only need to rent a particular one for as long as you need it. The cloud computing service provider manages the infrastructure, while you purchase, install, configure, and manage your own software - operating systems, middleware, and applications.
 
-![IaaS Model](../../iaas-model.png)
+![IaaS Model](../../images/iaas-model.png)
 
 ### IaaS Supports
 

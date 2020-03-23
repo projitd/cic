@@ -13,7 +13,7 @@ const Highlights = () => (
    
     <div class="grid-row grid-gap-05">
 
-    <div class="tablet:grid-col">
+    <div class="tablet:grid-col-2 grid-offset-1">
       <div class="box">
       
     <Link to="/basics/cloud-basics" class="nodecor">
@@ -29,7 +29,7 @@ const Highlights = () => (
       </div>
       </div>
 
-    <div class="tablet:grid-col">
+    <div class="tablet:grid-col-2">
       <div class="box">
 
     <Link to="/planning/planning-basics" class="nodecor">
@@ -43,7 +43,7 @@ const Highlights = () => (
       </div>
       </div>
 
-    <div class="tablet:grid-col">
+    <div class="tablet:grid-col-2">
       <div class="box">
 
     <Link to="/solutions/overview" class="nodecor">
@@ -57,7 +57,7 @@ const Highlights = () => (
       </div>
       </div>
 
-      <div class="tablet:grid-col">
+      <div class="tablet:grid-col-2">
       <div class="box">
 
     <Link to="/acquisitions/overview" class="nodecor">
@@ -71,7 +71,7 @@ const Highlights = () => (
       </div>
       </div>
 
-      <div class="tablet:grid-col">
+      <div class="tablet:grid-col-2">
       <div class="box">
 
     <Link to="/support" class="nodecor">

@@ -30,8 +30,11 @@ Your organization (e.g., consumer) will need to evaluate your current and future
 
 
 <br>
+<div style="text-align:center"> 
 
-![NIST 5 Essential Characteristics Diagram](../../nist-5-essential-characteristics.png)
+![NIST 5 Essential Characteristics Diagram](../../images/nist-5-essential-characteristics.png)
+
+</div>
 
 <div class="grid-container">
   <div class="grid-row">
@@ -81,7 +84,11 @@ The cloud usage can be monitored, controlled, and reported, providing transparen
 
 ---
 
-![NIST 4 Deployment Models Diagram](../../nist-4-deployment-models.png)
+<div style="text-align:center"> 
+
+![NIST 4 Deployment Models Diagram](../../images/nist-4-deployment-models.png)
+
+</div>
 
 <div class="grid-container">
   <div class="grid-row">
@@ -125,7 +132,11 @@ A composition of two or more distinct cloud deployment models (i.e., private, co
 
 ---
 
-![NIST 3 Service Models Diagram](../../nist-3-service-models.png)
+<div style="text-align:center"> 
+
+![NIST 3 Service Models Diagram](../../images/nist-3-service-models.png)
+
+</div>
 
 **Software as a Service (SaaS)**
 
@@ -145,8 +156,11 @@ The capability provided to the consumer is to provision processing, storage, net
 
 The following graphic illustrates the differences in Operations and Management (O&M) responsibilities between the cloud consumers and the Cloud Service Providers (CSPs) for each cloud service model (i.e., IaaS, PaaS, SaaS).
 
+<div style="text-align:center"> 
 
-![O&M Responsibilities Diagram](../../consumer-vs-csp.png)
+![O&M Responsibilities Diagram](../../images/consumer-vs-csp.png)
+
+</div>
 
 As indicated in the graphic, consumers and Cloud Service Providers (CSPs) responsibilities are dependent on the cloud service model procured. Understanding this shared responsibility model is fundamental to procuring the appropriate cloud based on your organizations requirements and ensuring appropriate Operations and Maintenance (O&M).
 

@@ -19,10 +19,10 @@ The report will usually answer the following:
 
 ### M-RAS Samples (Redacted):
 
-[<img src="../../file-pdf-regular.svg" width="30" />  **ARMY PEO Managed Service Provider (MSP) M-RAS Report**](/ARMY-PEO-MRAS-REDACTED.pdf)
+[<img src="../../images/file-pdf-regular.svg" width="30" />  **ARMY PEO Managed Service Provider (MSP) M-RAS Report**](/ARMY-PEO-MRAS-REDACTED.pdf)
 
-[<img src="../../file-pdf-regular.svg" width="30" />  **ARMY PEO Cloud Service Provider (CSP) M-RAS Report**](/Army-APEO-Cloud-Market-Research-Redacted.pdf)
+[<img src="../../images/file-pdf-regular.svg" width="30" />  **ARMY PEO Cloud Service Provider (CSP) M-RAS Report**](/Army-APEO-Cloud-Market-Research-Redacted.pdf)
 
 ### For more information on GSA's Market Research as a Service:
 
-[<img src="../../file-pdf-regular.svg" width="30" />  **Market Research as a Service (M-RAS) Slipsheet**](/MRAS-Slip-Sheet.pdf)
+[<img src="../../images/file-pdf-regular.svg" width="30" />  **Market Research as a Service (M-RAS) Slipsheet**](/MRAS-Slip-Sheet.pdf)

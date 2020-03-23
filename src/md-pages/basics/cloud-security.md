@@ -9,7 +9,7 @@ When it comes to cloud, security is always a concern, and should be appropriatel
 
 The following graphic illustrates the differences in security responsibilities between cloud consumers and Cloud Service Providers (CSPs) for each cloud service model (IaaS, PaaS, SaaS) in comparison to an organization owned and managed data center. 
 
-![cloud secuirty image](../../cloud-security-monitoring.png)
+![cloud secuirty image](../../images/cloud-security-monitoring.png)
 
 As indicated in the graphic, consumers and Cloud Service Providers (CSPs) security responsibilities are dependent on the cloud service model procured. Understanding this shared security responsibility model is fundamental to ensuring the appropriate allocation of security compliance responsibilities (i.e., impact level, security controls).
 
