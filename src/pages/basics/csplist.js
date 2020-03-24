@@ -52,7 +52,7 @@ const CspList = () => {
             <div className="grid">
                 <h1>Cloud Service Provider List</h1>
                 <div className="grid-row">
-                    <div className="desktop:grid-col-2">
+                    <div className="desktop:grid-col-2 margin-top-4">
                         <nav>
                             <ul className="filters-list">
                                 <div><h3>Filters:</h3>
@@ -122,10 +122,10 @@ const CspList = () => {
                         </nav>
 
                     </div>
-                    <div className="desktop:grid-col-8 usa-prose">
+                    <div className="desktop:grid-col-8 usa-prose cspTable">
                         {state.providers.length > 0 ? (
                         <table id='providers' className='cspTable'>
-                            <tbody>
+                            <tbody className="cspTableList">
                             {renderTableData()}
                             </tbody>
                         </table>
@@ -136,7 +136,7 @@ const CspList = () => {
                         )}
                     </div>
                     {/*TODO */}
-                    <aside className="desktop:grid-col-2">
+                    <aside className="desktop:grid-col-2 margin-top-4">
                         <nav>
                             <ul className="usa-sidenav">
                                 <div><h3>Related Topics:</h3>
@@ -168,7 +168,7 @@ const CspList = () => {
             return (
                 <tr key={Cloud_Service_Provider_Package}>
                     <td><img src={CSP_URL} className="cspIcon"
-                             alt="Img Here"/>{Cloud_Service_Provider_Package}</td>
+                             alt="Img Here"/><br/><strong>{Cloud_Service_Provider_Package}</strong></td>
                     <td>{Service_Model}</td>
                     <td>{Impact_Level}</td>
                 </tr>

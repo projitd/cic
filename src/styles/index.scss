@@ -233,12 +233,24 @@ padding-bottom: 3rem;
   width: 100%;
 }
 .cspTable {
-  padding: 4px 4px 4px 4px;
+  padding: 4%;
+}
+.cspTableList {
+  display: table;
+  width: 100% !important;
+  background-color: #fff;
+  transition: background-color .3s;
 }
 
 .cspIcon {
-  width: 10%;
-  height: 10%;
+  /*width: 30%;
+  height: 30%;*/
+  height: 4.2rem;
+  width: 15rem;
+  background-size: contain;
+  background-position: left center;
+  background-repeat: no-repeat;
+  margin: 0 0 .5rem;
 }
 
 // Dashed Homepage Boxes
