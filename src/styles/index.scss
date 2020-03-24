@@ -162,7 +162,16 @@ padding-bottom: 3rem;
 }
 // eric to widen the site
 .grid-container {
-  max-width: 70rem;
+  @include grid-container('desktop-lg');
+}
+.usa-header--extended .usa-navbar {
+  @include grid-container('desktop-lg');
+}
+.usa-banner__inner {
+  @include grid-container('desktop-lg');
+}
+.usa-header--extended .usa-nav__inner{
+  @include grid-container('desktop-lg');
 }
 
 
@@ -250,5 +259,5 @@ padding-bottom: 3rem;
   outline: 4px dotted #dcdee0;
 padding-left: 10px;
   overflow: hidden;
-margin: 20px;
+margin: 20px 10px 20px 10px;
 }
