@@ -14,6 +14,9 @@ const Vendors = () => {
             {filter: 'PaaS', checked: false},
             {filter: 'SaaS', checked: false}]
     });
+    /**
+     * @description state effect: makes na API call to get the list of providers and sets the state after appropriate transformation of the values
+     */
     useEffect(() => {
         fetch(endpoint)
             .then(r => {
@@ -23,10 +26,7 @@ const Vendors = () => {
                 throw new Error(r.statusText);
             })
             .then(csps => {
-                const compliantProviders = csps.data.Providers.filter(x => x.Designation === 'Compliant');
-                console.log(compliantProviders);
-                const cspProviders = parsingMultiServiceModelCsps(_.cloneDeep(compliantProviders));
-                console.log(cspProviders);
+                const cspProviders = parsingMultiServiceModelCsps(csps.data.Providers.filter(x => x.Designation === 'Compliant'));
                 const impactLevelFilter = getDistinctFilters('Impact_Level', cspProviders);
                 const cloudServiceProvidersNameFilter = getDistinctFilters('Cloud_Service_Provider_Name', cspProviders);
                 setState({
@@ -40,6 +40,9 @@ const Vendors = () => {
             .catch(err => console.log(err));
     }, []);
 
+    /**
+     * @description gets the distinct property value for the given property name: to serve the purpose of filters
+     */
     function getDistinctFilters(propertyName, array) {
         const temp = new Set(array.map(x => x[propertyName]));
         let filterableArray = [];
@@ -49,11 +52,12 @@ const Vendors = () => {
         filterableArray.sort((a, b) => (a.filter > b.filter) ? 1 : -1);
         return filterableArray;
     }
-
+    /**
+     * @description parses the service model string if it consists of more than one model value and their respective values.
+     */
     function parsingMultiServiceModelCsps(csps) {
         let parsedArray = [];
-        csps.map(x => {
-            console.log(x.Cloud_Service_Provider_Package, x.Cloud_Service_Provider_Name);
+        _.clone(csps).forEach(x => {
            const serviceModels = x.Service_Model[0].split(', ');
            if (serviceModels.length > 1) {
                serviceModels.forEach(y => {
@@ -69,7 +73,6 @@ const Vendors = () => {
            });
         }
         csps.sort((a, b) => (a.Cloud_Service_Provider_Package > b.Cloud_Service_Provider_Package) ? 1 : -1);
-        console.log(csps.length);
         return csps;
     }
 
@@ -166,7 +169,7 @@ const Vendors = () => {
                             </table>
                         ) : (
                             <h4 className="title">
-                                No CLoud Service Providers Available
+                                No Cloud Service Providers Available
                             </h4>
                         )}
                     </div>
@@ -196,6 +199,9 @@ const Vendors = () => {
         </Layout>
     );
 
+    /**
+     * @description HTML table render for the csps
+     */
     function renderTableData() {
         return state.providers.map((provider, index) => {
             const {CSP_URL, Cloud_Service_Provider_Package, Service_Model, Impact_Level} = provider //destructuring
@@ -210,6 +216,10 @@ const Vendors = () => {
         })
     }
 
+    /**
+     * @description filters the csps providers based on the filters selected (event triggered by the checkbox)
+
+     */
     function filterProviders(filterType, event) {
         // let tableMasterData = _.cloneDeep(state.providers);
         let masterData = _.cloneDeep(state.cloudServiceProviders);
