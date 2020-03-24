@@ -49,8 +49,7 @@ const Sidenav = () => {
         if (location.pathname.startsWith('/basics/')) {    
           return (<div><h3>Related Topics:</h3><li className="usa-sidenav__item"><Link to={data.site.siteMetadata.navigation[1].items[0].link} activeClassName="usa-focus">{data.site.siteMetadata.navigation[1].items[0].text}</Link></li>
           <li className="usa-sidenav__item"><Link to={data.site.siteMetadata.navigation[1].items[1].link} activeClassName="usa-focus">{data.site.siteMetadata.navigation[1].items[1].text}</Link></li>
-          <li className="usa-sidenav__item"><Link to={data.site.siteMetadata.navigation[1].items[2].link} activeClassName="usa-focus">{data.site.siteMetadata.navigation[1].items[2].text}</Link></li>
-          <li className="usa-sidenav__item"><Link to={data.site.siteMetadata.navigation[1].items[3].link} activeClassName="usa-focus">{data.site.siteMetadata.navigation[1].items[3].text}</Link></li></div>)
+          <li className="usa-sidenav__item"><Link to={data.site.siteMetadata.navigation[1].items[2].link} activeClassName="usa-focus">{data.site.siteMetadata.navigation[1].items[2].text}</Link></li></div>)
         }
         else if (location.pathname.startsWith('/planning/')) {
 

@@ -15,8 +15,7 @@ module.exports = {
       items: [
         { text: 'Cloud Basics', link: '/basics/cloud-basics' },
         { text: 'Cloud Security', link: '/basics/cloud-security' },
-        { text: 'Cloud Capabilities', link: '/basics/cloud-capabilities' },
-        { text: 'Cloud Service Provider List', link: '/basics/csplist' }
+        { text: 'Cloud Capabilities', link: '/basics/cloud-capabilities' }
       ],
     },
       //Third Menu Item    

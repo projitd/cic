@@ -3,7 +3,7 @@ import React, {useEffect, useState} from 'react';
 import {Link} from 'gatsby';
 import * as _ from 'lodash';
 
-const CspList = () => {
+const Vendors = () => {
     const endpoint = 'https://raw.githubusercontent.com/18F/fedramp-data/master/data/data.json';
     const [state, setState] = useState({
         providers: [],
@@ -11,8 +11,8 @@ const CspList = () => {
         cloudServiceProvidersNameFilter: [],
         cloudServiceProviders: [],
         serviceModelFilters: [{filter: 'IaaS', checked: false},
-        {filter: 'PaaS', checked: false},
-        {filter: 'SaaS', checked: false}]
+            {filter: 'PaaS', checked: false},
+            {filter: 'SaaS', checked: false}]
     });
     useEffect(() => {
         fetch(endpoint)
@@ -69,8 +69,11 @@ const CspList = () => {
                                                 {state.serviceModelFilters.map((model, idx) => (
                                                     <li>
                                                         <input
-                                                               onChange={event => {filterProviders('Service Model', event)}}
-                                                               type="checkbox" checked={model.checked} value={model.filter} /> {model.filter}
+                                                            onChange={event => {
+                                                                filterProviders('Service Model', event)
+                                                            }}
+                                                            type="checkbox" checked={model.checked}
+                                                            value={model.filter}/> {model.filter}
                                                     </li>
                                                 ))}
                                             </ul>
@@ -89,8 +92,11 @@ const CspList = () => {
                                                 {state.impactLevelFilter.map((impact, idx) => (
                                                     <li>
                                                         <input
-                                                               onChange={event => {filterProviders('Impact Level', event)}}
-                                                               type="checkbox" checked={impact.checked} value={impact.filter} /> {impact.filter}
+                                                            onChange={event => {
+                                                                filterProviders('Impact Level', event)
+                                                            }}
+                                                            type="checkbox" checked={impact.checked}
+                                                            value={impact.filter}/> {impact.filter}
                                                     </li>
                                                 ))}
                                             </ul>
@@ -110,8 +116,11 @@ const CspList = () => {
                                                 {state.cloudServiceProvidersNameFilter.map((csp, idx) => (
                                                     <li>
                                                         <input
-                                                               onChange={event => {filterProviders('Providers', event)}}
-                                                               type="checkbox" checked={csp.checked} value={csp.filter} /> {csp.filter}
+                                                            onChange={event => {
+                                                                filterProviders('Providers', event)
+                                                            }}
+                                                            type="checkbox" checked={csp.checked}
+                                                            value={csp.filter}/> {csp.filter}
                                                     </li>
                                                 ))}
                                             </ul>
@@ -124,34 +133,33 @@ const CspList = () => {
                     </div>
                     <div className="desktop:grid-col-8 usa-prose cspTable">
                         {state.providers.length > 0 ? (
-                        <table id='providers' className='cspTable'>
-                            <tbody className="cspTableList">
-                            {renderTableData()}
-                            </tbody>
-                        </table>
-                            ) : (
+                            <table id='providers' className='cspTable'>
+                                <tbody className="cspTableList">
+                                {renderTableData()}
+                                </tbody>
+                            </table>
+                        ) : (
                             <h4 className="title">
                                 No CLoud Service Providers Available
                             </h4>
                         )}
                     </div>
-                    {/*TODO */}
                     <aside className="desktop:grid-col-2 margin-top-4">
                         <nav>
                             <ul className="usa-sidenav">
                                 <div><h3>Related Topics:</h3>
-                                    <li className="usa-sidenav__item"><Link to='/whycloud/overview'
-                                                                            activeClassName="usa-focus">Cloud
-                                        Basics</Link></li>
-                                    <li className="usa-sidenav__item"><Link to='/whycloud/security'
-                                                                            activeClassName="usa-focus">Cloud
-                                        Security</Link></li>
-                                    <li className="usa-sidenav__item"><Link to='/whycloud/technicalcapabilities'
-                                                                            activeClassName="usa-focus">Cloud
-                                        Capabilities</Link></li>
-                                    <li className="usa-sidenav__item"><Link to='/whycloud/csplist'
-                                                                            activeClassName="usa-focus">Cloud Service
-                                        Provider List</Link></li>
+                                    <li className="usa-sidenav__item"><Link to='/solutions/iaas'
+                                                                            activeClassName="usa-focus">IaaS</Link></li>
+                                    <li className="usa-sidenav__item"><Link to='/solutions/paas'
+                                                                            activeClassName="usa-focus">PaaS</Link></li>
+                                    <li className="usa-sidenav__item"><Link to='/solutions/saas'
+                                                                            activeClassName="usa-focus">SaaS</Link></li>
+                                    <li className="usa-sidenav__item"><Link
+                                        to='/solutions/cloud-professional-services-cps'
+                                        activeClassName="usa-focus">CPS</Link></li>
+                                    <li className="usa-sidenav__item"><Link to='/solutions/vendors'
+                                                                            activeClassName="usa-focus">Vendors</Link>
+                                    </li>
                                 </div>
                             </ul>
                         </nav>
@@ -164,7 +172,7 @@ const CspList = () => {
 
     function renderTableData() {
         return state.providers.map((provider, index) => {
-            const { CSP_URL, Cloud_Service_Provider_Package, Service_Model, Impact_Level } = provider //destructuring
+            const {CSP_URL, Cloud_Service_Provider_Package, Service_Model, Impact_Level} = provider //destructuring
             return (
                 <tr key={Cloud_Service_Provider_Package}>
                     <td><img src={CSP_URL} className="cspIcon"
@@ -177,9 +185,9 @@ const CspList = () => {
     }
 
     function filterProviders(filterType, event) {
-        let tableMasterData = _.cloneDeep(state.providers);
+        // let tableMasterData = _.cloneDeep(state.providers);
         let masterData = _.cloneDeep(state.cloudServiceProviders);
-       // let filteredData = tableMasterData;
+        // let filteredData = tableMasterData;
         const models = state.serviceModelFilters;
         const impacts = state.impactLevelFilter;
         const providers = state.cloudServiceProvidersNameFilter;
@@ -208,41 +216,41 @@ const CspList = () => {
         let modelFilter = [];
         let providerFilter = [];
         models.forEach(x => {
-            if(x.checked === true) {
+            if (x.checked === true) {
                 modelFilter.push(x.filter);
             }
         });
         providers.forEach(x => {
-            if(x.checked === true) {
+            if (x.checked === true) {
                 providerFilter.push(x.filter);
             }
         });
         impacts.forEach(x => {
-            if(x.checked === true) {
+            if (x.checked === true) {
                 impactFilters.push(x.filter);
             }
         });
 
         let data = [];
 
-        if(modelFilter.length > 0){
-            masterData.forEach(function(item) {
+        if (modelFilter.length > 0) {
+            masterData.forEach(function (item) {
                 modelFilter.forEach(function (item2) {
                     if (item.Service_Model.indexOf(item2) > -1) {
                         data.push(item);
                     }
                 });
             });
-        }else {
+        } else {
             data = masterData;
         }
 
-        let  filteredData = [];
+        let filteredData = [];
 
         if (impactFilters.length > 0) {
-            data.forEach(function(item) {
-                impactFilters.forEach(function(item2){
-                    if(item.Impact_Level.toUpperCase() === item2.toUpperCase()) {
+            data.forEach(function (item) {
+                impactFilters.forEach(function (item2) {
+                    if (item.Impact_Level.toUpperCase() === item2.toUpperCase()) {
                         filteredData.push(item);
                     }
                 });
@@ -253,11 +261,11 @@ const CspList = () => {
 
         let finalData = [];
         if (providerFilter.length > 0) {
-            filteredData.forEach(function(item) {
-                providerFilter.forEach(function(item2) {
-                     if(item.Cloud_Service_Provider_Name.toUpperCase() === item2.toUpperCase()){
-                         finalData.push(item);
-                     }
+            filteredData.forEach(function (item) {
+                providerFilter.forEach(function (item2) {
+                    if (item.Cloud_Service_Provider_Name.toUpperCase() === item2.toUpperCase()) {
+                        finalData.push(item);
+                    }
                 });
             });
         } else {
@@ -272,4 +280,4 @@ const CspList = () => {
     }
 };
 
-export default CspList;
+export default Vendors;
