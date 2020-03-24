@@ -218,7 +218,9 @@ const Vendors = () => {
 
     /**
      * @description filters the csps providers based on the filters selected (event triggered by the checkbox)
-
+     * @summary filters all the filters user have selected based on the checked box boolean value from the event emitted and pushes into all filter array.
+     * filter the table master data based on allFilters, if the filter type is service model makes the array indexOf comparision, for other strings, regular comparision using
+     * toUpperCase()
      */
     function filterProviders(filterType, event) {
         // let tableMasterData = _.cloneDeep(state.providers);
