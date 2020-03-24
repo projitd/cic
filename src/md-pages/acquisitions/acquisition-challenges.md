@@ -1,6 +1,6 @@
 ---
 title: Acquisition Guidance - Acquisition Challenges
-path: /acquisitionguidance/acquisitionchallenges
+path: /acquisitions/acquisition-challenges
 sidenav: true
 ---
 ## Acquisition Challenges

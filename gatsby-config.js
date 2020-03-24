@@ -30,18 +30,18 @@ module.exports = {
     },
       // Forth Menu Item    
       {
-        items: [{ text: 'Solutions', link: '/findcloud/overview' }],
+        items: [{ text: 'Solutions', link: '/solutions/overview' }],
       },
       // Fifth Menu Item
       {
         title: 'Acquisitions',
         items: [
-          { text: 'Overview', link: '/acquisitionguidance/overview' },
-          { text: 'Pricing', link: '/acquisitionguidance/pricing' },
-          { text: 'Market Research', link: '/acquisitionguidance/marketresearch' },
-          { text: 'Procurement Process', link: '/acquisitionguidance/procurementprocess' },
-          { text: 'Acquisition Challenges', link: '/acquisitionguidance/acquisitionchallenges' },
-          { text: 'Acquisition Resources', link: '/acquisitionguidance/acquisitionresources' },
+          { text: 'Overview', link: '/acquisitions/overview' },
+          { text: 'Pricing', link: '/acquisitions/pricing' },
+          { text: 'Market Research', link: '/acquisitions/market-research' },
+          { text: 'Procurement Process', link: '/acquisitions/procurement-process' },
+          { text: 'Acquisition Challenges', link: '/acquisitions/acquisition-challenges' },
+          { text: 'Acquisition Resources', link: '/acquisitions/acquisition-resources' },
         ],
       },
       // Sixth Menu Item
@@ -64,7 +64,7 @@ module.exports = {
       },
       // Eigth Menu Item
       {
-        items: [{ text: 'Events & Training', link: '/events-training' }],
+        items: [{ text: 'Calendar', link: '/calendar' }],
       },
         // end of Horizontal Navigation
     ],

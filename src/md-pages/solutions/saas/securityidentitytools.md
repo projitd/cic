@@ -1,6 +1,6 @@
 ---
-title: Find Cloud - SaaS - Security & Identity Tools
-path: /findcloud/saas/securityidentitytools
+title: Cloud - SaaS - Security & Identity Tools
+path: /solutions/saas/securityidentitytools
 sidenav: false
 ---
 

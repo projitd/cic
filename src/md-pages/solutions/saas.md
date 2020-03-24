@@ -1,6 +1,6 @@
 ---
-title: Find Cloud Solutions - Software As A Service
-path: /findcloud/saas
+title: Cloud Solutions - Software as a Service (Saas)
+path: /solutions/saas
 sidenav: true
 ---
 
@@ -9,7 +9,7 @@ sidenav: true
 Software as a Service (SaaS) is a method for delivering software applications over the Internet, on demand and typically on a subscription basis. With SaaS, Cloud  Service Providers (CSPs) host and manage the application software and underlying infrastructure, and handle any maintenance, like software upgrades and security patching. Users connect to the application over the Internet, usually by a web browser on their phone, tablet, or PC.
 
 ## SaaS Model
-![SaaS model](../../saas-model.png)
+![SaaS model](../../images/saas-model.png)
 
 Software as a service (SaaS) allows users to connect to and use cloud-based applications over the Internet. Common examples are email, calendaring, and office tools.
 
@@ -38,15 +38,15 @@ The previous examples are free commercial services for personal use. For organiz
 
 Learn more about SaaS Products / Solutions (select topic from list below)
 
-<a href="/findcloud/saas/businessproductivity"><button class="usa-button usa-button--outline">Business Productivity And Workflow</button></a>
+<a href="/solutions/saas/businessproductivity"><button class="usa-button usa-button--outline">Business Productivity And Workflow</button></a>
  
-<a href="/findcloud/saas/collaboration"><button class="usa-button usa-button--outline">Collaboration and Communication</button></a> 
+<a href="/solutions/saas/collaboration"><button class="usa-button usa-button--outline">Collaboration and Communication</button></a> 
 
-<a href="/findcloud/saas/crm"><button class="usa-button usa-button--outline">Customer Relationship Management (CRM)</button></a> 
+<a href="/solutions/saas/crm"><button class="usa-button usa-button--outline">Customer Relationship Management (CRM)</button></a> 
 
-<a href="/findcloud/saas/devtools"><button class="usa-button usa-button--outline">Developer Tools</button></a> 
+<a href="/solutions/saas/devtools"><button class="usa-button usa-button--outline">Developer Tools</button></a> 
  
-<a href="/findcloud/saas/securityidentitytools"><button class="usa-button usa-button--outline">Security / Identity Tools</button></a> 
+<a href="/solutions/saas/securityidentitytools"><button class="usa-button usa-button--outline">Security / Identity Tools</button></a> 
 
 ## Helpful Documents
 
@@ -55,22 +55,22 @@ Learn more about SaaS Products / Solutions (select topic from list below)
   <div class="grid-row">
     <div class="tablet:grid-col">
 
-[<img src="../../file-word-regular.svg" width="20" /> Business Use Cases](../../Business-Use-Cases.docx)
+[<img src="../../images/file-word-regular.svg" width="20" /> Business Use Cases](../../documents/Business-Use-Cases.docx)
 
-[<img src="../../file-pdf-regular.svg" width="20" /> High Level Requirements](../../High-Level-Requirements.pdf)
+[<img src="../../images/file-pdf-regular.svg" width="20" /> High Level Requirements](../../documents/High-Level-Requirements.pdf)
 
-[<img src="../../file-word-regular.svg" width="20" /> Links to Articles, Use Cases, and Whitepapers](../../Links-to-Articles-Use-Cases-and-Whitepapers.docx)  
+[<img src="../../images/file-word-regular.svg" width="20" /> Links to Articles, Use Cases, and Whitepapers](../../documents/Links-to-Articles-Use-Cases-and-Whitepapers.docx)  
 
- [<img src="../../file-word-regular.svg" width="20" /> Market Overview](../../Market-Overview.docx)
+ [<img src="../../images/file-word-regular.svg" width="20" /> Market Overview](../../documents/Market-Overview.docx)
     
 </div>
     <div class="tablet:grid-col">
 
-[<img src="../../file-word-regular.svg" width="20" /> Service Level Agreements](../../Service-Level-Agreements.docx)
+[<img src="../../images/file-word-regular.svg" width="20" /> Service Level Agreements](../../documents/Service-Level-Agreements.docx)
 
-[<img src="../../file-word-regular.svg" width="20" /> Technical Questions](../../Technical-Questions.docx)
+[<img src="../../images/file-word-regular.svg" width="20" /> Technical Questions](../../documents/Technical-Questions.docx)
  
-[<img src="../../file-word-regular.svg" width="20" /> Technical Use Cases](../../Technical-Use-Cases.docx)   
+[<img src="../../images/file-word-regular.svg" width="20" /> Technical Use Cases](../../documents/Technical-Use-Cases.docx)   
     
 </div>
   </div>

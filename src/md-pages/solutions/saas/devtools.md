@@ -1,6 +1,6 @@
 ---
-title: Find Cloud - SaaS - Developer Tools
-path: /findcloud/saas/devtools
+title: Cloud - SaaS - Developer Tools
+path: /solutions/saas/devtools
 sidenav: false
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: Find Cloud Solutions - PaaS 
-path: /findcloud/paas
+title: Cloud Solutions - Platform as a Service (PaaS) 
+path: /solutions/paas
 sidenav: true
 ---
 
@@ -8,7 +8,7 @@ sidenav: true
 
 Platform as a Service (PaaS) refers to cloud computing services that supply an on-demand environment for developing, testing, delivering, and managing software applications. PaaS is designed to make it easier for developers to quickly create applications (e.g., web, mobile apps), without worrying about setting up or managing the underlying infrastructure of servers, storage, network, and databases needed for development. 
 
-![PaaS model](../../paas-model.png)
+![PaaS model](../../images/paas-model.png)
 
 Platform as a service (PaaS) is a complete development and deployment environment in the cloud, with resources that enable you to deliver everything from simple cloud-based apps to sophisticated, cloud-enabled enterprise applications. You purchase the resources you need from a Cloud Service Provider (CSP) on a pay-as-you-go (i.e., utilization) basis and access them over a secure Internet connection. 
 

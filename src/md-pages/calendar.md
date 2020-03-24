@@ -1,6 +1,6 @@
 ---
-title: Events and Training
-path: /events-training
+title: Cloud Calendar - Events, Training and Meetings
+path: /calendar
 sidenav: true
 ---
 
@@ -46,6 +46,28 @@ Topics Include:
 
 ## Training
 ---
+### Amazon Web Services (AWS) Foundation Course
+- **Sponsored by:** Data Center & Cloud Optimization Initiative, Cloud & Infrastructure Community of Practice 
+- **Date:** Wednesday, April 13-17, 2020
+- **Time:** 12:00 PM to 4:00 PM Eastern Time 
+- **Location:** Virtual
+- **Cost:** Free for Cloud & Infrastructure Community of Practice Members
+- **Registration:** Email - [dccoi@gsa.gov](mailto:dccoi@gsa.gov)
+- **CLP Credits:** Per Attendee’s Agency Policy
+
+<div class="usa-accordion usa-accordion--bordered">
+    <!-- Use the accurate heading level to maintain the document outline -->
+    <h2 class="usa-accordion__heading">
+        <button class="usa-accordion__button" aria-expanded="false" aria-controls="training-2">Description</button>
+    </h2>
+    <div id="training-2" class="usa-accordion__content usa-prose">
+
+GSA and USDA have joined up with the Cybersecurity Education and Certification Readiness Facility (CERF) to offer this course at no cost to C&I Community of Practice members. CERF is one of four AWS Train-the-Trainers (TTT) in an AWS pilot program. This course is a great overview of the different Amazon Web Services (AWS) capabilities and services provided. It introduces the AWS Academy platform and maps to the AWS Practitioner exam.
+
+</div>
+</div>
+
+
 ### How Agencies May Buy and Migrate to Cloud Computing
 - **Sponsored by:** General Services Administration (GSA), Information Technology Category (ITC)
 - **Date:** Wednesday, April 22, 2020

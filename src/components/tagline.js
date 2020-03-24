@@ -1,32 +1,63 @@
 import React from 'react';
 import { Link } from "gatsby"
+import provides from '../../static/images/provides.png';
+import assists from '../../static/images/assists.png';
+import promotes from '../../static/images/promotes.png';
 /*
   This tagline will appear in your homepage
 */
 
 const Tagline = () => (
   <section className="grid-container usa-section usa-prose">
-    <div className="grid-row grid-gap">
-      <div className="tablet:grid-col-4">
+    <div className="grid-row grid-gap-sm">
+      <div className="tablet:grid-col-3">
         <h2 className="font-heading-xl margin-top-0 tablet:margin-bottom-0">
         What is the GSA Cloud Information Center?
         </h2>
       </div>
-      <div className="tablet:grid-col-8 usa-prose">
-        <p>
-        An actively managed informational hub for the federal government that:
-        <ul>
-        <li>Explains what cloud computing is and the benefits of cloud computing</li>
-        <li>Provides a managed collection of cloud computing best practices, guidance, and templates</li>
-        <li>Promotes communications and collaborations between the government cloud community</li>
-        <li>Assists in identifying and conducting market research on Cloud Service Providers (CSPs)</li>
-        <li>Promotes industry communications and collaborations between industry and the government cloud community </li>
-        <li>Provides assistance from cloud experts to support the journey through the cloud lifecycle</li>
-        </ul>
-        </p>
+      <div className="tablet:grid-col-3">
+        <div id="outside-box">
+          <div id="inside-box">
+          <img src={provides} alt="Provides heading" width="200px" />
+          <div id="inside-content">
+          <ul>
+          <li>a Managed Collection of Cloud Computing Best Practices, Guidance, and Templates</li><br />
+          <li>an explaination of what Cloud Computing is and the Benefits</li>
+          </ul>    
+          </div>
+          </div>    
+        </div>
         
       </div>
+      <div className="tablet:grid-col-3">
+        <div id="outside-box"> 
+        <div id="inside-box">
+        <img src={assists} alt="Assists heading" width="200px" />
+        <div id="inside-content">
+          <ul>
+           <li>in identifying and conducting Market Research on Cloud Service Providers (CSPs)</li><br />
+          <li>your journey through the Cloud Lifecycle with Cloud Experts to Support</li>
+          </ul>
+        </div></div></div>
+        
+      </div>
+      <div className="tablet:grid-col-3">
+      <div id="outside-box"> 
+        <div id="inside-box">
+        <img src={promotes} alt="Promotes heading" width="200px" />
+        <div id="inside-content">
+        <ul>
+          <li>the Communication and Collaboration between the Government Cloud Community and Industry Experts</li>
+          </ul> 
+          </div>
+          </div></div>        
+      </div>
     </div> 
+
+
+
+  
+
   </section>
 );
 

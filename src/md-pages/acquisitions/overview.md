@@ -1,6 +1,6 @@
 ---
 title: Acquisition Guidance - Overview
-path: /acquisitionguidance/overview
+path: /acquisitions/overview
 sidenav: true
 ---
 
@@ -17,13 +17,13 @@ Cloud Pricing must be an integral part of the software architecture activity and
 Current financial management systems weren’t designed for commercial cloud computing models; in fact, they work directly against the intended business advantages of cloud computing. If progress is slow, it isn’t because contracting officers are being contrary — it’s because they’re trying to fit a square peg into a round hole. 
 
 - **Research different acquisition vehicles**
-There are many ways to acquire cloud solutions, so take the time to select the one that's right for you. Reviewing the [Acquisition Resources](/acquisitionguidance/acquisitionresources) page is a great place to start. 
+There are many ways to acquire cloud solutions, so take the time to select the one that's right for you. Reviewing the [Acquisition Resources](/acquisitions/acquisition-resources) page is a great place to start. 
 
 - **Explore GSA's Acquisition Gateway**
 The [Acquisition Gateway](https://www.gsa.gov/tools/supply-procurement-etools/acquisition-gateway) offers resources and contacts for both contract specialists and IT staff. The tool maintains a library of past and current successful contracts, as well as points of contact to learn more. 
 
 - **Share best practices**
-Ask colleagues at other agencies about what has worked for them. There may be templates or guidance they can share. Also, our [Procurement Process](/acquisitionguidance/procurementprocess) page can help guide acquisition professionals who are less familiar with contracting for cloud services. 
+Ask colleagues at other agencies about what has worked for them. There may be templates or guidance they can share. Also, our [Procurement Process](/acquisitions/procurement-process) page can help guide acquisition professionals who are less familiar with contracting for cloud services. 
 
 - **Don’t blame contracting staff for other challenges**
 Because cloud migration is complex, it can be tempting to assign all the blame to contracting. But many of the individual steps, like taking inventory or understanding pricing differences between vendors, are less about contracts than they are about the process itself. 
