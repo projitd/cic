@@ -88,7 +88,7 @@ GSA and USDA have joined up with the Cybersecurity Education and Certification R
 - **Time:** Noon - 1:00 PM Eastern Time
 - **Location:** Virtual
 - **Cost:** Free
-- **Registration:** [GSA Redistration Link](https://www.gsa.gov/events/how-agencies-may-buy-and-migrate-to-cloud-computing-april-2020)
+- **Registration:** [GSA Registration Link](https://www.gsa.gov/events/how-agencies-may-buy-and-migrate-to-cloud-computing-april-2020)
 - **CLP Credits:** 1
 
 </div>
