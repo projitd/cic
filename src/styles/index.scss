@@ -261,3 +261,17 @@ padding-left: 10px;
   overflow: hidden;
 margin: 20px 10px 20px 10px;
 }
+
+// blue bar before headings
+.usa-prose > h2 {
+  border-left: 15px solid #005186;
+      padding-left: 15px;
+  }
+
+  //anywhere dotted boxes
+#dotted-box-generic {
+  outline: 4px dotted #dcdee0;
+padding: 10px;
+  overflow: hidden;
+margin: 20px;
+}
