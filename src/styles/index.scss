@@ -244,3 +244,11 @@ padding-bottom: 3rem;
 .usa-alert--info-dotted::before {
   background-color: #00bde3;
 }
+
+//support page boxes
+#dotted-box {
+  outline: 4px dotted #dcdee0;
+padding-left: 10px;
+  overflow: hidden;
+margin: 20px;
+}
