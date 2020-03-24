@@ -23,7 +23,10 @@ const Vendors = () => {
                 throw new Error(r.statusText);
             })
             .then(csps => {
-                const cspProviders = csps.data.Providers.filter(x => x.Designation === 'Compliant');
+                const compliantProviders = csps.data.Providers.filter(x => x.Designation === 'Compliant');
+                console.log(compliantProviders);
+                const cspProviders = parsingMultiServiceModelCsps(_.cloneDeep(compliantProviders));
+                console.log(cspProviders);
                 const impactLevelFilter = getDistinctFilters('Impact_Level', cspProviders);
                 const cloudServiceProvidersNameFilter = getDistinctFilters('Cloud_Service_Provider_Name', cspProviders);
                 setState({
@@ -43,8 +46,31 @@ const Vendors = () => {
         temp.forEach(v => filterableArray.push({
             filter: v, checked: false
         }));
-        filterableArray.sort((a, b) => (a.filter > b.filter) ? 1 : -1)
+        filterableArray.sort((a, b) => (a.filter > b.filter) ? 1 : -1);
         return filterableArray;
+    }
+
+    function parsingMultiServiceModelCsps(csps) {
+        let parsedArray = [];
+        csps.map(x => {
+            console.log(x.Cloud_Service_Provider_Package, x.Cloud_Service_Provider_Name);
+           const serviceModels = x.Service_Model[0].split(', ');
+           if (serviceModels.length > 1) {
+               serviceModels.forEach(y => {
+                   parsedArray.push({...x, Service_Model: [y]});
+
+               });
+               csps.splice(csps.indexOf(x), 1);
+           }
+        });
+        if (parsedArray.length > 0) {
+           parsedArray.forEach(z => {
+               csps.push(z);
+           });
+        }
+        csps.sort((a, b) => (a.Cloud_Service_Provider_Package > b.Cloud_Service_Provider_Package) ? 1 : -1);
+        console.log(csps.length);
+        return csps;
     }
 
     return (
@@ -174,7 +200,7 @@ const Vendors = () => {
         return state.providers.map((provider, index) => {
             const {CSP_URL, Cloud_Service_Provider_Package, Service_Model, Impact_Level} = provider //destructuring
             return (
-                <tr key={Cloud_Service_Provider_Package}>
+                <tr>
                     <td><img src={CSP_URL} className="cspIcon"
                              alt="Img Here"/><br/><strong>{Cloud_Service_Provider_Package}</strong></td>
                     <td>{Service_Model}</td>
