@@ -52,7 +52,7 @@ const CspList = () => {
             <div className="grid">
                 <h1>Cloud Service Provider List</h1>
                 <div className="grid-row">
-                    <div className="desktop:grid-col-2 margin-top-4">
+                    <div className="desktop:grid-col-2">
                         <nav>
                             <ul className="filters-list">
                                 <div><h3>Filters:</h3>
@@ -136,7 +136,7 @@ const CspList = () => {
                         )}
                     </div>
                     {/*TODO */}
-                    <aside className="desktop:grid-col-2 margin-top-4">
+                    <aside className="desktop:grid-col-2">
                         <nav>
                             <ul className="usa-sidenav">
                                 <div><h3>Related Topics:</h3>
