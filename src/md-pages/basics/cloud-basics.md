@@ -28,7 +28,6 @@ Your organization (e.g., consumer) will need to evaluate your current and future
 
 
 ## 5 Essential Characteristics
----
 
 <div style="text-align:center"> 
 
@@ -83,7 +82,6 @@ The cloud usage can be monitored, controlled, and reported, providing transparen
 </div>
 
 ## 4 Deployment Models
----
 
 <div style="text-align:center"> 
 
@@ -132,7 +130,6 @@ A composition of two or more distinct cloud deployment models (i.e., private, co
 </div>
 
 ## 3 Service Models
----
 
 <div style="text-align:center"> 
 
@@ -153,7 +150,6 @@ The capability provided to the consumer is to deploy onto the cloud infrastructu
 The capability provided to the consumer is to provision processing, storage, networks, and other fundamental computing resources where the consumer is able to deploy and run arbitrary software, which can include operating systems and applications. The consumer does not manage or control the underlying cloud infrastructure but has control over operating systems, storage, and deployed applications; and possibly limited control of select networking components (e.g., host firewalls).
 
 ## Operational Responsibilities
----
 
 The following graphic illustrates the differences in Operations and Management (O&M) responsibilities between the cloud consumers and the Cloud Service Providers (CSPs) for each cloud service model (i.e., IaaS, PaaS, SaaS).
 
