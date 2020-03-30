@@ -101,6 +101,13 @@ const Sidenav = () => {
           <li className="usa-sidenav__item"><Link to='/resources/helpful-documents' activeClassName="usa-focus">Helpful Documents</Link></li>
           </div>)
         }
+        else if (location.pathname.startsWith('/calendar')) {
+
+          return (<div><h3>On this Page:</h3><li className="usa-sidenav__item"><Link to='/calendar#events' activeClassName="usa-focus">Events</Link></li>
+          <li className="usa-sidenav__item"><Link to='/calendar#training' activeClassName="usa-focus">Training</Link></li>
+          <li className="usa-sidenav__item"><Link to='/calendar#meetings' activeClassName="usa-focus">Meetings</Link></li>
+          </div>)
+        }
       }}
      </Location> 
       </ul>  

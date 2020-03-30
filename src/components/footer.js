@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../../node_modules/uswds/dist/img/logo-img.png';
 
 const Footer = () => (
   <footer className="usa-footer site-footer" role="contentinfo">
@@ -8,13 +7,21 @@ const Footer = () => (
         <div className="grid-row padding-1">
           <div className="tablet:grid-col">
             <div className="logo-links">
-              <a className="footer-logo media_link" href="https://www.gsa.gov">
-                <img src={require("../images/footer-gsa-logo.png")} width="90" alt="GSA logo" />
+            <a className="footer-logo media_link" href="https://www.gsa.gov">
+                <img src="../../images/logo-gsa.png" width="90" alt="GSA logo" />
+              </a>
+              <a className="footer-logo media_link" href="https://www.omb.gov">
+                <img src="../../images/logo-omb.png" alt="OMB logo" />
+              </a>
+              <a className="footer-logo media_link" href="https://www.coi.gov">
+                <img src="../../images/logo-cio-council.png" alt="CIO Council logo" />
+              </a>
+              <a className="footer-logo media_link" href="https://cloud.cio.gov/">
+                <img src="../../images/logo-cloud-smart.png" alt="Cloud Smart logo" />
               </a>
             </div>
           </div>
-          <div className="tablet:grid-col"></div>
-          <div className="tablet:grid-col" align="right">
+                  <div className="tablet:grid-col" align="right">
            <div class="nomargin"><h3>Contact the GSA Cloud Team</h3></div>
            <ul className="add-list-reset">
               <li>

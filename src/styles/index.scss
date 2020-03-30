@@ -162,7 +162,16 @@ padding-bottom: 3rem;
 }
 // eric to widen the site
 .grid-container {
-  max-width: 70rem;
+  @include grid-container('desktop-lg');
+}
+.usa-header--extended .usa-navbar {
+  @include grid-container('desktop-lg');
+}
+.usa-banner__inner {
+  @include grid-container('desktop-lg');
+}
+.usa-header--extended .usa-nav__inner{
+  @include grid-container('desktop-lg');
 }
 
 
@@ -259,7 +268,7 @@ padding-bottom: 3rem;
     outline: 4px dotted #dcdee0;
     outline-offset: -15px;
     overflow: hidden;
-    min-height: 305px;
+    min-height: 275px;
 }
 
 #inside-box {
@@ -288,5 +297,24 @@ padding-bottom: 3rem;
   outline: 4px dotted #dcdee0;
 padding-left: 10px;
   overflow: hidden;
+margin: 20px 10px 20px 10px;
+}
+
+// blue bar before headings
+.usa-prose > h2 {
+  border-left: 15px solid #005186;
+      padding-left: 15px;
+  }
+
+  //anywhere dotted boxes
+#dotted-box-generic {
+  outline: 4px dotted #dcdee0;
+padding: 10px;
+  overflow: hidden;
 margin: 20px;
+}
+
+#imagemiddle {
+position: relative;
+top: 25%;
 }

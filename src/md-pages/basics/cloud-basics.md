@@ -21,15 +21,14 @@ Your organization (e.g., consumer) will need to evaluate your current and future
 
 
 <br>
-<div class="usa-alert usa-alert--info-dotted">
-    <div class="usa-alert__body">
-        <h3 class="usa-alert__heading">The Definition of Cloud</h3>
+<div id="dotted-box-generic">
+           <h3 class="usa-alert__heading">The Definition of Cloud</h3>
         <p class="usa-alert__text">The Cloud Information Center (CIC) will use the definition of "cloud" as defined by the <a href="https://csrc.nist.gov/publications/detail/sp/800-145/final">National Institute of Standards and Technology (NIST) Special Publication 800-145 The NIST Definition of Cloud Computing</a></p><p>This NIST "cloud" definition is composed of: <strong>5 essential characteristics, 4 deployment models, and 3 service models</strong> of a cloud infastructure.</p>
-    </div>
-</div>
+  </div>
 
 
-<br>
+## 5 Essential Characteristics
+
 <div style="text-align:center"> 
 
 ![NIST 5 Essential Characteristics Diagram](../../images/nist-5-essential-characteristics.png)
@@ -82,7 +81,7 @@ The cloud usage can be monitored, controlled, and reported, providing transparen
   </div>
 </div>
 
----
+## 4 Deployment Models
 
 <div style="text-align:center"> 
 
@@ -130,7 +129,7 @@ A composition of two or more distinct cloud deployment models (i.e., private, co
   </div>
 </div>
 
----
+## 3 Service Models
 
 <div style="text-align:center"> 
 
@@ -149,8 +148,6 @@ The capability provided to the consumer is to deploy onto the cloud infrastructu
 **Infrastructure as a Service (IaaS)**
 
 The capability provided to the consumer is to provision processing, storage, networks, and other fundamental computing resources where the consumer is able to deploy and run arbitrary software, which can include operating systems and applications. The consumer does not manage or control the underlying cloud infrastructure but has control over operating systems, storage, and deployed applications; and possibly limited control of select networking components (e.g., host firewalls).
-
----
 
 ## Operational Responsibilities
 
