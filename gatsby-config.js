@@ -71,7 +71,7 @@ module.exports = {
     // Links above Search Widget in Header
     secondaryLinks: [
       { text: 'Contact Us', link: '/support' },
-      { text: 'CloudSmart', link: '/cloudsmart' },
+      { text: 'About CIC', link: '/about' },
     ],
 
     // Search.gov configuration
