@@ -19,16 +19,16 @@ The Cloud Information Center (CIC) is a product created in partnership with:
 
 When the Federal Cloud Computing Strategy transitioned from Cloud First to [Cloud Smart](https://cloud.cio.gov/) in 2019, the top action to be taken was the creation of "[a central location to share guidance and best practices on cloud-related topics with agencies.](https://cloud.cio.gov/strategy/actions/)" 
 
-The CIC was born out of this transition and aligns with the Cloud Smart to demonstrate how federal agencies can use cloud computing technology to effectively enable their respective missions. It also shares the more specific goals of alleviating the three common pain points agencies are facing along their cloud journey:
+The CIC was born out of this transition and aligns with Cloud Smart to demonstrate how federal agencies can use cloud computing technology to effectively enable their respective missions. It also shares the more specific goals of alleviating the three common pain points agencies are facing along their cloud journey:
 
-- Enhancing and standardizing security
+- Enhancing and standardizing security  
 - Streamlining procurement
 - Reskilling the workforce to be more cloud savvy.
 
-The CIC is a crowdsourced information hub powered by the [Federalist](https://federalist.18f.gov/) that provides government cloud stakeholders with cloud education, strategic cloud acquisition resources and best practices concerning fundamental cloud issues like security, technical capabilities, and implementation. Initially launched in May of 2019, the CIC continues to:
+The CIC is a crowdsourced information hub powered by the [Federalist](https://federalist.18f.gov/) and [US Digital Web Design System (USDWS)](https://designsystem.digital.gov/) that provides government cloud stakeholders with cloud education, strategic cloud acquisition resources and best practices concerning fundamental cloud issues like security, technical capabilities, and implementation. Initially launched in May of 2019, the CIC continues to:
 
 - Educate federal, state and local government on the advantages of cloud adoption 
-- Assist government entities in finding FedRAMP-authorized cloud products and IT professional services that enable them to achieve their missions
+- Assist in finding FedRAMP-authorized cloud products and IT professional services that enable them to achieve their missions
 - Provide acquisition templates, sample documents, and other cloud resources
 - Actively guide government entities through the cloud lifecycle phases of planning, acquisition, implementation and operation. 
 
