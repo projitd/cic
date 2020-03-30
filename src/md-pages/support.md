@@ -31,7 +31,7 @@ sidenav: false
       <div id="dotted-box">
  
 
-  <img src="../../images/file-alt-regular.svg" width="17"  alt="Templates Icon" /> Free [Scope Reviews](mailto:cloudinfo@gsa.gov?subject=CIC%20Cloud%20Scope%20Review&amp;body=Please%20see%20the%20attached%20Cloud%20Scope%20for%20Review) and [Templates](/resources/templates) 
+  <img src="../../images/file-alt-regular.svg" width="17"  alt="Templates Icon" /> Free [Templates](/resources/templates) and [Use Cases](/resources/use-cases)
 
 
 

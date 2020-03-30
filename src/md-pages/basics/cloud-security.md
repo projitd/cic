@@ -40,12 +40,13 @@ NIST SP 800-53 defines security controls for following security control identifi
 
 - Media Protection (MP)
 - Physical and Environmental Protection (PE)
-- Planning (PL), Personnel Security (PS)
+- Planning (PL)
+- Personnel Security (PS)
 - Risk Assessment (RA)
 - System and Services Acquisition (SA)
 - System and Communications Protection (SC)
 - System and Information Integrity (SI)
-- Program Management (PM).
+- Program Management (PM)
 
 
 
