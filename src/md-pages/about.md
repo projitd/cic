@@ -21,7 +21,7 @@ When the Federal Cloud Computing Strategy transitioned from Cloud First to [Clou
 
 The CIC was born out of this transition and aligns with Cloud Smart to demonstrate how federal agencies can use cloud computing technology to effectively enable their respective missions. It also shares the more specific goals of alleviating the three common pain points agencies are facing along their cloud journey:
 
-- Enhancing and standardizing security
+- Enhancing and standardizing security  
 - Streamlining procurement
 - Reskilling the workforce to be more cloud savvy.
 
