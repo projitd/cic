@@ -13,7 +13,7 @@ The Cloud Information Center (CIC) is a product created in partnership with:
    <div class="tablet:grid-col"><a href="https://www.gsa.gov"><img src="../../images/logo-gsa.png" width="100" alt="GSA logo" /></a><br />GSA</div>
     <div class="tablet:grid-col"><a href="https://www.coi.gov"><img src="../../images/logo-cio-council.png" alt="CIO Council logo" /></a><br />Federal CIO Council</div>
     <div class="tablet:grid-col"> <a href="https://www.omb.gov"><img src="../../images/logo-omb.png" alt="OMB logo" /></a><br />Office of Management and Budget (OMB)</div>
-    <div class="tablet:grid-col"><a href="https://cloud.cio.gov/"><img src="../../images/logo-cloud-smart.png" alt="Cloud Smart logo" /></a><br />Cloud Smart</div>
+    <div class="tablet:grid-col"><a href="https://cloud.cio.gov/"><img src="../../images/logo-cloud-smart.PNG" alt="Cloud Smart logo" /></a><br />Cloud Smart</div>
   </div>
 </div>
 
