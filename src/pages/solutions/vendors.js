@@ -8,12 +8,12 @@ import {isNullOrWhiteSpace, isNotNull} from "../../utilities";
 const Vendors = () => {
     const endpoint = 'https://raw.githubusercontent.com/18F/fedramp-data/master/data/data.json';
     const cspCategoriesDataset = transformCategoriesJson(data);
-    console.log(cspCategoriesDataset);
     const [state, setState] = useState({
         providers: [],
         impactLevelFilter: [],
         cloudServiceProvidersNameFilter: [],
         cloudServiceProviders: [],
+        businessCategoryFilters: [],
         serviceModelFilters: [{filter: 'IaaS', checked: false},
             {filter: 'PaaS', checked: false},
             {filter: 'SaaS', checked: false}]
@@ -33,12 +33,14 @@ const Vendors = () => {
                 const cspProviders = parsingMultiServiceModelCsps(csps.data.Providers.filter(x => x.Designation === 'Compliant'));
                 const impactLevelFilter = getDistinctFilters('Impact_Level', cspProviders);
                 const cloudServiceProvidersNameFilter = getDistinctFilters('Cloud_Service_Provider_Name', cspProviders);
+                const categoryFilters = getDistinctFilters('Business_Category', cspProviders);
                 setState({
                     ...state,
                     providers: cspProviders,
                     impactLevelFilter: impactLevelFilter,
                     cloudServiceProvidersNameFilter: cloudServiceProvidersNameFilter,
-                    cloudServiceProviders: cspProviders
+                    cloudServiceProviders: cspProviders,
+                    businessCategoryFilters: categoryFilters
                 });
             })
             .catch(err => console.log(err));
@@ -48,8 +50,14 @@ const Vendors = () => {
      * @description gets the distinct property value for the given property name: to serve the purpose of filters
      */
     function getDistinctFilters(propertyName, array) {
-        const temp = new Set(array.map(x => x[propertyName]));
+        let temp = [];
         let filterableArray = [];
+        if (propertyName === 'Business_Category') {
+            let categoriesArray = array.map(x => x[propertyName]);
+            temp = new Set(categoriesArray.flat(Infinity));
+        } else {
+            temp = new Set(array.map(x => x[propertyName]));
+        }
         temp.forEach(v => filterableArray.push({
             filter: v, checked: false
         }));
@@ -80,7 +88,7 @@ const Vendors = () => {
         cspCategoriesDataset.forEach(x => {
             let isFound = false;
             csps.forEach(y => {
-                if(y.Cloud_Service_Provider_Package.toUpperCase() === 'Office 365 MultiTenant & Supporting Services' && x.Cloud_Service_Provider_Package.toUpperCase() === 'Office 365 MultiTenant & Supporting Services') {
+                /*if(y.Cloud_Service_Provider_Package.toUpperCase() === 'Office 365 MultiTenant & Supporting Services' && x.Cloud_Service_Provider_Package.toUpperCase() === 'Office 365 MultiTenant & Supporting Services') {*/
                     if (isNotNull(x.Cloud_Service_Provider_Name) && isNotNull(x.Cloud_Service_Provider_Package) && isNotNull(x.Impact_Level) && isNotNull(x.Service_Model)) {
                         if (y.Cloud_Service_Provider_Name.toUpperCase().trim() === x.Cloud_Service_Provider_Name.toUpperCase().trim() &&
                             y.Cloud_Service_Provider_Package.toUpperCase().trim() === x.Cloud_Service_Provider_Package.toUpperCase().trim() &&
@@ -88,15 +96,13 @@ const Vendors = () => {
                             y.Business_Category = x.Business_Category;
                             isFound = true;
                         }
-                    }
+                    /*}*/
                 }
             });
             if (!isFound) {
                 unmatchers.push(x);
             }
         });
-        console.log(csps);
-        console.log(unmatchers);
         csps.sort((a, b) => (a.Cloud_Service_Provider_Package > b.Cloud_Service_Provider_Package) ? 1 : -1);
         return csps;
     }
@@ -172,6 +178,31 @@ const Vendors = () => {
                                                         <input
                                                             onChange={event => {
                                                                 filterProviders('Providers', event)
+                                                            }}
+                                                            type="checkbox" checked={csp.checked}
+                                                            value={csp.filter}/> {csp.filter}
+                                                    </li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div className="usa-accordion usa-accordion--bordered">
+                                        <h2 className="usa-accordion__heading">
+                                            <button className="usa-accordion__button"
+                                                    aria-expanded="true"
+                                                    aria-controls="b-a3">
+                                                Business Categories
+                                            </button>
+                                        </h2>
+                                        <div id="b-a3" className="usa-accordion__content usa-prose">
+
+                                            <ul className='noListStyle'>
+                                                {state.businessCategoryFilters.map((csp, idx) => (
+                                                    <li>
+                                                        <input
+                                                            onChange={event => {
+                                                                filterProviders('Business Category', event)
                                                             }}
                                                             type="checkbox" checked={csp.checked}
                                                             value={csp.filter}/> {csp.filter}
@@ -274,6 +305,7 @@ const Vendors = () => {
         const models = state.serviceModelFilters;
         const impacts = state.impactLevelFilter;
         const providers = state.cloudServiceProvidersNameFilter;
+        const businessCategories = state.businessCategoryFilters;
         models.filter(x => {
             if (x.filter === event.target.value) {
                 x.checked = !x.checked;
@@ -289,15 +321,22 @@ const Vendors = () => {
                 x.checked = !x.checked;
             }
         });
+        businessCategories.filter(x => {
+            if (x.filter === event.target.value) {
+                x.checked = !x.checked;
+            }
+        });
         setState({
             ...state,
             serviceModelFilters: models,
             cloudServiceProvidersNameFilter: providers,
             impactLevelFilter: impacts,
+            businessCategoryFilters: businessCategories
         });
         let impactFilters = [];
         let modelFilter = [];
         let providerFilter = [];
+        let categoryFilters = [];
         models.forEach(x => {
             if (x.checked === true) {
                 modelFilter.push(x.filter);
@@ -311,6 +350,11 @@ const Vendors = () => {
         impacts.forEach(x => {
             if (x.checked === true) {
                 impactFilters.push(x.filter);
+            }
+        });
+        impacts.forEach(x => {
+            if (x.checked === true) {
+                categoryFilters.push(x.filter);
             }
         });
 
@@ -355,10 +399,25 @@ const Vendors = () => {
             finalData = filteredData;
         }
 
+        let finalFilteredData = [];
+
+        if (categoryFilters.length > 0) {
+            finalData.forEach(function (item) {
+                categoryFilters.forEach(function (item2) {
+                    if (item.Business_Category.indexOf(item2) > -1) {
+                        finalFilteredData.push(item);
+                    }
+                });
+            });
+        } else {
+            finalFilteredData = finalData;
+        }
+
         setState({
             ...state,
             serviceModelFilters: models,
-            providers: finalData
+            businessCategoryFilters: businessCategories,
+            providers: finalFilteredData
         });
     }
 };
