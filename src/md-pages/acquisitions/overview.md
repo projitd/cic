@@ -6,7 +6,17 @@ sidenav: true
 
 ## Acquisition Overview
 
-The CIC is designed to educate on all aspects of the acquisition lifecycle, including business, technical, and contractual aspects of cloud solutions. Navigating this page, you will find resource materials like acquisition templates and market research reports that can help accelerate cloud adoption.  Acquisition is one of the biggest challenges agencies face when trying to get on the cloud. This is because cloud relies on consumption-based payment (i.e., pay only for what you use), while the government relies on consistent, predictable billing models. The structures of government — some of which are required by law — often seem incompatible with the quick-moving pace of the private sector. This leads to frustration on the vendor side (as they’d like to move faster) and concern on the contracting side (as they need to make sure they’re following the rules). 
+The CIC is designed to educate on all aspects of the acquisition lifecycle, including business, technical, and contractual aspects of cloud solutions. Navigating this page, you will find resource materials like acquisition templates and market research reports that can help accelerate cloud adoption. 
+
+Acquisition is one of the biggest challenges agencies face when trying to get on the cloud. 
+
+<div style="text-align:center"> 
+
+![Acquisition Billing Diagram](../../images/acquisition-billing.png)
+
+</div>
+
+The structures of government — some of which are required by law — often seem incompatible with the quick-moving pace of the private sector. This leads to frustration on the vendor side (as they’d like to move faster) and concern on the contracting side (as they need to make sure they’re following the rules). 
 
 Here are some tips to keep in mind as program offices and and contracting officers work together:
 
