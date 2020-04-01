@@ -2,9 +2,13 @@ import Layout from '../../components/layout';
 import React, {useEffect, useState} from 'react';
 import {Link} from 'gatsby';
 import * as _ from 'lodash';
+import data from '../../../static/documents/categories-test';
+import {isNullOrWhiteSpace, isNotNull} from "../../utilities";
 
 const Vendors = () => {
     const endpoint = 'https://raw.githubusercontent.com/18F/fedramp-data/master/data/data.json';
+    const cspCategoriesDataset = transformCategoriesJson(data);
+    console.log(cspCategoriesDataset);
     const [state, setState] = useState({
         providers: [],
         impactLevelFilter: [],
@@ -72,6 +76,27 @@ const Vendors = () => {
                csps.push(z);
            });
         }
+        let unmatchers = [];
+        cspCategoriesDataset.forEach(x => {
+            let isFound = false;
+            csps.forEach(y => {
+                if(y.Cloud_Service_Provider_Package.toUpperCase() === 'Office 365 MultiTenant & Supporting Services' && x.Cloud_Service_Provider_Package.toUpperCase() === 'Office 365 MultiTenant & Supporting Services') {
+                    if (isNotNull(x.Cloud_Service_Provider_Name) && isNotNull(x.Cloud_Service_Provider_Package) && isNotNull(x.Impact_Level) && isNotNull(x.Service_Model)) {
+                        if (y.Cloud_Service_Provider_Name.toUpperCase().trim() === x.Cloud_Service_Provider_Name.toUpperCase().trim() &&
+                            y.Cloud_Service_Provider_Package.toUpperCase().trim() === x.Cloud_Service_Provider_Package.toUpperCase().trim() &&
+                            y.Impact_Level.toUpperCase().trim() === x.Impact_Level.toUpperCase().trim() && _.isEqual(y.Service_Model, x.Service_Model)) {
+                            y.Business_Category = x.Business_Category;
+                            isFound = true;
+                        }
+                    }
+                }
+            });
+            if (!isFound) {
+                unmatchers.push(x);
+            }
+        });
+        console.log(csps);
+        console.log(unmatchers);
         csps.sort((a, b) => (a.Cloud_Service_Provider_Package > b.Cloud_Service_Provider_Package) ? 1 : -1);
         return csps;
     }
@@ -214,6 +239,26 @@ const Vendors = () => {
                 </tr>
             )
         })
+    }
+
+    function transformCategoriesJson(categoriesJsonFile) {
+        if (categoriesJsonFile !== '' && categoriesJsonFile !== null && categoriesJsonFile !== undefined) {
+            categoriesJsonFile.forEach(x => {
+                let businessCategories = [];
+                Object.getOwnPropertyNames(x).forEach(
+                    function (val, idx, array) {
+                        if (val.indexOf('Business Category') > -1) {
+                            !isNullOrWhiteSpace(x[val]) ? businessCategories.push(x[val]) : console.log();
+                            x.Business_Category = businessCategories;
+                        }
+                        if (val.indexOf('Service_Model') > -1) {
+                            x.Service_Model = [x.Service_Model];
+                        }
+                    }
+                );
+            });
+        }
+        return categoriesJsonFile;
     }
 
     /**
