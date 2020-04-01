@@ -2,7 +2,7 @@ import Layout from '../../components/layout';
 import React, {useEffect, useState} from 'react';
 import {Link} from 'gatsby';
 import * as _ from 'lodash';
-import data from '../../../static/documents/categories-test';
+import data from '../../../static/documents/DATASET-Business categories';
 import {isNullOrWhiteSpace, isNotNull} from "../../utilities";
 
 const Vendors = () => {
