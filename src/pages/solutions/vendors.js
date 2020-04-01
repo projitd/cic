@@ -104,6 +104,11 @@ const Vendors = () => {
             }
         });
         csps.sort((a, b) => (a.Cloud_Service_Provider_Package > b.Cloud_Service_Provider_Package) ? 1 : -1);
+        csps.forEach(csp => {
+           if (!csp.hasOwnProperty('Business_Category')) {
+               csp.Business_Category = [];
+           }
+        });
         return csps;
     }
 
@@ -352,7 +357,7 @@ const Vendors = () => {
                 impactFilters.push(x.filter);
             }
         });
-        impacts.forEach(x => {
+        businessCategories.forEach(x => {
             if (x.checked === true) {
                 categoryFilters.push(x.filter);
             }
