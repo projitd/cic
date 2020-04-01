@@ -1,5 +1,5 @@
 import React from "react";
-import { StaticQuery, graphql } from "gatsby";
+import { StaticQuery, graphql, Link } from "gatsby";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
@@ -17,7 +17,8 @@ export default () => (
           Date
           Description
           Location
-          Registration
+          Registration_Text
+          Registration_Link
           Sponsor
           Time
           Title
@@ -31,7 +32,8 @@ export default () => (
           Date
           Description
           Location
-          Registration
+          Registration_Text
+          Registration_Link
           Sponsor
           Time
           Title
@@ -45,7 +47,8 @@ export default () => (
           Date
           Description
           Location
-          Registration
+          Registration_Text
+          Registration_Link
           Sponsor
           Time
           Title
@@ -83,7 +86,7 @@ const CalendarPage = ({ data }) => (
               <ul>
               <li><b>Sponsored by: </b>{item.Sponsor}</li><li><b>Date: </b>{item.Date}</li>
               <li><b>Time: </b>{item.Time}</li><li><b>Location: </b>{item.Location}</li>
-              <li><b>Cost: </b>{item.Cost}</li><li><b>Registration: </b>{item.Registration}</li>
+              <li><b>Cost: </b>{item.Cost}</li><li><b>Registration: </b><Link to={item.Registration_Link}>{item.Registration_Text}</Link></li>
               <li><b>CLP Credits: </b>{item.CLP}</li>
               </ul>
               </div>
@@ -102,7 +105,7 @@ const CalendarPage = ({ data }) => (
               <ul>
               <li><b>Sponsored by: </b>{item.Sponsor}</li><li><b>Date: </b>{item.Date}</li>
               <li><b>Time: </b>{item.Time}</li><li><b>Location: </b>{item.Location}</li>
-              <li><b>Cost: </b>{item.Cost}</li><li><b>Registration: </b>{item.Registration}</li>
+              <li><b>Cost: </b>{item.Cost}</li><li><b>Registration: </b><Link to={item.Registration_Link}>{item.Registration_Text}</Link></li>
               <li><b>CLP Credits: </b>{item.CLP}</li>
               </ul>
               </div>
@@ -121,7 +124,7 @@ const CalendarPage = ({ data }) => (
               <ul>
               <li><b>Sponsored by: </b>{item.Sponsor}</li><li><b>Date: </b>{item.Date}</li>
               <li><b>Time: </b>{item.Time}</li><li><b>Location: </b>{item.Location}</li>
-<li><b>Registration: </b>{item.Registration}</li>
+<li><b>Registration: </b><Link to={item.Registration_Link}>{item.Registration_Text}</Link></li>
               </ul>
               </div>
               <div class="tablet:grid-col-6">
