@@ -3,6 +3,7 @@ import { StaticQuery, graphql, Link } from "gatsby";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
+import Sidenav from '../components/sidenav';
 
 
 
@@ -68,6 +69,7 @@ const CalendarPage = ({ data }) => (
     <div className="usa-layout-docs usa-section">
         <div className="grid-container">
           <div className="grid-row grid-gap">
+          <Sidenav />
             <div className="usa-layout-docs__main desktop:grid-col-10 usa-prose">
 
             <div class="usa-alert usa-alert--info usa-alert--slim">
@@ -86,7 +88,7 @@ const CalendarPage = ({ data }) => (
               <ul>
               <li><b>Sponsored by: </b>{item.Sponsor}</li><li><b>Date: </b>{item.Date}</li>
               <li><b>Time: </b>{item.Time}</li><li><b>Location: </b>{item.Location}</li>
-              <li><b>Cost: </b>{item.Cost}</li><li><b>Registration: </b><Link to={item.Registration_Link}>{item.Registration_Text}</Link></li>
+              <li><b>Cost: </b>{item.Cost}</li><li><b>Registration: </b><a href={item.Registration_Link}>{item.Registration_Text}</a></li>
               <li><b>CLP Credits: </b>{item.CLP}</li>
               </ul>
               </div>
@@ -105,7 +107,7 @@ const CalendarPage = ({ data }) => (
               <ul>
               <li><b>Sponsored by: </b>{item.Sponsor}</li><li><b>Date: </b>{item.Date}</li>
               <li><b>Time: </b>{item.Time}</li><li><b>Location: </b>{item.Location}</li>
-              <li><b>Cost: </b>{item.Cost}</li><li><b>Registration: </b><Link to={item.Registration_Link}>{item.Registration_Text}</Link></li>
+              <li><b>Cost: </b>{item.Cost}</li><li><b>Registration: </b><a href={item.Registration_Link}>{item.Registration_Text}</a></li>
               <li><b>CLP Credits: </b>{item.CLP}</li>
               </ul>
               </div>
@@ -124,7 +126,7 @@ const CalendarPage = ({ data }) => (
               <ul>
               <li><b>Sponsored by: </b>{item.Sponsor}</li><li><b>Date: </b>{item.Date}</li>
               <li><b>Time: </b>{item.Time}</li><li><b>Location: </b>{item.Location}</li>
-<li><b>Registration: </b><Link to={item.Registration_Link}>{item.Registration_Text}</Link></li>
+<li><b>Registration: </b><a href={item.Registration_Link}>{item.Registration_Text}</a></li>
               </ul>
               </div>
               <div class="tablet:grid-col-6">
