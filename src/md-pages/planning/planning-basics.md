@@ -24,7 +24,13 @@ Whether you're focusing on the business or the technical aspects of implementati
 - **Start small and build over time** - Pilot programs can help you determine the right products, the right services, and the right Cloud Service Providers (CSPs) to use. They can also help you demonstrate success early on, building support for IT modernization more broadly at your agency.
 - **Pay attention to your process** - Once you figure out what works in pilots, you'll need a plan to transition cloud services at scale — templates that work over and over again. Keep an eye on what works and what doesn't, and use every new program (or sprint, if you're working in agile ways) to try something new.
 
-Next, you'll learn more about implementing cloud at your agency. We've broken this work into two discrete areas:
+### Cloud Roadmap
+
+![Cloud Roadmap Diagram](/images/cloud-roadmap.png)
+
+## Implementation
+
+Learn more about implementing cloud at your agency. We've broken this work into two discrete areas:
 
  <div class="grid-container">
   <div class="grid-row">
