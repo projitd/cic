@@ -196,11 +196,11 @@ const Vendors = () => {
                                         <h2 className="usa-accordion__heading">
                                             <button className="usa-accordion__button"
                                                     aria-expanded="true"
-                                                    aria-controls="b-a3">
+                                                    aria-controls="b-a4">
                                                 Business Categories
                                             </button>
                                         </h2>
-                                        <div id="b-a3" className="usa-accordion__content usa-prose">
+                                        <div id="b-a4" className="usa-accordion__content usa-prose">
 
                                             <ul className='noListStyle'>
                                                 {state.businessCategoryFilters.map((csp, idx) => (
