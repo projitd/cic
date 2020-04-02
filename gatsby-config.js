@@ -100,6 +100,7 @@ module.exports = {
     'gatsby-remark-images',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
+    'gatsby-transformer-csv',
 
    
     {
@@ -135,6 +136,13 @@ module.exports = {
       options: {
         name: `events`,
         path: `${__dirname}/src/events`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `data`,
+        path: `${__dirname}/src/data`,
       },
     },
    
