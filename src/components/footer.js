@@ -17,7 +17,7 @@ const Footer = () => (
                 <img src="../../images/logo-cio-council.png" alt="CIO Council logo" />
               </a>
               <a className="footer-logo media_link" href="https://cloud.cio.gov/">
-                <img src="../../images/logo-cloud-smart.png" alt="Cloud Smart logo" />
+                <img src="../../images/logo-cloud-smart.PNG" alt="Cloud Smart logo" />
               </a>
             </div>
           </div>
