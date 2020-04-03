@@ -97,9 +97,13 @@ const UnmatchedVendors = () => {
         return unmatchedRecords;
     }
 
-    function downloadFile() {
-        let blob = new Blob(state.providers, {type: "text/plain;charset=utf-8"});
-        FileSaver.saveAs(blob, "Dateset-Business Categories.txt");
+    function handleSaveToPC  () {
+        const fileData = JSON.stringify(state.providers);
+        const blob = new Blob([fileData], {type: "text/plain"});
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.download = 'filename.json';
+        link.href = url; link.click();
     }
 
     return (
@@ -111,7 +115,7 @@ const UnmatchedVendors = () => {
                 <div className="grid-row">
                     <div className="desktop:grid-col-2 margin-top-4">
                         <p><a>
-                            <button className="usa-button" onClick={(event) => {downloadFile()}}>Download</button>
+                            <button className="usa-button" onClick={(event) => {handleSaveToPC()}}>Download</button>
                         </a></p>
                     </div>
                 </div>
