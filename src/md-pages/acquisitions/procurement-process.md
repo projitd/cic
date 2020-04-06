@@ -11,7 +11,7 @@ There is no one “cloud” — rather, there are multiple cloud deployment mode
 
 ### Determine Your Mission Needs
 
-Your acquisition teams are the experts, and they — along with resources like GSA’s Cloud Team,  Assisted Acquisition Services (AAS), and 18F’s acquisition services — can help shepherd the process along. But generally speaking, you’ll have to consider the following things before you can successfully procure a cloud solution. 
+Your acquisition teams are the experts, and they (along with resources like GSA’s Cloud Team), can help shepherd the process along. But generally speaking, you’ll have to consider the following things before you can successfully procure a cloud solution. 
 - Do you want to buy cloud technology and cloud professional services together or separately? This may help you decide which acquisition strategy to pursue, which contract vehicle(s) to use, and what contract type(s) will meet your needs. 
 - Do you want everything to come from one vendor? While it can seem like an easier choice upfront, getting everything from one supplier can lead to problems down the line. By procuring from multiple vendors and joining cloud professional services, you can help make sure you get the best overall services for your team while avoiding vendor lock-in. 
 - What will work best for your agency? Finding the right technology is only half the battle — you also need to navigate your own internal processes. Ask your acquisition team what’s worked for them so far, especially if they’ve already bought cloud products or professional services for someone else within the agency. 
@@ -21,7 +21,7 @@ Your acquisition teams are the experts, and they — along with resources like G
 ### Develop an Acquisition Strategy
 
 Once you’ve got these questions answered, you can start making decisions about what kind of procurement you want to make. Every agency is different, but if you’re purchasing from GSA, here are the major considerations:
-- Which vehicle will you choose? At GSA, cloud commercial and professional services are available via both IT Schedule 70 and Government Wide Acquisition Contracts (GWACs).
+- Which vehicle will you choose? View a list of them [here](/acquisitions/acquisition-resources).
 - Will you bundle cloud technology with Cloud Professional Services (CPS) (i.e., labor)? It is possible to procure both cloud technology and Cloud Professional Services at the same time. Depending on your agency’s needs, this may or may not be necessary. For more, take a look at our sample [**Cloud Migration Statement of Objectives Template**](/resources/templates). 
 - Which type of contract should you use? Just as in the rest of government, there are three types of contract: firm-fixed-price (FFP), cost reimbursement, and time and materials (T&M). There are advantages and disadvantages to each; for example, FFP contracts are simpler but won’t let you underspend, even if you need less resource than you anticipated. 
 - Will you buy directly or through a cloud commercial service reseller? Some cloud commercial services are directly available on GSA IT Schedule 70, and some are available via resellers who can help you access discounted pricing rates. 
