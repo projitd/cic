@@ -59,7 +59,7 @@ const AcqVehiclesPage = ({ data }) => (
 <div class="usa-alert usa-alert--error" >
   <div class="usa-alert__body">
     <h3 class="usa-alert__heading">Coronavirus (COVID-19) Acquisition Specific Information</h3>
-    <p class="usa-alert__text">Please visit <a href="https://www.acquisition.gov/coronavirus"> Coronavirus Acquisition-Related Information and Resources and COVID-19 (CORONAVIRUS)</a> for the latest acquisition information and guidance in response to COVID-19.</p>
+    <p class="usa-alert__text">Please visit <a href="https://www.acquisition.gov/coronavirus"> Coronavirus Acquisition-Related Information and Resources</a> and <a href="https://www.gsa.gov/governmentwide-initiatives/emergency-response/covid19-coronavirus">COVID-19 (CORONAVIRUS)</a> for the latest acquisition information and guidance in response to COVID-19.</p>
   </div>
 </div>
 
