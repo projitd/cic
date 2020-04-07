@@ -55,6 +55,16 @@ const AcqVehiclesPage = ({ data }) => (
 
 <h2>Acquisition Resources</h2>  
 <p>The following table provides links to information on individual Acquisition Vehicles, Blanket Purchase Agreements (BPAs), Assisted Acquisition Services (AAS), and Government Cloud Service Providers.</p>
+
+<div class="usa-alert usa-alert--error" >
+  <div class="usa-alert__body">
+    <h3 class="usa-alert__heading">Coronavirus (COVID-19) Acquisition Specific Information</h3>
+    <p class="usa-alert__text">Please visit <a href="https://www.acquisition.gov/coronavirus"> Coronavirus Acquisition-Related Information and Resources and COVID-19 (CORONAVIRUS)</a> for the latest acquisition information and guidance in response to COVID-19.</p>
+  </div>
+</div>
+
+
+
 <div class="usa-alert usa-alert--info" >
   <div class="usa-alert__body">
     <h3 class="usa-alert__heading"></h3>
