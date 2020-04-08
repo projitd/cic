@@ -75,7 +75,7 @@ const Sidenav = () => {
           <li className="usa-sidenav__item"><Link to='/acquisitions/procurement-process' activeClassName="usa-focus">Procurement Process</Link></li>
           <li className="usa-sidenav__item"><Link to='/acquisitions/acquisition-challenges' activeClassName="usa-focus">Acquisition Challenges</Link></li>
           <li className="usa-sidenav__item"><Link to='/acquisitions/acquisition-resources' activeClassName="usa-focus">Acquisition Resources</Link></li>
-          <li className="usa-sidenav__item"><a href="#TOP" activeClassName="usa-focus"><strong>Top of Page</strong></a></li>
+          <li className="usa-sidenav__item"><a href="#" activeClassName="usa-focus"><strong>Top of Page</strong></a></li>
           </div>)
         }
         else if (location.pathname.startsWith('/references/policy')) {
