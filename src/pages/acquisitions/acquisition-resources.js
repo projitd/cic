@@ -39,6 +39,7 @@ export default () => (
       }
       allCSP: allDatasetCicAcquisitionResourcesGovernmentCloudServiceProvidersCsv {
         nodes {
+          Title
           Authority_for_Interagency_Agreements__IAAs_
           Authorized_Requesting_Agencies_
           Business_Services
@@ -53,7 +54,6 @@ export default () => (
           Professional_Services
           Security_Classification
           Security_Services
-          Servicing_Agency
           Servicing_Agency_Authorization_to_Operate__ATO_
           Servicing_Agency_Fee
           Servicing_Agency_Office
@@ -123,7 +123,7 @@ const AcqVehiclesPage = ({ data }) => (
 <h3><a href="#ACQ_GOV_CSP" >Government Cloud Service Providers</a></h3>
 <ul>
 {data.allCSP.nodes.length > 0 && data.allCSP.nodes.map(item => (
-              <li><a href={"#" + item.HTML_Anchor}>{item.Servicing_Agency_Office}</a></li>
+              <li><a href={"#" + item.HTML_Anchor}>{item.Title}</a></li>
               ))}
 </ul>
 
@@ -277,30 +277,28 @@ const AcqVehiclesPage = ({ data }) => (
 
 <table border="3" cellspacing="10" cellpadding="10" id={item.HTML_Anchor}>
 <tbody>
-<tr><td><b>Servicing Agency:</b></td><td>{item.Servicing_Agency}</td></tr>
+<tr><th colspan="2"><h2>{item.Title}</h2></th></tr>
 <tr><td><b>Servicing Agency Office:</b></td><td>{item.Servicing_Agency_Office}</td></tr>
 <tr><td><b>Servicing Agency Website:</b></td><td><a href={item.Servicing_Agency_Website_URL}>{item.Servicing_Agency_Website_URL}</a></td></tr>
 <tr><td><b>Servicing Agency Scope:</b></td><td>{item.Servicing_Agency_Scope}</td></tr>
 <tr><td><b>Servicing Agency Cloud Services:</b></td><td>
-  <ul>
-  <li>Managed Hosting: <b>{item.Managed_Hosting}</b></li>
-    <li>Infrastructure as a Service (IaaS): <b>{item.Infrastructure_as_a_Service__IaaS_}</b></li>
-    <li>Platform as a Service (PaaS): <b>{item.Platform_as_a_Service__PaaS_}</b></li>
-    <li>Software as a Service (SaaS): <b>{item.Software_as_a_Service__SaaS_}</b></li>
-    <li>Security Services: <b>{item.Security_Services}</b></li>
-    <li>Professional Services: <b>{item.Professional_Services}</b></li>
-    <li>Business Services: <b>{item.Business_Services}</b></li>
-  </ul>
+Managed Hosting: <b>{item.Managed_Hosting}</b><br />
+Infrastructure as a Service (IaaS): <b>{item.Infrastructure_as_a_Service__IaaS_}</b><br />
+Platform as a Service (PaaS): <b>{item.Platform_as_a_Service__PaaS_}</b><br />
+Software as a Service (SaaS): <b>{item.Software_as_a_Service__SaaS_}</b><br />
+Security Services: <b>{item.Security_Services}</b><br />
+Professional Services: <b>{item.Professional_Services}</b><br />
+Business Services: <b>{item.Business_Services}</b><br />
+
   <p><b>Other Services:</b> {item.Other_Services}</p>
   <p>See Service Catalog for Complete Listing of Cloud Services: <a href={item.Servicing_Agency_Service_Catalog_URL}>{item.Servicing_Agency_Service_Catalog}</a></p>
   </td></tr>
   <tr><td><b>Servicing Agency Authorization to Operate (ATO):</b></td><td>{item.Servicing_Agency_Authorization_to_Operate__ATO_}</td></tr>
   <tr><td><b>Servicing Agency Cloud Services:</b></td><td>
-  <ul>
-    <li>FedRAMP Impact Level: <b>{item.FedRAMP_Impact_Level}</b></li>
-    <li>Department of Defense (DOD) Impact Level: <b>{item.Department_of_Defense__DOD__Impact_Level}</b></li>
-    <li>Security Classification: <b>{item.Security_Classification}</b></li>
-  </ul></td></tr>
+  FedRAMP Impact Level: <b>{item.FedRAMP_Impact_Level}</b><br />
+Department of Defense (DOD) Impact Level: <b>{item.Department_of_Defense__DOD__Impact_Level}</b><br />
+Security Classification: <b>{item.Security_Classification}</b><br />
+</td></tr>
   <tr><td><b>Authorized Requesting Agencies:</b></td><td>{item.Authorized_Requesting_Agencies_}</td></tr>
   <tr><td><b>Authority for Interagency Agreements (IAAs):</b></td><td>{item.Authority_for_Interagency_Agreements__IAAs_}</td></tr>
   <tr><td><b>Servicing Agency Fee:</b></td><td>{item.Servicing_Agency_Fee}</td></tr>
