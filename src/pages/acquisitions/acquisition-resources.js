@@ -39,6 +39,7 @@ export default () => (
       }
       allCSP: allDatasetCicAcquisitionResourcesGovernmentCloudServiceProvidersCsv {
         nodes {
+          Title
           Authority_for_Interagency_Agreements__IAAs_
           Authorized_Requesting_Agencies_
           Business_Services
@@ -55,7 +56,7 @@ export default () => (
           Security_Services
           Servicing_Agency_Authorization_to_Operate__ATO_
           Servicing_Agency_Fee
-          Servicing_Agency_and_Office
+          Servicing_Agency_Office
           Servicing_Agency_Scope
           Servicing_Agency_Service_Catalog
           Servicing_Agency_Service_Catalog_URL
@@ -122,7 +123,7 @@ const AcqVehiclesPage = ({ data }) => (
 <h3><a href="#ACQ_GOV_CSP" >Government Cloud Service Providers</a></h3>
 <ul>
 {data.allCSP.nodes.length > 0 && data.allCSP.nodes.map(item => (
-              <li><a href={"#" + item.HTML_Anchor}>{item.Servicing_Agency_and_Office}</a></li>
+              <li><a href={"#" + item.HTML_Anchor}>{item.Title}</a></li>
               ))}
 </ul>
 
@@ -276,7 +277,8 @@ const AcqVehiclesPage = ({ data }) => (
 
 <table border="3" cellspacing="10" cellpadding="10" id={item.HTML_Anchor}>
 <tbody>
-<tr><td><b>Servicing Agency and Office:</b></td><td><h2>{item.Servicing_Agency_and_Office}</h2></td></tr>
+<tr><th colspan="2"><h2>{item.Title}</h2></th></tr>
+<tr><td><b>Servicing Agency Office:</b></td><td>{item.Servicing_Agency_Office}</td></tr>
 <tr><td><b>Servicing Agency Website:</b></td><td><a href={item.Servicing_Agency_Website_URL}>{item.Servicing_Agency_Website_URL}</a></td></tr>
 <tr><td><b>Servicing Agency Scope:</b></td><td>{item.Servicing_Agency_Scope}</td></tr>
 <tr><td><b>Servicing Agency Cloud Services:</b></td><td>
