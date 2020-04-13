@@ -6,7 +6,7 @@ sidenav: true
 
 ## Acquisition Overview
 
-The CIC is designed to educate on all aspects of the acquisition lifecycle, including business, technical, and contractual aspects of cloud solutions. Navigating this page, you will find resource materials like acquisition templates and market research reports that can help accelerate cloud adoption. 
+The CIC is designed to educate on all aspects of the acquisition lifecycle, including business, technical, and contractual aspects of cloud solutions. Navigating this page, you will find answers to commonly encountered acquisition obstacles, information on funding and contract types for cloud, an explanation of GSA's Market Research as a Service (M-RAS) and a list of cloud acquisition resources and acquisition vehicles. 
 
 Acquisition is one of the biggest challenges agencies face when trying to get on the cloud. 
 
