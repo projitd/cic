@@ -72,6 +72,7 @@ module.exports = {
     secondaryLinks: [
       { text: 'Contact Us', link: '/support' },
       { text: 'About CIC', link: '/about' },
+      { text: 'Login', link: '/login' },
     ],
 
     // Search.gov configuration
