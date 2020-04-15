@@ -46,6 +46,9 @@ export default class Login extends React.Component {
                                      state={{reset: 'username'}}>Forgot username?</Link></p>
                             <p><Link to={'/resetAccount'}
                                      state={{reset: 'password'}}>Forgot password?</Link></p>
+                            <p><Link to={'/vendorHome'}>Vendor?</Link></p>
+                            <p><Link to={'/manufacturerHome'}>Manufacturer?</Link></p>
+                            <p><Link to={'/pmoHome'}>PMO?</Link></p>
                         </fieldset>
                     </form>
                 </div>
