@@ -5,4 +5,4 @@ sidenav: true
 ---
 
 ## Acquisition Vehicles
-this is test
+<AcquisitionVehicles></AcquisitionVehicles>

@@ -111,7 +111,7 @@ export default class AcquisitionVehicles extends React.Component {
                                                                         />
                                                                     </div>
                                                                 </div>
-                                                                <label className="usa-label" htmlFor="service_categories">Service
+                                                                <label className="usa-label" htmlFor="service_categories">Professional Services
                                                                     Categories</label>
                                                                 <select className="usa-select" id="term_date"
                                                                         name="service_categories">
