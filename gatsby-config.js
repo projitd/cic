@@ -65,6 +65,14 @@ module.exports = {
       {
         items: [{ text: 'Calendar', link: '/calendar' }],
       },
+      //nineth Menu Item
+      {
+        title: 'Vendors',
+        items: [
+          { text: 'Vendors', link: '/vendors/vendorHome' },
+          { text: 'Acquisition Vehicles', link: '/vendors/acquisitionVehicles' },
+        ]
+      }
         // end of Horizontal Navigation
     ],
 
