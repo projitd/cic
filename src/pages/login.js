@@ -26,17 +26,15 @@ export default class Login extends React.Component {
         return (
             <Layout>
                 <div className="grid-container">
-                    <form className="usa-form">
+                    <form className="usa-form margin-top-4">
                         <fieldset className="usa-fieldset">
                             <legend className="usa-legend">Sign in</legend>
-                            <span>or <a href="/about">create an account</a></span>
-
-                            <label className="usa-label" htmlFor="username">Username or email address</label>
+                            <label className="usa-label labelHeadings" htmlFor="username">Username or email address</label>
                             <input className="usa-input" id="username" name="username" type="text" autoCapitalize="off"
                                    value={this.state.username}
                                    onChange={this.handleInputChange}
                                    autoCorrect="off"/>
-                            <label className="usa-label" htmlFor="password-sign-in">Password</label>
+                            <label className="usa-label labelHeadings" htmlFor="password-sign-in">Password</label>
                             <input className="usa-input" id="password-sign-in" name="password" type="password"
                                    value={this.state.password}
                                    onChange={this.handleInputChange}/>
@@ -46,9 +44,6 @@ export default class Login extends React.Component {
                                      state={{reset: 'username'}}>Forgot username?</Link></p>
                             <p><Link to={'/resetAccount'}
                                      state={{reset: 'password'}}>Forgot password?</Link></p>
-                            <p><Link to={'/vendorHome'}>Vendor?</Link></p>
-                            <p><Link to={'/manufacturerHome'}>Manufacturer?</Link></p>
-                            <p><Link to={'/pmoHome'}>PMO?</Link></p>
                         </fieldset>
                     </form>
                 </div>
