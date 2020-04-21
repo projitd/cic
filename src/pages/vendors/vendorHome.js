@@ -25,58 +25,38 @@ export default class VendorHome extends React.Component {
                                 </div>
                                 <div className="grid-row">
                                     <div className="grid-col-12">
-                                        <label className="usa-label" htmlFor="vendor_name">Vendor Name</label>
+                                        <label className="usa-label labelHeadings" htmlFor="vendor_name">Vendor Name<span className="required">*</span></label>
                                         <input className="usa-input" id="vendor_name" name="vendor_name" type="text"/>
                                     </div>
                                 </div>
                                 <div className="grid-row">
                                     <div className="grid-col-6">
-                                        <label className="usa-label" htmlFor="vendor_website">Vendor Website</label>
+                                        <label className="usa-label labelHeadings" htmlFor="vendor_website">Vendor Website<span className="required">*</span></label>
                                         <input className="usa-input" id="vendor_website" name="vendor_website" type="text"/>
                                     </div>
                                     <div className="grid-col-6">
-                                        <label className="usa-label" htmlFor="vendor_duns_number">DUNS Number</label>
+                                        <label className="usa-label labelHeadings" htmlFor="vendor_duns_number">DUNS Number<span className="required">*</span></label>
                                         <input className="usa-input" id="vendor_duns_number" name="vendor_duns_number" type="text"/>
                                     </div>
                                 </div>
                                 <div className="grid-row">
                                     <div className="grid-col-6">
-                                        <label className="usa-label" htmlFor="vendor_poc_name">Vendor POC Name</label>
+                                        <label className="usa-label labelHeadings" htmlFor="vendor_poc_name">Vendor POC Name<span className="required">*</span></label>
                                         <input className="usa-input" id="vendor_poc_name" name="vendor_poc_name" type="text"/>
                                     </div>
                                     <div className="grid-col-6">
-                                        <label className="usa-label" htmlFor="vendor_poc_email">Vendor POC Email</label>
+                                        <label className="usa-label labelHeadings" htmlFor="vendor_poc_email">Vendor POC Email<span className="required">*</span></label>
                                         <input className="usa-input" id="vendor_poc_email" name="vendor_poc_email" type="text"/>
                                     </div>
                                 </div>
                                 <div className="grid-row">
                                     <div className="grid-col-6">
-                                        <label className="usa-label" htmlFor="vendor_facility_clearance">Facility Clearance</label>
+                                        <label className="usa-label labelHeadings" htmlFor="vendor_facility_clearance">Facility Clearance</label>
                                         <input className="usa-input" id="vendor_facility_clearance" name="vendor_facility_clearance" type="text"/>
                                     </div>
                                     <div className="grid-col-6">
-                                        <label className="usa-label" htmlFor="vendor_cage_code">Vendor CAGE Code</label>
+                                        <label className="usa-label labelHeadings" htmlFor="vendor_cage_code">Vendor CAGE Code</label>
                                         <input className="usa-input" id="vendor_cage_code" name="vendor_cage_code" type="text"/>
-                                    </div>
-                                </div>
-                                <div className="grid-row">
-                                    <div className="grid-col-6">
-                                        <label className="usa-label" htmlFor="vendor_acquisition_vehicle_award_number">Vehicle Acquisition Vehicle Award Number</label>
-                                        <input className="usa-input" id="vendor_acquisition_vehicle_award_number" name="vendor_acquisition_vehicle_award_number" type="text"/>
-                                    </div>
-                                    <div className="grid-col-6">
-                                        <label className="usa-label" htmlFor="vendor_acquisition_vehicle_award_date">Vendor Acquisition Vehicle Award Date</label>
-                                        <input className="usa-input" id="vendor_acquisition_vehicle_award_date" name="vendor_acquisition_vehicle_award_date" type="text"/>
-                                    </div>
-                                </div>
-                                <div className="grid-row">
-                                    <div className="grid-col-6">
-                                        <label className="usa-label" htmlFor="vendor_acquisition_vehicle_term_date">Vendor_Acquisition_Vehicle_Term_Date</label>
-                                        <input className="usa-input" id="vendor_acquisition_vehicle_term_date" name="vendor_acquisition_vehicle_term_date" type="text"/>
-                                    </div>
-                                    <div className="grid-col-6">
-                                        <label className="usa-label" htmlFor="vendor_professional_services_category">Vendor Professional Services Category</label>
-                                        <input className="usa-input" id="vendor_professional_services_category" name="vendor_professional_services_category" type="text"/>
                                     </div>
                                 </div>
                                 <div className="grid-row margin-top-4">

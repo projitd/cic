@@ -82,37 +82,37 @@ export default class AcquisitionVehicles extends React.Component {
                                                     <div id={index} className="usa-accordion__content usa-prose">
                                                         <form className="usa-form usa-form--large">
                                                             <fieldset className="usa-fieldset">
-                                                                <label className="usa-label"
+                                                                <label className="usa-label labelHeadings"
                                                                        htmlFor="acquisition_vehicle_title">Acquisition
-                                                                    Vehicle Title</label>
+                                                                    Vehicle Title<span className="required">*</span></label>
                                                                 <select className="usa-select" id="term_date"
                                                                         name="acquisition_vehicle_title">
                                                                     <option value>- Select -</option>
                                                                     <option value>- Option1 -</option>
                                                                     <option value>- Option2 -</option>
                                                                 </select>
-                                                                <label className="usa-label" htmlFor="award_number">Award
-                                                                    Number</label>
+                                                                <label className="usa-label labelHeadings" htmlFor="award_number">Award
+                                                                    Number<span className="required">*</span></label>
                                                                 <input className="usa-input" id="award_number"
                                                                        name="award_number" type="text" value={awardNumber}/>
                                                                 <div className="grid-row grid-gap">
                                                                     <div className="grid-col-6">
-                                                                        <label className="usa-label"
-                                                                               htmlFor="award_date">Award Date</label>
+                                                                        <label className="usa-label labelHeadings"
+                                                                               htmlFor="award_date">Award Date<span className="required">*</span></label>
                                                                         <DatePicker className="usa-input"
                                                                                     selected={awardDate}
                                                                         />
                                                                     </div>
                                                                     <div className="grid-col-6">
-                                                                        <label className="usa-label"
-                                                                               htmlFor="term_date">Term Date</label>
+                                                                        <label className="usa-label labelHeadings"
+                                                                               htmlFor="term_date">Term Date<span className="required">*</span></label>
                                                                         <DatePicker className="usa-input"
                                                                                     selected={termDate}
                                                                         />
                                                                     </div>
                                                                 </div>
-                                                                <label className="usa-label" htmlFor="service_categories">Professional Services
-                                                                    Categories</label>
+                                                                <label className="usa-label labelHeadings" htmlFor="service_categories">Professional Services
+                                                                    Categories<span className="required">*</span></label>
                                                                 <select className="usa-select" id="term_date"
                                                                         name="service_categories">
                                                                     <option value>- Select -</option>
@@ -121,7 +121,7 @@ export default class AcquisitionVehicles extends React.Component {
                                                                 </select>
                                                                 <div>
                                                                     <button className="usa-button" onClick={() => this.deleteAcquisitionVehicle(index)}>Save</button>
-                                                                    <button className="usa-button" onClick={() => this.saveAcquisitionVehicle(index)}>Delete</button>
+                                                                    <button className="usa-button usa-button--secondary" onClick={() => this.saveAcquisitionVehicle(index)}>Delete</button>
                                                                 </div>
                                                             </fieldset>
                                                         </form>

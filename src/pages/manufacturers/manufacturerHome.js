@@ -4,6 +4,13 @@ import {Link} from "gatsby"
 
 export default class ManufacturerHome extends React.Component {
     state = {
+        manufacturer: {
+            manufacturerName: 'Amazon Inc.',
+            manufacturerWebsite: 'www.amazon.com',
+            manufacturerDuns: '12r5689h',
+            manufacturerPoc: 'John Doe',
+            manufacturerPocEmail: 'john.doe@amazon.com'
+        },
         username: "",
         password: "",
     };
@@ -22,28 +29,27 @@ export default class ManufacturerHome extends React.Component {
                                 </div>
                                 <div className="grid-row">
                                     <div className="grid-col-12">
-                                        <label className="usa-label" htmlFor="csp_name">Manufacturer Name</label>
-                                        <input className="usa-input" id="csp_name" name="csp_name" type="text" disabled/>
+                                        <label className="usa-label labelHeadings" htmlFor="csp_name">Manufacturer Name: {this.state.manufacturer.manufacturerName}</label>
                                     </div>
                                 </div>
                                 <div className="grid-row">
                                     <div className="grid-col-6">
-                                        <label className="usa-label" htmlFor="csp_website">Manufacturer Website</label>
-                                        <input className="usa-input" id="csp_website" name="csp_website" type="text"/>
+                                        <label className="usa-label labelHeadings" htmlFor="csp_website">Manufacturer Website<span className="required">*</span></label>
+                                        <input className="usa-input" id="csp_website" name="csp_website" type="text" value={this.state.manufacturer.manufacturerWebsite}/>
                                     </div>
                                     <div className="grid-col-6">
-                                        <label className="usa-label" htmlFor="duns_number">DUNS Number</label>
-                                        <input className="usa-input" id="duns_number" name="duns_number" type="text"/>
+                                        <label className="usa-label labelHeadings" htmlFor="duns_number">DUNS Number<span className="required">*</span></label>
+                                        <input className="usa-input" id="duns_number" name="duns_number" type="text" value={this.state.manufacturer.manufacturerDuns}/>
                                     </div>
                                 </div>
                                 <div className="grid-row">
                                     <div className="grid-col-6">
-                                        <label className="usa-label" htmlFor="poc_name">POC Name</label>
-                                        <input className="usa-input" id="poc_name" name="poc_name" type="text"/>
+                                        <label className="usa-label labelHeadings" htmlFor="poc_name">POC Name<span className="required">*</span></label>
+                                        <input className="usa-input" id="poc_name" name="poc_name" type="text" value={this.state.manufacturer.manufacturerPoc}/>
                                     </div>
                                     <div className="grid-col-6">
-                                        <label className="usa-label" htmlFor="poc_email">POC Email</label>
-                                        <input className="usa-input" id="poc_email" name="poc_email" type="text"/>
+                                        <label className="usa-label labelHeadings" htmlFor="poc_email">POC Email<span className="required">*</span></label>
+                                        <input className="usa-input" id="poc_email" name="poc_email" type="text" value={this.state.manufacturer.manufacturerPocEmail}/>
                                     </div>
                                 </div>
                                 <div className="grid-row margin-top-4">

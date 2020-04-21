@@ -32,7 +32,7 @@ export default class ManufacturerOfferings extends React.Component {
                                 </div>
                                 <div className="grid-row">
                                     <div className="grid-col-12">
-                                        <label className="usa-label" htmlFor="options">Please select an offering/CSO
+                                        <label className="usa-label labelHeadings" htmlFor="options">Please select an offering/CSO
                                             Name</label>
                                         <select className="usa-select" name="options" id="options">
                                             <option value>- Select -</option>
@@ -44,45 +44,45 @@ export default class ManufacturerOfferings extends React.Component {
                                 </div>
                                 <div className="grid-row">
                                     <div className="grid-col-6">
-                                        <label className="usa-label" htmlFor="nist_deploy_model">NIST Deployment
+                                        <label className="usa-label labelHeadings" htmlFor="nist_deploy_model">NIST Deployment
                                             Model: {this.state.offering.nistDeployModel}</label>
                                     </div>
                                     <div className="grid-col-6">
-                                        <label className="usa-label" htmlFor="nist_service_model">NIST Service
+                                        <label className="usa-label labelHeadings" htmlFor="nist_service_model">NIST Service
                                             Model: {this.state.offering.nistServiceModel}</label>
                                     </div>
                                 </div>
                                 <div className="grid-row">
                                     <div className="grid-col-6">
-                                        <label className="usa-label" htmlFor="auth_source">Authorization Source: {this.state.offering.authorizationSource}</label>
+                                        <label className="usa-label labelHeadings" htmlFor="auth_source">Authorization Source: {this.state.offering.authorizationSource}</label>
                                     </div>
                                     <div className="grid-col-6">
-                                        <label className="usa-label" htmlFor="cso_desc">CSO Description: {this.state.offering.csoDescription}</label>
+                                        <label className="usa-label labelHeadings" htmlFor="cso_desc">CSO Description: {this.state.offering.csoDescription}</label>
                                     </div>
                                 </div>
                                 <div className="grid-row">
                                     <div className="grid-col-6">
-                                        <label className="usa-label" htmlFor="fedramp_impact_level">FedRamp Impact
+                                        <label className="usa-label labelHeadings" htmlFor="fedramp_impact_level">FedRamp Impact
                                             Level: {this.state.offering.fedRampImpactLevel}</label>
                                     </div>
                                     <div className="grid-col-6">
-                                        <label className="usa-label" htmlFor="fedramp_auth_date">FedRamp Authorization
+                                        <label className="usa-label labelHeadings" htmlFor="fedramp_auth_date">FedRamp Authorization
                                             Date: {this.state.offering.fedRampAuthorizationLevel}</label>
                                     </div>
                                 </div>
                                 <div className="grid-row">
                                     <div className="grid-col-6">
-                                        <label className="usa-label" htmlFor="dod_impact_level">DoD Impact Level: {this.state.offering.dodImpactLevel}</label>
+                                        <label className="usa-label labelHeadings" htmlFor="dod_impact_level">DoD Impact Level: {this.state.offering.dodImpactLevel}</label>
                                     </div>
                                     <div className="grid-col-6">
-                                        <label className="usa-label" htmlFor="dod_auth_date">DoD Authorization
+                                        <label className="usa-label labelHeadings" htmlFor="dod_auth_date">DoD Authorization
                                             Date: {this.state.offering.dodAuthorizationDate}</label>
                                     </div>
                                 </div>
                                 <div className="grid-row">
                                     <div className="grid-col-6">
-                                        <label className="usa-label" htmlFor="dod_impact_level">CSO Business
-                                            Categories</label>
+                                        <label className="usa-label labelHeadings" htmlFor="dod_impact_level">CSO Business
+                                            Categories<span className="required">*</span></label>
                                         <select className="usa-select" name="options" id="options">
                                             <option value>- Select -</option>
                                             <option value="value1">Option A</option>
