@@ -7,6 +7,8 @@ sidenav: true
 ## Helpful Documents 
 We have developed and collected helpful training documents, how-to guides, tutorials, and reference materials for you to review as you develop your own acquisition materials for acquiring cloud services.
 
+[<img src="../../images/file-pdf-regular.svg" width="20" /> **MITRE Enterprise Cloud Adoption Framework**](/documents/MITRE-enterprise-cloud-adoption-framework.pdf) -- MITRE has developed an Enterprise Cloud Adoption Framework (ECAF) that provides guidance for developing and implementing cloud adoption strategies from vision concept through operations and optimization of cloud computing for government agencies.
+
 [<img src="../../images/file-pdf-regular.svg" width="20" /> **GSA CLOUD INFORMATIONAL SLIPSHEET**](/documents/ITC-Cloud-Solutions-Trifold-508C.pdf) -- Get an executive-level overview of what GSA can do to enable your agency's mission with cloud computing.   
 
 [<img src="../../images/file-pdf-regular.svg" width="20" /> **DOD Cloud Acquisition Guidebook**](/documents/DoD-Cloud-Acquisition-Guidebook.pdf) -- This Guidebook provides information and best practices that will allow programs to take advantage of the opportunities provided by cloud services. This new paradigm requires agencies to understand how to acquire critical services and re-think not only the way they acquire IT services in the context of deployment, but also how the IT services they consume provide mission and support functions on a shared basis. The Guidebook also includes information on the importance of understanding the commercial cloud environment as well as how solid planning can avoid potential risk areas such as vendor-lock and hidden costs
