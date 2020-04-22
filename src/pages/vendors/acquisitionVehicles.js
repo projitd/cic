@@ -5,30 +5,36 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
 export default class AcquisitionVehicles extends React.Component {
-    state = {
-        acquisitionVehicles: [
-            {
-                acquisitionVehicleTitle: '8(a) STARS II',
-                awardNumber: 'GS-03F-0011L',
-                awardDate: new Date(),
-                termDate: new Date(),
-                serviceCategories: ['Custom computer applications software programming services']
-            },
-            {
-                acquisitionVehicleTitle: 'VETS 2',
-                awardNumber: 'GS-03F-0057W',
-                awardDate: new Date(),
-                termDate: new Date(),
-                serviceCategories: ['Custom computer applications software programming services', 'Custom computer programming services']
-            },
-            {
-                acquisitionVehicleTitle: 'Alliant 2 (A2) & Alliant 2 Small Business (A2SB) GWACs',
-                awardNumber: '47QSMA18D08NR',
-                awardDate: new Date(),
-                termDate: new Date(),
-                serviceCategories: ['Custom computer applications software programming services', 'Custom computer programming services', 'CAD (computer-aided design) systems integration design services']
-            }]
-    };
+    constructor(props) {
+        super(props);
+        this.state = {
+            acquisitionVehicles: [
+                {
+                    acquisitionVehicleTitle: '8(a) STARS II',
+                    awardNumber: 'GS-03F-0011L',
+                    awardDate: new Date(),
+                    termDate: new Date(),
+                    serviceCategories: ['Custom computer applications software programming services']
+                },
+                {
+                    acquisitionVehicleTitle: 'VETS 2',
+                    awardNumber: 'GS-03F-0057W',
+                    awardDate: new Date(),
+                    termDate: new Date(),
+                    serviceCategories: ['Custom computer applications software programming services', 'Custom computer programming services']
+                },
+                {
+                    acquisitionVehicleTitle: 'Alliant 2 (A2) & Alliant 2 Small Business (A2SB) GWACs',
+                    awardNumber: '47QSMA18D08NR',
+                    awardDate: new Date(),
+                    termDate: new Date(),
+                    serviceCategories: ['Custom computer applications software programming services', 'Custom computer programming services', 'CAD (computer-aided design) systems integration design services']
+                }]
+        };
+        this.addAcquisitionVehicle = this.addAcquisitionVehicle.bind(this);
+        this.deleteAcquisitionVehicle = this.deleteAcquisitionVehicle.bind(this);
+        this.saveAcquisitionVehicle = this.saveAcquisitionVehicle.bind(this);
+    }
 
     addAcquisitionVehicle() {
         const obj = {
@@ -45,12 +51,16 @@ export default class AcquisitionVehicles extends React.Component {
             return {acquisitionVehicles: temp}
         });
     }
-
-    deleteAcquisitionVehicle(index) {
-
+    saveAcquisitionVehicle(event) {
+        console.log(event);
+        alert('A name was saved:');
+        event.preventDefault();
     }
-
-    saveAcquisitionVehicle(index) {}
+    deleteAcquisitionVehicle(event) {
+        console.log(event);
+        alert('A name was deleted:');
+        event.preventDefault();
+    }
 
     render() {
         return (
@@ -64,7 +74,9 @@ export default class AcquisitionVehicles extends React.Component {
                                         <legend className="usa-legend">Acquisition Vehicles</legend>
                                     </div>
                                     <div className="grid-col-6 text-right">
-                                        <button className="usa-button" onClick={() => this.addAcquisitionVehicle()}>Add</button>
+                                        <button className="usa-button"
+                                                onClick={this.addAcquisitionVehicle}>Add
+                                        </button>
                                     </div>
                                 </div>
                                 {this.state.acquisitionVehicles.map((ac, index) => {
@@ -120,8 +132,8 @@ export default class AcquisitionVehicles extends React.Component {
                                                                     <option value>- Option2 -</option>
                                                                 </select>
                                                                 <div>
-                                                                    <button className="usa-button" onClick={() => this.deleteAcquisitionVehicle(index)}>Save</button>
-                                                                    <button className="usa-button usa-button--secondary" onClick={() => this.saveAcquisitionVehicle(index)}>Delete</button>
+                                                                    <button className="usa-button" value={awardNumber} onClick={this.saveAcquisitionVehicle}>Save</button>
+                                                                    <button className="usa-button usa-button--secondary" value={index} onClick={this.deleteAcquisitionVehicle}>Delete</button>
                                                                 </div>
                                                             </fieldset>
                                                         </form>

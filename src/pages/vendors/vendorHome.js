@@ -87,9 +87,6 @@ export default class VendorHome extends React.Component {
                                     <div className="grid-col-6">
                                         <legend className="usa-legend">Vendor Information</legend>
                                     </div>
-                                    {/*<div className="grid-col-6 text-right">
-                                        <button className="usa-button">Edit</button>
-                                    </div>*/}
                                 </div>
                                 <form>
                                 <div className="grid-row">
@@ -138,7 +135,7 @@ export default class VendorHome extends React.Component {
                                 </div>
                                 <hr/>
                                 <div className="grid-row">
-                                    <legend className="usa-legend">Vendor Information</legend>
+                                    <legend className="usa-legend">List of Acquisition Vehicles</legend>
                                     {this.state.vendor.acquisitionVehicles.length > 0 ? (
                                         <table id='vehicles' className="usa-table">
                                             <thead>
