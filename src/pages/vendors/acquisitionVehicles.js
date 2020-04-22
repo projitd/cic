@@ -8,25 +8,25 @@ export default class AcquisitionVehicles extends React.Component {
     state = {
         acquisitionVehicles: [
             {
-                acquisitionVehicleTitle: 'AV1',
-                awardNumber: '111999444',
+                acquisitionVehicleTitle: '8(a) STARS II',
+                awardNumber: 'GS-03F-0011L',
                 awardDate: new Date(),
                 termDate: new Date(),
-                serviceCategories: ['option1']
+                serviceCategories: ['Custom computer applications software programming services']
             },
             {
-                acquisitionVehicleTitle: 'AV2',
-                awardNumber: '222888777',
+                acquisitionVehicleTitle: 'VETS 2',
+                awardNumber: 'GS-03F-0057W',
                 awardDate: new Date(),
                 termDate: new Date(),
-                serviceCategories: ['option1', 'option2']
+                serviceCategories: ['Custom computer applications software programming services', 'Custom computer programming services']
             },
             {
-                acquisitionVehicleTitle: 'AV3',
-                awardNumber: '333666555',
+                acquisitionVehicleTitle: 'Alliant 2 (A2) & Alliant 2 Small Business (A2SB) GWACs',
+                awardNumber: '47QSMA18D08NR',
                 awardDate: new Date(),
                 termDate: new Date(),
-                serviceCategories: ['option1', 'option2', 'option3']
+                serviceCategories: ['Custom computer applications software programming services', 'Custom computer programming services', 'CAD (computer-aided design) systems integration design services']
             }]
     };
 
