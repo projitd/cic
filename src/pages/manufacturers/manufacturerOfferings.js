@@ -92,6 +92,28 @@ export default class ManufacturerOfferings extends React.Component {
             }));
         }
     }
+    /**
+     * @description HTML table render for the csps
+     */
+    renderTableData() {
+        return this.state.offerings.map((cso, index) => {
+            return (
+                <tr key={index}>
+                    <td><strong>{cso.csoName}</strong></td>
+                    <td>{cso.csoDescription}</td>
+                    <td>
+                        <b>Nist Deploy Model:</b>{cso.nistDeployModel},
+                        <b>Nist Service Model:</b>{cso.nistServiceModel},
+                        <b>Authorization Source:</b>{cso.authorizationSource},
+                        <b>FedRamp Impact Level:</b>{cso.fedRampImpactLevel},
+                        <b>FedRamp Authorization Level:</b>{cso.fedRampAuthorizationLevel},
+                        <b>Business Categories:</b>{cso.csoBusinessCategories},
+                        <b>DoD Authorization Date Categories:</b>{cso.dodAuthorizationDate ? cso.dodAuthorizationDate.toUTCString() : ''},
+                    </td>
+                </tr>
+            )
+        })
+    }
 
 
     render() {
@@ -180,6 +202,28 @@ export default class ManufacturerOfferings extends React.Component {
                                     <div className="grid-col-6 text-right">
                                         <button className="usa-button">Save</button>
                                     </div>
+                                </div>
+                                <hr/>
+                                <div className="grid-row">
+                                    <legend className="usa-legend">List of Offerings</legend>
+                                    {this.state.offerings.length > 0 ? (
+                                        <table id='offering' className="usa-table">
+                                            <thead>
+                                            <tr>
+                                                <th scope="col">Offering</th>
+                                                <th scope="col">Description</th>
+                                                <th scope="col">Details</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            {this.renderTableData()}
+                                            </tbody>
+                                        </table>
+                                    ) : (
+                                        <h4 className="title">
+                                            No Acquisition Vehicle associated to the current vendor
+                                        </h4>
+                                    )}
                                 </div>
                             </div>
                         </div>
