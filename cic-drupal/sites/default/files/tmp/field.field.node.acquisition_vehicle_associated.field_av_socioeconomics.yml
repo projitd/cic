@@ -1,0 +1,21 @@
+uuid: 28cca728-d7b9-4846-8dce-e8452e1360aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_av_socioeconomics
+    - node.type.acquisition_vehicle_associated
+  module:
+    - options
+id: node.acquisition_vehicle_associated.field_av_socioeconomics
+field_name: field_av_socioeconomics
+entity_type: node
+bundle: acquisition_vehicle_associated
+label: Acquisition_Vehicle_Socioeconomics
+description: "Acquisition_Vehicle_Socioeconomics\r\n"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

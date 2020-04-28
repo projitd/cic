@@ -1,0 +1,21 @@
+uuid: 0c4fb39b-ce80-4489-8e73-b55f40005794
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_vendor_av_award_date
+    - node.type.vendor_information_associated
+  module:
+    - datetime
+id: node.vendor_information_associated.field_vendor_av_award_date
+field_name: field_vendor_av_award_date
+entity_type: node
+bundle: vendor_information_associated
+label: Vendor_Acquisition_Vehicle_Award_Date
+description: Vendor_Acquisition_Vehicle_Award_Date
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

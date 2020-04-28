@@ -1,0 +1,23 @@
+uuid: 173912dc-e363-4986-a0d9-b1b8de6eb955
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_csp_duns_number
+    - node.type.security_information_associated
+id: node.security_information_associated.field_csp_duns_number
+field_name: field_csp_duns_number
+entity_type: node
+bundle: security_information_associated
+label: CSP_DUNS_Number
+description: "The CSP's unique identification number \r\n"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

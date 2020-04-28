@@ -1,0 +1,12 @@
+diff --git a/gatsby-config.js b/gatsby-config.js
+index 7439b1f..3b63182 100644
+--- a/gatsby-config.js
++++ b/gatsby-config.js
+@@ -14,6 +14,7 @@ module.exports = {
+       title: 'Why Cloud',
+       items: [
+         { text: 'Cloud Basics', link: '/whycloud/overview' },
++        { text: 'CSP list', link: '/whycloud/csp_list' },
+         { text: 'Cloud Security', link: '/whycloud/security' },
+         { text: 'Cloud Capabilities', link: '/whycloud/technicalcapabilities' },
+       ],

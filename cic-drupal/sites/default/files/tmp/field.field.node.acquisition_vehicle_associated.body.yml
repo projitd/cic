@@ -1,0 +1,23 @@
+uuid: 32484017-1d5e-453d-ad53-439dbe47e196
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.acquisition_vehicle_associated
+  module:
+    - text
+id: node.acquisition_vehicle_associated.body
+field_name: body
+entity_type: node
+bundle: acquisition_vehicle_associated
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

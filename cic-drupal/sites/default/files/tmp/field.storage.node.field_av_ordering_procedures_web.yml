@@ -1,0 +1,19 @@
+uuid: a0e13be5-5be6-4c94-a5f8-b3b3f14aedc0
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_av_ordering_procedures_web
+field_name: field_av_ordering_procedures_web
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

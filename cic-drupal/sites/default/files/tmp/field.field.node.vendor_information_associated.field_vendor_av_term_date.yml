@@ -1,0 +1,21 @@
+uuid: a8bdbf52-db0a-4b76-adde-2e5f3311f0f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_vendor_av_term_date
+    - node.type.vendor_information_associated
+  module:
+    - datetime
+id: node.vendor_information_associated.field_vendor_av_term_date
+field_name: field_vendor_av_term_date
+entity_type: node
+bundle: vendor_information_associated
+label: Vendor_Acquisition_Vehicle_Term_Date
+description: "Vendor_Acquisition_Vehicle_Term_Date\r\n"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -1,0 +1,21 @@
+uuid: 308378e1-5407-4b3d-bb49-aa45127f432a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_av_term_date
+    - node.type.acquisition_vehicle_associated
+  module:
+    - datetime
+id: node.acquisition_vehicle_associated.field_av_term_date
+field_name: field_av_term_date
+entity_type: node
+bundle: acquisition_vehicle_associated
+label: Acquisition_Vehicle_Term_Date
+description: "The date the Acquistion Vehicle term ends\r\n"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

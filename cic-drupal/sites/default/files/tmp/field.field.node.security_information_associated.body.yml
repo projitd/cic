@@ -1,0 +1,23 @@
+uuid: 1fb04f3f-0592-435c-bb28-e3b8b0a71b78
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.security_information_associated
+  module:
+    - text
+id: node.security_information_associated.body
+field_name: body
+entity_type: node
+bundle: security_information_associated
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,11 @@
+name: 'US Fed Gov Google Analytics'
+description: 'GSA provided Federal Google Analytics code embed'
+# core: 8.x
+package: Statistics
+type: module
+configure: usfedgov_google_analytics.form
+# Information added by Drupal.org packaging script on 2018-04-19
+version: '8.x-1.1'
+core: '8.x'
+project: 'usfedgov_google_analytics'
+datestamp: 1524142696

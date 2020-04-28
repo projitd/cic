@@ -1,0 +1,36 @@
+uuid: 601eb29e-63a9-48d9-a309-ca7a01816e0f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_fedramp_impact_level
+field_name: field_fedramp_impact_level
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Low
+      label: Low
+    -
+      value: Li-SaaS
+      label: Li-SaaS
+    -
+      value: 'Li-SaaS (Moderate In Process)'
+      label: 'Li-SaaS (Moderate In Process)'
+    -
+      value: Moderate
+      label: Moderate
+    -
+      value: High
+      label: High
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

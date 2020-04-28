@@ -1,0 +1,19 @@
+uuid: 07ea42ee-1291-4959-988a-8f7327ba43ba
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cso_description
+    - node.type.security_information_associated
+id: node.security_information_associated.field_cso_description
+field_name: field_cso_description
+entity_type: node
+bundle: security_information_associated
+label: CSO_Description
+description: "The CSP CSO description\r\n"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

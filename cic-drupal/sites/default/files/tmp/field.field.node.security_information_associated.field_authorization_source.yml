@@ -1,0 +1,21 @@
+uuid: a1cdf88a-537e-4b06-9d03-a11a60e1ebd9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_authorization_source
+    - node.type.security_information_associated
+  module:
+    - options
+id: node.security_information_associated.field_authorization_source
+field_name: field_authorization_source
+entity_type: node
+bundle: security_information_associated
+label: Authorization_Source
+description: "The agency that has issued the authorization for the CSO\r\n"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

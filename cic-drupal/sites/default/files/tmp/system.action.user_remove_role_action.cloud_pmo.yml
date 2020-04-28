@@ -1,0 +1,14 @@
+uuid: 70e7dcd1-eef0-47dd-b55b-479318b23a9c
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.cloud_pmo
+  module:
+    - user
+id: user_remove_role_action.cloud_pmo
+label: 'Remove the Cloud PMO role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: cloud_pmo

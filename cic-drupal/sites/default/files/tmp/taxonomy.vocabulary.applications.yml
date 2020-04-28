@@ -1,0 +1,8 @@
+uuid: f1d11dc4-12de-471c-91a4-e2d1844f2182
+langcode: en
+status: true
+dependencies: {  }
+name: Applications
+vid: applications
+description: ''
+weight: 0

@@ -1,0 +1,21 @@
+uuid: 64ea8320-bd72-4012-bb26-468ba9fa3ba4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_vendor_proservice_category
+    - node.type.vendor_information_associated
+  module:
+    - options
+id: node.vendor_information_associated.field_vendor_proservice_category
+field_name: field_vendor_proservice_category
+entity_type: node
+bundle: vendor_information_associated
+label: Vendor_Professional_Services_Category
+description: "The professional services that the vendor provides\r\n"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

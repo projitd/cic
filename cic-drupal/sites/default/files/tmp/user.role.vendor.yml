@@ -1,0 +1,9 @@
+uuid: 3b06efed-4a66-441d-81c3-f8523132db1e
+langcode: en
+status: true
+dependencies: {  }
+id: vendor
+label: 'Vendor (AKA-Reseller)'
+weight: 4
+is_admin: null
+permissions: {  }

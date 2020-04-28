@@ -1,0 +1,19 @@
+uuid: ee070baf-2913-4e1c-822b-e5c107fc741d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_vendor_poc_name
+    - node.type.vendor_information_associated
+id: node.vendor_information_associated.field_vendor_poc_name
+field_name: field_vendor_poc_name
+entity_type: node
+bundle: vendor_information_associated
+label: Vendor_POC_Name
+description: "The Vendor's Point of Contact name\r\n"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,21 @@
+uuid: b075046d-75e4-4c21-952d-71e9bc5ff96f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fedramp_impact_level
+    - node.type.security_information_associated
+  module:
+    - options
+id: node.security_information_associated.field_fedramp_impact_level
+field_name: field_fedramp_impact_level
+entity_type: node
+bundle: security_information_associated
+label: FedRAMP_Impact_Level
+description: "FedRAMP Impact Level \r\n"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

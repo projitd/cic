@@ -1,0 +1,22 @@
+uuid: 27e6ab04-d35d-4ef3-9162-e4d4f9a5420b
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.acquisition_vehicle_associated
+id: node.acquisition_vehicle_associated.status
+field_name: status
+entity_type: node
+bundle: acquisition_vehicle_associated
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,9 @@
+uuid: 0201964f-8d28-4296-a917-d78d9fd44fcf
+langcode: en
+status: true
+dependencies: {  }
+name: node_acquisition_vehicle_associated
+label: 'node acquisition_vehicle_associated validation'
+entity_type: node
+bundle: acquisition_vehicle_associated
+field_validation_rules: {  }

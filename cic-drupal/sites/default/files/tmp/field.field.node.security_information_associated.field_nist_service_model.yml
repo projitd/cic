@@ -1,0 +1,21 @@
+uuid: 998799cc-7a7f-48b9-8c99-3ecfe5227299
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nist_service_model
+    - node.type.security_information_associated
+  module:
+    - options
+id: node.security_information_associated.field_nist_service_model
+field_name: field_nist_service_model
+entity_type: node
+bundle: security_information_associated
+label: NIST_Service_Model
+description: "The NIST Service Model\r\n"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

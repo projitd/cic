@@ -1,0 +1,23 @@
+uuid: 5b270808-f48b-49f6-9d85-48a747d1fd89
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_av_best_in_class
+    - node.type.acquisition_vehicle_associated
+id: node.acquisition_vehicle_associated.field_av_best_in_class
+field_name: field_av_best_in_class
+entity_type: node
+bundle: acquisition_vehicle_associated
+label: Acquisition_Vehicle_Best_In_Class
+description: "Is the Acquisition Vehicle Best-In-Class designated by OMB\r\n"
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

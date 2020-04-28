@@ -1,0 +1,21 @@
+uuid: a6af7308-0362-4dae-b461-572d14ef6960
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_cso_description
+field_name: field_cso_description
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

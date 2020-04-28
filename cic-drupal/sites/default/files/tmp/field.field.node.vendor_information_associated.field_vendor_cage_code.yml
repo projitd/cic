@@ -1,0 +1,19 @@
+uuid: dfbe6684-50eb-40f5-90b4-7847340290a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_vendor_cage_code
+    - node.type.vendor_information_associated
+id: node.vendor_information_associated.field_vendor_cage_code
+field_name: field_vendor_cage_code
+entity_type: node
+bundle: vendor_information_associated
+label: Vendor_Cage_Code
+description: "Unique Govenment issued Identifier (ID) \r\n"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

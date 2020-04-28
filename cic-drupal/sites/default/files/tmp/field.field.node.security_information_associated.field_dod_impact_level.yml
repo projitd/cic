@@ -1,0 +1,21 @@
+uuid: 2f4fb5bd-c7fb-48dd-b97c-9073d971e031
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_dod_impact_level
+    - node.type.security_information_associated
+  module:
+    - options
+id: node.security_information_associated.field_dod_impact_level
+field_name: field_dod_impact_level
+entity_type: node
+bundle: security_information_associated
+label: DoD_Impact_Level
+description: "DoD Impact Level - DoD Cloud Computing Security Requirements Guidelines\r\n"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

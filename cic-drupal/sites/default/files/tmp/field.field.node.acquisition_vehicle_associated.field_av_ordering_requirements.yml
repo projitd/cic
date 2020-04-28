@@ -1,0 +1,21 @@
+uuid: 91210462-ecc7-4305-a3f9-240abc27b59c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_av_ordering_requirements
+    - node.type.acquisition_vehicle_associated
+  module:
+    - options
+id: node.acquisition_vehicle_associated.field_av_ordering_requirements
+field_name: field_av_ordering_requirements
+entity_type: node
+bundle: acquisition_vehicle_associated
+label: 'Acquisition_Vehicle_Ordering Requirements'
+description: 'Acquisition_Vehicle_Ordering Requirements'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,67 @@
+uuid: 0e2fff10-4500-4279-8751-0f141f9c5527
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.security_information_associated.body
+    - field.field.node.security_information_associated.field_authorization_source
+    - field.field.node.security_information_associated.field_categorization
+    - field.field.node.security_information_associated.field_cso_business_category
+    - field.field.node.security_information_associated.field_cso_description
+    - field.field.node.security_information_associated.field_cso_name
+    - field.field.node.security_information_associated.field_csp_duns_number
+    - field.field.node.security_information_associated.field_csp_name
+    - field.field.node.security_information_associated.field_csp_poc_email
+    - field.field.node.security_information_associated.field_csp_poc_name
+    - field.field.node.security_information_associated.field_csp_website
+    - field.field.node.security_information_associated.field_dod_authorization_date
+    - field.field.node.security_information_associated.field_dod_impact_level
+    - field.field.node.security_information_associated.field_fedramp_authorization_date
+    - field.field.node.security_information_associated.field_fedramp_impact_level
+    - field.field.node.security_information_associated.field_nist_deployment_model
+    - field.field.node.security_information_associated.field_nist_service_model
+    - node.type.security_information_associated
+  module:
+    - text
+    - user
+id: node.security_information_associated.teaser
+targetEntityType: node
+bundle: security_information_associated
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  content_moderation_control:
+    weight: -20
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_authorization_source: true
+  field_categorization: true
+  field_cso_business_category: true
+  field_cso_description: true
+  field_cso_name: true
+  field_csp_duns_number: true
+  field_csp_name: true
+  field_csp_poc_email: true
+  field_csp_poc_name: true
+  field_csp_website: true
+  field_dod_authorization_date: true
+  field_dod_impact_level: true
+  field_fedramp_authorization_date: true
+  field_fedramp_impact_level: true
+  field_nist_deployment_model: true
+  field_nist_service_model: true

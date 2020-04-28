@@ -1,0 +1,21 @@
+uuid: 78f5df71-6926-4932-b770-36dc06474d7b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_av_order_types
+field_name: field_av_order_types
+entity_type: node
+type: list_string
+settings:
+  allowed_values: {  }
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

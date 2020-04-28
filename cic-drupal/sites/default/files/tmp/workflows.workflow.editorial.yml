@@ -1,0 +1,57 @@
+uuid: 466de383-656f-46b3-b88f-8e303c6334fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.acquisition_vehicle_associated
+    - node.type.security_information_associated
+    - node.type.vendor_information_associated
+  module:
+    - content_moderation
+id: editorial
+label: Editorial
+type: content_moderation
+type_settings:
+  states:
+    draft:
+      published: false
+      default_revision: false
+      label: 'Draft (needs review)'
+      weight: -2
+    published:
+      label: Published
+      published: true
+      default_revision: true
+      weight: 0
+    reviewed:
+      published: false
+      default_revision: false
+      label: Reviewed
+      weight: -1
+  transitions:
+    create_new_draft:
+      label: 'Create New Draft'
+      to: draft
+      weight: -2
+      from:
+        - draft
+        - published
+        - reviewed
+    draft_to_reviewed:
+      label: 'Draft to Reviewed'
+      from:
+        - draft
+      to: reviewed
+      weight: -1
+    publish:
+      label: Publish
+      to: published
+      weight: 0
+      from:
+        - reviewed
+  entity_types:
+    node:
+      - acquisition_vehicle_associated
+      - security_information_associated
+      - vendor_information_associated
+  default_moderation_state: draft

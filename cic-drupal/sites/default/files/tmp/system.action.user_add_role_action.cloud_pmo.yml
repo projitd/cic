@@ -1,0 +1,14 @@
+uuid: 434b99f2-4ef8-483e-8f95-d0b680e13a5b
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.cloud_pmo
+  module:
+    - user
+id: user_add_role_action.cloud_pmo
+label: 'Add the Cloud PMO role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: cloud_pmo

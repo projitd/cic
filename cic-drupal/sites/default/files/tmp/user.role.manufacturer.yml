@@ -1,0 +1,9 @@
+uuid: 1536f42d-3949-4eed-b10e-8e5c649641df
+langcode: en
+status: true
+dependencies: {  }
+id: manufacturer
+label: 'Manufacturer (AKA-Cloud Service Provider)'
+weight: 3
+is_admin: null
+permissions: {  }

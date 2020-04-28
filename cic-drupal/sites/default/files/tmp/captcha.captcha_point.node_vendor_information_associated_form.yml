@@ -1,0 +1,7 @@
+uuid: de014a27-a260-4eff-b8c1-7f73a111e945
+langcode: en
+status: false
+dependencies: {  }
+formId: node_vendor_information_associated_form
+captchaType: default
+label: null

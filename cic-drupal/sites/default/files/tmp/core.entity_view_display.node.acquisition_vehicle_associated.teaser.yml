@@ -1,0 +1,58 @@
+uuid: 6d9f60de-a575-46b9-a0ac-42f856f627b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.acquisition_vehicle_associated.body
+    - field.field.node.acquisition_vehicle_associated.field_av_auth_ordering_activity
+    - field.field.node.acquisition_vehicle_associated.field_av_award_date
+    - field.field.node.acquisition_vehicle_associated.field_av_best_in_class
+    - field.field.node.acquisition_vehicle_associated.field_av_contract_access_fee
+    - field.field.node.acquisition_vehicle_associated.field_av_contract_holders_web
+    - field.field.node.acquisition_vehicle_associated.field_av_minimum_order_value
+    - field.field.node.acquisition_vehicle_associated.field_av_order_types
+    - field.field.node.acquisition_vehicle_associated.field_av_ordering_procedures_web
+    - field.field.node.acquisition_vehicle_associated.field_av_ordering_requirements
+    - field.field.node.acquisition_vehicle_associated.field_av_purchase_agreements
+    - field.field.node.acquisition_vehicle_associated.field_av_scope
+    - field.field.node.acquisition_vehicle_associated.field_av_socioeconomics
+    - field.field.node.acquisition_vehicle_associated.field_av_term_date
+    - field.field.node.acquisition_vehicle_associated.field_av_type
+    - node.type.acquisition_vehicle_associated
+  module:
+    - text
+    - user
+id: node.acquisition_vehicle_associated.teaser
+targetEntityType: node
+bundle: acquisition_vehicle_associated
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_av_auth_ordering_activity: true
+  field_av_award_date: true
+  field_av_best_in_class: true
+  field_av_contract_access_fee: true
+  field_av_contract_holders_web: true
+  field_av_minimum_order_value: true
+  field_av_order_types: true
+  field_av_ordering_procedures_web: true
+  field_av_ordering_requirements: true
+  field_av_purchase_agreements: true
+  field_av_scope: true
+  field_av_socioeconomics: true
+  field_av_term_date: true
+  field_av_type: true

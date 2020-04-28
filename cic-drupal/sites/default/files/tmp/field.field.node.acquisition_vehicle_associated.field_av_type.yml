@@ -1,0 +1,21 @@
+uuid: 37f83a39-0f72-4a8b-9dff-eaf0dec2fd61
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_av_type
+    - node.type.acquisition_vehicle_associated
+  module:
+    - options
+id: node.acquisition_vehicle_associated.field_av_type
+field_name: field_av_type
+entity_type: node
+bundle: acquisition_vehicle_associated
+label: Acquisition_Vehicle_Type
+description: Acquisition_Vehicle_Type
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

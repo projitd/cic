@@ -1,0 +1,140 @@
+uuid: c2cffa89-fc03-449b-8e27-a745933543e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.vendor_information_associated.body
+    - field.field.node.vendor_information_associated.field_categorizations
+    - field.field.node.vendor_information_associated.field_vendor_av_award_date
+    - field.field.node.vendor_information_associated.field_vendor_av_award_number
+    - field.field.node.vendor_information_associated.field_vendor_av_term_date
+    - field.field.node.vendor_information_associated.field_vendor_cage_code
+    - field.field.node.vendor_information_associated.field_vendor_duns_number
+    - field.field.node.vendor_information_associated.field_vendor_facility_clearance
+    - field.field.node.vendor_information_associated.field_vendor_poc_email
+    - field.field.node.vendor_information_associated.field_vendor_poc_name
+    - field.field.node.vendor_information_associated.field_vendor_proservice_category
+    - field.field.node.vendor_information_associated.field_vendor_website
+    - node.type.vendor_information_associated
+  module:
+    - datetime
+    - link
+    - options
+    - text
+    - user
+id: node.vendor_information_associated.default
+targetEntityType: node
+bundle: vendor_information_associated
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 11
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  content_moderation_control:
+    weight: -20
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_categorizations:
+    weight: 13
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_vendor_av_award_date:
+    weight: 8
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_vendor_av_award_number:
+    weight: 7
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_vendor_av_term_date:
+    weight: 9
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_vendor_cage_code:
+    weight: 6
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_vendor_duns_number:
+    weight: 2
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_vendor_facility_clearance:
+    weight: 5
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_vendor_poc_email:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_vendor_poc_name:
+    weight: 3
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_vendor_proservice_category:
+    weight: 10
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_vendor_website:
+    weight: 1
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  links:
+    weight: 12
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,19 @@
+uuid: e50e1461-e2de-4da0-818d-d6e5e7c56a25
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_csp_name
+    - node.type.security_information_associated
+id: node.security_information_associated.field_csp_name
+field_name: field_csp_name
+entity_type: node
+bundle: security_information_associated
+label: CSP_Name
+description: 'The Cloud Service Provider''s (CSP) name (e.g., the manufacturers name)'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

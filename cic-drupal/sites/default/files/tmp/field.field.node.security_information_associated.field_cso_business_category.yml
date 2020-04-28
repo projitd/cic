@@ -1,0 +1,21 @@
+uuid: d19b339b-65cf-405e-90d2-d2ed17d0607f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cso_business_category
+    - node.type.security_information_associated
+  module:
+    - options
+id: node.security_information_associated.field_cso_business_category
+field_name: field_cso_business_category
+entity_type: node
+bundle: security_information_associated
+label: CSO_Business_Category
+description: "The business category / functions the CSO supports or provides. \r\n"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

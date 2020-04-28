@@ -1,0 +1,20 @@
+uuid: b8f75cac-c7e7-4e64-8f43-ac0bc27b1336
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+id: node.field_vendor_av_term_date
+field_name: field_vendor_av_term_date
+entity_type: node
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

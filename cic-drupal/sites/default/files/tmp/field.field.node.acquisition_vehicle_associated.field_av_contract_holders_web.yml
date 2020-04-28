@@ -1,0 +1,23 @@
+uuid: 3fc9f537-5fad-4c0b-a2f3-514ee33d2edd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_av_contract_holders_web
+    - node.type.acquisition_vehicle_associated
+  module:
+    - link
+id: node.acquisition_vehicle_associated.field_av_contract_holders_web
+field_name: field_av_contract_holders_web
+entity_type: node
+bundle: acquisition_vehicle_associated
+label: Acquisition_Vehicle_Contract_Holders_Website
+description: "Acquisition_Vehicle_Contract_Holders_Website\r\n"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

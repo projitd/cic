@@ -1,0 +1,21 @@
+uuid: 41ce8bae-800c-4cc6-a7ff-c658d1de940b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_av_type
+field_name: field_av_type
+entity_type: node
+type: list_string
+settings:
+  allowed_values: {  }
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

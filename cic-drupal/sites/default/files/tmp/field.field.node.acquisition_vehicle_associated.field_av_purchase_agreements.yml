@@ -1,0 +1,19 @@
+uuid: d2a4d229-fcf0-47eb-abe4-5d6bd0013439
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_av_purchase_agreements
+    - node.type.acquisition_vehicle_associated
+id: node.acquisition_vehicle_associated.field_av_purchase_agreements
+field_name: field_av_purchase_agreements
+entity_type: node
+bundle: acquisition_vehicle_associated
+label: 'Acquisition_Vehicle_Blanket Purchase Agreements'
+description: "Acquisition_Vehicle_Blanket Purchase Agreements\r\n"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

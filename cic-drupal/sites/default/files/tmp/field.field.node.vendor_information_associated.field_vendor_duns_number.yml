@@ -1,0 +1,23 @@
+uuid: 9c2e6c47-5105-41cc-853c-cc2de08c41e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_vendor_duns_number
+    - node.type.vendor_information_associated
+id: node.vendor_information_associated.field_vendor_duns_number
+field_name: field_vendor_duns_number
+entity_type: node
+bundle: vendor_information_associated
+label: Vendor_DUNS_Number
+description: "The vendor's unique identification number \r\n"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,19 @@
+uuid: f1a6854c-37fb-4b35-bd2e-46e494709cab
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_csp_poc_email
+    - node.type.security_information_associated
+id: node.security_information_associated.field_csp_poc_email
+field_name: field_csp_poc_email
+entity_type: node
+bundle: security_information_associated
+label: CSP_POC_Email
+description: "The CSP Point of Contact email\r\n"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

@@ -1,0 +1,20 @@
+uuid: 2d3a94fe-86d2-4f69-a3b7-a9e8c9082526
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+id: node.field_fedramp_authorization_date
+field_name: field_fedramp_authorization_date
+entity_type: node
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

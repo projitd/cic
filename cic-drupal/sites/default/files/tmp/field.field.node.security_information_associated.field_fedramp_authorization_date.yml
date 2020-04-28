@@ -1,0 +1,21 @@
+uuid: 61a12dd3-f7d0-4008-8530-1066678b9d40
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fedramp_authorization_date
+    - node.type.security_information_associated
+  module:
+    - datetime
+id: node.security_information_associated.field_fedramp_authorization_date
+field_name: field_fedramp_authorization_date
+entity_type: node
+bundle: security_information_associated
+label: FedRAMP_Authorization_Date
+description: "The date that FedRAMP issued authorization for the CSO at set Deployment Model, Service Model, and FedRAMP Impact Level.\r\n"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

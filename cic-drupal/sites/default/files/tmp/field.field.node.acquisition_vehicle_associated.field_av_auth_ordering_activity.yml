@@ -1,0 +1,21 @@
+uuid: c9c5547c-5439-42e7-8e45-ad34a9e28121
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_av_auth_ordering_activity
+    - node.type.acquisition_vehicle_associated
+  module:
+    - options
+id: node.acquisition_vehicle_associated.field_av_auth_ordering_activity
+field_name: field_av_auth_ordering_activity
+entity_type: node
+bundle: acquisition_vehicle_associated
+label: Acquisition_Vehicle_Authorized_Ordering_Activities
+description: "Acquisition_Vehicle_Authorized_Ordering_Activities\r\n"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

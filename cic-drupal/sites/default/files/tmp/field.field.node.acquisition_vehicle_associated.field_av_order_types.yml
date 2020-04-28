@@ -1,0 +1,21 @@
+uuid: 8b4f7b21-5c94-474b-837c-0aeec9704316
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_av_order_types
+    - node.type.acquisition_vehicle_associated
+  module:
+    - options
+id: node.acquisition_vehicle_associated.field_av_order_types
+field_name: field_av_order_types
+entity_type: node
+bundle: acquisition_vehicle_associated
+label: 'Acquisition_Vehicle_Order Types'
+description: 'Acquisition_Vehicle_Order Types'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

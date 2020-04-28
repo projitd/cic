@@ -1,0 +1,23 @@
+uuid: 422c087a-fdba-4dfb-be31-baaf6271af17
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_vendor_website
+    - node.type.vendor_information_associated
+  module:
+    - link
+id: node.vendor_information_associated.field_vendor_website
+field_name: field_vendor_website
+entity_type: node
+bundle: vendor_information_associated
+label: Vendor_Website
+description: "The Vendor's website\r\n"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

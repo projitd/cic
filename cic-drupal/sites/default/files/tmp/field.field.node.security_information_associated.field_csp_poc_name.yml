@@ -1,0 +1,19 @@
+uuid: 358a8a11-42fd-43fc-a9c8-c085e681bde0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_csp_poc_name
+    - node.type.security_information_associated
+id: node.security_information_associated.field_csp_poc_name
+field_name: field_csp_poc_name
+entity_type: node
+bundle: security_information_associated
+label: CSP_POC_Name
+description: "The CSP Point of Contact name\r\n"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

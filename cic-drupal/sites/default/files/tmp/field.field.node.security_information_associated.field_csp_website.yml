@@ -1,0 +1,23 @@
+uuid: 3eca211a-c3db-43aa-8497-0a6e672d5dc9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_csp_website
+    - node.type.security_information_associated
+  module:
+    - link
+id: node.security_information_associated.field_csp_website
+field_name: field_csp_website
+entity_type: node
+bundle: security_information_associated
+label: CSP_Website
+description: "The CSP's website\r\n"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

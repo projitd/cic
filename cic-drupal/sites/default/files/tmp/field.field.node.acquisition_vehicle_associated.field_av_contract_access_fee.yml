@@ -1,0 +1,19 @@
+uuid: c2c93c0b-1e7c-474b-a2c8-6231d06e90d7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_av_contract_access_fee
+    - node.type.acquisition_vehicle_associated
+id: node.acquisition_vehicle_associated.field_av_contract_access_fee
+field_name: field_av_contract_access_fee
+entity_type: node
+bundle: acquisition_vehicle_associated
+label: Acquisition_Vehicle_Contract_Access_Fee
+description: "Acquisition_Vehicle_Contract_Access_Fee\r\n"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

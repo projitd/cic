@@ -1,0 +1,57 @@
+uuid: 0f22c4c8-4fbe-4f6c-a676-f72655549e58
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.vendor_information_associated.body
+    - field.field.node.vendor_information_associated.field_categorizations
+    - field.field.node.vendor_information_associated.field_vendor_av_award_date
+    - field.field.node.vendor_information_associated.field_vendor_av_award_number
+    - field.field.node.vendor_information_associated.field_vendor_av_term_date
+    - field.field.node.vendor_information_associated.field_vendor_cage_code
+    - field.field.node.vendor_information_associated.field_vendor_duns_number
+    - field.field.node.vendor_information_associated.field_vendor_facility_clearance
+    - field.field.node.vendor_information_associated.field_vendor_poc_email
+    - field.field.node.vendor_information_associated.field_vendor_poc_name
+    - field.field.node.vendor_information_associated.field_vendor_proservice_category
+    - field.field.node.vendor_information_associated.field_vendor_website
+    - node.type.vendor_information_associated
+  module:
+    - text
+    - user
+id: node.vendor_information_associated.teaser
+targetEntityType: node
+bundle: vendor_information_associated
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  content_moderation_control:
+    weight: -20
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_categorizations: true
+  field_vendor_av_award_date: true
+  field_vendor_av_award_number: true
+  field_vendor_av_term_date: true
+  field_vendor_cage_code: true
+  field_vendor_duns_number: true
+  field_vendor_facility_clearance: true
+  field_vendor_poc_email: true
+  field_vendor_poc_name: true
+  field_vendor_proservice_category: true
+  field_vendor_website: true

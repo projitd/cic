@@ -1,0 +1,30 @@
+uuid: 4df802fa-2aab-4f53-b1d7-5129bb2cf894
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_nist_service_model
+field_name: field_nist_service_model
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: IaaS
+      label: IaaS
+    -
+      value: PaaS
+      label: PaaS
+    -
+      value: SaaS
+      label: SaaS
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

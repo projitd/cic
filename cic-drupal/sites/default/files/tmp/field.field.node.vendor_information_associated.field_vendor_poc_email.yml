@@ -1,0 +1,19 @@
+uuid: 8085f5f6-7f3e-4b95-9692-d14e7f477724
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_vendor_poc_email
+    - node.type.vendor_information_associated
+id: node.vendor_information_associated.field_vendor_poc_email
+field_name: field_vendor_poc_email
+entity_type: node
+bundle: vendor_information_associated
+label: Vendor_POC_Email
+description: "The Vendor's Point of Contact email\r\n"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

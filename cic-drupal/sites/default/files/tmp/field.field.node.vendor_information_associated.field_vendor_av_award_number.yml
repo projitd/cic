@@ -1,0 +1,19 @@
+uuid: e4222e84-b122-478f-af04-1f411e8fb05f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_vendor_av_award_number
+    - node.type.vendor_information_associated
+id: node.vendor_information_associated.field_vendor_av_award_number
+field_name: field_vendor_av_award_number
+entity_type: node
+bundle: vendor_information_associated
+label: Vendor_Acquisition_Vehicle_Award_Number
+description: "Unique Contract Number awarded to each authorized vendor for an Acquisition Vehicle. \r\n"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,23 @@
+uuid: 34e5e4ef-97f5-4ba8-8639-268f64c1b1f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_av_ordering_procedures_web
+    - node.type.acquisition_vehicle_associated
+  module:
+    - link
+id: node.acquisition_vehicle_associated.field_av_ordering_procedures_web
+field_name: field_av_ordering_procedures_web
+entity_type: node
+bundle: acquisition_vehicle_associated
+label: Acquisition_Vehicle_Ordering_Procedures_Website
+description: Acquisition_Vehicle_Ordering_Procedures_Website
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

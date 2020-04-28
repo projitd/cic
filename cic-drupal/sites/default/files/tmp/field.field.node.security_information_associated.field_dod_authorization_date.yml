@@ -1,0 +1,21 @@
+uuid: 036e868b-371d-4df2-8a77-db748b260d34
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_dod_authorization_date
+    - node.type.security_information_associated
+  module:
+    - datetime
+id: node.security_information_associated.field_dod_authorization_date
+field_name: field_dod_authorization_date
+entity_type: node
+bundle: security_information_associated
+label: DoD_Authorization_Date
+description: "The date that DoD issued authorization for the CSO at set Deployment Model, Service Model, and DoD FedRAMP Impact Level.\r\n"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

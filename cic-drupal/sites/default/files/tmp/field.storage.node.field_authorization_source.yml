@@ -1,0 +1,27 @@
+uuid: b2510883-09c9-408a-9394-b74157b2f6e0
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_authorization_source
+field_name: field_authorization_source
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: FedRAMP
+      label: FedRAMP
+    -
+      value: DoD
+      label: DoD
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,19 @@
+uuid: f3c85993-f335-41f2-a3b7-ccc777788d59
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_av_scope
+    - node.type.acquisition_vehicle_associated
+id: node.acquisition_vehicle_associated.field_av_scope
+field_name: field_av_scope
+entity_type: node
+bundle: acquisition_vehicle_associated
+label: Acquisition_Vehicle_Scope
+description: "Acquisition_Vehicle_Scope\r\n"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
