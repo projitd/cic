@@ -8,11 +8,11 @@ sidenav: true
 
 GSA offers the following value added services and tools to assist federal, state, and local government agencies in determining if GSA acquisition vehicles (e.g., Federal Supply Schedules, Governmentwide Acquisition Contracts) support the agency’s requirements and in conducting targeted and tailored market research. 
 
-Federal, state, and local government agencies can access these no cost GSA value added tools by contacting and working with their identified [Customer Service Director (CSD)](https://www.gsa.gov/node/2039).
-
 ### GSA Rapid Review (RR)
 
-GSA’s Rapid Review tool identifies the appropriate acquisition vehicle for an agency’s cloud requirements, reduces Procurement Administrative Lead Time (PALT) and ensures the correct acquisition package is prepared. The federal, state, or local government agency provides their GSA [Customer Service Director (CSD)](https://www.gsa.gov/node/2039) with a requirements document (e.g., Statement of Needs, Statement of Objective, Performance Work Statement). The CSD will then work with GSA Subject Matter Experts (SMEs) to identify and recommend the best available GSA acquisition vehicles. 
+The first step is to ensure that GSA has a solution capable of meeting an agency's requirements. This is done via the GSA Rapid Review tool.  Contact a [Customer Service Director (CSD)](http://gsa.gov/csd) and request the Rapid Review link to initiate the process. 
+
+GSA’s Rapid Review tool identifies the appropriate acquisition vehicle for an agency’s cloud requirements, reduces Procurement Administrative Lead Time (PALT) and ensures the correct acquisition package is prepared. The federal, state, or local government agency provides their GSA Customer Service Director (CSD) with a requirements document (e.g., Statement of Needs, Statement of Objective, Performance Work Statement). The CSD will then work with GSA Subject Matter Experts (SMEs) to identify and recommend the best available GSA acquisition vehicles. 
 
 Agencies usually receive a GSA Rapid Review (RR) response within 24 hours. 
 
@@ -23,7 +23,7 @@ Agencies usually receive a GSA Rapid Review (RR) response within 24 hours.
 
 Should a cloud-acquiring agency wish to pursue solutions-level detail, agencies can engage the Market Research as a Service (M-RAS) Team. The M-RAS process utilizes the latest research techniques to collect requirement-based data to help customers understand where their need fits within the GSA government-wide marketplaces. 
 
-The federal, state, or local government agency works with their GSA [Customer Service Director (CSD)](https://www.gsa.gov/node/2039), GSA Subject Matter Experts (SMEs), and the GSA Market Research as a Service (M-RAS) Team to develop a Request for Information (RFI). The RFI will include the agencies requirements document (e.g., Statement of Work, Performance Work Statement) and a customized set of acquisition (e.g., socioeconomic status, contract type) and technical (e.g., technology capabilities, recommendations, feasibility) questions like the following:
+The federal, state, or local government agency works with their GSA [Customer Service Director (CSD)](http://gsa.gov/csd), GSA Subject Matter Experts (SMEs), and the GSA Market Research as a Service (M-RAS) Team to develop a Request for Information (RFI). The RFI will include the agencies requirements document (e.g., Statement of Work, Performance Work Statement) and a customized set of acquisition (e.g., socioeconomic status, contract type) and technical (e.g., technology capabilities, recommendations, feasibility) questions like the following:
 
 - How many vendors are capable to perform the desired work and in a position to bid on the agency's requirements?
 - What GSA acquisition vehicles can these vendors be found on? 
