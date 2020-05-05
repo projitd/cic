@@ -11,45 +11,39 @@ export default () => (
   <StaticQuery
     query={graphql`
     {
-      allEvents: allDatasetCicCalendarCsv(filter: {Type: {eq: "Event"}}) {
+      allEvents: allDatasetCicCalendarArchiveCsv(filter: {Type: {eq: "Event"}}) {
         nodes {
           CLP
           Cost
           Date
           Description
           Location
-          Registration_Text
-          Registration_Link
           Sponsor
           Time
           Title
           Type
         }
       }
-      allTrainings: allDatasetCicCalendarCsv(filter: {Type: {eq: "Training"}}) {
+      allTrainings: allDatasetCicCalendarArchiveCsv(filter: {Type: {eq: "Training"}}) {
         nodes {
           CLP
           Cost
           Date
           Description
           Location
-          Registration_Text
-          Registration_Link
           Sponsor
           Time
           Title
           Type
         }
       }
-      allMeetings: allDatasetCicCalendarCsv(filter: {Type: {eq: "Meeting"}}) {
+      allMeetings: allDatasetCicCalendarArchiveCsv(filter: {Type: {eq: "Meeting"}}) {
         nodes {
           CLP
           Cost
           Date
           Description
           Location
-          Registration_Text
-          Registration_Link
           Sponsor
           Time
           Title
@@ -65,20 +59,21 @@ export default () => (
 const CalendarPage = ({ data }) => (
 
   <Layout>
-    <SEO title="Calendar" />
+    <SEO title="Calendar Archive" />
     <div className="usa-layout-docs usa-section">
         <div className="grid-container">
           <div className="grid-row grid-gap">
-          <Sidenav />
+          
             <div className="usa-layout-docs__main desktop:grid-col-10 usa-prose">
 
-            <div class="usa-alert usa-alert--info usa-alert--slim">
+            <div class="usa-alert usa-alert--warning usa-alert--slim">
                 <div class="usa-alert__body">
-                    <p class="usa-alert__text">If your organization has an upcoming event or training that is cloud centric and available to the cloud community at large to attend, please contact to list it on the CIC.</p>
+                <p class="usa-alert__text">Looking for current events, trainings and meetings?</p>
+                <a href="/calendar"><button class="usa-button">View Current Calendar</button></a>
                 </div>
             </div>
             <a id="events"></a>
-            <h2>Events</h2>
+            <h2>Past Events</h2>
       {data.allEvents.nodes.length > 0 && data.allEvents.nodes.map(item => (
               <div class="grid-container">
               <hr />
@@ -88,7 +83,7 @@ const CalendarPage = ({ data }) => (
               <ul>
               <li><b>Sponsored by: </b>{item.Sponsor}</li><li><b>Date: </b>{item.Date}</li>
               <li><b>Time: </b>{item.Time}</li><li><b>Location: </b>{item.Location}</li>
-              <li><b>Cost: </b>{item.Cost}</li><li><b>Registration: </b><a href={item.Registration_Link}>{item.Registration_Text}</a></li>
+              <li><b>Cost: </b>{item.Cost}</li>
               <li><b>CLP Credits: </b>{item.CLP}</li>
               </ul>
               </div>
@@ -97,7 +92,7 @@ const CalendarPage = ({ data }) => (
               </div></div></div>
         ))}
 <a id="training"></a>
-<h2>Trainings</h2>
+<h2>Past Trainings</h2>
       {data.allTrainings.nodes.length > 0 && data.allTrainings.nodes.map(item => (
               <div class="grid-container">
               <hr />
@@ -107,7 +102,7 @@ const CalendarPage = ({ data }) => (
               <ul>
               <li><b>Sponsored by: </b>{item.Sponsor}</li><li><b>Date: </b>{item.Date}</li>
               <li><b>Time: </b>{item.Time}</li><li><b>Location: </b>{item.Location}</li>
-              <li><b>Cost: </b>{item.Cost}</li><li><b>Registration: </b><a href={item.Registration_Link}>{item.Registration_Text}</a></li>
+              <li><b>Cost: </b>{item.Cost}</li>
               <li><b>CLP Credits: </b>{item.CLP}</li>
               </ul>
               </div>
@@ -116,7 +111,7 @@ const CalendarPage = ({ data }) => (
               </div></div></div>
         ))}
 <a id="meetings"></a>
-<h2>Meetings</h2>
+<h2>Past Meetings</h2>
       {data.allMeetings.nodes.length > 0 && data.allMeetings.nodes.map(item => (
               <div class="grid-container">
               <hr />
@@ -126,7 +121,6 @@ const CalendarPage = ({ data }) => (
               <ul>
               <li><b>Sponsored by: </b>{item.Sponsor}</li><li><b>Date: </b>{item.Date}</li>
               <li><b>Time: </b>{item.Time}</li><li><b>Location: </b>{item.Location}</li>
-<li><b>Registration: </b><a href={item.Registration_Link}>{item.Registration_Text}</a></li>
               </ul>
               </div>
               <div class="tablet:grid-col-6">
@@ -134,11 +128,7 @@ const CalendarPage = ({ data }) => (
               </div></div></div>
         ))}
     
-    <div class="usa-alert usa-alert--info usa-alert--slim">
-                <div class="usa-alert__body">
-                    <p class="usa-alert__text">Looking for past events, trainings and meetings? <a href="/calendar-archive">Click Here</a></p>
-                </div>
-            </div>
+   
             </div>
           </div>
         </div>
